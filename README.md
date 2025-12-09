@@ -32,14 +32,13 @@ The repository is organized into **three major pillars:**
 
 ---
 
-📂 1. Big Data & Machine Learning (Spark • Hive • Python)
-Projects
-#	Project	Key Tools	Focus
-1	Machine Learning on Big Data (Tasks 1a–1c)	Spark, Python, Word2Vec	Semantic embeddings & clustering
-2	Intrusion Detection (UNSW-NB15)	Hive, PySpark	Cybersecurity ML pipeline
-3	Frequency Estimation & Discounting	PySpark, NLP	Statistical language modeling
-4	Streaming Analytics – NASA Logs	Spark Streaming	Real-time log analytics
-5	Location Intelligence – Toronto	Python, Foursquare	Geospatial site selection
+| # | Project | Key Tools | Focus |
+|---|---------|-----------|--------|
+| 1 | Machine Learning on Big Data (Tasks 1a–1c) | Spark, Python, Word2Vec | Semantic embeddings & clustering |
+| 2 | Intrusion Detection with Big Data Analytics (UNSW-NB15) | Hive, PySpark | Cybersecurity ML pipeline |
+| 3 | Frequency Estimation & Discounting for Language Models | PySpark, NLP | Statistical language modeling |
+| 4 | Streaming Analytics – NASA HTTP Logs | Spark Streaming | Real-time log analytics |
+| 5 | Location Intelligence – Toronto Restaurants | Python, Foursquare | Geospatial site selection |
 
 
 ## 📂 2. Public Health GeoAI & Spatio-Temporal Modeling
@@ -104,5 +103,5 @@ Each project folder contains:
 - County-level early warning system
 - Spark + GeoAI large-scale implementation
 
-**© 2025 – Godwin Etim Akpan**
-Big Data • GeoAI • GIS • Public Health Informatics • Cybersecurity Analytics
+## © 2025 – Godwin Etim Akpan
+**Big Data • GeoAI • GIS • Public Health Informatics • Cybersecurity Analytics**
