@@ -1,64 +1,49 @@
-# 🏥 Public Health GeoAI & Spatio-Temporal Modeling
+# 🏥 Public Health GeoAI & Spatial Epidemiology
 
-This section contains projects bridging **public health**, **GIS**, **machine learning**, and **GeoAI**.  
-They are crafted to align with the workflows used by:
+This section highlights **advanced epidemiological analysis, GeoAI modeling, spatial statistics**, and **public health decision-support tools** developed across Liberia and regional Africa projects.
 
+Designed for roles with:
 - CDC Foundation  
-- WHO, UNICEF, UNDP  
-- FHI360, RTI International, PATH  
-- Ministries of Health (DHIS2, surveillance units)  
-- Africa CDC / AFENET  
+- WHO, UNICEF, Africa CDC  
+- FHI360, RTI International, PATH, Jhpiego  
+- Public Health Institutes & Emergency Operations Centers  
 
 ---
 
 ## 📂 Contents
 
-### 1️⃣ `Lassa_GeoAI_Forecasting_2016_2026/`
-A full reproducible pipeline for forecasting Lassa Fever in Liberia:
-
-- Time-series modeling  
-- GeoAI regression  
-- County-level hotspot classification  
-- Mapping & animations  
-- Journal-ready documentation  
-
-### 2️⃣ `Publications_and_Manuscripts/`
-Contains supporting materials from peer-reviewed research:
-
-- ✔ PLOS ONE – COVID-19 reinfection  
-- ✔ IJID Regions – Measles outbreak modeling  
-- ✔ PLOS ONE – Malaria vector suitability  
-
-### 3️⃣ `Spatial_Epi_Projects/`
-Spatial epidemiology projects from Liberia and West Africa:
-
-- Reinfection cluster mapping  
-- Measles time-series  
-- AFI/SARS-CoV-2 distribution  
-- Montserrado COVID-19 temporal changes  
-- Cross-border Ebola/Marburg spillover risk  
+| Category | Description |
+|---------|-------------|
+| **Lassa Fever GeoAI Forecasting (2016–2026)** | Flagship spatio-temporal forecasting project (ARIMA, Prophet, XGBoost, hotspot mapping) |
+| **Publications & Manuscripts** | Peer-reviewed papers & manuscript drafts |
+| **Spatial Epidemiology Projects** | Operational outbreak analytics used in MoH/AFENET programs |
 
 ---
 
-## 🔬 Skill Areas Demonstrated
+## 🎯 Skills Demonstrated
 
-- Time series forecasting (Prophet, ARIMA, STL)  
-- Spatial panel modeling  
-- GeoAI (XGBoost, Lags, Rolling Means)  
-- Epidemiological mapping (choropleths, hotspots)  
-- Health intelligence dashboards  
-- Data systems for public health (mock DHIS2 pipelines)  
+- Time-series modeling (ARIMA, STL, Prophet)  
+- GeoAI regression & forecasting (XGBoost, spatial lags)  
+- Cluster detection & hotspot mapping  
+- Remote sensing for environmental epidemiology  
+- Report writing for scientific and NGO stakeholders  
 
 ---
 
-## 📄 Academic / NGO Use Cases
+## 📘 Reproducibility
 
-This portfolio aligns with roles in:
+All subfolders contain:
+- `README.md`  
+- Figures (maps, charts)  
+- Methods summary  
+- Synthetic dataset templates where needed  
 
-- Public Health Informatics  
-- Spatial Epidemiology  
-- Disease Surveillance  
-- Outbreak Analytics  
-- GeoAI for Global Health  
+---
 
-Each subfolder includes reproducible files, figures, and manuscript-style documentation.
+© 2025 — **Godwin Etim Akpan**  
+Public Health Informatics • GeoAI • Spatial Epidemiology
+
+---
+
+© 2025 — **Godwin Etim Akpan**  
+Public Health Informatics • GeoAI • Spatial Epidemiology
