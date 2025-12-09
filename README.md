@@ -22,8 +22,8 @@ Work included here reflects academic research, applied analytics, surveillance p
 
 The repository is organized into **three major pillars:**
 
-# 📂 1. Big Data & Machine Learning (Spark • Hive • Python)
-#	Project														Key Tools					Focus
+## 📂 1. Big Data & Machine Learning (Spark • Hive • Python)
+###	Project														Key Tools					Focus
 1	Machine Learning on Big Data (Tasks 1a–1c)					Spark, Python, Word2Vec		Semantic embeddings & clustering
 2	Intrusion Detection with Big Data Analytics (UNSW-NB15)		Hive, PySpark				Cybersecurity ML pipeline
 3	Frequency Estimation & Discounting for Language Models		PySpark, NLP				Statistical language modeling
@@ -32,26 +32,26 @@ The repository is organized into **three major pillars:**
 
 ---
 
-# 📂 2. Public Health GeoAI & Spatio-Temporal Modeling
+## 📂 2. Public Health GeoAI & Spatio-Temporal Modeling
 
 Designed for organizations such as:
 
 CDC Foundation • FHI360 • RTI International • PATH • WHO • UNICEF • AFENET • Africa CDC
 
-# Project									Key Tools								Focus
+### Project									Key Tools								Focus
 - Lassa Fever GeoAI Forecasting (2016–2026)	Python, XGBoost, Prophet, GeoPandas		Forecasting, hotspot detection, manuscript-ready
 - Publications & Manuscripts				Epidemiological methods					Peer-reviewed or under review
 - Spatial Epidemiology Projects				GIS, Python								Cluster detection, trend analysis
 
 ---
 
-# 📂 3. GIS, Spatial Data Science & Remote Sensing
+## 📂 3. GIS, Spatial Data Science & Remote Sensing
 
 Applied geospatial workflows relevant to:
 
-## ESRI partners • NC State Government • Emergency Management • Engineering Firms
+#### ESRI partners • NC State Government • Emergency Management • Engineering Firms
 
-# Project									Tools						Focus
+### Project									Tools						Focus
 - Road Network Digitization (LISGIS)		ArcGIS, Editing				GIS base map creation
 - Traffic Crash Hotspot Analysis (Monrovia)	KDE, ArcGIS					Transportation safety
 - Land Degradation Assessment (River Gee)	Remote sensing, NDVI		Environmental monitoring
@@ -64,7 +64,7 @@ Applied geospatial workflows relevant to:
 
 ---
 
-# 🧪 Technical Skills
+## 🧪 Technical Skills
 
 **Data & ML:** 					Python, Spark, Hive, SQL, Pandas, XGBoost, Prophet, scikit-learn
 **Geospatial:** 				ArcGIS Pro, QGIS, GeoPandas, Rasterio, Folium
@@ -75,7 +75,7 @@ Applied geospatial workflows relevant to:
 
 ---
 
-# 🧪 Reproducibility
+## 🧪 Reproducibility
 
 Each project folder contains:
 
@@ -87,12 +87,12 @@ Each project folder contains:
 
 ---
 
-# 🗺️ Future Additions
+## 🗺️ Future Additions
 
 - Automated Lassa GeoAI dashboard
 - Climate-driven risk modeling
 - County-level early warning system
 - Spark + GeoAI large-scale implementation
 
-# © 2025 – Godwin Etim Akpan
+**© 2025 – Godwin Etim Akpan**
 Big Data • GeoAI • GIS • Public Health Informatics • Cybersecurity Analytics
