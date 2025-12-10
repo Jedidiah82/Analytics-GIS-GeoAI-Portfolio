@@ -1,4 +1,4 @@
-# 🧠 Machine Learning on Big Data (Tasks 1a–1c)
+# 🧠 Machine Learning on Big Data
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Apache Spark](https://img.shields.io/badge/Spark-3.5-orange)
