@@ -104,11 +104,17 @@ def main():
 
     # Basemap
     print("[*] Adding basemap...")
+    # Choose an NCEM-style basemap
+    basemap = ctx.providers.CartoDB.Voyager # clean, modern look
+    # Alternative options:
+    # basemap = ctx.providers.Esri.WorldGrayCanvas
+    # basemap = ctx.providers.OpenStreetMap.Mapnik
+
     ctx.add_basemap(
         ax,
         crs=target_crs,
-        source=ctx.providers.Stamen.TerrainBackground,
-        alpha=0.7,
+        source=basemap,
+        alpha=0.8,
         zorder=0,
     )
 
