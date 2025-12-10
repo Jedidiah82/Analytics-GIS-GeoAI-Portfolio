@@ -86,37 +86,6 @@ Expected outputs:
 
 ---
 
-## 📊 Planned Folder Structure
-
-BuildingFootprint_Demo_NCEM/
-│
-├── data_raw/
-│ ├── microsoft_footprints.geojson
-│ ├── osm_buildings.gpkg
-│
-├── data_clean/
-│ ├── buildings_cleaned.gpkg
-│ ├── buildings_qaqc_report.md
-│
-├── hazards/
-│ ├── flood_fema_nfhl.gpkg
-│ ├── storm_surge_noaa.tif
-│ ├── wildfire_risk_ncfs.tif
-│ ├── tornado_tracks_noaa.gpkg
-│
-├── scripts/
-│ ├── clean_buildings.py
-│ ├── intersect_hazards.py
-│
-├── figures/
-│ ├── hazard_exposure_map.png
-│ ├── building_cleaning_example.png
-│
-└── README.md
-
-
----
-
 ## 🧪 Example Python Snippet (Planned)
 
 ```python
