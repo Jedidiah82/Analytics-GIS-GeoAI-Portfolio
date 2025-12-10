@@ -63,3 +63,7 @@ Developed through SOC analyst training and volunteer security work:
 - Penetration test log review
 - Behavioral pattern analysis
 - Environment preparation & risk notes
+
+---
+
+## Placeholder - content coming soon
