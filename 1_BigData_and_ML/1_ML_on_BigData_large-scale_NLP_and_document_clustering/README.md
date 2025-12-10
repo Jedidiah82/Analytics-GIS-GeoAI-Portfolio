@@ -1,4 +1,4 @@
-# 🧠 Machine Learning on Big Data
+# 🧠 Machine Learning on Big Data - large-scale NLP and document clustering
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Apache Spark](https://img.shields.io/badge/Spark-3.5-orange)
