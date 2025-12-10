@@ -1,76 +1,211 @@
+import os
 import geopandas as gpd
 import matplotlib.pyplot as plt
 import contextily as ctx
 from matplotlib_scalebar.scalebar import ScaleBar
-from shapely.geometry import Point
-
-BUILDINGS_ALL = "data_clean/buildings_cleaned.gpkg"
-BUILDINGS_FLOOD = "hazards/buildings_in_floodzones.gpkg"
-OUTPUT = "figures/flood_exposure_map_ncem.png"
+from shapely.geometry import box
+import matplotlib.patches as mpatches
+from matplotlib.lines import Line2D
 
 
-def add_north_arrow(ax, size=0.12):
-    x, y, width, height = 0.95, 0.15, size, size
-    ax.annotate(
-        'N', xy=(x + width/2, y + height), xytext=(x + width/2, y + height),
-        ha='center', va='bottom', fontsize=14, xycoords=ax.transAxes
-    )
-    ax.arrow(
-        x + width/2, y + height*0.1, 0, height*0.7, 
-        transform=ax.transAxes, linewidth=2, head_width=0.02, color='black'
-    )
+BUILDINGS_CLEAN_PATH = "data_clean/buildings_cleaned.gpkg"
+FLOOD_BUILDINGS_PATH = "hazards/buildings_in_floodzones.gpkg"
+FLOOD_POLY_PATH = "hazards/flood_fema_nfhl.gpkg"
+OUTPUT_PNG = "figures/flood_exposure_map_ncem.png"
+OUTPUT_PDF = "figures/flood_exposure_map_ncem.pdf"
+
+# Your AOI name for title
+COUNTY_NAME = "Wake County, NC"
 
 
 def main():
-    print("[*] Loading buildings...")
-    buildings_all = gpd.read_file(BUILDINGS_ALL)
-    flooded = gpd.read_file(BUILDINGS_FLOOD)
+    print("[*] Loading buildings and flood layers...")
 
-    print("[*] Tagging flooded buildings...")
-    flooded["flooded"] = 1
+    if not os.path.exists(BUILDINGS_CLEAN_PATH):
+        raise FileNotFoundError(f"Missing {BUILDINGS_CLEAN_PATH}")
+    if not os.path.exists(FLOOD_BUILDINGS_PATH):
+        raise FileNotFoundError(f"Missing {FLOOD_BUILDINGS_PATH}")
+    if not os.path.exists(FLOOD_POLY_PATH):
+        raise FileNotFoundError(f"Missing {FLOOD_POLY_PATH}")
 
-    # Combine flooded + nonflooded
-    flooded_ids = set(flooded.index)
-    buildings_all["flooded"] = buildings_all.index.isin(flooded_ids).astype(int)
+    # All cleaned buildings (AOI)
+    buildings_all = gpd.read_file(BUILDINGS_CLEAN_PATH)
 
-    print("[*] Reprojecting...")
-    buildings_all = buildings_all.to_crs(3857)
-    flooded = flooded.to_crs(3857)
+    # Buildings intersecting flood zones
+    flooded_buildings = gpd.read_file(FLOOD_BUILDINGS_PATH)
 
-    print("[*] Generating NCEM-style map...")
-    fig, ax = plt.subplots(figsize=(12, 12))
+    # FEMA flood polygons
+    flood_polys = gpd.read_file(FLOOD_POLY_PATH)
 
-    # Background basemap
-    ctx.add_basemap(ax, source=ctx.providers.CartoDB.Positron)
+    print("[*] Reprojecting to Web Mercator (EPSG:3857)...")
+    target_crs = "EPSG:3857"
+    if buildings_all.crs is None:
+        raise ValueError("buildings_cleaned.gpkg has no CRS; please set one in GIS.")
 
-    # Plot non-flooded
-    buildings_all[buildings_all["flooded"] == 0].plot(
-        ax=ax, color="#C8C8C8", markersize=1, linewidth=0
+    buildings_all = buildings_all.to_crs(target_crs)
+    flooded_buildings = flooded_buildings.to_crs(target_crs)
+    flood_polys = flood_polys.to_crs(target_crs)
+
+    # Define AOI extent (buffer around flooded buildings or all buildings)
+    if len(flooded_buildings) > 0:
+        aoi_bounds = flooded_buildings.total_bounds  # [minx, miny, maxx, maxy]
+    else:
+        aoi_bounds = buildings_all.total_bounds
+
+    minx, miny, maxx, maxy = aoi_bounds
+    # Buffer by 5% for nicer framing
+    dx = maxx - minx
+    dy = maxy - miny
+    minx -= dx * 0.05
+    maxx += dx * 0.05
+    miny -= dy * 0.05
+    maxy += dy * 0.05
+
+    bbox = box(minx, miny, maxx, maxy)
+
+    # Clip layers to AOI bbox (for faster plotting)
+    buildings_clip = buildings_all[buildings_all.intersects(bbox)]
+    flooded_clip = flooded_buildings[flooded_buildings.intersects(bbox)]
+    flood_clip = flood_polys[flood_polys.intersects(bbox)]
+
+    print("[*] Creating NCEM-style map...")
+    fig, ax = plt.subplots(1, 1, figsize=(10, 10), dpi=300)
+
+    # Plot FEMA flood polygons (light blue)
+    if len(flood_clip) > 0:
+        flood_clip.plot(
+            ax=ax,
+            facecolor="#7fbfff",
+            edgecolor="#2b7bb9",
+            alpha=0.3,
+            linewidth=0.5,
+            zorder=1,
+        )
+
+    # Plot all buildings (background)
+    if len(buildings_clip) > 0:
+        buildings_clip.plot(
+            ax=ax,
+            color="#b3b3b3",
+            markersize=1,
+            linewidth=0.1,
+            zorder=2,
+        )
+
+    # Plot flooded buildings (on top)
+    if len(flooded_clip) > 0:
+        flooded_clip.plot(
+            ax=ax,
+            color="#d73027",
+            markersize=2,
+            linewidth=0.1,
+            zorder=3,
+        )
+
+    # Basemap
+    print("[*] Adding basemap...")
+    ctx.add_basemap(
+        ax,
+        crs=target_crs,
+        source=ctx.providers.Stamen.TerrainBackground,
+        alpha=0.7,
+        zorder=0,
     )
 
-    # Plot flooded
-    flooded.plot(
-        ax=ax, color="#E31A1C", markersize=2, linewidth=0, label="Flooded Buildings"
-    )
-
-    # Add title
-    plt.title("NCEM Flood Exposure — Building Footprints", fontsize=16, weight="bold")
-
-    # Add legend
-    plt.legend(loc="lower left")
-
-    # Add north arrow
-    add_north_arrow(ax)
-
-    # Add scale bar
-    scalebar = ScaleBar(dx=1, units="m", location="lower right")
-    ax.add_artist(scalebar)
-
+    ax.set_xlim(minx, maxx)
+    ax.set_ylim(miny, maxy)
     ax.set_axis_off()
 
-    print("[*] Saving map...")
-    plt.savefig(OUTPUT, dpi=300, bbox_inches="tight")
-    print("[SUCCESS] Saved:", OUTPUT)
+    # Title & subtitle
+    ax.set_title(
+        f"{COUNTY_NAME} — Building Exposure in FEMA Flood Zones\n"
+        "Demo Analysis — Not for Operational Use",
+        fontsize=12,
+        fontweight="bold",
+        loc="left",
+    )
+
+    # North arrow
+    print("[*] Adding north arrow and scalebar...")
+    ax.annotate(
+        "N",
+        xy=(0.95, 0.15),
+        xytext=(0.95, 0.25),
+        arrowprops=dict(facecolor="black", width=2, headwidth=8),
+        ha="center",
+        va="center",
+        fontsize=10,
+        xycoords=ax.transAxes,
+    )
+
+    # Scalebar (1 unit = 1 meter in EPSG:3857)
+    scalebar = ScaleBar(
+        dx=1,
+        units="m",
+        dimension="si-length",
+        location="lower left",
+        box_alpha=0.7,
+        pad=0.5,
+    )
+    ax.add_artist(scalebar)
+
+    # Custom legend (no relying on collections)
+    legend_handles = []
+
+    legend_handles.append(
+        mpatches.Patch(
+            facecolor="#7fbfff", edgecolor="#2b7bb9", alpha=0.4, label="FEMA Flood Zone"
+        )
+    )
+    legend_handles.append(
+        Line2D(
+            [0],
+            [0],
+            marker="s",
+            color="w",
+            markerfacecolor="#b3b3b3",
+            markersize=6,
+            label="All Buildings",
+        )
+    )
+    legend_handles.append(
+        Line2D(
+            [0],
+            [0],
+            marker="s",
+            color="w",
+            markerfacecolor="#d73027",
+            markersize=6,
+            label="Buildings in Flood Zone",
+        )
+    )
+
+    ax.legend(
+        handles=legend_handles,
+        loc="upper right",
+        frameon=True,
+        framealpha=0.9,
+        fontsize=8,
+        title="Legend",
+    )
+
+    # Attribution
+    fig.text(
+        0.01,
+        0.01,
+        "Data: Microsoft Building Footprints, FEMA NFHL | Map: Godwin E. Akpan (Demo)",
+        fontsize=6,
+    )
+
+    # Ensure figures/ exists
+    os.makedirs("figures", exist_ok=True)
+
+    print(f"[*] Saving map to {OUTPUT_PNG} and {OUTPUT_PDF}...")
+    plt.savefig(OUTPUT_PNG, bbox_inches="tight", dpi=300)
+    plt.savefig(OUTPUT_PDF, bbox_inches="tight")
+    plt.close()
+
+    print("[SUCCESS] NCEM-style flood exposure map created.")
 
 
 if __name__ == "__main__":
