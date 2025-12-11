@@ -1,15 +1,28 @@
-# 💼 Big Data • GeoAI • GIS • Public Health Analytics • Cloud Security Portfolio
-### 👤 Godwin Etim Akpan, MSc Big Data Technologies (In Progress)
+<h1 align="center">💼 Big Data • GeoAI • GIS • Public Health Analytics • Cloud Security Portfolio</h1>
 
-📍 Raleigh, North Carolina  
-🔗 **[GitHub](https://github.com/Jedidiah82)** · 
-🔗 **[LinkedIn](https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/)** · 
-📧 **[Email](mailto:godwineakpan1@gmail.com)**
+<p align="center">
+  <strong>Godwin Etim Akpan</strong><br>
+  MSc Big Data Technologies (In Progress)
+</p>
 
---- 
+<p align="center">
+  📍 Raleigh, North Carolina · 
+  <a href="https://github.com/Jedidiah82"><strong>🔗 GitHub</strong></a> ·
+  <a href="https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/"><strong>🔗 LinkedIn</strong></a> ·
+  <a href="mailto:godwineakpan1@gmail.com"><strong>📧 Email</strong></a>
+</p>
 
-🏷️ Skill Badges
-<p align="left"> <img src="https://img.shields.io/badge/Python-3.10-blue" /> <img src="https://img.shields.io/badge/Apache%20Spark-Big%20Data-orange" /> <img src="https://img.shields.io/badge/GIS-ArcGIS%20%7C%20QGIS-green" /> <img src="https://img.shields.io/badge/GeoAI-Spatial%20ML-red" /> <img src="https://img.shields.io/badge/AWS-Cloud-yellow" /> <img src="https://img.shields.io/badge/Cybersecurity-SOC%20Analytics-purple" /> </p>
+---
+
+### 🏷️ Skill Badges
+<p>
+  <img src="https://img.shields.io/badge/Python-3.10-blue" />
+  <img src="https://img.shields.io/badge/Apache%20Spark-Big%20Data-orange" />
+  <img src="https://img.shields.io/badge/GIS-ArcGIS%20%7C%20QGIS-green" />
+  <img src="https://img.shields.io/badge/GeoAI-Spatial%20ML-blueviolet" />
+  <img src="https://img.shields.io/badge/AWS-Cloud-yellow" />
+  <img src="https://img.shields.io/badge/Cybersecurity-SOC%20Analytics-purple" />
+</p>
 
 ---
 
