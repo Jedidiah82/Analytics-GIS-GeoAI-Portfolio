@@ -1,10 +1,10 @@
 # 💼 Big Data • GeoAI • GIS • Public Health Analytics • Cloud Security Portfolio
 ### 👤 Godwin Etim Akpan, MSc Big Data Technologies (In Progress)
 
-📍 Raleigh, North Carolina
-🔗 GitHub: https://github.com/Jedidiah82
-🔗 LinkedIn: https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/
-📧 Email: godwineakpan1@gmail.com
+📍 Raleigh, North Carolina  
+🔗 **[GitHub](https://github.com/Jedidiah82)** · 
+🔗 **[LinkedIn](https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/)** · 
+📧 **[Email](mailto:godwineakpan1@gmail.com)**
 
 --- 
 
