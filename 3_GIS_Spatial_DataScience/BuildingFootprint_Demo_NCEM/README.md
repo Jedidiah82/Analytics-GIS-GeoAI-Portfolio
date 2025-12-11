@@ -135,6 +135,9 @@ Relevant to employers such as:
 - Publishing cleaned footprints to ArcGIS Online
 - Web dashboard for real-time hazard exposure
 
+## Maps Included
+![Flood Exposure Map NCEM](flood_exposure_map_ncem.png)
+
 **© 2025 — Godwin Etim Akpan**
 GIS • Spatial Data Science • Emergency Management • Remote Sensing
 
