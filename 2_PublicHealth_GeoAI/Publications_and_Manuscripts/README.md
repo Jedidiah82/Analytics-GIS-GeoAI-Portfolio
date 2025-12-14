@@ -11,7 +11,7 @@ Peer-reviewed publications and manuscripts-in-progress covering infectious disea
 - Risk-factor analysis  
 - Wave-level visualization  
 
-### **2. Measles Epidemiology (IJID Regions)**
+### **2. Measles Epidemiology — IJID Regions**
 - District-level time series  
 - Spatial heterogeneity  
 - Vaccine-preventable disease insights  
@@ -23,15 +23,26 @@ Peer-reviewed publications and manuscripts-in-progress covering infectious disea
 
 ---
 
-## 📁 Folder Structure (Each Subfolder Includes)
+## 📚 Publications Access & Hosting
 
-- Abstract  
-- Methods summary  
-- Final or working manuscript  
-- Figures  
-- References  
+The majority of my peer-reviewed publications and manuscripts-in-progress  
+are hosted on ResearchGate due to journal policies and collaboration agreements.
+
+➡️ **ResearchGate Profile:**  
+https://www.researchgate.net/profile/Godwin-Akpan-5
+
+---
+
+## 📁 Repository Purpose
+
+This GitHub repository serves as a complementary technical and reproducibility space for:
+- Methods summaries  
+- Spatial and analytical workflows  
+- Reproducibility notes  
+- Selected figures and visualizations  
+
+Content is progressively curated for selected projects.
 
 ---
 
 © 2025 — **Godwin Etim Akpan**
-# Placeholder - content coming soon
