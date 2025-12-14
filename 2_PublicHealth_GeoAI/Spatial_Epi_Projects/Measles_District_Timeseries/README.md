@@ -14,4 +14,4 @@ District-level measles incidence patterns analyzed through:
 ## Maps Included
 ![Measles District Timeseries](Measles_District_Timeseries.png)
 
-# Placeholder - content coming soon
+

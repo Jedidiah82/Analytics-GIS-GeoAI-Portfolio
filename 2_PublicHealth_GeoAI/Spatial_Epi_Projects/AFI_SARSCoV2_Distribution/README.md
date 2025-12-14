@@ -10,4 +10,3 @@ Maps acute febrile illness (AFI) and SARS-CoV-2 distribution across counties and
 ## Maps Included
 ![AFI SARSCoV2 Distribution Map](AFI_SARSCoV2_Distribution.png)
 
-# Placeholder - content coming soon

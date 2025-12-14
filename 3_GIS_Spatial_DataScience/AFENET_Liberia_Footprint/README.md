@@ -25,4 +25,3 @@ GIS and spatial analytics products supporting:
 ## Maps Included
 ![AFENET Liberia Footprint](AFENET_Liberia_Footprint.png)
 
-# Placeholder - content coming soon
