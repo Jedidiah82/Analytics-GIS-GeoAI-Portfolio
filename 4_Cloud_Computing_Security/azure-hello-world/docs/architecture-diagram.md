@@ -1,26 +1,13 @@
 ```mermaid
-
 flowchart LR
+    Dev["Developer Laptop (VS Code + .NET SDK)"]
+    GitHub["GitHub Repository (Source Code)"]
+    Actions["GitHub Actions CI/CD Pipeline"]
+    Azure["Azure Static Web Apps (HTTPS + CDN)"]
+    Users["End Users (Web Browser)"]
 
-&nbsp;   Dev\[Developer Laptop<br/>(VS Code + .NET SDK)]
-
-&nbsp;   GitHub\[GitHub Repository<br/>(Source Code)]
-
-&nbsp;   Actions\[GitHub Actions<br/>CI/CD Pipeline]
-
-&nbsp;   Azure\[Azure Static Web Apps<br/>(HTTPS + CDN)]
-
-&nbsp;   Users\[End Users<br/>(Web Browser)]
-
-
-
-&nbsp;   Dev -->|git push| GitHub
-
-&nbsp;   GitHub -->|trigger workflow| Actions
-
-&nbsp;   Actions -->|build \& deploy| Azure
-
-&nbsp;   Users -->|HTTPS access| Azure
-
+    Dev -->|git push| GitHub
+    GitHub -->|trigger workflow| Actions
+    Actions -->|build & deploy| Azure
+    Users -->|HTTPS access| Azure
 ```
-
