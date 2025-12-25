@@ -41,7 +41,7 @@ It modernizes deprecated **Azure Cloud Service (Web Role)** architectures by ado
 
 The following diagram illustrates the end-to-end workflow from development to secure cloud delivery.
 
-![Azure Static Web App Architecture](docs/architecture-diagram.png)
+![Azure Static Web App Architecture](architecture-diagram.png)
 
 ---
 
