@@ -61,7 +61,7 @@ The following diagram illustrates the end-to-end workflow from development to se
 
 The application was developed and validated locally using ASP.NET Core prior to cloud deployment.
 
-![Local ASP.NET Core Execution](docs/screenshots/step1-local-run.png)
+![Local ASP.NET Core Execution](step1-local-run.png)
 
 ---
 
@@ -69,7 +69,7 @@ The application was developed and validated locally using ASP.NET Core prior to 
 
 A GitHub Actions workflow automatically builds and deploys the application upon each commit to the `main` branch.
 
-![GitHub Actions Workflow](docs/screenshots/step2-github-actions.png)
+![GitHub Actions Workflow](step2-github-actions.png)
 
 ---
 
@@ -77,7 +77,18 @@ A GitHub Actions workflow automatically builds and deploys the application upon 
 
 The application is hosted on Azure Static Web Apps with secure HTTPS access and no exposed infrastructure.
 
-![Azure Static Web App Overview](docs/screenshots/step3-azure-portal.png)
+![Azure Static Web App Overview](step3-azure-portal.png)
+
+
+## Deployment Evidence Summary
+
+```text
+| Stage | Evidence |
+|------|---------|
+| Local Development | ASP.NET Core application executed locally via `dotnet run` |
+| CI/CD Automation | GitHub Actions workflow triggered on `main` branch commits |
+| Cloud Hosting | Azure Static Web App deployed with HTTPS-only access |
+```
 
 ---
 
