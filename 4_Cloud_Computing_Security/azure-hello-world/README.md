@@ -29,12 +29,43 @@ It modernizes deprecated **Azure Cloud Service (Web Role)** architectures by ado
 
 ---
 
-## Security & Governance Alignment (NIST CSF)
+## Security & Governance Overview
 
 This project demonstrates **NIST Cybersecurity Framework (CSF)**–aligned controls within a **cloud shared responsibility model**.  
 Governance and protection are enforced through GitHub repository controls and least-privilege CI/CD deployment.  
 Detection and response are supported via GitHub Actions and Azure deployment logs, while recovery is enabled through repeatable, infrastructure-free redeployment from source control.  
+
 Microsoft Azure secures the underlying cloud infrastructure, while application code, CI/CD configuration, and identity governance remain the user’s responsibility.
+
+The following section maps the implemented controls explicitly to the NIST Cybersecurity
+Framework (CSF) functions within a cloud shared responsibility model.
+
+## 🔐 NIST CSF & Shared Responsibility Mapping
+
+This project demonstrates alignment with the **NIST Cybersecurity Framework (CSF)** under a **cloud shared responsibility model**.
+
+### Identify (ID)
+- Source code, CI/CD workflows, and deployment configurations are versioned and governed in GitHub.
+- Azure subscription and resource groups define asset ownership, scope, and environment boundaries.
+
+### Protect (PR)
+- Least-privilege CI/CD deployment using GitHub Actions and Azure Static Web Apps deployment tokens.
+- HTTPS enforced by default with no exposed servers, operating systems, or network ports.
+- Managed identity, platform hardening, and infrastructure security are handled by Microsoft Azure.
+
+### Detect (DE)
+- GitHub Actions logs provide real-time visibility into build and deployment events.
+- Azure deployment history and activity logs enable monitoring of configuration and deployment changes.
+
+### Respond (RS)
+- CI/CD failures were identified and remediated through workflow configuration updates.
+- All changes are traceable and auditable via Git commit history and pipeline logs.
+
+### Recover (RC)
+- The application can be redeployed at any time from source using a repeatable CI/CD pipeline.
+- No stateful infrastructure recovery is required due to the serverless hosting model.
+
+Under the **cloud shared responsibility model**, Microsoft Azure secures the underlying cloud infrastructure, while the user remains responsible for application code, CI/CD configuration, and identity governance.
 
 ---
 
@@ -50,7 +81,7 @@ Microsoft Azure secures the underlying cloud infrastructure, while application c
 
 The following diagram illustrates the end-to-end workflow from development to secure cloud delivery.
 
-![Azure Static Web App Architecture](architecture-diagram.png)
+![Azure Static Web App Architecture](docs/architecture-diagram.png)
 
 ---
 
@@ -70,7 +101,7 @@ The following diagram illustrates the end-to-end workflow from development to se
 
 The application was developed and validated locally using ASP.NET Core prior to cloud deployment.
 
-![Local ASP.NET Core Execution](step1-local-run.png)
+![Local ASP.NET Core Execution](docs/step1-local-run.png)
 
 ---
 
@@ -78,7 +109,7 @@ The application was developed and validated locally using ASP.NET Core prior to 
 
 A GitHub Actions workflow automatically builds and deploys the application upon each commit to the `main` branch.
 
-![GitHub Actions Workflow](step2-github-actions.png)
+![GitHub Actions Workflow](docs/step2-github-actions.png)
 
 ---
 
@@ -86,7 +117,7 @@ A GitHub Actions workflow automatically builds and deploys the application upon 
 
 The application is hosted on Azure Static Web Apps with secure HTTPS access and no exposed infrastructure.
 
-![Azure Static Web App Overview](step3-azure-portal.png)
+![Azure Static Web App Overview](docs/step3-azure-portal.png)
 
 
 ## Deployment Evidence Summary
@@ -107,7 +138,8 @@ The application is hosted on Azure Static Web Apps with secure HTTPS access and 
 - No exposed servers, operating systems, or VM attack surface  
 - Identity-based deployment via GitHub authentication  
 - Immutable and auditable CI/CD pipeline  
-- Clear separation between source code and deployment artifacts  
+- Clear separation between source code and deployment artifacts
+- - Cloud-provider-managed patching, certificate rotation, and edge security
 
 ---
 
