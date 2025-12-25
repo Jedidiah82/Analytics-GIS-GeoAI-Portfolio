@@ -24,6 +24,59 @@ All activities were performed using **AWS CLI on Windows PowerShell**.
 
 ---
 
+## 🏗️ Security Architecture & Trust Boundaries
+
+![AWS Secure CI/CD & Cryptography Architecture](aws-oidc-static-site-architecture.png)
+
+This architecture illustrates how modern cloud platforms apply cryptographic principles 
+— authentication, encryption, and key management — using managed services rather than 
+manual algorithm implementation.
+
+The design enforces clear trust boundaries between the developer workstation, GitHub 
+(SaaS CI/CD), AWS cloud services, and the public internet, while eliminating long-lived 
+credentials through OIDC-based federated identity.
+
+The following mapping demonstrates how the implemented architecture aligns with
+the NIST Cybersecurity Framework (CSF) functions under a shared responsibility model.
+
+## 🔐 NIST CSF & Shared Responsibility Mapping
+This project demonstrates alignment with the NIST Cybersecurity Framework (CSF) within a
+shared responsibility cloud model.
+
+### Identify (ID)
+- Source code, CI/CD workflows, and deployment configurations are version-controlled and
+  governed in GitHub.
+- AWS accounts, IAM roles, and cloud resources define asset ownership and security scope.
+
+### Protect (PR)
+- Least-privilege access enforced using IAM roles and OIDC-based federated authentication
+  for GitHub Actions.
+- No long-lived access keys are stored; authentication relies on short-lived tokens.
+- TLS is enforced for all external communication via AWS-managed certificates.
+- - Infrastructure security, patching, platform hardening, and cryptographic key
+  protection are handled by AWS-managed services.
+
+### Detect (DE)
+- GitHub Actions logs provide real-time visibility into build and deployment activity.
+- AWS service logs and deployment history enable auditing and operational awareness.
+
+### Respond (RS)
+- CI/CD failures and permission issues are identified through pipeline execution results.
+- Misconfigurations are corrected through controlled workflow and IAM policy updates.
+- All changes are traceable via Git history and audit logs.
+
+### Recover (RC)
+- The application can be redeployed at any time using a repeatable CI/CD pipeline.
+- No stateful infrastructure recovery is required due to serverless, managed services.
+- Cryptographic keys and certificates are managed and rotated by AWS services.
+
+### Shared Responsibility Statement
+Under the cloud shared responsibility model, AWS secures the underlying infrastructure,
+network, and managed services, while the user is responsible for source code, CI/CD
+configuration, identity governance, and access control.
+
+---
+
 ## 🎯 Project Aim
 
 To apply modern cryptographic principles—**authentication, key exchange, encryption, and key management**—using AWS cloud services in a secure and industry-aligned manner.
