@@ -29,6 +29,15 @@ It modernizes deprecated **Azure Cloud Service (Web Role)** architectures by ado
 
 ---
 
+## Security & Governance Alignment (NIST CSF)
+
+This project demonstrates **NIST Cybersecurity Framework (CSF)**–aligned controls within a **cloud shared responsibility model**.  
+Governance and protection are enforced through GitHub repository controls and least-privilege CI/CD deployment.  
+Detection and response are supported via GitHub Actions and Azure deployment logs, while recovery is enabled through repeatable, infrastructure-free redeployment from source control.  
+Microsoft Azure secures the underlying cloud infrastructure, while application code, CI/CD configuration, and identity governance remain the user’s responsibility.
+
+---
+
 ## Architecture Overview
 
 - Static front-end hosted on **Azure Static Web Apps**
