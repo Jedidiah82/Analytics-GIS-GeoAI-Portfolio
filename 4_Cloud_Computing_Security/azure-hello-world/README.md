@@ -122,13 +122,11 @@ The application is hosted on Azure Static Web Apps with secure HTTPS access and 
 
 ## Deployment Evidence Summary
 
-```text
 | Stage | Evidence |
 |------|---------|
 | Local Development | ASP.NET Core application executed locally via `dotnet run` |
 | CI/CD Automation | GitHub Actions workflow triggered on `main` branch commits |
 | Cloud Hosting | Azure Static Web App deployed with HTTPS-only access |
-```
 
 ---
 
