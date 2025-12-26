@@ -65,5 +65,3 @@ Developed through SOC analyst training and volunteer security work:
 - Environment preparation & risk notes
 
 ---
-
-## Placeholder - content coming soon
