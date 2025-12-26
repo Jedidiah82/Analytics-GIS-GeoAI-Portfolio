@@ -5,12 +5,15 @@
 ![Security](https://img.shields.io/badge/Security-Encryption%20%26%20Signing-critical)
 ![Standards](https://img.shields.io/badge/Standards-NIST%20CSF%20%7C%20ISO%2027001-informational)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Cloud](https://img.shields.io/badge/Cloud-Azure%20Key%20Vault-blueviolet)
 
 ## 📘 Portfolio Artifact – Applied Cryptography
 
 This project demonstrates the **real-world application of cryptographic principles**—secure data storage, secure data transmission, and digital signatures—using **GnuPG (Gpg4win)** on a modern Windows platform.
 
 Rather than manually implementing cryptographic algorithms (e.g., DES, RSA, Diffie-Hellman), the lab focuses on **industry-standard, production-aligned practices** using OpenPGP tooling that mirrors how encryption, signing, and key management are handled in **enterprise and cloud security environments**.
+
+> Scope note: This project emphasizes secure configuration, key management, and cryptographic operations rather than algorithm implementation.
 
 ---
 
@@ -178,6 +181,119 @@ This artifact demonstrates:
 - Identity-based trust models
 - Troubleshooting real cryptographic failures
 - Audit-ready security operations
+
+---
+
+## ☁️ Cloud Key Management Extension (Azure Key Vault)
+
+To bridge local cryptographic fundamentals with enterprise cloud security,
+this lab was extended using **Azure Key Vault** to demonstrate how modern
+cloud platforms manage encryption keys without exposing private material.
+
+> Related project:  
+> **Azure Hello World – Static Web App Deployment**  
+> (Demonstrates secure-by-default cloud hosting and CI/CD governance)
+
+### What Was Implemented
+
+- Provisioned Azure Key Vault via Azure CLI
+- Generated a non-exportable RSA key (RSA-OAEP)
+- Enforced RBAC using **Key Vault Crypto Officer**
+- Performed encryption and decryption operations via CLI
+- Verified plaintext recovery without accessing private keys
+
+### Security Principles Demonstrated
+
+| Principle | Implementation |
+|--------|----------------|
+| Key Isolation | Private keys never leave Azure Key Vault |
+| Least Privilege | RBAC-enforced cryptographic permissions |
+| Confidentiality | Data encrypted using managed asymmetric keys |
+| Auditability | All operations logged by Azure |
+
+### Mapping to OpenPGP Concepts
+
+| OpenPGP | Azure Key Vault |
+|------|----------------|
+| Private key | Non-exportable Key Vault key |
+| Passphrase | Azure RBAC + Entra ID |
+| Sign / Verify | Key Vault Sign / Verify |
+| Encrypt / Decrypt | Key Vault Encrypt / Decrypt |
+
+> **Result:**  
+> This extension demonstrates how foundational cryptography skills
+> translate directly into cloud-native key management services
+> such as Azure Key Vault and AWS KMS.
+
+### Verification Evidence
+- Successful encryption and decryption operations were verified using Azure Key Vault CLI, with private key material remaining non-exportable and inaccessible.
+
+### 🔐 Conceptual Architecture Diagram
+
+```text
+┌──────────────────────────────┐
+│        OpenPGP (Local)       │
+└──────────────────────────────┘
+        │
+        │ 1. Generate Key Pair
+        ▼
+┌──────────────────────────────┐
+│ Public Key  | Private Key    │
+│ (Shared)    | (Local, Encrypted
+│             |  w/ Passphrase)│
+└──────────────────────────────┘
+        │
+        │ 2. Encrypt / Sign
+        ▼
+┌──────────────────────────────┐
+│ Encrypted + Signed Data      │
+│ (.gpg file)                  │
+└──────────────────────────────┘
+        │
+        │ 3. Decrypt / Verify
+        ▼
+┌──────────────────────────────┐
+│ Plaintext (Integrity Verified)│
+└──────────────────────────────┘
+```
+
+```text
+┌────────────────────────────────────────┐
+│        Azure Key Vault (Cloud)          │
+└────────────────────────────────────────┘
+        │
+        │ 1. Create Non-Exportable Key
+        ▼
+┌────────────────────────────────────────┐
+│ Azure Key Vault                         │
+│ ─ RSA Key (HSM / Software Protected)   │
+│ ─ Private Key NEVER Exposed            │
+└────────────────────────────────────────┘
+        │
+        │ 2. Encrypt / Decrypt via API
+        ▼
+┌────────────────────────────────────────┐
+│ Ciphertext returned to application     │
+│ (Base64 encoded)                       │
+└────────────────────────────────────────┘
+        │
+        │ 3. Decrypt (Authorized Only)
+        ▼
+┌────────────────────────────────────────┐
+│ Plaintext (Access controlled by RBAC)  │
+└────────────────────────────────────────┘
+```
+
+These diagrams highlight the architectural evolution from local cryptographic key ownership (OpenPGP) to cloud-native key isolation (Azure Key Vault).
+While OpenPGP secures data through locally managed private keys and passphrases, Azure Key Vault enforces cryptographic operations through identity-based access control and non-exportable keys—eliminating private key exposure.
+This comparison demonstrates how foundational cryptography skills translate directly into enterprise cloud security architectures.
+
+## 🔍 Threat Considerations (High-Level, Practical)
+
+- Private key compromise mitigated via non-exportable keys (Key Vault)
+- Unauthorized encryption attempts blocked by RBAC
+- Replay and tampering mitigated via asymmetric cryptography
+- Accidental data exposure reduced through encryption at rest
 
 ---
 
