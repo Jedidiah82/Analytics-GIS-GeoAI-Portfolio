@@ -27,7 +27,6 @@ Rather than manually implementing cryptographic algorithms (e.g., DES, RSA, Diff
 
 ## 🧭 Core Security Principles Demonstrated
 
-```text
 | Security Principle | Implementation |
 |------------------|----------------|
 | Confidentiality | File encryption using OpenPGP |
@@ -36,7 +35,6 @@ Rather than manually implementing cryptographic algorithms (e.g., DES, RSA, Diff
 | Non-repudiation | Signed data verification |
 | Key Management | Passphrase-protected private keys |
 | Cryptographic Agility | ECC (Curve25519 / EdDSA) |
-```
 
 ---
 
@@ -95,7 +93,6 @@ Rather than manually implementing cryptographic algorithms (e.g., DES, RSA, Diff
 
 ## 🛡️ Mapping to ISO/IEC 27001 (Annex A)
 
-```text
 | ISO 27001 Control | Alignment |
 |------------------|----------|
 | A.8.12 – Data encryption | OpenPGP encryption for stored data |
@@ -103,7 +100,6 @@ Rather than manually implementing cryptographic algorithms (e.g., DES, RSA, Diff
 | A.5.17 – Authentication information | Identity-bound signing keys |
 | A.8.10 – Information deletion | Encrypted data unreadable without keys |
 | A.8.9 – Configuration management | Proper cryptographic configuration |
-```
 
 ---
 
@@ -113,7 +109,6 @@ Although this lab uses **local OpenPGP**, the cryptographic model directly maps 
 
 ### 🔑 AWS KMS (Key Management Service)
 
-```text
 | OpenPGP Concept | AWS KMS Equivalent |
 |---------------|-------------------|
 | Private key | Customer Master Key (CMK) |
@@ -121,13 +116,11 @@ Although this lab uses **local OpenPGP**, the cryptographic model directly maps 
 | File encryption | Envelope encryption |
 | Digital signatures | KMS Sign / Verify API |
 | Key rotation | Automatic CMK rotation |
-```
 
 ---
 
 ### 🔐 Azure Key Vault
 
-```text
 | OpenPGP Concept | Azure Key Vault Equivalent |
 |---------------|----------------------------|
 | Public/private key pair | Key Vault asymmetric key |
@@ -135,7 +128,6 @@ Although this lab uses **local OpenPGP**, the cryptographic model directly maps 
 | Digital signature | Key Vault Sign / Verify |
 | Key protection | HSM-backed keys |
 | Identity binding | Azure AD / Entra ID |
-```
 
 > **Insight:**  
 > This lab demonstrates foundational key lifecycle management skills required before working with AWS KMS, Azure Key Vault, or HashiCorp Vault.
