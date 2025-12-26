@@ -299,7 +299,7 @@ This comparison demonstrates how foundational cryptography skills translate dire
 
 ## 📌 Resume Bullet
 
-> Implemented secure data storage, encrypted transmission, and digital signatures using OpenPGP (GnuPG/Gpg4win), demonstrating applied cryptography, key management, and integrity controls aligned with NIST CSF and ISO/IEC 27001 standards.
+> Implemented secure data storage, encrypted transmission, and digital signatures using OpenPGP (GnuPG/Gpg4win), applying public-key cryptography, key management, and integrity controls aligned with NIST CSF and ISO/IEC 27001.
 
 ---
 
