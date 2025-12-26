@@ -181,7 +181,7 @@ This artifact demonstrates:
 
 ---
 
-## 📌 Resume Bullet (Use Verbatim)
+## 📌 Resume Bullet
 
 > Implemented secure data storage, encrypted transmission, and digital signatures using OpenPGP (GnuPG/Gpg4win), demonstrating applied cryptography, key management, and integrity controls aligned with NIST CSF and ISO/IEC 27001 standards.
 
