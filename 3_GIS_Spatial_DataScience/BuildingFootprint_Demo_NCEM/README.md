@@ -3,7 +3,8 @@
 ![Project Status](https://img.shields.io/badge/Status-Planned-yellow)
 
 
-# 🏠 Building Footprint Extraction Demo — NC Emergency Management (NCEM)
+# 🏠 Automated Building Exposure Pipeline — NC Emergency Management (NCEM) Use-Case
+_A Python-based GeoAI workflow for extracting, validating, and modeling hazard exposure for critical infrastructure._
 
 This project outlines a planned GIS workflow for **extracting, cleaning, validating, and analyzing building footprints** for hazard exposure modeling.  
 It simulates the type of spatial data engineering used by **North Carolina Emergency Management (NCEM)**, NC Floodplain Mapping, and local/state emergency response teams.
