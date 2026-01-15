@@ -23,7 +23,7 @@ The system is designed to:
 ## 🛠️ Tools & Technologies  
 
 | Category | Tools |
-|---------|-------|
+| --------- | ------- |
 | Language | Python |
 | Parsing | Regex |
 | File Handling | OS, Path |
@@ -65,7 +65,7 @@ The system is designed to:
 
 ---
 
-##🚀 Example Use Case
+## 🚀 Example Use Case
 
 This tool can be used in:
 

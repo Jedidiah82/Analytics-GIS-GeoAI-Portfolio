@@ -1,11 +1,13 @@
 # 🔐 Secure File Upload & API Data Ingestion (REST)
 
 ## 🧠 Overview
+
 This project demonstrates a secure, automated workflow for uploading files and structured metadata to a web server using REST APIs.
 
 It simulates real-world **cloud, enterprise, and public-sector ingestion pipelines**, where images and form data must be transferred securely, validated, and processed at scale.
 
 ## 🎯 Objectives
+
 - Upload image files via HTTP `POST` requests  
 - Submit structured metadata as JSON payloads  
 - Validate API responses using HTTP status codes  
@@ -16,7 +18,7 @@ It simulates real-world **cloud, enterprise, and public-sector ingestion pipelin
 ## 🛠️ Tools & Technologies
 
 | Category | Tools |
-|---|---|
+| --- | --- |
 | Language | Python |
 | HTTP Client | `requests` |
 | API Style | REST |
@@ -24,6 +26,7 @@ It simulates real-world **cloud, enterprise, and public-sector ingestion pipelin
 | OS | Linux |
 
 ## ⚙️ How It Works
+
 1. Images are read from a local directory  
 2. Files are uploaded using `multipart/form-data`  
 3. Metadata is parsed from text files  
@@ -31,6 +34,7 @@ It simulates real-world **cloud, enterprise, and public-sector ingestion pipelin
 5. Server responses are validated for success  
 
 ## 🧪 Key Features
+
 - Automated file upload using REST APIs  
 - JSON-based data ingestion  
 - Batch processing for scalability  
@@ -50,18 +54,21 @@ It simulates real-world **cloud, enterprise, and public-sector ingestion pipelin
 ### Usage
 
 ### Upload Images
+
 ```bash
 chmod +x supplier_image_upload.py
 ./supplier_image_upload.py
 ```
 
 ## Upload Metadata (JSON)
+
 ```bash
 chmod +x run.py
 ./run.py
 ```
 
 ## Sample JSON Payload
+
 ```json
 {
   "name": "Watermelon",
@@ -72,6 +79,7 @@ chmod +x run.py
 ```
 
 ## 🚀 Example Use Cases
+
 - Cloud data ingestion pipelines
 - GIS imagery uploads to catalog systems
 - Public health portals for media + form data
@@ -81,16 +89,19 @@ chmod +x run.py
 - GIS asset repositories
 
 ## 📎 Skills Demonstrated
+
 - REST API integration
 - Secure file transfer workflows
 - JSON data handling
 - Python automation for ingestion systems
 
 ## 🔗 Related Portfolio Pillar
-Part of: 
+
+Part of:
 ⚙️🛡️📊 **Automation, Reliability & Secure Data Systems**
 
 ## 🧭 Next Steps (Planned Improvements)
+
 - API authentication (OAuth / API keys)
 - Retry logic for network failures
 - Centralized logging

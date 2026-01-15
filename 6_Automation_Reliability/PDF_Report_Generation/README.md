@@ -23,7 +23,7 @@ The system is designed to:
 ## 🛠️ Tools & Technologies  
 
 | Category | Tools |
-|---------|-------|
+| --------- | ------- |
 | Language | Python |
 | PDF Generation | ReportLab |
 | Email | SMTP |

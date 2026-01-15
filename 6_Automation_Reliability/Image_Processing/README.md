@@ -23,7 +23,7 @@ The system is designed to:
 ## 🛠️ Tools & Technologies  
 
 | Category | Tools |
-|---------|-------|
+| --------- | ------- |
 | Language | Python |
 | Image Processing | Pillow (PIL) |
 | File Handling | OS |
@@ -82,7 +82,7 @@ This tool can be used in:
 ## 📌 Sample Transformation  
 
 | Before | After |
-|--------|-------|
+| -------- | ------- |
 | TIFF (3000x2000) | JPEG (600x400) |
 | RGBA | RGB |
 | Large file | Optimized |
