@@ -1,4 +1,4 @@
-# 6️⃣ Automation, Reliability & Secure Data Systems  
+# ⚙️🛡️📊 Automation, Reliability & Secure Data Systems  
 _📦 Python • Linux • APIs • Monitoring • Reporting • Workflow Automation_
 
 ## Overview
