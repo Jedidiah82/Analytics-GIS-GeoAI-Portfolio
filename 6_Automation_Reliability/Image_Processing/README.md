@@ -42,6 +42,19 @@ The system is designed to:
 
 ---
 
+## 🏗️ System Architecture
+
+```mermaid
+flowchart LR
+    A[Raw Images] --> B[changeImage.py]
+    B --> C[Resize]
+    B --> D[Format Convert]
+    B --> E[Color Fix]
+    E --> F[Optimized Images]
+```
+
+---
+
 ## 🧪 Key Features  
 
 - 🖼️ Automated image conversion  

@@ -46,6 +46,20 @@ If any condition fails, an automated **alert email** is sent to administrators t
 
 ---
 
+## 🏗️ System Architecture
+
+```mermaid
+flowchart LR
+    A[System Metrics] --> B[health_check.py]
+    B --> C{Threshold Check}
+    C -->|OK| D[No Action]
+    C -->|Issue| E[emails.py]
+    E --> F[SMTP Server]
+    F --> G[Admin Email Inbox]
+```
+
+---
+
 ## 🧪 Key Features  
 
 - 🔍 Real-time system diagnostics  

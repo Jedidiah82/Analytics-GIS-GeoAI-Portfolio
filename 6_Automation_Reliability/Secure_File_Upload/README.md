@@ -31,7 +31,22 @@ It simulates real-world **cloud, enterprise, and public-sector ingestion pipelin
 2. Files are uploaded using `multipart/form-data`  
 3. Metadata is parsed from text files  
 4. JSON payloads are sent to an API endpoint  
-5. Server responses are validated for success  
+5. Server responses are validated for success 
+
+---
+
+## 🏗️ System Architecture
+
+```mermaid
+flowchart LR
+    A[Local Images] --> B[supplier_image_upload.py]
+    B --> C[REST API]
+    D[Metadata Files] --> E[run.py]
+    E --> C
+    C --> F[Web Server / Database]
+```
+
+---
 
 ## 🧪 Key Features
 
@@ -39,6 +54,8 @@ It simulates real-world **cloud, enterprise, and public-sector ingestion pipelin
 - JSON-based data ingestion  
 - Batch processing for scalability  
 - Response validation for reliability  
+
+---
 
 ## 🗂️ Project Structure
 

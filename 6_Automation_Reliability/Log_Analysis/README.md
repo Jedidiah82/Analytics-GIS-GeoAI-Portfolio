@@ -43,6 +43,18 @@ The system is designed to:
 
 ---
 
+## 🏗️ System Architecture
+
+```mermaid
+flowchart LR
+    A[Log Files] --> B[log_analysis.py]
+    B --> C[Regex Parsing]
+    C --> D[Error Detection]
+    D --> E[Summary Report]
+```
+
+---
+
 ## 🧪 Key Features  
 
 - 📄 Automated log parsing  

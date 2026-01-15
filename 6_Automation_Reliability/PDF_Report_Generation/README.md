@@ -42,6 +42,19 @@ The system is designed to:
 
 ---
 
+## 🏗️ System Architecture
+
+```mermaid
+flowchart LR
+    A[Structured Data] --> B[reports.py]
+    B --> C[PDF Report]
+    C --> D[emails.py]
+    D --> E[SMTP Server]
+    E --> F[Stakeholder Inbox]
+```
+
+---
+
 ## 🧪 Key Features  
 
 - 📄 Automated PDF creation  
