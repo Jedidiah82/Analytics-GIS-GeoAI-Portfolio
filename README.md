@@ -128,19 +128,67 @@ _📦 AWS • Azure • GCP • IAM • Cloud Security • SIEM • Threat Detec
 
 ---
 
-# 6️⃣ IT Automation, Scripting & Systems Engineering  
-_📦 Python • Linux • Bash • Regex • Log Analysis • Monitoring • Reporting_
+<h2>6️⃣ Automation, Reliability &amp; Secure Data Systems</h2>
 
-This section demonstrates hands-on experience in automating IT workflows using Python and Linux. Projects include:
+<p><em>📦 Python • APIs • System Monitoring • Reporting • Workflow Automation</em></p>
 
-- System health monitoring and alerting  
-- Log file analysis and error detection  
-- Automated report generation (PDF/Email)  
-- File and image processing pipelines  
-- Bash + Python task automation  
-- Unit testing and validation scripts  
+<p>
+  This pillar demonstrates how automation enhances <strong>secure, scalable, and reliable</strong>
+  data operations for geospatial, public health, and cloud-based systems.
+</p>
 
-These labs reflect real-world IT support, SOC operations, and DevOps-adjacent automation skills aligned with enterprise environments and cloud operations.
+<table>
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Tools</th>
+      <th>Focus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>System Health Monitoring</td>
+      <td>Python, psutil, SMTP</td>
+      <td>Proactive infrastructure alerts</td>
+    </tr>
+    <tr>
+      <td>Automated Report Generation</td>
+      <td>Python, ReportLab</td>
+      <td>PDF analytics reporting</td>
+    </tr>
+    <tr>
+      <td>Image Processing Pipeline</td>
+      <td>PIL, APIs</td>
+      <td>Data standardization</td>
+    </tr>
+    <tr>
+      <td>Secure File Upload Scripts</td>
+      <td>Requests, REST APIs</td>
+      <td>Cloud-ready ingestion</td>
+    </tr>
+    <tr>
+      <td>Email Automation System</td>
+      <td>Python, SMTP</td>
+      <td>Operational communication</td>
+    </tr>
+    <tr>
+      <td>Log Processing Scripts</td>
+      <td>Python</td>
+      <td>Reliability engineering</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Focus Areas</h3>
+<ul>
+  <li>Automation for data pipelines</li>
+  <li>System reliability &amp; monitoring</li>
+  <li>Secure communication workflows</li>
+  <li>API-driven data exchange</li>
+  <li>Operational efficiency</li>
+</ul>
+
+<p><em>These projects support secure GeoAI, public health analytics, and cloud-enabled systems.</em></p>
 
 ---
 
