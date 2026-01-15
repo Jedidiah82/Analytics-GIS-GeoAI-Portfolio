@@ -52,35 +52,35 @@ flowchart TB
     C --> D[Visualization & Reporting]
     D --> E[Stakeholders]
 
-    subgraph Security Layer
+    subgraph SecurityLayer["Security Layer"]
         F[Access Control]
         G[Monitoring]
         H[Logging]
     end
 
-    B --> Security Layer
-    C --> Security Layer
-    D --> Security Layer
+    B --> SecurityLayer
+    C --> SecurityLayer
+    D --> SecurityLayer
 ```
 
 ---
 
 ## ⭐ Featured Projects
 
-- 🔮 **Lassa Fever GeoAI Forecasting**  
-  https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026
+- 🔮 **[Lassa Fever GeoAI Forecasting](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)**  
+  Predictive disease modeling using GeoAI and spatiotemporal analytics.
 
-- 🌊 **NCEM Flood Exposure Mapping**  
-  https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM
+- 🌊 **[NCEM Flood Exposure Mapping](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)**  
+  Hazard exposure analysis for emergency management.
 
-- 🛡️ **Intrusion Detection (UNSW-NB15)**  
-  https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection
+- 🛡️ **[Intrusion Detection (UNSW-NB15)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection)**  
+  Big Data cybersecurity analytics using Hive and PySpark.
 
-- ⚙️ **System Health Monitoring Automation**  
-  https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring
+- ⚙️ **[System Health Monitoring Automation](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)**  
+  Automated infrastructure monitoring and alerting.
 
-- 📄 **Automated PDF Reporting System**  
-  https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/PDF_Report_Generation
+- 📄 **[Automated PDF Reporting System](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/PDF_Report_Generation)**  
+  Scheduled analytics reporting with email delivery.
 
 ---
 
