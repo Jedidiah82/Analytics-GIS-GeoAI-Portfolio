@@ -43,6 +43,16 @@ Projects span academic research, applied analytics, emergency management, nation
 
 ---
 
+## ⭐ Featured Projects
+
+- Lassa Fever GeoAI Forecasting  
+- NCEM Flood Exposure Mapping  
+- Intrusion Detection (UNSW-NB15)  
+- System Health Monitoring Automation  
+- Automated PDF Reporting System  
+
+---
+
 ## 📂 Portfolio Pillars
 
 Below are the core pillars of the portfolio, each with dedicated project folders.
@@ -178,6 +188,12 @@ _📦 AWS • Azure • GCP • IAM • Cloud Security • SIEM • Threat Detec
     </tr>
   </tbody>
 </table>
+
+<p><em>These projects support secure GeoAI, public health analytics, and cloud-enabled systems.</em></p>
+
+<p><strong>🧪 Lab Source:</strong>  
+Automation projects are based on the Google IT Automation with Python Professional Certificate.</p>
+
 
 <h3>Focus Areas</h3>
 <ul>
