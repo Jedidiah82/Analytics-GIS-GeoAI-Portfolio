@@ -63,11 +63,6 @@ automated_pdf_reporting/
 └── README.md
 ```
 
----
-
-
----
-
 ## 🚀 Example Use Case  
 
 This tool can be used in:  
