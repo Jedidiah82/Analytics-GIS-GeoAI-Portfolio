@@ -22,20 +22,22 @@
   <img src="https://img.shields.io/badge/GeoAI-Spatial%20ML-blueviolet" />
   <img src="https://img.shields.io/badge/AWS-Cloud-yellow" />
   <img src="https://img.shields.io/badge/Cybersecurity-SOC%20Analytics-purple" />
+  <img src="https://img.shields.io/badge/Linux-Automation-lightgrey" />
 </p>
 
 ---
 
 ## 🚀 Portfolio Overview
 
-This portfolio showcases advanced work at the intersection of:
+This portfolio showcases applied and research-driven work at the intersection of:
 
-- **Big Data Engineering & Distributed Machine Learning**
-- **GeoAI & Spatial Epidemiology**
-- **GIS & Remote Sensing**
-- **Cloud Computing & Security Engineering**
-- **Cybersecurity Analytics**
-- **Public Health Informatics**
+- **Big Data Engineering & Distributed Machine Learning**  
+- **GeoAI & Spatial Epidemiology**  
+- **GIS & Remote Sensing**  
+- **Cloud Computing & Security Engineering**  
+- **Cybersecurity Analytics**  
+- **IT Automation & Systems Engineering**  
+- **Public Health Informatics**  
 
 Projects span academic research, applied analytics, emergency management, national surveillance systems, and environmental/public health intelligence across Africa and the United States.
 
@@ -94,9 +96,9 @@ _📦 ArcGIS Pro • QGIS • Remote Sensing • Raster Analytics_
 _📦 AWS • Azure • GCP • IAM • Cloud Security • SIEM • Threat Detection_
 
 ### ☁️ Cloud Platforms
-- AWS (EC2, S3, IAM, VPC)
-- Azure (AD, Resource Groups)
-- GCP (IAM, Compute)
+- AWS (EC2, S3, IAM, VPC)  
+- Azure (AD, Resource Groups)  
+- GCP (IAM, Compute)  
 
 ### 🔐 Cloud Security
 - Identity & Access Management  
@@ -126,6 +128,22 @@ _📦 AWS • Azure • GCP • IAM • Cloud Security • SIEM • Threat Detec
 
 ---
 
+# 6️⃣ IT Automation, Scripting & Systems Engineering  
+_📦 Python • Linux • Bash • Regex • Log Analysis • Monitoring • Reporting_
+
+This section demonstrates hands-on experience in automating IT workflows using Python and Linux. Projects include:
+
+- System health monitoring and alerting  
+- Log file analysis and error detection  
+- Automated report generation (PDF/Email)  
+- File and image processing pipelines  
+- Bash + Python task automation  
+- Unit testing and validation scripts  
+
+These labs reflect real-world IT support, SOC operations, and DevOps-adjacent automation skills aligned with enterprise environments and cloud operations.
+
+---
+
 ## 🧠 Technical Skills Overview
 
 **Data & ML:**  
@@ -142,6 +160,9 @@ AWS • Azure • GCP • IAM • VPC • Cloud Security
 
 **Cybersecurity:**  
 Splunk • Nessus • Wireshark • Nmap • Maltego • OSINT Tools  
+
+**Automation & Systems:**  
+Python • Linux • Bash • Regex • Log Analysis • Monitoring • Reporting  
 
 **Visualization:**  
 ArcGIS Dashboards • Matplotlib • Seaborn • Power BI • Fabric Visuals  
@@ -164,6 +185,7 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
 ---
 
 ## 🧭 Future Additions
@@ -175,4 +197,4 @@ pip install -r requirements.txt
 - Public health early warning systems
 
 ## © 2025 – Godwin Etim Akpan
-**Big Data • GeoAI • GIS • Cloud Security • Public Health Informatics**
+**Big Data • GeoAI • GIS • Cloud Security • IT Automation • Public Health Informatics**
