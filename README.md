@@ -43,13 +43,57 @@ Projects span academic research, applied analytics, emergency management, nation
 
 ---
 
+## 🧭 System-Wide Portfolio Architecture
+
+```mermaid
+flowchart TB
+    A[Data Sources] --> B[Automation & Processing]
+    B --> C[Analytics & GeoAI]
+    C --> D[Visualization & Reporting]
+    D --> E[Stakeholders]
+
+    subgraph Security Layer
+        F[Access Control]
+        G[Monitoring]
+        H[Logging]
+    end
+
+    B --> Security Layer
+    C --> Security Layer
+    D --> Security Layer
+```
+
+---
+
 ## ⭐ Featured Projects
 
-- Lassa Fever GeoAI Forecasting  
-- NCEM Flood Exposure Mapping  
-- Intrusion Detection (UNSW-NB15)  
-- System Health Monitoring Automation  
-- Automated PDF Reporting System  
+- 🔮 **Lassa Fever GeoAI Forecasting**  
+  https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026
+
+- 🌊 **NCEM Flood Exposure Mapping**  
+  https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM
+
+- 🛡️ **Intrusion Detection (UNSW-NB15)**  
+  https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection
+
+- ⚙️ **System Health Monitoring Automation**  
+  https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring
+
+- 📄 **Automated PDF Reporting System**  
+  https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/PDF_Report_Generation
+
+---
+
+## 🔁 DevOps & Automation Workflow
+
+```mermaid
+flowchart LR
+    A[Local Code] --> B[GitHub Repo]
+    B --> C[CI Tests]
+    C --> D[Build]
+    D --> E[Deploy]
+    E --> F[Monitoring]
+```
 
 ---
 

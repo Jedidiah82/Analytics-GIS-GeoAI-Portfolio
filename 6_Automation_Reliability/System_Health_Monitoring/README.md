@@ -54,7 +54,7 @@ flowchart LR
     B --> C{Threshold Check}
     C -->|OK| D[No Action]
     C -->|Issue| E[emails.py]
-    E --> F[SMTP Server]
+    E -->|SMTP TLS| F[Mail Server]
     F --> G[Admin Email Inbox]
 ```
 

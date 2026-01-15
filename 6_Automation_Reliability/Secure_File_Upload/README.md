@@ -39,11 +39,11 @@ It simulates real-world **cloud, enterprise, and public-sector ingestion pipelin
 
 ```mermaid
 flowchart LR
-    A[Local Images] --> B[supplier_image_upload.py]
-    B --> C[REST API]
-    D[Metadata Files] --> E[run.py]
-    E --> C
-    C --> F[Web Server / Database]
+    A[Local Images] -->|Validated Files| B[supplier_image_upload.py]
+    B -->|HTTPS POST| C[REST API]
+    D[Metadata Files] -->|Sanitized JSON| E[run.py]
+    E -->|Authenticated Request| C
+    C -->|Secure Storage| F[Web Server / Database]
 ```
 
 ---
