@@ -44,8 +44,6 @@ The system is designed to:
 
 ## 🏗️ System Architecture
 
-## 🏗️ System Architecture
-
 ```mermaid
 flowchart LR
     A[Trigger Event] --> B[email_script.py]
