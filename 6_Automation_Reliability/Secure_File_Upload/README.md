@@ -1,14 +1,17 @@
 # 🔐 Secure File Upload & API Data Ingestion (REST)
 
 ## 🧠 Overview
-This project demonstrates a secure, automated workflow for uploading files and structured metadata to a web server using REST APIs, simulating real-world data ingestion in cloud and enterprise systems.  
-It reflects real-world ingestion patterns used in **cloud environments**, **data platforms**, and **public-sector systems** where images and form data must be processed reliably and at scale.
+This project demonstrates a secure, automated workflow for uploading files and structured metadata to a web server using REST APIs.
+
+It simulates real-world **cloud, enterprise, and public-sector ingestion pipelines**, where images and form data must be transferred securely, validated, and processed at scale.
 
 ## 🎯 Objectives
 - Upload image files via HTTP `POST` requests  
 - Submit structured metadata as JSON payloads  
 - Validate API responses using HTTP status codes  
 - Support repeatable, batch-based ingestion workflows  
+- Support privacy-aware data ingestion workflows
+- Enable secure public-sector data exchange
 
 ## 🛠️ Tools & Technologies
 
@@ -73,6 +76,9 @@ chmod +x run.py
 - GIS imagery uploads to catalog systems
 - Public health portals for media + form data
 - Secure web applications with bulk uploads
+- Public health media uploads
+- Disaster response data portals
+- GIS asset repositories
 
 ## 📎 Skills Demonstrated
 - REST API integration

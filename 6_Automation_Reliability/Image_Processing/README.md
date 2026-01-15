@@ -2,9 +2,9 @@
 
 ## 🧠 Overview  
 
-This project automates the processing and standardization of image files for consistent storage, display, and ingestion into data systems.  
+This project automates the processing and standardization of image files to support **GeoAI, GIS, and cloud ingestion pipelines**.
 
-It reflects real-world workflows used in **data engineering, content management, and cloud ingestion pipelines**, where images must meet defined size, format, and quality standards.
+It reflects real-world workflows used in **data engineering, spatial analytics, and content management systems**, where imagery must meet defined size, format, and quality standards before being used in analytics, mapping, or machine-learning pipelines.
 
 ---
 
@@ -67,11 +67,15 @@ image_processing_pipeline/
 
 This tool can be used in:  
 
+- GeoAI training data preparation
 - Cloud data ingestion pipelines  
 - Digital asset management  
 - Web application uploads  
 - GIS imagery preparation  
 - Enterprise content systems  
+- Satellite imagery preprocessing
+- GIS basemap standardization
+- Drone imagery pipelines
 
 ---
 

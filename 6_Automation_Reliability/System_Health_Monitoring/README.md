@@ -4,22 +4,22 @@
 
 ## 🧠 Overview  
 
-This project implements an automated **system health monitoring tool** that continuously checks critical infrastructure metrics and sends **email alerts** when thresholds are exceeded.  
+This project implements an automated **system health monitoring and alerting tool** designed to support **data platforms, GeoAI pipelines, and public health information systems** by ensuring infrastructure reliability and availability.
 
-It simulates real-world **IT operations, DevOps, and reliability engineering** workflows used in enterprise environments to ensure system availability and prevent downtime.  
+It simulates real-world **IT operations, DevOps, and reliability engineering** workflows used in enterprise and public-sector environments to prevent downtime and maintain continuous analytics, surveillance, and reporting services.
 
 ---
 
 ## 🎯 Objectives  
 
-The system monitors:  
+The system monitors critical infrastructure indicators:  
 
 - **CPU usage** (> 80%)  
 - **Disk space** (< 20%)  
 - **Available memory** (< 100MB)  
 - **Hostname resolution** (localhost → 127.0.0.1)  
 
-If any condition fails, an automated **alert email** is sent to administrators.  
+If any condition fails, an automated **alert email** is sent to administrators to support rapid response and service continuity.  
 
 ---
 
@@ -76,7 +76,9 @@ This tool can be used in:
 - DevOps Monitoring  
 - Cloud Infrastructure Health Checks  
 - Cybersecurity SOC environments  
-- Data Engineering reliability workflows  
+- Data Engineering reliability workflows
+- GeoAI model pipeline uptime monitoring
+- Public health dashboard and surveillance systems reliability checks
 
 ---
 

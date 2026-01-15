@@ -2,9 +2,9 @@
 
 ## 🧠 Overview  
 
-This project automates the generation of professional PDF reports from structured data and delivers them via email to stakeholders.  
+This project automates the generation of **professional PDF reports** from structured data and securely delivers them via email to stakeholders.
 
-It reflects real-world workflows used in **IT operations, data analytics, and business reporting**, where automated documentation and communication are essential for efficiency and reliability.
+It reflects real-world workflows used in **public health reporting, compliance documentation, analytics communication, and operational governance**, where automated documentation and reliable communication are essential.
 
 ---
 
@@ -67,6 +67,9 @@ automated_pdf_reporting/
 
 This tool can be used in:  
 
+- Public health surveillance reports
+- Disaster response updates
+- Environmental risk summaries
 - Business reporting  
 - IT operations updates  
 - Compliance documentation  
