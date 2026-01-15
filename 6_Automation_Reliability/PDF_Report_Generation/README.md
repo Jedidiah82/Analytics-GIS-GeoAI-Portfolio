@@ -81,7 +81,6 @@ Processed Update on 2025-01-15
 
 - name: Apple
 - weight: 500 lbs
-
 - name: Avocado
 - weight: 200 lbs
 
