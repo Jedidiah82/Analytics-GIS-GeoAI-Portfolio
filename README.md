@@ -27,6 +27,35 @@
 
 ---
 
+## 👋 Recruiter Summary
+
+Data & Geospatial Analyst with 10+ years of experience delivering GIS, public health intelligence, and data-driven insights across Africa and the United States.  
+
+Skilled in **Big Data Analytics, GeoAI, Cloud Computing, Cybersecurity Analytics, and IT Automation**, with hands-on experience in outbreak surveillance, hazard mapping, distributed data processing, and secure cloud-based systems.  
+
+Proven ability to translate complex datasets into actionable intelligence for **public health response, emergency management, infrastructure planning, and security operations**.  
+
+Actively seeking opportunities in **Data Analytics, GIS/GeoAI, Cloud Engineering, and Cybersecurity** roles where data, automation, and security intersect.
+
+---
+
+## 🎯 Target Roles
+
+I am actively pursuing opportunities in the following areas:
+
+- Data Analyst / Data Scientist  
+- GIS Analyst / GeoAI Specialist  
+- Cloud Engineer (Junior–Mid Level)  
+- Cloud Security Analyst  
+- SOC / Cybersecurity Analyst  
+- Public Health Informatics Specialist  
+- Analytics Engineer  
+- Infrastructure / Systems Analyst  
+
+These roles align with my background in **data-driven decision-making, geospatial intelligence, cloud systems, security analytics, and automation**.
+
+---
+
 ## 🚀 Portfolio Overview
 
 This portfolio showcases applied and research-driven work at the intersection of:
@@ -274,6 +303,21 @@ Python • Linux • Bash • Regex • Log Analysis • Monitoring • Reportin
 
 **Visualization:**  
 ArcGIS Dashboards • Matplotlib • Seaborn • Power BI • Fabric Visuals  
+
+---
+
+## 🧩 Skills Matrix (Role-Aligned)
+
+| Skill Area | Tools & Technologies | Proficiency | Evidence |
+|-----------|----------------------|------------|----------|
+| Data Analytics | Python, Pandas, SQL, Power BI, Fabric | Advanced | Public health dashboards, analytics reports |
+| Big Data | Spark, Hive, PySpark, Hadoop | Advanced | UNSW-NB15 intrusion detection, streaming labs |
+| GIS & GeoAI | ArcGIS Pro, QGIS, GeoPandas, Remote Sensing | Expert | NCEM flood mapping, AFENET projects |
+| Public Health Informatics | DHIS2, Surveillance Dashboards, R | Advanced | Lassa Fever forecasting, epidemiology studies |
+| Cloud Computing | AWS, Azure, GCP, OpenStack | Intermediate | EC2 CLI lab, Azure Web App, Datastore |
+| Cybersecurity | Splunk, Nessus, Wireshark, IAM | Intermediate | SOC training, crypto labs |
+| Automation | Python, Bash, APIs, Monitoring | Intermediate | System health monitoring, reporting pipelines |
+| Visualization | ArcGIS Dashboards, Matplotlib, Seaborn | Advanced | Maps, plots, executive dashboards |
 
 ---
 
