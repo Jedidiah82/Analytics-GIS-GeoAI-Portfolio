@@ -6,11 +6,11 @@
 | **Author** | Godwin Etim Akpan |
 | **Affiliation** | Public Health Informatics \| GeoAI \| Spatial Epidemiology |
 | **Version** | 1.0 |
-| **Last Updated** | 2025-01-01 |
+| **Last Updated** | 2025-12-09 |
 | **License** | MIT License (repository only — not for clinical use) |
 
 ### 📝 Description  
-A fully reproducible spatio-temporal forecasting pipeline integrating national time series models (ARIMA, Prophet, STL decomposition) with GeoAI-based county-level forecasting using XGBoost. Includes hotspot mapping, trend decomposition, forecasting to 2026, and manuscript-ready outputs for scientific communication.
+A reproducible spatio-temporal forecasting pipeline combining national time-series models (ARIMA, Prophet, STL) with GeoAI-based county-level predictions using XGBoost.
 
 ### 📊 Datasets
 - **Lassa Fever line list (mocked for reproducibility)**  
@@ -49,8 +49,7 @@ Open 05_Reproducibility_Notebook.ipynb and execute all cells
 
 # 🦠 **Lassa Fever GeoAI Forecasting — Liberia (2016–2026)**
 
-This folder contains a complete **spatio-temporal forecasting workflow** for Lassa fever in Liberia.  
-The project integrates **classical epidemiological time-series analysis** with **modern GeoAI** to predict national and subnational transmission patterns through **December 2026**.
+This folder presents a complete spatio-temporal forecasting workflow for Lassa fever in Liberia, integrating classical epidemiology with GeoAI for national and subnational prediction through 2026.
 
 Designed for **public health decision-making**, **epidemiological research**, and **GeoAI demonstration**, the workflow produces:
 
