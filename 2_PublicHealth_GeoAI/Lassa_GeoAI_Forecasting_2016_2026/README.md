@@ -1,3 +1,21 @@
+# 🦠 Lassa Fever GeoAI Forecasting — Liberia (2016–2026)
+
+<p align="center">
+  <strong>Godwin Etim Akpan</strong><br>
+  Public Health Informatics • GeoAI • Spatial Epidemiology
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/GeoAI-Spatial%20ML-blueviolet" />
+  <img src="https://img.shields.io/badge/Public%20Health-Epidemiology-red" />
+  <img src="https://img.shields.io/badge/Python-3.10-blue" />
+  <img src="https://img.shields.io/badge/XGBoost-ML-orange" />
+  <img src="https://img.shields.io/badge/Time%20Series-ARIMA%20%7C%20Prophet-green" />
+  <img src="https://img.shields.io/badge/GIS-GeoPandas%20%7C%20ArcGIS-darkgreen" />
+</p>
+
+---
+
 ## 📌 Project Metadata
 
 | Field | Details |
@@ -9,128 +27,173 @@
 | **Last Updated** | 2025-12-09 |
 | **License** | MIT License (repository only — not for clinical use) |
 
-### 📝 Description  
-A reproducible spatio-temporal forecasting pipeline combining national time-series models (ARIMA, Prophet, STL) with GeoAI-based county-level predictions using XGBoost.
+---
 
-### 📊 Datasets
-- **Lassa Fever line list (mocked for reproducibility)**  
-  - Type: CSV  
-  - Source: MoH/NPHIL (synthetic template only)
+## 📝 Description
 
-- **Liberia administrative boundaries**  
-  - Type: Shapefiles  
-  - Source: HDX / Humanitarian Data Exchange
+A reproducible **spatio-temporal forecasting pipeline** combining national time-series models  
+(**ARIMA, Prophet, STL decomposition**) with **GeoAI-based county-level prediction using XGBoost**.
 
-### 🤖 Models Used
-- ARIMA (univariate forecasting)  
-- Prophet (trend–seasonality decomposition)  
-- STL (seasonal decomposition)  
-- XGBoost regression (GeoAI spatio-temporal forecasting)
+### The workflow supports:
 
-### ⚙️ Dependencies
-- Python >= 3.10  
-- pandas, numpy, scikit-learn  
-- xgboost, prophet  
-- geopandas  
-- matplotlib, seaborn  
+- Public health surveillance  
+- Outbreak preparedness  
+- Spatial epidemiology research  
+- GeoAI demonstration  
 
-### 🔁 Reproducibility
-**Requirements**
+**Forecast horizon:** 2016–2026
+
+---
+
+## 📊 Datasets
+
+### 1️⃣ Lassa Fever Line List (Mocked)
+
+- **Type:** CSV  
+- **Source:** MoH/NPHIL (synthetic template only)
+
+### 2️⃣ Liberia Administrative Boundaries
+
+- **Type:** Shapefiles  
+- **Source:** HDX / Humanitarian Data Exchange
+
+---
+
+## 🤖 Models Used
+
+- **ARIMA** – Univariate time-series forecasting  
+- **Prophet** – Trend and seasonality decomposition  
+- **STL** – Structural time-series decomposition  
+- **XGBoost** – GeoAI spatio-temporal regression  
+
+---
+
+## ⚙️ Dependencies
+
+- **Python:** ≥ 3.10  
+- **Core:** pandas, numpy, scikit-learn  
+- **ML:** xgboost, prophet  
+- **Spatial:** geopandas  
+- **Visualization:** matplotlib, seaborn  
+
+---
+
+## 🔁 Reproducibility
+
+### Requirements
+
 - Jupyter Lab or VS Code Notebooks  
 - Mock datasets in `data_template/`  
 - Shapefiles in `shapefiles/`  
 
-**Run Instructions**
+### Run Instructions
+
 ```bash
 Open 05_Reproducibility_Notebook.ipynb and execute all cells
 ```
 
 ---
 
-# 🦠 **Lassa Fever GeoAI Forecasting — Liberia (2016–2026)**
+## 🔬 Project Overview
 
-This folder presents a complete spatio-temporal forecasting workflow for Lassa fever in Liberia, integrating classical epidemiology with GeoAI for national and subnational prediction through 2026.
+This folder presents a complete **spatio-temporal forecasting workflow** for Lassa fever in Liberia.
 
-Designed for **public health decision-making**, **epidemiological research**, and **GeoAI demonstration**, the workflow produces:
+It integrates **classical epidemiology** with **GeoAI** for national and subnational prediction  
+through **2026**.
+
+### Designed for:
+
+- Public health decision-making  
+- Epidemiological research  
+- GeoAI demonstration  
+
+### Key Outputs
 
 - 📈 National-level case forecasts (ARIMA, Prophet)  
 - 🔍 Trend, seasonality, and anomaly decomposition (STL)  
 - 🤖 County-level GeoAI projections (XGBoost)  
 - 🗺 Heatmaps and hotspot spatial predictions  
-- 🎥 (Optional) Animations of forecast progression  
+- 🎥 Optional forecast animations  
 - 📝 Manuscript-ready figures  
 
 ---
 
-## 🔬 **Objectives**
+## 🎯 Objectives
 
-1. Build a **cleaned national and county-level dataset** (2016–2022).  
-2. Model monthly national incidence using:  
+1. Build a cleaned national and county-level dataset (2016–2022).  
+2. Model monthly national incidence using:
    - ARIMA  
    - Prophet  
    - STL decomposition  
-3. Engineer spatio-temporal features for GeoAI (lags, rolling means, climate proxies).  
-4. Train an **XGBoost model** to forecast county-level risk.  
-5. Generate predictions for **2023–2026**.  
-6. Produce **maps, figures, and tables** suitable for surveillance reporting and research publication.
-
+3. Engineer spatio-temporal features (lags, rolling means, climate proxies).  
+4. Train an XGBoost model for county-level risk prediction.  
+5. Generate forecasts for 2023–2026.  
+6. Produce maps, figures, and tables for research and surveillance reporting.  
 
 ---
 
-## 🧠 **Modeling Workflow**
+## 🧠 Modeling Workflow
 
-### **1️⃣ Time-Series Forecasting (National Level)**  
-- ARIMA for autoregressive temporal modeling  
-- Prophet for trend + seasonal cycle extraction  
+### 1️⃣ Time-Series Forecasting (National)
+
+- ARIMA for autoregressive modeling  
+- Prophet for trend + seasonal extraction  
 - STL for structural decomposition  
 - Confidence intervals and peak annotations  
-- Comparison plots through **2026**  
+- Forecast comparisons through 2026  
 
-### **2️⃣ GeoAI (County-Level Forecasting)**  
-- Lagged case features (t-1, t-2, t-3)  
-- Rolling means and seasonal features  
+### 2️⃣ GeoAI (County-Level)
+
+- Lagged features (t-1, t-2, t-3)  
+- Rolling means and seasonal indicators  
 - Optional covariates (rainfall, temperature, roads, population)  
-- XGBoost regression to generate **spatial predictions**  
+- XGBoost regression for spatial prediction  
 
-### **3️⃣ Spatial Analysis**  
+### 3️⃣ Spatial Analysis
+
 - Choropleth hotspot maps  
-- Cluster visualization (SaTScan-style but custom Python)  
+- Cluster visualization (custom Python, SaTScan-style)  
 - Multi-panel yearly incidence maps  
-- Animated county-level risk evolution (optional)
+- Optional animated risk evolution  
 
 ---
 
 ## 🖼 Example Outputs (Figures)
 
-Your plots will appear here automatically when uploaded:
+All generated plots and maps are available in the **Figures** folder:
 
-- **ARIMA vs Prophet Forecast (2016–2026)**
-- **Prophet Trend & Seasonality Components**
-- **STL Decomposition**
-- **Rolling Mean Trends**
-- **GeoAI Hotspot Map (December 2026)**
-- **County-Level Incidence Maps (2017–2022)**
-- **Cluster Maps for Localized Hotspots**
+👉 **[View Figures](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026/Figures)**
 
-*(Images rendered from your analysis — no raw case data included.)*
+This includes:
 
----
+- ARIMA vs Prophet Forecast (2016–2026)  
+- Prophet Trend & Seasonality Components  
+- STL Decomposition  
+- Rolling Mean Trends  
+- GeoAI Hotspot Map (December 2026)  
+- County-Level Incidence Maps (2017–2022)  
+- Localized Cluster Maps  
 
-## 🔒 **📌 Data Disclaimer**
-
-All visualizations and outputs in this folder are derived from **aggregated, non-identifiable surveillance data** used strictly for academic and public health research purposes.
-
-- **No individual-level data** is stored or shared.  
-- **No confidential MoH/NPHIL datasets** are included.  
-- Synthetic or template datasets are provided **only for reproducibility**.  
-- Results shown here are analytical outputs and **do not represent official government reports**.
+*(Images rendered from analysis — no raw case data included.)*
 
 ---
 
-## 📚 **Citation**
+## 🔒 Data Disclaimer
 
-If referencing this work in research or professional documentation:
+All visualizations and outputs are derived from **aggregated, non-identifiable surveillance data**.
 
-Akpan, G.E. (2025). Lassa Fever GeoAI Forecasting — Liberia (2016–2026).
-Big Data • GeoAI • Public Health Analytics Portfolio.
+- No individual-level data is stored or shared  
+- No confidential MoH/NPHIL datasets are included  
+- Synthetic/template datasets are provided for reproducibility  
+- Results do not represent official government reports  
+
+---
+
+## 📚 Citation
+
+If referencing this work:
+
+**Akpan, G.E. (2025).**  
+*Lassa Fever GeoAI Forecasting — Liberia (2016–2026).*  
+Big Data • GeoAI • Public Health Analytics Portfolio.  
 https://github.com/Jedidiah82/
