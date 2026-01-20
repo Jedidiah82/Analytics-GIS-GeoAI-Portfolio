@@ -1,4 +1,4 @@
-<h1 align="center">📊 Analytics • GIS–GeoAI • Public Health Intelligence Portfolio</h1>
+<h1 align="center">📊 Data Analytics • GIS–GeoAI • Cloud, Cybersecurity & Public Health Intelligence Portfolio</h1>
 
 <p align="center">
   <strong>Godwin Etim Akpan</strong><br>
@@ -27,32 +27,54 @@
 
 ---
 
-## 👋 Recruiter Summary
+## 👋 Professional Summary
 
-Data & Geospatial Analyst with 10+ years of experience delivering GIS, public health intelligence, and data-driven insights across Africa and the United States.  
+Data & Geospatial Analyst with 10+ years of experience delivering GIS, public health intelligence, and data-driven solutions across Africa and the United States.
 
-Skilled in **Big Data Analytics, GeoAI, Cloud Computing, Cybersecurity Analytics, and IT Automation**, with hands-on experience in outbreak surveillance, hazard mapping, distributed data processing, and secure cloud-based systems.  
+Skilled in Big Data Analytics, GeoAI, Cloud Computing (AWS, Azure, GCP), Cybersecurity Analytics, and IT Automation, with hands-on experience in outbreak surveillance, hazard mapping, distributed data processing, and secure cloud-based systems.
 
-Proven ability to translate complex datasets into actionable intelligence for **public health response, emergency management, infrastructure planning, and security operations**.  
+Completed in-depth cloud and automation training through an MSc in Big Data Technologies, Google IT Automation with Python, and AWS Educate, with practical labs in cloud infrastructure, security, and data engineering.
 
-Actively seeking opportunities in **Data Analytics, GIS/GeoAI, Cloud Engineering, and Cybersecurity** roles where data, automation, and security intersect.
+Proven ability to translate complex datasets into actionable intelligence for public health response, emergency management, infrastructure planning, and security operations.
+
+Actively seeking opportunities in Data Analytics, GIS/GeoAI, Cloud Engineering, and Cybersecurity roles where data, automation, and security intersect.
+
+---
+
+**Career Focus:**  
+Data Analytics, GIS/GeoAI, Cloud Engineering, Cybersecurity Analytics, Public Health Informatics  
+
+**Work Authorization:**  
+Open to U.S. opportunities (details available upon request)
+
+---
+
+## 💡 What I Bring to the Team
+
+- 10+ years of experience in GIS, data analytics, and public health intelligence  
+- Strong Python, SQL, and cloud-based data engineering skills  
+- Experience building secure, scalable analytics and monitoring systems  
+- Background in emergency response and high-impact operational environments  
+- Ability to translate technical insights into executive-ready reports and dashboards  
 
 ---
 
 ## 🎯 Target Roles
 
-I am actively pursuing opportunities in the following areas:
-
+**Primary Roles**
 - Data Analyst / Data Scientist  
 - GIS Analyst / GeoAI Specialist  
+- Junior Cloud Engineer / Cloud Support Engineer
 - Cloud Engineer (Junior–Mid Level)  
+
+**Security-Focused Roles**
 - Cloud Security Analyst  
 - SOC / Cybersecurity Analyst  
+
+**Domain-Specific Roles**
 - Public Health Informatics Specialist  
 - Analytics Engineer  
 - Infrastructure / Systems Analyst  
-
-These roles align with my background in **data-driven decision-making, geospatial intelligence, cloud systems, security analytics, and automation**.
 
 ---
 
@@ -318,6 +340,21 @@ ArcGIS Dashboards • Matplotlib • Seaborn • Power BI • Fabric Visuals
 | Cybersecurity | Splunk, Nessus, Wireshark, IAM | Intermediate | SOC training, crypto labs |
 | Automation | Python, Bash, APIs, Monitoring | Intermediate | System health monitoring, reporting pipelines |
 | Visualization | ArcGIS Dashboards, Matplotlib, Seaborn | Advanced | Maps, plots, executive dashboards |
+| Security & Compliance | NIST CSF, ISO 27001, IAM, CIS Benchmarks | Intermediate | Cloud security labs, cryptography projects |
+
+---
+
+## 🎓 Certifications & Training
+
+- Esri GIS & Spatial Data Science Certifications  
+- IBM Data Science Professional Certificate  
+- R for Applied Epidemiology (Applied Epi)  
+- Google IT Automation with Python  
+- Splunk Core Certified User  
+- CompTIA Cybersecurity Analyst (CySA+)  
+- CompTIA Security+ (CE)  
+- Field Epidemiology Training Program (FETP), Frontline & Intermediate Tier  
+- Project Management in Global Health (University of Washington)  
 
 ---
 
