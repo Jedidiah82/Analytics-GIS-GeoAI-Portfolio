@@ -1,4 +1,10 @@
-# ☁️ OpenStack Cloud Network & VM Deployment Lab  
+# ☁️ OpenStack Cloud Network & VM Deployment Lab
+
+![OpenStack](https://img.shields.io/badge/OpenStack-Private%20Cloud-red)
+![Networking](https://img.shields.io/badge/Networking-Virtual%20Networks-blue)
+![Security](https://img.shields.io/badge/Security-SSH%20%26%20Firewall-success)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+  
 **Private Cloud Infrastructure • Virtual Networking • Secure VM Provisioning**
 
 ---
