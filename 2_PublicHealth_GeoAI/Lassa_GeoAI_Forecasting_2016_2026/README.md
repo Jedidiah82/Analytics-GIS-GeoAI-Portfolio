@@ -1,52 +1,50 @@
----
-title: "Lassa Fever GeoAI Forecasting — Liberia (2016–2026)"
-author: "Godwin Etim Akpan"
-affiliation: "Public Health Informatics | GeoAI | Spatial Epidemiology"
-version: "1.0"
-last_updated: "2025-01-01"
+## 📌 Project Metadata
 
-description: |
-  A fully reproducible spatio-temporal forecasting pipeline integrating 
-  national time series models (ARIMA, Prophet, STL decomposition) with 
-  GeoAI-based county-level forecasting using XGBoost. Includes hotspot 
-  mapping, trend decomposition, forecasting to 2026, and manuscript-ready 
-  outputs for scientific communication.
+| Field | Details |
+|------|---------|
+| **Title** | Lassa Fever GeoAI Forecasting — Liberia (2016–2026) |
+| **Author** | Godwin Etim Akpan |
+| **Affiliation** | Public Health Informatics \| GeoAI \| Spatial Epidemiology |
+| **Version** | 1.0 |
+| **Last Updated** | 2025-01-01 |
+| **License** | MIT License (repository only — not for clinical use) |
 
-datasets:
-  - name: "Lassa Fever line list (mocked for reproducibility)"
-    type: "CSV"
-    source: "MoH/NPHIL (not distributed — synthetic template only)"
-  - name: "Liberia administrative boundaries"
-    type: "Shapefiles"
-    source: "HDX / Humanitarian Data Exchange"
+### 📝 Description  
+A fully reproducible spatio-temporal forecasting pipeline integrating national time series models (ARIMA, Prophet, STL decomposition) with GeoAI-based county-level forecasting using XGBoost. Includes hotspot mapping, trend decomposition, forecasting to 2026, and manuscript-ready outputs for scientific communication.
 
-models:
-  - ARIMA (univariate forecasting)
-  - Prophet (trend–seasonality decomposition)
-  - STL (observed seasonal decomposition)
-  - XGBoost regression (GeoAI spatio-temporal forecasting)
+### 📊 Datasets
+- **Lassa Fever line list (mocked for reproducibility)**  
+  - Type: CSV  
+  - Source: MoH/NPHIL (synthetic template only)
 
-dependencies:
-  python: ">=3.10"
-  packages:
-    - pandas
-    - numpy
-    - scikit-learn
-    - xgboost
-    - prophet
-    - geopandas
-    - matplotlib
-    - seaborn
+- **Liberia administrative boundaries**  
+  - Type: Shapefiles  
+  - Source: HDX / Humanitarian Data Exchange
 
-reproducibility:
-  requires:
-    - Jupyter Lab or VS Code Notebooks
-    - Mock datasets provided in data_template/
-    - Shapefiles stored in shapefiles/
-  run:
-    - "Open 05_Reproducibility_Notebook.ipynb and execute all cells"
+### 🤖 Models Used
+- ARIMA (univariate forecasting)  
+- Prophet (trend–seasonality decomposition)  
+- STL (seasonal decomposition)  
+- XGBoost regression (GeoAI spatio-temporal forecasting)
 
-license: "MIT License (repository only — not for clinical use)"
+### ⚙️ Dependencies
+- Python >= 3.10  
+- pandas, numpy, scikit-learn  
+- xgboost, prophet  
+- geopandas  
+- matplotlib, seaborn  
+
+### 🔁 Reproducibility
+**Requirements**
+- Jupyter Lab or VS Code Notebooks  
+- Mock datasets in `data_template/`  
+- Shapefiles in `shapefiles/`  
+
+**Run Instructions**
+```bash
+Open 05_Reproducibility_Notebook.ipynb and execute all cells
+```
+
 ---
 
 # 🦠 **Lassa Fever GeoAI Forecasting — Liberia (2016–2026)**
