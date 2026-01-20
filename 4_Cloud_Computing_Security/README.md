@@ -23,7 +23,7 @@ All projects follow **industry-aligned, cloud-native practices** — no legacy t
 ## 🧭 Navigation
 
 - [Featured Projects](#-featured-cloud--security-projects)  
-- [Cloud Platforms](#-cloud-platforms-covered)  
+- [Cloud Platforms](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security#-cloud-platforms-covered)  
 - [Security Focus](#-security-focus-areas)  
 - [Repository Structure](#-repository-structure)  
 
