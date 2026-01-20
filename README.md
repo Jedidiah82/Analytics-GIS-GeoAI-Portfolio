@@ -196,30 +196,32 @@ _📦 ArcGIS Pro • QGIS • Remote Sensing • Raster Analytics_
 
 ---
 
-# 4️⃣ Cloud Computing & Security Engineering (In Progress)
+# 4️⃣ Cloud Computing & Security Engineering
 
 _📦 AWS • Azure • GCP • IAM • Cloud Security • SIEM • Threat Detection_
 
-### ☁️ Cloud Platforms
+This section includes hands-on cloud infrastructure labs, security engineering projects, 
+private cloud deployments, and performance simulations across AWS, Azure, GCP, OpenStack, 
+and Hadoop-based environments.
+
+### ☁️ Cloud Platforms (Hands-On)
 - AWS (EC2, S3, IAM, VPC)  
 - Azure (AD, Resource Groups)  
 - GCP (IAM, Compute)  
 
-### 🔐 Cloud Security
+### 🔐 Cloud Security (Applied)
 - Identity & Access Management  
 - Threat detection & SIEM integration  
 - CIS hardening foundations  
 - Network segmentation & secure VPC design  
 - Compliance-aligned configurations  
 
-### 🛡 Cybersecurity Analytics
+### 🛡 Cybersecurity Analytics (SOC-Focused)
 - Splunk log analysis & alert tuning  
 - Threat intel (VirusTotal, GreyNoise)  
 - Email investigations & phishing detection  
 - Malware triage support  
 - Vulnerability assessment fundamentals  
-
-> _📌 This section will expand with cloud labs, architecture diagrams, and security engineering projects._
 
 ---
 
@@ -328,7 +330,7 @@ ArcGIS Dashboards • Matplotlib • Seaborn • Power BI • Fabric Visuals
 
 ---
 
-## 🧩 Skills Matrix (Role-Aligned)
+## 🧩 Skills Matrix (Role-Aligned Competencies)
 
 | Skill Area | Tools & Technologies | Proficiency | Evidence |
 |-----------|----------------------|------------|----------|
