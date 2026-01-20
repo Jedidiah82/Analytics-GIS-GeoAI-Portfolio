@@ -127,6 +127,23 @@ Outdated tools and legacy deployment models are avoided unless referenced for hi
 
 ---
 
+## 📁 Repository Structure
+
+```text
+cloud-computing-security/
+├── README.md
+├── aws-ec2-cli-lab/
+├── applied-cryptography-aws/
+├── applied-cryptography-openpgp/
+├── azure-hello-world/
+├── openstack-cloud-lab/
+├── cloudsim-performance-lab/
+├── hadoop-mapreduce-lab/
+└── google-cloud-guestbook-lab/
+```
+
+---
+
 ## 👨‍💻 Author
 
 **Godwin Etim Akpan**  
