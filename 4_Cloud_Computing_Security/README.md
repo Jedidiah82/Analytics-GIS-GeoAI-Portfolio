@@ -23,7 +23,7 @@ All projects follow **industry-aligned, cloud-native practices** — no legacy t
 ## 🧭 Navigation
 
 - [Featured Projects](#-featured-cloud--security-projects)  
-- [Cloud Platforms](#cloud-platforms-covered)  
+- [Cloud Platforms](#-cloud-platforms-covered)  
 - [Security Focus](#-security-focus-areas)  
 - [Repository Structure](#-repository-structure)  
 
@@ -65,7 +65,7 @@ Private cloud networking, VM provisioning, security groups, and SSH-based access
 
 ---
 
-## Cloud Platforms Covered
+## ☁️ Cloud Platforms Covered
 
 ### AWS
 - EC2, S3, IAM, VPC  
