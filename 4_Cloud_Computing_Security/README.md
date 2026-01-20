@@ -7,8 +7,7 @@
 
 This section of the portfolio highlights hands-on experience in **cloud platforms**, **cloud-native security**, and **cybersecurity engineering**.
 
-It combines practical cloud infrastructure deployment, secure identity management, and real-world security analytics, aligning with modern **Cloud Security Engineer**,  
-**SOC Analyst**, and **Detection Engineering** roles.
+It combines practical cloud infrastructure deployment, secure identity management, and real-world security analytics, aligning with modern **Cloud Security Engineer**, **SOC Analyst**, and **Detection Engineering** roles.
 
 **Status:** _In Progress_ — This folder will continue to grow with additional cloud labs, automation projects, and security engineering work.
 
