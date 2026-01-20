@@ -123,8 +123,7 @@ This folder focuses on **modern, cloud-native, and security-first practices**:
 - Cloud-native cryptography and key management  
 - Monitoring, logging, and auditability by design  
 
-Outdated tools and legacy deployment models are avoided  
-unless referenced for historical or foundational context.
+Outdated tools and legacy deployment models are avoided unless referenced for historical or foundational context.
 
 ---
 
