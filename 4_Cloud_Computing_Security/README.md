@@ -79,7 +79,7 @@ Private cloud networking, VM provisioning, security groups, and SSH-based access
 
 ---
 
-## ☁️ Cloud Platforms Covered
+## Cloud Platforms Covered
 
 ### AWS
 - EC2, S3, IAM, VPC  
