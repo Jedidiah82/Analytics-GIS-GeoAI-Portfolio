@@ -1,83 +1,31 @@
 # ☁️ Cloud Computing & Security Engineering  
-**_Building skills in Cloud Architecture • Security Operations • Threat Detection • IAM_**
+**Hands-on Cloud Architecture • Security Engineering • DevSecOps • IAM**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws" />
+  <img src="https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure" />
+  <img src="https://img.shields.io/badge/GCP-Cloud-red?logo=googlecloud" />
+  <img src="https://img.shields.io/badge/Hadoop-Big%20Data-yellow?logo=apachehadoop" />
+  <img src="https://img.shields.io/badge/OpenStack-Private%20Cloud-critical?logo=openstack" />
+  <img src="https://img.shields.io/badge/Security-IAM%20%7C%20SIEM%20%7C%20Encryption-success" />
+</p>
 
 ---
 
 ## 🚀 Overview
 
-This section of the portfolio highlights hands-on experience in **cloud platforms**, **cloud-native security**, and **cybersecurity engineering**.
+This portfolio showcases **hands-on, modern cloud engineering and security projects** across multiple platforms, focusing on secure infrastructure, identity management, data processing, and real-world cloud operations.
 
-It combines practical cloud infrastructure deployment, secure identity management, and real-world security analytics, aligning with modern **Cloud Security Engineer**, **SOC Analyst**, and **Detection Engineering** roles.
-
-**Status:** _In Progress_ — This folder will continue to grow with additional cloud labs, automation projects, and security engineering work.
+All projects follow **industry-aligned, cloud-native practices** — no legacy tools, no outdated architectures.
 
 ---
 
-## ☁️ Cloud Fundamentals & Architecture
+## 🧭 Navigation
 
-Hands-on learning and implementation across major cloud platforms:
-
-### AWS
-- EC2 provisioning via CLI  
-- IAM users, policies, and MFA  
-- VPC security groups & SSH access  
-- CloudWatch monitoring & logging  
-- Secure infrastructure lifecycle management  
-
-### Azure
-- Azure Static Web App deployment  
-- GitHub Actions CI/CD automation  
-- HTTPS-by-default cloud hosting  
-- Azure AD / Entra ID identity governance  
-- Secure, serverless architecture  
-
-### Google Cloud
-- Google Cloud Console & Cloud Shell  
-- Datastore Studio (NoSQL entity management)  
-- Guestbook application deployment  
-- Cloud logging & auditing fundamentals  
-- Identity and access management (IAM)  
-
----
-
-## 🔐 Cloud Security Engineering
-
-Security-focused implementation across cloud environments:
-
-- Identity & Access Management (IAM) best practices  
-- Least-privilege access enforcement  
-- Secure configuration & hardening (CIS-aligned)  
-- Network segmentation & firewall rules  
-- Cloud logging, monitoring, and audit trails  
-- Encryption and key management concepts  
-- Compliance-aligned security models  
-  *(NIST 800-53, ISO/IEC 27001 foundations)*  
-
----
-
-## 🛡 Cybersecurity Analytics & Detection
-
-Developed through SOC training and hands-on security analysis:
-
-### SIEM & Log Analysis
-- Splunk data onboarding  
-- Detection rule tuning  
-- False-positive reduction workflows  
-
-### Email & Threat Investigation
-- Phishing analysis  
-- Email header tracing  
-- Malicious URL and attachment review  
-
-### Threat Intelligence
-- VirusTotal enrichment  
-- GreyNoise context analysis  
-- OSINT-based threat triage  
-
-### Security Testing Support
-- Penetration test log review  
-- Behavioral pattern analysis  
-- Risk documentation and reporting  
+- [Featured Projects](#-featured-cloud--security-projects)  
+- [Cloud Platforms](#-cloud-platforms-covered)  
+- [Security Focus](#-security-focus-areas)  
+- [Repository Structure](#-repository-structure)  
 
 ---
 
@@ -85,66 +33,141 @@ Developed through SOC training and hands-on security analysis:
 
 ### 🔐 Applied Cryptography (AWS)
 Secure authentication, encryption, and IAM-based cryptographic operations using AWS-managed services.  
-➡️ applied-cryptography-aws/
+➡️ **Open Project:**  
+[applied-cryptography-aws](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/applied-cryptography-aws)
+
+---
 
 ### 🔐 Secure Data Storage & Digital Signatures (OpenPGP)
-Local cryptography lab demonstrating encryption, signing, and key management aligned with NIST & ISO.  
-➡️ applied-cryptography-openpgp/
+Local cryptography lab demonstrating encryption, signing, and key management aligned with NIST & ISO standards.  
+➡️ **Open Project:**  
+[applied-cryptography-openpgp](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/applied-cryptography-openpgp)
 
-### 🚀 AWS EC2 Provisioning via CLI
+---
+
+### 🚀 AWS EC2 Provisioning via CLI  
 End-to-end EC2 lifecycle management using AWS CLI, IAM, SSH, and CloudWatch monitoring.  
-➡️ aws-ec2-cli-lab/
+➡️ **Open Project:**  
+[aws-ec2-cli-lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)
 
-### 🌐 Azure Static Web App Deployment
+---
+
+### 🌐 Azure Static Web App Deployment  
 CI/CD pipeline with GitHub Actions and secure serverless hosting on Azure.  
-➡️ azure-hello-world/
-
-### ☁️ OpenStack Cloud Network & VM Deployment
-Multi-cloud infrastructure lab demonstrating VM provisioning, private networking, and security groups using OpenStack.  
-➡️ openstack-cloud-lab/
-
-### 📊 CloudSim Performance Simulation
-Cloud computing simulation lab analyzing workload performance, VM allocation, and resource utilization.  
-➡️ cloudsim-performance-lab/
-
-### 🧮 Hadoop MapReduce Data Processing
-Distributed data processing lab demonstrating large-scale analytics using Hadoop MapReduce.  
-➡️ hadoop-mapreduce-lab/
+➡️ **Open Project:**  
+[azure-hello-world](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/azure-hello-world)
 
 ---
 
-## 🧭 Learning & Portfolio Direction
-
-This folder focuses on **modern, cloud-native, and security-first practices**:
-
-- Managed cloud services over legacy infrastructure  
-- IAM-based security instead of static credentials  
-- Automation and CI/CD over manual deployment  
-- Cloud-native cryptography and key management  
-- Monitoring, logging, and auditability by design  
-
-Outdated tools and legacy deployment models are avoided unless referenced for historical or foundational context.
+### 📊 CloudSim Performance Simulation  
+Cloud infrastructure performance modeling using Java-based CloudSim.  
+➡️ **Open Project:**  
+[cloudsim-performance-lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/cloudsim-performance-lab)
 
 ---
 
-## 📁 Repository Structure
+### ☁️ Google Cloud Datastore + Cloud Shell  
+Serverless NoSQL database lab using Google Cloud Datastore and Cloud Shell.  
+➡️ **Open Project:**  
+[google-cloud-guestbook-lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/google-cloud-guestbook-lab)
+
+---
+
+### 🗃 Hadoop MapReduce Lab  
+Distributed batch data processing using HDFS and MapReduce.  
+➡️ **Open Project:**  
+[hadoop-mapreduce-lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/hadoop-mapreduce-lab)
+
+---
+
+### 🏗 OpenStack Cloud Network & VM Deployment  
+Private cloud networking, VM provisioning, security groups, and SSH-based access using OpenStack.  
+➡️ **Open Project:**  
+[openstack-cloud-lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/openstack-cloud-lab)
+
+---
+
+## ☁️ Cloud Platforms Covered
+
+### AWS
+- EC2, S3, IAM, VPC  
+- CloudTrail & CloudWatch  
+- KMS encryption  
+- IAM least privilege  
+
+### Azure
+- Static Web Apps  
+- GitHub Actions CI/CD  
+- Entra ID (Azure AD)  
+- Secure serverless hosting  
+
+### Google Cloud
+- Cloud Shell  
+- Datastore / Firestore (Datastore mode)  
+- IAM roles & permissions  
+- Serverless NoSQL  
+
+### OpenStack
+- Tenant networking  
+- Routers & subnets  
+- Security groups  
+- Private cloud VM deployment  
+
+### Big Data & Simulation
+- Hadoop (HDFS + MapReduce)  
+- CloudSim (performance simulation)  
+
+---
+
+## 🔐 Security Focus Areas
+
+- Identity & Access Management (IAM)  
+- Secure authentication (SSH, TLS, Keys)  
+- Encryption at rest and in transit  
+- Cloud-native security architecture  
+- Logging, monitoring & auditability  
+- Least-privilege access control  
+- Governance aligned with NIST CSF & ISO 27001  
+
+---
+
+## 🧱 Repository Structure
 
 ```text
-cloud-computing-security/
-├── README.md
-├── aws-ec2-cli-lab/
+4_Cloud_Computing_Security/
 ├── applied-cryptography-aws/
 ├── applied-cryptography-openpgp/
+├── aws-ec2-cli-lab/
 ├── azure-hello-world/
-├── openstack-cloud-lab/
 ├── cloudsim-performance-lab/
+├── google-cloud-guestbook-lab/
 ├── hadoop-mapreduce-lab/
-└── google-cloud-guestbook-lab/
+├── openstack-cloud-lab/
+└── README.md
 ```
 
 ---
 
-## 👨‍💻 Author
+## 💡 Why This Portfolio Matters
 
-**Godwin Etim Akpan**  
-GIS • Big Data • Cybersecurity • Cloud Computing  
+This collection demonstrates:
+
+- Multi-cloud engineering depth
+- Security-first design mindset
+- Modern, non-legacy practices
+- Hands-on infrastructure skills
+- Data + Cloud + Security integration
+
+It aligns with roles such as:
+
+- Cloud Engineer
+- Cloud Security Engineer
+- DevSecOps Engineer
+- Infrastructure Engineer
+- Data Engineer
+- SOC / Security Analyst
+
+## 👤 Author
+
+**Godwin Etim Akpan**
+GIS | Big Data | Cybersecurity | Cloud Computing
