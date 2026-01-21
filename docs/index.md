@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <em>Operating at the intersection of data, geography, and security to deliver intelligence-driven solutions for public health and infrastructure resilience.</em>
+  <em>Driving intelligence-led solutions at the intersection of data, geography, and security for public health and infrastructure resilience.</em>
 </p>
 
 <p align="center">
@@ -35,23 +35,23 @@ Data & Geospatial Analyst with **10+ years of experience** delivering **GIS-driv
 
 Specialized in **GeoAI, Big Data Analytics, Cloud Computing, Cybersecurity Analytics, and IT Automation**, with hands-on experience in **outbreak surveillance, hazard mapping, distributed data pipelines, and secure cloud environments**.
 
-Proven ability to translate complex datasets into **actionable intelligence** for **public health response, emergency management, infrastructure planning, and security operations**.
+Recognized for translating complex data into **actionable intelligence** that strengthens **public health response, emergency management, infrastructure planning, and security operations**.
 
 ---
 
-## 🎯 Strategic Focus
+## 🎯 Domains of Expertise
 
 **Data Analytics • GIS/GeoAI • Cloud Engineering • Cybersecurity Analytics • Public Health Informatics**
 
 ---
 
-## 💡 Professional Impact
+## 💡 Leadership & Impact
 
 - 10+ years delivering GIS-driven intelligence systems  
-- Proven expertise in outbreak surveillance & spatial epidemiology  
-- Strong background in GeoAI, Big Data, and cloud-based analytics  
+- Proven leadership in outbreak surveillance & spatial epidemiology  
+- Advanced expertise in GeoAI, Big Data, and cloud-based analytics  
 - Experience operating in high-impact public health environments  
-- Ability to bridge data science, geospatial analysis, and security  
+- Strong ability to bridge data science, geospatial analysis, and security  
 
 ---
 
@@ -96,7 +96,7 @@ Cloud performance simulation & infrastructure modeling.
 ### ⚙️ AWS EC2 CLI Lab  
 [![AWS EC2](assets/thumbnails/aws-ec2.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)
 
-Hands-on AWS infrastructure provisioning using CLI.  
+Enterprise-style AWS infrastructure provisioning using CLI.  
 **Focus:** Cloud Engineering, IAM, Automation  
 🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)
 
@@ -127,7 +127,13 @@ Python-based monitoring with alerts & reliability engineering.
 - Public Health GeoAI  
 - GIS & Spatial Data Science  
 - Cloud Computing & Security  
-- Automation & Reliability  
+- Automation & Reliability
+
+---
+
+## 🌍 Vision
+
+To advance data-driven public health, resilient infrastructure, and secure digital systems through the integration of GeoAI, advanced analytics, and cloud technologies.
 
 ---
 © 2025 Godwin Etim Akpan  
