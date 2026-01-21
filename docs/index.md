@@ -1,7 +1,7 @@
 # 📊 Godwin Etim Akpan  
 **Data Analytics • GIS–GeoAI • Cloud • Cybersecurity • Public Health Intelligence**
 
-📍 Raleigh, NC, USA | [GitHub](https://github.com/Jedidiah82) | [LinkedIn](https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/) | [Email Me](mailto:godwineakpan1@gmail.com)  
+📍 Raleigh, NC, USA | [GitHub](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio) | [LinkedIn](https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/) | [Email Me](mailto:godwineakpan1@gmail.com)  
 
 ---
 
