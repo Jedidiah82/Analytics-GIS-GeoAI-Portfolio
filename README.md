@@ -121,17 +121,20 @@ flowchart TB
 - 🔮 **[Lassa Fever GeoAI Forecasting](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)**  
   Predictive disease modeling using GeoAI and spatiotemporal analytics.
 
-- 🌊 **[NCEM Flood Exposure Mapping](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)**  
-  Hazard exposure analysis for emergency management.
-
 - 🛡️ **[Intrusion Detection (UNSW-NB15)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection)**  
   Big Data cybersecurity analytics using Hive and PySpark.
 
-- ⚙️ **[System Health Monitoring Automation](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)**  
-  Automated infrastructure monitoring and alerting.
+- 🌊 **[NCEM Flood Exposure Mapping](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)**  
+  Hazard exposure analysis for emergency management.
 
-- 📄 **[Automated PDF Reporting System](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/PDF_Report_Generation)**  
-  Scheduled analytics reporting with email delivery.
+- ☁️ **[Cloud Infrastructure / CloudSim](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/cloudsim-performance-lab)**
+  Cloud performance simulation & infrastructure modeling.  
+
+- ⚙️ **[AWS EC2 CLI Lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)**
+Hands-on AWS infrastructure provisioning and management using CLI.  
+
+- 🔧 **[System Health Monitoring Automation](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)**  
+  Automated infrastructure monitoring and alerting.
 
 ---
 
