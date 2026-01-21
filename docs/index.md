@@ -9,7 +9,7 @@
 
 Data & Geospatial Analyst with 10+ years of experience delivering GIS, public health intelligence, and data-driven solutions across Africa and the United States.
 
-Expert in **Big Data Analytics, GeoAI, Cloud Computing, Cybersecurity Analytics, and IT Automation**, with hands-on experience in outbreak surveillance, hazard mapping, distributed data processing, and secure cloud systems.
+Highly skilled in **Big Data Analytics and GeoAI**, with strong experience in **Cloud Computing (AWS, Azure, GCP), Cybersecurity Analytics, and IT Automation**, including outbreak surveillance, hazard mapping, distributed data processing, and secure cloud-based systems.
 
 Focused on turning complex data into **actionable intelligence** for public health, emergency response, infrastructure planning, and security operations.
 
