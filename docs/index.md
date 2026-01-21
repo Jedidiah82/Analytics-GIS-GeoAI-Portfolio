@@ -1,15 +1,24 @@
-# 📊 Godwin Etim Akpan  
+<h1 align="center">📊 Godwin Etim Akpan</h1>
 
-**Data Analytics • GIS–GeoAI • Cloud • Cybersecurity • Public Health Intelligence**
+<p align="center">
+  <strong>Data Analytics • GIS–GeoAI • Cloud • Cybersecurity • Public Health Intelligence</strong>
+</p>
 
-📍 Raleigh, NC, USA | [Portfolio](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio) | [LinkedIn](https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/) | [Email Me](mailto:godwineakpan1@gmail.com)  
+<p align="center">
+  📍 Raleigh, NC, USA |
+  <a href="https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio">Portfolio</a> |
+  <a href="https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/">LinkedIn</a> |
+  <a href="mailto:godwineakpan1@gmail.com">Email Me</a>
+</p>
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![GeoAI](https://img.shields.io/badge/GeoAI-Spatial%20ML-purple)
-![GIS](https://img.shields.io/badge/GIS-ArcGIS%20%7C%20GeoPandas-green)
-![Cloud](https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure%20%7C%20GCP-orange)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-SOC%20%7C%20SIEM-red)
-![Public%20Health](https://img.shields.io/badge/Public%20Health-Epidemiology-darkgreen)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue" />
+  <img src="https://img.shields.io/badge/GeoAI-Spatial%20ML-purple" />
+  <img src="https://img.shields.io/badge/GIS-ArcGIS%20%7C%20GeoPandas-green" />
+  <img src="https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure%20%7C%20GCP-orange" />
+  <img src="https://img.shields.io/badge/Cybersecurity-SOC%20%7C%20SIEM-red" />
+  <img src="https://img.shields.io/badge/Public%20Health-Epidemiology-darkgreen" />
+</p>
 
 ---
 
