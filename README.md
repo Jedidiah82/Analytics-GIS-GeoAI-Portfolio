@@ -12,9 +12,6 @@
   <a href="mailto:godwineakpan1@gmail.com"><strong>Email</strong></a>
 </p>
 
----
-
-### 🏷️ Skill Badges
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10-blue" />
   <img src="https://img.shields.io/badge/Apache%20Spark-Big%20Data-orange" />
