@@ -1,0 +1,7 @@
+title: Godwin Etim Akpan
+description: Data Analytics • GIS–GeoAI • Cloud • Cybersecurity • Public Health Intelligence
+theme: jekyll-theme-cayman
+
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
