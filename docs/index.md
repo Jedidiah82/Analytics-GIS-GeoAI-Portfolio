@@ -29,26 +29,34 @@ Focused on turning complex data into **actionable intelligence** for public heal
 
 Spatio-temporal disease forecasting using **ARIMA, Prophet, STL, and XGBoost**.  
 **Focus:** Public Health, GeoAI, Forecasting  
-
 🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)
 
 ---
 
 ### 🛡 Intrusion Detection (UNSW-NB15)  
+
+[![Intrusion Detection](assets/thumbnails/unsw-intrusion.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection)
+
 Big Data cybersecurity analytics using **Hive & PySpark**.  
 **Focus:** SOC, ML, Threat Detection  
 🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection)
 
 ---
 
-### 🌊 NCEM Flood Exposure Mapping  
+### 🌊 NCEM Flood Exposure Mapping 
+
+[![NCEM Flood](assets/thumbnails/ncem-flood.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)
+
 GIS-based hazard exposure analysis for emergency response.  
 **Focus:** GIS, Disaster Analytics  
 🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)
 
 ---
 
-### ☁️ Cloud Infrastructure / CloudSim  
+### ☁️ Cloud Infrastructure / CloudSim 
+
+[![CloudSim](assets/thumbnails/cloudsim.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/cloudsim-performance-lab)
+
 Cloud performance simulation & infrastructure modeling.  
 **Focus:** Cloud Engineering  
 🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/cloudsim-performance-lab)
@@ -56,6 +64,9 @@ Cloud performance simulation & infrastructure modeling.
 ---
 
 ### ⚙️ AWS EC2 CLI Lab  
+
+[![AWS EC2](assets/thumbnails/aws-ec2.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)
+
 Hands-on AWS infrastructure provisioning and management using CLI.  
 **Focus:** Cloud Engineering, IAM, Automation  
 🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)
@@ -63,6 +74,9 @@ Hands-on AWS infrastructure provisioning and management using CLI.
 ---
 
 ### 🔧 System Health Monitoring Automation  
+
+[![System Health](assets/thumbnails/system-health.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)
+
 Python-based system monitoring with alerts and reliability engineering.  
 **Focus:** DevOps, Automation, Monitoring  
 🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)
