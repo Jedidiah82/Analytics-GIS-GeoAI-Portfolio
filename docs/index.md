@@ -28,6 +28,11 @@ Spatio-temporal disease forecasting using **ARIMA, Prophet, STL, and XGBoost**.
 **Focus:** Public Health, GeoAI, Forecasting  
 🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)
 
+![Lassa GeoAI](assets/thumbnails/lassa-geoai.png)
+
+### 🦠 Lassa Fever GeoAI Forecasting  
+Spatio-temporal disease forecasting using **ARIMA, Prophet, STL, and XGBoost**.
+
 ---
 
 ### 🛡 Intrusion Detection (UNSW-NB15)  
