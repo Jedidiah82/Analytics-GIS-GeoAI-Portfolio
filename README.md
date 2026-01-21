@@ -53,7 +53,7 @@ Data Analytics, GIS/GeoAI, Cloud Engineering, Cybersecurity Analytics, Public He
 
 ---
 
-## Mission Statement
+## 🎯 Mission Statement
 
 To build intelligent, secure, and data-driven systems that strengthen public health, protect critical infrastructure, and empower decision-makers through geospatial and analytical excellence.
 
@@ -153,7 +153,7 @@ flowchart TB
 
 ---
 
-## Publications & Research Impact
+## 📚 Publications & Research Impact
 
 My work includes applied research and field-based analytics in public health, epidemiology, and geospatial intelligence.
 
@@ -176,7 +176,7 @@ Select research outputs and technical reports are available within this portfoli
 
 ---
 
-## Thought Leadership & Vision
+## 💡 Thought Leadership & Vision
 
 I believe the future of public health, infrastructure resilience, and security intelligence lies in the **integration of GeoAI, Big Data, and cloud-native systems**.
 
