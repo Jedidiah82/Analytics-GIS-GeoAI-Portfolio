@@ -1,15 +1,15 @@
 # 📊 Godwin Etim Akpan  
 
+**Data Analytics • GIS–GeoAI • Cloud • Cybersecurity • Public Health Intelligence**
+
+📍 Raleigh, NC, USA | [Portfolio](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio) | [LinkedIn](https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/) | [Email Me](mailto:godwineakpan1@gmail.com)  
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![GeoAI](https://img.shields.io/badge/GeoAI-Spatial%20ML-purple)
 ![GIS](https://img.shields.io/badge/GIS-ArcGIS%20%7C%20GeoPandas-green)
 ![Cloud](https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure%20%7C%20GCP-orange)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-SOC%20%7C%20SIEM-red)
 ![Public%20Health](https://img.shields.io/badge/Public%20Health-Epidemiology-darkgreen)
-
-**Data Analytics • GIS–GeoAI • Cloud • Cybersecurity • Public Health Intelligence**
-
-📍 Raleigh, NC, USA | [Portfolio](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio) | [LinkedIn](https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/) | [Email Me](mailto:godwineakpan1@gmail.com)  
 
 ---
 
