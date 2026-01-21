@@ -25,7 +25,7 @@ Focused on turning complex data into **actionable intelligence** for public heal
 
 ### 🦠 Lassa Fever GeoAI Forecasting  
 
-![Lassa GeoAI](assets/thumbnails/lassa-geoai.png)
+[![Lassa GeoAI](assets/thumbnails/lassa-geoai.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)
 
 Spatio-temporal disease forecasting using **ARIMA, Prophet, STL, and XGBoost**.  
 **Focus:** Public Health, GeoAI, Forecasting  
