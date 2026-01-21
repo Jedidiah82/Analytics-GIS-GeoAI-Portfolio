@@ -5,16 +5,14 @@
 </p>
 
 <p align="center">
+  <em>Operating at the intersection of data, geography, and security to deliver intelligence-driven solutions for public health and infrastructure resilience.</em>
+</p>
+
+<p align="center">
   📍 Raleigh, NC, USA |
   <a href="https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio">Portfolio</a> |
   <a href="https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/">LinkedIn</a> |
   <a href="mailto:godwineakpan1@gmail.com">Email Me</a>
-</p>
-
-<p align="center">
-  <a href="assets/Godwin_Akpan_Resume.pdf"><strong>📄 Download Resume</strong></a> |
-  <a href="#featured-projects"><strong>⭐ View Projects</strong></a> |
-  <a href="mailto:godwineakpan1@gmail.com"><strong>💬 Contact Me</strong></a>
 </p>
 
 <p align="center">
@@ -41,19 +39,19 @@ Proven ability to translate complex datasets into **actionable intelligence** fo
 
 ---
 
-## 🎯 Career Focus
+## 🎯 Strategic Focus
 
 **Data Analytics • GIS/GeoAI • Cloud Engineering • Cybersecurity Analytics • Public Health Informatics**
 
 ---
 
-## 💡 Why Having Me in Your Team
+## 💡 Professional Impact
 
-- 10+ years of real-world GIS & public health analytics experience  
-- Strong Python, Big Data, and cloud-based data engineering skills  
-- Proven delivery in emergency response and high-impact environments  
-- Excellent technical communication for non-technical stakeholders  
-- Unique blend of Data Science, GeoAI, Cloud & Cybersecurity  
+- 10+ years delivering GIS-driven intelligence systems  
+- Proven expertise in outbreak surveillance & spatial epidemiology  
+- Strong background in GeoAI, Big Data, and cloud-based analytics  
+- Experience operating in high-impact public health environments  
+- Ability to bridge data science, geospatial analysis, and security  
 
 ---
 
