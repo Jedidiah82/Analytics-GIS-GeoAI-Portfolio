@@ -1,10 +1,7 @@
 # 📊 Godwin Etim Akpan  
 **Data Analytics • GIS–GeoAI • Cloud • Cybersecurity • Public Health Intelligence**
 
-📍 Raleigh, NC |  
-[GitHub](https://github.com/Jedidiah82) |  
-[LinkedIn](https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/) |  
-Email: godwineakpan1@gmail.com  
+📍 Raleigh, NC, USA | [GitHub](https://github.com/Jedidiah82) | [LinkedIn](https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/) | [Email](godwineakpan1@gmail.com)  
 
 ---
 
@@ -78,8 +75,10 @@ Python-based system monitoring with alerts and reliability engineering.
 
 ---
 
-## 📚 Citation
+## 👤 Author
 
-Akpan, G.E. (2025).  
-**Big Data • GeoAI • Public Health Analytics Portfolio**  
-https://github.com/Jedidiah82  
+**Godwin Etim Akpan**  
+Data Analytics • GIS–GeoAI • Cloud • Cybersecurity • Public Health Intelligence  
+
+© 2025
+
