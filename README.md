@@ -29,52 +29,70 @@
 
 ## 👋 Professional Summary
 
-Data & Geospatial Analyst with 10+ years of experience delivering GIS, public health intelligence, and data-driven solutions across Africa and the United States.
+Data & Geospatial Analytics Leader with 10+ years of experience delivering intelligence-driven solutions across public health, infrastructure, and emergency response in Africa and the United States.
 
-Skilled in Big Data Analytics, GeoAI, Cloud Computing (AWS, Azure, GCP), Cybersecurity Analytics, and IT Automation, with hands-on experience in outbreak surveillance, hazard mapping, distributed data processing, and secure cloud-based systems.
+Specialized in GeoAI, Big Data Analytics, Cloud Computing (AWS, Azure, GCP), Cybersecurity Analytics, and IT Automation, with a proven track record in outbreak surveillance, hazard mapping, spatial risk modeling, and secure data engineering.
 
-Completed in-depth cloud and automation training through an MSc in Big Data Technologies, Google IT Automation with Python, and AWS Educate, with practical labs in cloud infrastructure, security, and data engineering.
+Trained through an MSc in Big Data Technologies, Google IT Automation with Python, and AWS Educate, with hands-on expertise in cloud infrastructure, security engineering, and scalable analytics pipelines.
 
-Proven ability to translate complex datasets into actionable intelligence for public health response, emergency management, infrastructure planning, and security operations.
+Known for translating complex, multi-source datasets into actionable intelligence that informs policy, preparedness, infrastructure planning, and security operations.
 
-Actively seeking opportunities in Data Analytics, GIS/GeoAI, Cloud Engineering, and Cybersecurity roles where data, automation, and security intersect.
+Open to strategic, high-impact collaborations where data, geospatial intelligence, and secure systems drive real-world outcomes.
 
 ---
 
-**Career Focus:**  
+**Domains of Expertise:**  
 Data Analytics, GIS/GeoAI, Cloud Engineering, Cybersecurity Analytics, Public Health Informatics  
 
-**Work Authorization:**  
-Open to U.S. opportunities (details available upon request)
+---
+
+## 💡 Professional Impact
+
+- Led GIS and analytics initiatives supporting national disease surveillance and emergency response  
+- Designed GeoAI-driven forecasting models for outbreak prediction and spatial risk analysis  
+- Built secure, cloud-based data pipelines for public health and infrastructure intelligence  
+- Delivered executive-ready dashboards and technical reports for decision-makers  
+- Operated in high-impact, resource-constrained environments across Africa and the United States  
 
 ---
 
-## 💡 What I Bring to the Team
+## Mission Statement
 
-- 10+ years of experience in GIS, data analytics, and public health intelligence  
-- Strong Python, SQL, and cloud-based data engineering skills  
-- Experience building secure, scalable analytics and monitoring systems  
-- Background in emergency response and high-impact operational environments  
-- Ability to translate technical insights into executive-ready reports and dashboards  
+To build intelligent, secure, and data-driven systems that strengthen public health, protect critical infrastructure, and empower decision-makers through geospatial and analytical excellence.
 
 ---
 
-## 🎯 Target Roles
+## 🎯 Strategic Engagement Areas
 
-**Primary Roles**
-- Data Analyst / Data Scientist  
-- GIS Analyst / GeoAI Specialist  
-- Junior Cloud Engineer / Cloud Support Engineer
-- Cloud Engineer (Junior–Mid Level)  
+### Consulting & Advisory
+- Data & Analytics Strategy  
+- GeoAI & Spatial Intelligence Consulting  
+- Public Health Informatics Advisory  
+- Cloud & Security Architecture Guidance  
 
-**Security-Focused Roles**
-- Cloud Security Analyst  
-- SOC / Cybersecurity Analyst  
+### Data & GeoAI Leadership
+- Data Science & Advanced Analytics  
+- GIS / GeoAI Systems Design  
+- Spatial Epidemiology & Surveillance Intelligence  
+- AI-Driven Decision Support Systems  
 
-**Domain-Specific Roles**
-- Public Health Informatics Specialist  
-- Analytics Engineer  
-- Infrastructure / Systems Analyst  
+### Cloud & Security Engineering
+- Cloud Infrastructure Engineering (AWS, Azure, GCP)  
+- Cloud Security & IAM Architecture  
+- SOC Analytics & Threat Intelligence  
+- Secure Data Platforms  
+
+### Public Health Informatics
+- Disease Surveillance Systems  
+- Health Data Engineering  
+- Epidemiological Analytics  
+- Emergency & Disaster Intelligence  
+
+### Analytics Engineering
+- Big Data Pipelines (Spark, Hive, PySpark)  
+- Automation & Monitoring Systems  
+- Reporting & Visualization Platforms  
+- Scalable Decision Support Tools  
 
 ---
 
@@ -119,7 +137,7 @@ flowchart TB
 ## ⭐ Featured Projects
 
 - 🔮 **[Lassa Fever GeoAI Forecasting](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)**  
-  Predictive disease modeling using GeoAI and spatiotemporal analytics.
+  Predictive disease modeling to support early-warning surveillance and public health preparedness.
 
 - 🛡️ **[Intrusion Detection (UNSW-NB15)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection)**  
   Big Data cybersecurity analytics using Hive and PySpark.
@@ -131,10 +149,48 @@ flowchart TB
   Cloud performance simulation & infrastructure modeling.  
 
 - ⚙️ **[AWS EC2 CLI Lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)**
-Hands-on AWS infrastructure provisioning and management using CLI.  
+  Hands-on AWS infrastructure provisioning and management using CLI.  
 
 - 🔧 **[System Health Monitoring Automation](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)**  
   Automated infrastructure monitoring and alerting.
+
+---
+
+## Publications & Research Impact
+
+My work includes applied research and field-based analytics in public health, epidemiology, and geospatial intelligence.
+
+Key areas of contribution:
+
+- Lassa Fever surveillance and spatial risk analysis  
+- COVID-19 outbreak monitoring and dashboard systems  
+- Malaria vector distribution modeling  
+- Emergency preparedness and health systems strengthening  
+- Spatial epidemiology and disease trend analysis  
+
+These efforts have supported:
+
+- National disease surveillance programs  
+- Emergency response coordination  
+- Data-driven public health policy  
+- Capacity building for health institutions  
+
+Select research outputs and technical reports are available within this portfolio.
+
+---
+
+## Thought Leadership & Vision
+
+I believe the future of public health, infrastructure resilience, and security intelligence lies in the **integration of GeoAI, Big Data, and cloud-native systems**.
+
+My vision is to help organizations move from reactive decision-making to **predictive, intelligence-led operations** by:
+
+- Embedding GeoAI into surveillance and early warning systems  
+- Designing secure, scalable data platforms for health and emergency response  
+- Using spatial intelligence to guide infrastructure and climate resilience planning  
+- Applying cybersecurity analytics to protect critical data ecosystems  
+
+Through research, applied analytics, and technical leadership, I aim to shape how data is used to **protect lives, systems, and communities**.
 
 ---
 
@@ -238,73 +294,35 @@ and Hadoop-based environments.
 
 ---
 
-<h2>6️⃣ Automation, Reliability &amp; Secure Data Systems</h2>
+# 6️⃣ Automation, Reliability & Secure Data Systems  
+_📦 Python • APIs • System Monitoring • Reporting • Workflow Automation_
 
-<p><em>📦 Python • APIs • System Monitoring • Reporting • Workflow Automation</em></p>
+This pillar demonstrates how automation enhances **secure, scalable, and reliable**  
+data operations for geospatial, public health, and cloud-based systems.
 
-<p>
-  This pillar demonstrates how automation enhances <strong>secure, scalable, and reliable</strong>
-  data operations for geospatial, public health, and cloud-based systems.
-</p>
+| Project | Tools | Focus |
+|--------|--------|--------|
+| System Health Monitoring | Python, psutil, SMTP | Proactive infrastructure alerts |
+| Automated Report Generation | Python, ReportLab | PDF analytics reporting |
+| Image Processing Pipeline | PIL, APIs | Data standardization |
+| Secure File Upload Scripts | Requests, REST APIs | Cloud-ready ingestion |
+| Email Automation System | Python, SMTP | Operational communication |
+| Log Processing Scripts | Python | Reliability engineering |
 
-<table>
-  <thead>
-    <tr>
-      <th>Project</th>
-      <th>Tools</th>
-      <th>Focus</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>System Health Monitoring</td>
-      <td>Python, psutil, SMTP</td>
-      <td>Proactive infrastructure alerts</td>
-    </tr>
-    <tr>
-      <td>Automated Report Generation</td>
-      <td>Python, ReportLab</td>
-      <td>PDF analytics reporting</td>
-    </tr>
-    <tr>
-      <td>Image Processing Pipeline</td>
-      <td>PIL, APIs</td>
-      <td>Data standardization</td>
-    </tr>
-    <tr>
-      <td>Secure File Upload Scripts</td>
-      <td>Requests, REST APIs</td>
-      <td>Cloud-ready ingestion</td>
-    </tr>
-    <tr>
-      <td>Email Automation System</td>
-      <td>Python, SMTP</td>
-      <td>Operational communication</td>
-    </tr>
-    <tr>
-      <td>Log Processing Scripts</td>
-      <td>Python</td>
-      <td>Reliability engineering</td>
-    </tr>
-  </tbody>
-</table>
+_These projects support secure GeoAI, public health analytics, and cloud-enabled systems._
 
-<p><em>These projects support secure GeoAI, public health analytics, and cloud-enabled systems.</em></p>
+**🧪 Lab Source:**  
+Automation projects are based on the **Google IT Automation with Python Professional Certificate**.
 
-<p><strong>🧪 Lab Source:</strong>  
-Automation projects are based on the Google IT Automation with Python Professional Certificate.</p>
+### Focus Areas
 
+- Automation for data pipelines  
+- System reliability & monitoring  
+- Secure communication workflows  
+- API-driven data exchange  
+- Operational efficiency  
 
-<h3>Focus Areas</h3>
-<ul>
-  <li>Automation for data pipelines</li>
-  <li>System reliability &amp; monitoring</li>
-  <li>Secure communication workflows</li>
-  <li>API-driven data exchange</li>
-  <li>Operational efficiency</li>
-</ul>
-
-<p><em>These projects support secure GeoAI, public health analytics, and cloud-enabled systems.</em></p>
+_These projects support secure GeoAI, public health analytics, and cloud-enabled systems._
 
 ---
 
@@ -335,7 +353,7 @@ ArcGIS Dashboards • Matplotlib • Seaborn • Power BI • Fabric Visuals
 
 ## 🧩 Skills Matrix (Role-Aligned Competencies)
 
-| Skill Area | Tools & Technologies | Proficiency | Evidence |
+| Skill Area | Tools & Technologies | Expertise Level | Evidence |
 |-----------|----------------------|------------|----------|
 | Data Analytics | Python, Pandas, SQL, Power BI, Fabric | Advanced | Public health dashboards, analytics reports |
 | Big Data | Spark, Hive, PySpark, Hadoop | Advanced | UNSW-NB15 intrusion detection, streaming labs |
@@ -389,6 +407,8 @@ pip install -r requirements.txt
 - AWS Security Engineering labs
 - Cloud + GeoAI integrated workflows
 - Public health early warning systems
+
+---
 
 ## © 2025 – Godwin Etim Akpan
 **Big Data • GeoAI • GIS • Cloud Security • IT Automation • Public Health Informatics**
