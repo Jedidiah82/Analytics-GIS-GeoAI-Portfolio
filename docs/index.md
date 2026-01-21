@@ -1,7 +1,23 @@
 # 📊 Godwin Etim Akpan  
 **Data Analytics • GIS–GeoAI • Cloud • Cybersecurity • Public Health Intelligence**
 
-📍 Raleigh, NC, USA | [GitHub](https://github.com/Jedidiah82) | [LinkedIn](https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/) | [Email](godwineakpan1@gmail.com)  
+📍 Raleigh, NC, USA | [GitHub](https://github.com/Jedidiah82) | [LinkedIn](https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/) | [Email Me](mailto:godwineakpan1@gmail.com)  
+
+---
+
+## 👋 Professional Summary
+
+Data & Geospatial Analyst with 10+ years of experience delivering GIS, public health intelligence, and data-driven solutions across Africa and the United States.
+
+Expert in **Big Data Analytics, GeoAI, Cloud Computing, Cybersecurity Analytics, and IT Automation**, with hands-on experience in outbreak surveillance, hazard mapping, distributed data processing, and secure cloud systems.
+
+Focused on turning complex data into **actionable intelligence** for public health, emergency response, infrastructure planning, and security operations.
+
+---
+
+## 🎯 Career Focus
+
+**Data Analytics • GIS/GeoAI • Cloud Engineering • Cybersecurity Analytics • Public Health Informatics**
 
 ---
 
@@ -59,12 +75,6 @@ Python-based system monitoring with alerts and reliability engineering.
 
 ---
 
-## 🎯 Career Focus
-
-**Data Analytics • GIS/GeoAI • Cloud Engineering • Cybersecurity Analytics • Public Health Informatics**
-
----
-
 ## 🧭 Portfolio Pillars
 
 - Big Data & Machine Learning  
@@ -75,10 +85,9 @@ Python-based system monitoring with alerts and reliability engineering.
 
 ---
 
-## 👤 Author
+## 👤 About the Author
 
 **Godwin Etim Akpan**  
 Data Analytics • GIS–GeoAI • Cloud • Cybersecurity • Public Health Intelligence  
 
 © 2025
-
