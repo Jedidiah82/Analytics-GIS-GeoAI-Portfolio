@@ -39,6 +39,34 @@ Dataset: **UNSW-NB15 (2.54M network traffic records)**
 
 ---
 
+## 🧭 Big Data Intrusion Detection Pipeline 
+```mermaid
+flowchart LR
+    A[UNSW-NB15 Dataset\n2.54M Records] --> B[HDFS Storage]
+
+    B --> C[Hive SQL Analytics]
+    C -->|Attack Patterns\nProtocol Stats\nTraffic Profiles| D[Feature Insights]
+
+    B --> E[Spark MLlib]
+    D --> E
+
+    E --> F[Logistic Regression\nBinary Classification]
+    E --> G[Random Forest\nMulti-Class]
+
+    F --> H[Model Evaluation\nROC • AUC • Confusion Matrix]
+    G --> H
+
+    H --> I[Visual Analytics\nMatplotlib]
+
+    I --> J[Security Insights\nThreat Detection\nRisk Profiling]
+
+    J --> K[Future: SIEM / SOC\nSplunk • ELK]
+
+    J --> L[Future: Streaming IDS\nKafka + Spark Streaming]
+```
+
+_This figure outlines end-to-end Big Data Intrusion Detection pipeline integrating Hive, Spark MLlib, and HDFS for large-scale cybersecurity analytics._
+
 ### **2. Spark ML Models**
 
 | Model | Type | Accuracy | AUC |
