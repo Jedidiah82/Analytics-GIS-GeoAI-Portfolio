@@ -41,7 +41,7 @@ Dataset: **UNSW-NB15 (2.54M network traffic records)**
 
 **Figure:** Attack Category Distribution by Record Count and Average Source Bytes (Logarithmic Scale)
 
-This visualization highlights the heavy-tailed nature of network traffic in the UNSW-NB15 dataset. While "unknown" and "generic" attacks dominate in frequency, categories such as "exploits" and "fuzzers" show significantly higher average source bytes, suggesting more data-intensive malicious behavior.
+This visualization highlights the heavy-tailed nature of network traffic in the UNSW-NB15 dataset. While "unknown" (normal) and "generic" attacks dominate in frequency, categories such as "exploits" and "fuzzers" show significantly higher average source bytes, suggesting more data-intensive malicious behavior.
 
 ---
 
