@@ -1,5 +1,7 @@
-# ☁️ Cloud Computing & Security Engineering  
-**Hands-on Cloud Architecture • Security Engineering • DevSecOps • IAM**
+<h1 align="center">☁️ Cloud Computing & Security Engineering</h1>  
+
+<p align="center">
+ <strong>Hands-on Cloud Architecture • Security Engineering • DevSecOps • IAM</strong><br>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws" />
