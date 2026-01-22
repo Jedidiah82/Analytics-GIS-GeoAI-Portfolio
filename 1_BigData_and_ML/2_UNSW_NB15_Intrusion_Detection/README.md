@@ -67,6 +67,8 @@ flowchart LR
 
 _This figure outlines end-to-end Big Data Intrusion Detection pipeline integrating Hive, Spark MLlib, and HDFS for large-scale cybersecurity analytics._
 
+---
+
 ### **2. Spark ML Models**
 
 | Model | Type | Accuracy | AUC |
