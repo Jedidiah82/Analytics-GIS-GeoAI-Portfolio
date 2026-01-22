@@ -37,6 +37,12 @@ Dataset: **UNSW-NB15 (2.54M network traffic records)**
   - byte/packet patterns  
 - Identified **heavy-tailed traffic** typical of malicious flows  
 
+![Attack Category Distribution](figures/attack_category_distribution.png)
+
+**Figure:** Attack Category Distribution by Record Count and Average Source Bytes (Logarithmic Scale)
+
+This visualization highlights the heavy-tailed nature of network traffic in the UNSW-NB15 dataset. While "unknown" and "generic" attacks dominate in frequency, categories such as "exploits" and "fuzzers" show significantly higher average source bytes, suggesting more data-intensive malicious behavior.
+
 ---
 
 ## 🧭 Big Data Intrusion Detection Pipeline 
@@ -80,7 +86,7 @@ flowchart LR
     G --> S2[Risk Profiling]
     G --> S3[Future: SIEM / SOC Integration]
 ```
-**End-to-end Big Data Intrusion Detection pipeline integrating Hive, Spark MLlib, and HDFS for large-scale cybersecurity analytics.**
+**Figure:** End-to-end Big Data Intrusion Detection pipeline integrating Hive, Spark MLlib, and HDFS for large-scale cybersecurity analytics.
 
 ---
 
