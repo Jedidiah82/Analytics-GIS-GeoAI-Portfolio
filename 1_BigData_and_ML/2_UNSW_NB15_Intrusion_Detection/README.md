@@ -29,7 +29,7 @@ Dataset: **UNSW-NB15 (2.54M network traffic records)**
 
 ## 🔬 Workflow Summary
 
-### **1. Hive Data Exploration**
+### 1. Hive Data Exploration
 - Ingested CSV → Hive tables  
 - Queried:
   - attack categories  
@@ -39,47 +39,52 @@ Dataset: **UNSW-NB15 (2.54M network traffic records)**
 
 ---
 
-## 🧭 
+## 🧭 Big Data Intrusion Detection Pipeline 
+
 ```mermaid
 flowchart LR
-    A[Raw Network Logs] --> B[HDFS Storage]
+    A[Raw Network Logs<br/>UNSW-NB15 Dataset] --> B[HDFS Storage]
     B --> C[Hive SQL Analysis]
     C --> D[Feature Engineering]
     D --> E[Spark ML Models]
     E --> F[Evaluation & Visualization]
     F --> G[Security Insights]
+
+    subgraph ML_Models["Spark MLlib"]
+        E1[Logistic Regression<br/>Binary Classification]
+        E2[Random Forest<br/>Multi-Class Classification]
+    end
+
+    E --> E1
+    E --> E2
+
+    subgraph Evaluation["Model Evaluation"]
+        F1[ROC & AUC]
+        F2[Confusion Matrix]
+        F3[Feature Importance]
+    end
+
+    E1 --> Evaluation
+    E2 --> Evaluation
+
+    subgraph Visualization["Visual Analytics"]
+        V1[Heatmaps]
+        V2[Distributions]
+        V3[Correlation Plots]
+    end
+
+    Evaluation --> Visualization
+    Visualization --> G
+
+    G --> S1[Threat Detection]
+    G --> S2[Risk Profiling]
+    G --> S3[Future: SIEM / SOC Integration]
 ```
-
-```mermaid
-flowchart LR
-    A[UNSW-NB15 Dataset\n2.54M Records] --> B[HDFS Storage]
-
-    B --> C[Hive SQL Analytics]
-    C -->|Attack Patterns\nProtocol Stats\nTraffic Profiles| D[Feature Insights]
-
-    B --> E[Spark MLlib]
-    D --> E
-
-    E --> F[Logistic Regression\nBinary Classification]
-    E --> G[Random Forest\nMulti-Class]
-
-    F --> H[Model Evaluation\nROC • AUC • Confusion Matrix]
-    G --> H
-
-    H --> I[Visual Analytics\nMatplotlib]
-
-    I --> J[Security Insights\nThreat Detection\nRisk Profiling]
-
-    J --> K[Future: SIEM / SOC\nSplunk • ELK]
-
-    J --> L[Future: Streaming IDS\nKafka + Spark Streaming]
-```
-
-_These figures outline end-to-end Big Data Intrusion Detection pipeline integrating Hive, Spark MLlib, and HDFS for large-scale cybersecurity analytics._
+**End-to-end Big Data Intrusion Detection pipeline integrating Hive, Spark MLlib, and HDFS for large-scale cybersecurity analytics.**
 
 ---
 
-### **2. Spark ML Models**
+### 2. Spark ML Models
 
 | Model | Type | Accuracy | AUC |
 |-------|------|----------|------|
@@ -90,11 +95,58 @@ Results demonstrate Spark MLlib handles multi-million record datasets efficientl
 
 ---
 
-### **3. Visual Analytics**
+### 3. Visual Analytics
 - ROC curve  
 - Correlation matrix  
 - Confusion matrix  
 - Feature importance  
+
+---
+
+## 📈 Visual Analytics & Model Evaluation
+
+This project includes comprehensive visual analysis to validate data behavior, feature relationships, and model performance.
+
+### 🔍 Traffic Patterns by Attack Category
+![Protocol Heatmap](figures/protocol_heatmap.png)
+
+Shows protocol usage (TCP/UDP/Other) across attack types.  
+Highlights heavy TCP usage for unknown and exploit-based attacks.
+
+---
+
+### 🔗 Feature Correlation Analysis
+![Correlation Heatmap](figures/correlation_heatmap.png)
+
+Low correlations between key features (`sbytes`, `dbytes`, `sttl`, `dttl`) indicate good feature diversity for ML modeling.
+
+---
+
+### 📊 Distribution of Source Bytes
+![sbytes Distribution](figures/sbytes_distribution.png)
+
+Reveals a **heavy-tailed distribution**, common in malicious network traffic, validating the dataset’s realism.
+
+---
+
+### 📈 ROC Curve – Binary Classifier
+![ROC Curve](figures/roc_curve.png)
+
+**AUC = 0.987**, demonstrating strong separation between attack and normal traffic.
+
+---
+
+### 🎯 Predicted Probability Distribution
+![Probability Distribution](figures/probability_distribution.png)
+
+Shows clear confidence separation between attack and normal predictions.
+
+---
+
+### 📉 Confusion Matrix (Multi-Class)
+![Confusion Matrix](figures/confusion_matrix.png)
+
+Highlights strong classification performance across most attack categories, with some overlap in rare classes.
 
 ---
 
@@ -110,6 +162,3 @@ Results demonstrate Spark MLlib handles multi-million record datasets efficientl
 - Add **Kafka + Spark Streaming** for real-time IDS  
 - Export features → SIEM (Splunk / ELK)  
 - Test Gradient Boosting or deep learning models  
-
----
-# Placeholder - content coming soon
