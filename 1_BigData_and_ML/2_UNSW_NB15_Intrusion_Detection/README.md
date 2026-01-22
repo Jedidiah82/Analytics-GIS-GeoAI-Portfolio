@@ -168,3 +168,10 @@ Highlights strong classification performance across most attack categories, with
 - Add **Kafka + Spark Streaming** for real-time IDS  
 - Export features → SIEM (Splunk / ELK)  
 - Test Gradient Boosting or deep learning models  
+
+---
+
+**Academic Disclosure:**  
+This project is based on coursework submitted as part of an MSc in Big Data Technologies.  
+All analysis, code, and visualizations were independently produced by the author.  
+No confidential or proprietary materials are included.
