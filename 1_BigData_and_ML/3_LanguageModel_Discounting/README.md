@@ -57,5 +57,3 @@ All estimators begin stabilizing by **~1 million tokens**.
 - Implement a small **backoff language model**  
 - Integrate into a streaming text pipeline  
 
----
-# Placeholder - content coming soon

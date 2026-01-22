@@ -67,5 +67,3 @@ Combines:
 - Try HDBSCAN or GMM clustering  
 - Deploy as a web-based decision tool  
 
----
-# Placeholder - content coming soon

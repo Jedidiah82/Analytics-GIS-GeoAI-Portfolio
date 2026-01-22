@@ -56,5 +56,3 @@ A PowerShell script streams NASA logs line-by-line to a socket.
 - Persist results to **Elasticsearch**  
 - Train streaming anomaly detection model  
 
----
-# Placeholder - content coming soon

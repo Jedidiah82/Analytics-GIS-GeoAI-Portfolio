@@ -65,5 +65,3 @@ TF-IDF significantly outperformed Word2Vec for headline classification.
 - Use **UMAP** for better dimensionality reduction  
 - Experiment with **Spectral** and **Agglomerative** clustering  
 
----
-# Placeholder - content coming soon
