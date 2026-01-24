@@ -120,16 +120,16 @@ hadoop jar hadoop-mapreduce-examples.jar wordcount /input /output
 *Evidence of Hadoop MapReduce execution in a single-node cluster (Cloudera QuickStart – CDH 5.12).*
 
 ### Hadoop Services & Cluster Status
-![Cloudera Manager confirming Hadoop services](screenshots/cloudera-manager.png)
-![Running Hadoop daemons (jps)](screenshots/jps-services.png)
+![Cloudera Manager confirming Hadoop services](Screenshots/cloudera-manager.png)
+![Running Hadoop daemons (jps)](Screenshots/jps-services.png)
 
 ### Data Preparation & Job Execution
-![Input file uploaded to HDFS](screenshots/hdfs-upload.png)
-![MapReduce job execution](screenshots/mapreduce-job.png)
+![Input file uploaded to HDFS](Screenshots/hdfs-upload.png)
+![MapReduce job execution](Screenshots/mapreduce-job.png)
 
 ### Results & Development
-![Output results from HDFS](screenshots/output-results.png)
-![MapReduce program development in Eclipse](screenshots/eclipse-mapreduce.png)
+![Output results from HDFS](Screenshots/output-results.png)
+![MapReduce program development in Eclipse](Screenshots/eclipse-mapreduce.png)
 
 **Screenshots shown:**
 - Cloudera Manager confirming Hadoop services
