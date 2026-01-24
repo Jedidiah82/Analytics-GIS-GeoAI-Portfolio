@@ -10,7 +10,7 @@
 
 ## 📌 Project Overview
 
-This project is a **modern, cloud-aligned replacement for legacy cryptography labs**, demonstrating how cryptographic principles are applied in real-world cloud environments using **AWS-managed services**.
+This project is a **modern, cloud-aligned replacement for legacy cryptography labs**, demonstrating how cryptographic principles are applied in real-world cloud environments using **AWS-managed services**. 
 
 Rather than manually implementing DES, RSA, or Diffie-Hellman in C, this project focuses on:
 
@@ -276,13 +276,18 @@ applied-cryptography-aws/
 
 This project demonstrates how cryptography is **applied in real systems**, not just how algorithms work on paper.
 
+While informed by academic lab objectives, the implementation **extends beyond the original lab instructions** to reflect how cryptography is used in **modern cloud security environments.**
+
 It reflects how security professionals interact with:
+
 - TLS-secured APIs
-- SSH authentication
+- SSH-based authentication
 - IAM permission boundaries
 - Managed key services (KMS)
 
-This aligns directly with modern cloud security and DevSecOps roles.
+Rather than implementing cryptographic algorithms manually, the project emphasizes **secure integration, trust boundaries, and key management using AWS-managed services**.**
+
+This approach aligns directly with expectations for **cloud security, DevSecOps, and infrastructure security roles.**
 
 
 ## 🚫 Scope & Limitations
