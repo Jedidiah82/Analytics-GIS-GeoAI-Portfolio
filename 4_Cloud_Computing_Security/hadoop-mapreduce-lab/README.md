@@ -20,7 +20,7 @@ The focus is on:
 - Understanding distributed execution  
 - Analyzing output results  
 
-This mirrors how big data pipelines operate in **cloud and enterprise data platforms**.
+This mirrors how big data pipelines operate in cloud and enterprise data platforms and can be extended to perform higher-level analytical tasks such as identifying maximum and minimum usage trends.
 
 ---
 
@@ -48,26 +48,25 @@ This mirrors how big data pipelines operate in **cloud and enterprise data platf
 
 ---
 
-## 🏗️ Hadoop Architecture Overview
+## 🏗️ Hadoop MapReduce Architecture
 
-```text
-Input Data
-   |
-   v
-HDFS (Distributed Storage)
-   |
-   v
-Map Phase (Parallel Processing)
-   |
-   v
-Shuffle & Sort
-   |
-   v
-Reduce Phase (Aggregation)
-   |
-   v
-Output Results (HDFS)
+```mermaid
+flowchart TB
+    A[Input Data<br/>Text File] --> B[HDFS<br/>Distributed Storage]
+    B --> C[Map Phase<br/>Parallel Mappers]
+    C -->|Key-Value Pairs| D[Shuffle & Sort]
+    D --> E[Reduce Phase]
+    E --> F[Output Results<br/>HDFS Output Files]
+
+    subgraph Hadoop Cluster
+        B
+        C
+        D
+        E
+    end
 ```
+
+_Hadoop MapReduce processing workflow showing data ingestion into HDFS, parallel mapping, shuffle and sort, reduction, and output storage in HDFS._
 
 ---
 
@@ -117,6 +116,30 @@ hadoop jar hadoop-mapreduce-examples.jar wordcount /input /output
 
 ---
 
+## 📸 Screenshots
+
+*Evidence of Hadoop MapReduce execution in a single-node cluster (Cloudera QuickStart – CDH 5.12).*
+
+### Hadoop Services & Cluster Status
+![Cloudera Manager confirming Hadoop services](screenshots/cloudera-manager.png)
+![Running Hadoop daemons (jps)](screenshots/jps-services.png)
+
+### Data Preparation & Job Execution
+![Input file uploaded to HDFS](screenshots/hdfs-upload.png)
+![MapReduce job execution](screenshots/mapreduce-job.png)
+
+### Results & Development
+![Output results from HDFS](screenshots/output-results.png)
+![MapReduce program development in Eclipse](screenshots/eclipse-mapreduce.png)
+
+**Screenshots shown:**
+- Cloudera Manager confirming Hadoop services
+- Running Hadoop daemons (jps)
+- Input file uploaded to HDFS
+- MapReduce job execution
+- Output results from HDFS
+- MapReduce program development in Eclipse
+
 ## 🔍 Key Learnings
 
 - Hadoop enables scalable batch processing
@@ -156,13 +179,16 @@ hadoop jar hadoop-mapreduce-examples.jar wordcount /input /output
 hadoop-mapreduce-lab/
 ├── README.md
 ├── input/
-│   └── data.txt
+│   └── input.txt
 ├── output/
 │   └── part-r-00000
 ├── screenshots/
+│   ├── cloudera-manager.png
+│   ├── jps-services.png
 │   ├── hdfs-upload.png
-│   ├── job-run.png
-│   └── output-results.png
+│   ├── mapreduce-job.png
+│   ├── output-results.png
+│   └── eclipse-mapreduce.png
 └── docs/
     └── lab-report.pdf
 ```
@@ -186,6 +212,8 @@ hadoop-mapreduce-lab/
 
 ## 🔮 Future Enhancements
 
+- Extend MapReduce logic to structured datasets (e.g., yearly usage logs)
+- Identify year of maximum and minimum usage using Reducer-based aggregation
 - Spark integration  
 - Hive queries  
 - Cloud-based Hadoop (EMR / Dataproc)  
