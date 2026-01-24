@@ -1,363 +1,210 @@
-# 🚀 AWS EC2 Provisioning & Monitoring via AWS CLI (PowerShell)
-> **Hands-on AWS project demonstrating EC2 provisioning, IAM security, monitoring, and cost control using AWS CLI on Windows PowerShell.**
+# ☁️ AWS EC2 Infrastructure Provisioning & Monitoring (CLI-Based)
 
 ![AWS](https://img.shields.io/badge/AWS-CLI-orange)
 ![PowerShell](https://img.shields.io/badge/PowerShell-Windows-blue)
 ![EC2](https://img.shields.io/badge/EC2-t3.micro-success)
+![IAM](https://img.shields.io/badge/IAM-Least%20Privilege-yellow)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
----
-
-## 📌 Project Summary
-
-This project demonstrates **end-to-end AWS infrastructure provisioning using AWS CLI v2 on Windows PowerShell**, without relying on the AWS Management Console.
-
-The lab covers:
-
-- IAM authentication & access keys  
-- EC2 provisioning via CLI  
-- Secure SSH access  
-- CloudWatch monitoring  
-- IAM least-privilege experimentation  
-- Real-world permission troubleshooting  
-- Cost-safe cleanup  
-- Full infrastructure lifecycle automation mindset and cost awareness  
-
-> **All resources were created, verified, and destroyed using AWS CLI commands.**
+**IAM • EC2 • SSH • CloudWatch • Cost Governance**
 
 ---
 
-## ✅ Prerequisites
+## Project Overview
 
-- AWS account (Free Tier)
-- IAM user with programmatic access
-- AWS CLI v2 installed
-- Windows PowerShell
-- Basic understanding of Linux & SSH
+This project demonstrates **end-to-end AWS EC2 infrastructure provisioning and monitoring using the AWS CLI**, with a focus on identity management, secure access, observability, and cost control.
 
----
+Rather than relying on the AWS Management Console, all resources were **created, verified, monitored, and terminated using CLI-based workflows**, mirroring automation-first practices commonly used in cloud and security engineering roles.
 
-## 🎯 Objectives
-
-- Provision EC2 using AWS CLI  
-- Authenticate securely with IAM  
-- Understand region-specific AMIs  
-- Enable monitoring  
-- Practice least-privilege IAM  
-- Document infrastructure professionally  
-- Prepare portfolio-ready artifacts  
+The project emphasizes **practical cloud fundamentals**, including IAM permissions, key-based SSH access, EC2 lifecycle management, CloudWatch monitoring, and safe resource cleanup.
 
 ---
 
-## 🧠 Skills Demonstrated
+## Project Focus
 
-- AWS CLI v2 (Windows / PowerShell)  
-- IAM Users, Policies & MFA  
-- EC2 lifecycle management  
-- SSH with key pairs  
-- CloudWatch metrics  
-- IAM permission troubleshooting  
-- Cost-aware AWS usage  
-- Infrastructure documentation  
-- Security-first cloud practices  
+- Provision EC2 infrastructure using the AWS CLI  
+- Configure and validate IAM permissions  
+- Establish secure SSH access using key pairs  
+- Monitor instance health and metrics via CloudWatch  
+- Practice cost-aware resource lifecycle management  
+- Understand AWS security boundaries through hands-on interaction  
 
 ---
 
-## 🏗️ Architecture Overview
+## Tools & Environment
 
-### High-Level Architecture
+| Tool / Service | Purpose |
+|---------------|--------|
+| AWS CLI v2 | Infrastructure provisioning and management |
+| Amazon EC2 | Compute resources |
+| AWS IAM | Identity and access management |
+| Amazon CloudWatch | Monitoring and metrics |
+| Amazon Linux 2 AMI | Instance operating system |
+| SSH | Secure remote access |
+
+---
+
+## Conceptual Architecture
 
 ```text
-+----------------------+
-| Local Workstation    |
-| Windows 11           |
-| PowerShell + AWS CLI |
-+----------+-----------+
-           |
-           | AWS API Calls
-           v
-+----------------------+
-| AWS IAM              |
-| - IAM User           |
-| - Access Keys        |
-| - Policies           |
-+----------+-----------+
-           |
-           | Authorized Requests
-           v
-+----------------------+
-| Amazon EC2           |
-| - Amazon Linux 2023  |
-| - t3.micro           |
-+----------+-----------+
-           |
-           | Metrics
-           v
-+----------------------+
-| Amazon CloudWatch    |
-| - CPU Utilization    |
-| - Status Checks     |
-+----------------------+
+IAM User
+   |
+AWS CLI
+   |
+EC2 API
+   |
+EC2 Instance
+   |
+SSH Access
+   |
+CloudWatch Metrics
 ```
 
-📸 **Screenshot Placeholder 1 – Architecture Diagram**
-![Architecture Diagram](diagrams/aws-ec2-cli-architecture.png)
+---
 
-## 📁 Repository Structure
+This architecture reflects a minimal but realistic AWS workflow, focusing on identity-driven access, compute provisioning, and observability.
 
-```
-aws-ec2-cli-lab/
+---
+
+## Design Decisions
+
+Several deliberate design choices were made to keep the project realistic, cost-safe, and focused on core AWS fundamentals:
+
+- **AWS CLI over Console**  
+  Chosen to reflect automation-first and infrastructure-as-code workflows rather than manual configuration.
+
+- **Single EC2 Instance**  
+  Used to focus on IAM behavior, access control, and monitoring rather than scalability.
+
+- **Default VPC**  
+  Accepted to avoid unnecessary network complexity while reinforcing core EC2 concepts.
+
+- **Temporary Broad Permissions**  
+  Administrator-level access was used initially for learning, then restricted to observe least-privilege enforcement.
+
+- **Explicit Resource Termination**  
+  Practiced to reinforce cost governance and prevent unintended billing.
+
+These decisions prioritize clarity, reproducibility, and operational discipline.
+
+---
+
+## Implementation Overview
+
+### IAM Configuration
+
+- Created and authenticated an IAM user via the AWS CLI  
+- Attached and tested IAM policies  
+- Verified caller identity using AWS STS commands  
+
+### EC2 Provisioning
+
+- Selected a region-specific Amazon Linux 2 AMI  
+- Created and associated an SSH key pair  
+- Launched an EC2 instance using CLI commands  
+- Verified instance state and metadata  
+
+### Secure Access (SSH)
+
+- Connected to the EC2 instance using key-based SSH  
+- Validated security group rules and connectivity  
+- Confirmed successful remote access  
+
+### Monitoring & Observability
+
+- Retrieved instance metrics using Amazon CloudWatch  
+- Observed CPU utilization and instance health  
+- Validated metric availability after instance launch  
+
+### Resource Cleanup
+
+- Terminated the EC2 instance via the AWS CLI  
+- Verified termination state  
+- Ensured no lingering compute resources remained  
+
+---
+
+## Security Boundaries Observed
+
+During execution, AWS security controls behaved as expected:
+
+- IAM users could not perform actions without explicit permissions  
+- `AccessDenied` errors were returned when policies were overly restrictive  
+- EC2 permissions did not imply IAM administrative privileges  
+- Terminating EC2 instances did not affect IAM users or policies  
+
+These observations reinforced AWS’s **separation of identity, compute, and billing domains**.
+
+---
+
+## Troubleshooting & Observed Failures
+
+This project intentionally surfaced common AWS operational issues, including:
+
+- SSH connection delays during initial instance startup  
+- `AccessDenied` errors after applying restrictive IAM policies  
+- Policy attachment failures caused by incorrect or placeholder ARNs  
+- AMI lookup issues due to region mismatches  
+
+Each issue was resolved using **CLI-based validation**, including STS identity checks, policy inspection, and `describe-*` commands—reinforcing practical troubleshooting skills.
+
+---
+
+## Repository Structure
+
+```text
+aws-ec2-cli-infrastructure-project/
 ├── README.md
-├── diagrams/
-│   ├── aws-ec2-cli-architecture.png
-│   └── iam-auth-flow.png
-├── policies/
-│   └── ec2-cli-least-privilege.json
 ├── scripts/
-│   ├── create-ec2.ps1
-│   ├── terminate-ec2.ps1
-│   └── monitoring.ps1
+│   ├── create-instance.sh
+│   ├── terminate-instance.sh
+│   └── describe-resources.sh
+├── screenshots/
+│   ├── ec2-running.png
+│   ├── ssh-access.png
+│   └── cloudwatch-metrics.png
+└── docs/
+    └── command-reference.md
 ```
 
-## 🔐 IAM Setup
-> IAM policies were attached incrementally to observe permission boundaries and AccessDenied behavior.
+---
 
-### IAM User
-- **User name:** ec2-admin
-- **Authentication:** Access Key + Secret Key
-- **MFA:** Enabled for root user
+## Practical Relevance
 
-### Policies Used
-- AdministratorAccess (for labs & learning)
-- IAMUserChangePassword
-- Custom least-privilege policy (tested)
+Although this project uses a minimal infrastructure setup, the concepts demonstrated translate directly to:
 
+- Cloud infrastructure provisioning  
+- IAM and least-privilege enforcement  
+- Secure remote access patterns  
+- Monitoring and observability fundamentals  
+- Cost-aware cloud operations  
 
-📸 **Screenshot Placeholder 2 – IAM Policies**
-![IAM Policies](diagrams/iam-user-policies.png)
+These skills are foundational for roles involving **AWS, cloud security, DevOps, and infrastructure support**.
 
-## 🖥️ Local Environment
-### Tools
-- Windows 11
-- PowerShell
-- AWS CLI v2
+---
 
-Verify AWS CLI:
-```powershell
-aws --version
-```
+## Scope and Constraints
 
-📸 **Screenshot Placeholder 3 – AWS CLI Version**
-![AWS CLI Version](diagrams/aws-cli-version.png)
+- Single EC2 instance  
+- No load balancing or auto-scaling  
+- No custom VPC or advanced networking  
+- No production hardening  
 
+These constraints were intentional to maintain focus on **core AWS mechanics**.
 
-## 🔑 AWS CLI Configuration
-```powershell
-aws configure
-```
-Provided values:
-- AWS Access Key ID
-- AWS Secret Access Key
-- Default region: us-east-2
-- Output format: json
+---
 
-Verification:
-```powershell
-aws sts get-caller-identity
-```
+## Future Enhancements
 
-📸 **Screenshot Placeholder 4 – STS Identity**
-![STS Identity](diagrams/aws-sts-identity.png)
+- Infrastructure-as-Code (Terraform / CloudFormation)  
+- Multi-instance deployments  
+- Auto Scaling Groups  
+- VPC subnet and security architecture  
+- Centralized logging and alerting  
 
+---
 
-## 🔐 EC2 Key Pair Creation (CLI)
-```powershell
-aws ec2 create-key-pair `
-  --key-name week10-cli-key `
-  --query "KeyMaterial" `
-  --output text > week10-cli-key.pem
-```
+## Author
 
-📸 **Screenshot Placeholder 5 – Key Pair CLI**
-![Key Pair CLI](diagrams/ec2-keypair-cli.png)
-
-
-## 🧩 AMI Discovery (Region-Aware)
-> All resources were deployed in **us-east-2 (Ohio)**.
-
-AMIs are region-specific. Latest Amazon Linux 2023 AMI was queried dynamically:
-```powershell
-aws ec2 describe-images `
-  --owners amazon `
-  --filters "Name=name,Values=al2023-ami-*-x86_64" `
-  --query "Images | sort_by(@, &CreationDate)[-1].ImageId" `
-  --output text
-```
-
-Result:
-
-```bash
-ami-06ba285c80bc4ab50
-```
-
-## 🚀 EC2 Instance Creation (CLI)
-> The default EC2 security group was used for this lab, allowing SSH (port 22) access from the local workstation.
-
-```powershell
-aws ec2 run-instances `
-  --image-id ami-06ba285c80bc4ab50 `
-  --instance-type t3.micro `
-  --key-name week10-cli-key `
-  --security-groups launch-wizard-1 `
-  --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=Week10-EC2-CLI}]"
-```
-
-📸 **Screenshot Placeholder 6 – EC2 Instance Running (Console View)**
-![EC2 Running](diagrams/ec2-instance-running.png)
-
-
-## 🔑 SSH Access
-```bash
-ssh -i week10-cli-key.pem ec2-user@<PUBLIC-IP>
-```
-
-Verification on the instance:
-```bash
-whoami
-uname -a
-```
-
-📸 **Screenshot Placeholder 7 – SSH Session**
-![SSH Session](diagrams/ssh-session.png)
-
-
-## 📊 CloudWatch Monitoring
-Enabled metrics:
-- CPUUtilization
-- Status checks
-- Ready for alarms & dashboards
-
-
-📸 **Screenshot Placeholder 8 – CloudWatch Metrics**
-![CloudWatch Metrics](diagrams/cloudwatch-metrics.png)
-
-
-## 🔐 Least-Privilege IAM Experiment
-Custom policy tested:
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": [
-        "ec2:RunInstances",
-        "ec2:TerminateInstances",
-        "ec2:DescribeInstances"
-      ],
-      "Resource": "*"
-    }
-  ]
-}
-```
-
-**Outcome**
-- Expected AccessDenied errors observed
-- IAM enforcement validated
-- AdministratorAccess restored for continued practice
-
-📸 **Screenshot Placeholder 9 – Access Denied**
-![Access Denied](diagrams/access-denied-errors.png)
-
-
-## 🧹 Resource Cleanup
-
-```powershell
-aws ec2 terminate-instances `
-  --instance-ids i-04f7de3181b806f12
-```
-✔ Instance terminated
-✔ No ongoing charges
-
-📸 **Screenshot Placeholder 10 – EC2 Terminated**
-![EC2 Terminated](diagrams/ec2-terminated.png)
-
-
-## 🧠 Key Decisions & Lessons Learned
-
-- **AWS CLI over Console:** Used the AWS CLI instead of the Management Console to enable automation, repeatability, and production-like workflows.
-- **Region-specific AMIs:** Learned that AMI IDs are region-specific and must be queried dynamically to avoid deployment failures.
-- **Least-Privilege Enforcement:** Observed how least-privilege IAM policies intentionally block unauthorized and administrative actions.
-- **IAM Permission Boundaries:** Understood why IAM users cannot self-escalate permissions and how AWS prevents privilege escalation.
-- **Cost Control Practices:** Practiced safe cost management by explicitly terminating EC2 resources after use.
-
-
-## 🤔 Why AWS CLI Instead of Console?
-
-- Enables automation and scripting
-- Ensures repeatability across environments
-- Mirrors production DevOps workflows
-- Reduces configuration drift
-
-
-## 🔐 Security Considerations
-
-- Root account protected with MFA
-- IAM user used instead of root for daily operations
-- Temporary use of AdministratorAccess for labs
-- Least-privilege policy tested and documented
-- SSH access restricted via key pair authentication
-
-
-## 📏 Scope & Limitations
-
-- Single EC2 instance (no Auto Scaling)
-- No production networking (VPC defaults used)
-- AdministratorAccess used temporarily for learning
-- Not intended for production workloads
-
-
-## 🚫 What This Project Is Not
-
-- Not a production-ready EC2 deployment
-- Not a high-availability architecture
-- Not hardened beyond lab-level security controls
-
-
-## ⏱️ Time Investment
-
-- Setup & configuration: ~1 hour
-- Troubleshooting IAM & CLI issues: ~1 hour
-- Documentation & cleanup: ~1 hour
-
-
-## ♻️ Reproducibility
-
-This lab can be safely repeated at any time using the documented AWS CLI commands.  
-All resources are created explicitly and terminated manually to prevent unintended costs.
-
-
-## 🏁 Final Notes
-This project reflects real-world AWS engineering workflows, including troubleshooting, security enforcement, and cost management. It was intentionally designed to surface and resolve common AWS operational challenges.
-
-
-## 💼 Professional & Interview Relevance
-### Resume Bullet
-Provisioned, monitored, and securely decommissioned AWS EC2 infrastructure using AWS CLI (PowerShell), implementing IAM authentication, SSH access, CloudWatch monitoring, and least-privilege security controls.
-
-### Interview Talking Points
-- Region-specific AMIs
-- IAM permissions vs policies
-- CLI vs Console tradeoffs
-- Cost control strategies
-- Security-first cloud design
-
-
-## 🚀 Future Enhancements
-
-- Auto Scaling Group (ASG)
-- CloudWatch alarms
-- Terraform implementation
-- GitHub Actions CI/CD
-- AWS Systems Manager Session Manager
-
+**Godwin Etim Akpan**  
+Big Data • Cloud Computing • GIS • Cybersecurity
