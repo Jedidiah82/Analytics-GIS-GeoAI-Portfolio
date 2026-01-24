@@ -18,6 +18,8 @@ Rather than relying on the AWS Management Console, all resources were **created,
 
 The project emphasizes **practical cloud fundamentals**, including IAM permissions, key-based SSH access, EC2 lifecycle management, CloudWatch monitoring, and safe resource cleanup.
 
+Detailed CLI commands and execution notes are documented in docs/command-reference.md.
+
 ---
 
 ## Project Focus
@@ -39,7 +41,7 @@ The project emphasizes **practical cloud fundamentals**, including IAM permissio
 | Amazon EC2 | Compute resources |
 | AWS IAM | Identity and access management |
 | Amazon CloudWatch | Monitoring and metrics |
-| Amazon Linux 2 AMI | Instance operating system |
+| Amazon Linux 2023 AMI | Instance operating system |
 | SSH | Secure remote access |
 
 ---
@@ -48,16 +50,16 @@ The project emphasizes **practical cloud fundamentals**, including IAM permissio
 
 ```text
 IAM User
-   |
-AWS CLI
-   |
+   ↓
+AWS CLI (PowerShell)
+   ↓
 EC2 API
-   |
-EC2 Instance
-   |
+   ↓
+EC2 Instance (Amazon Linux)
+   ↓
 SSH Access
-   |
-CloudWatch Metrics
+   ↓
+CloudWatch Metrics & Alarms
 ```
 
 ---
@@ -99,10 +101,14 @@ These decisions prioritize clarity, reproducibility, and operational discipline.
 
 ### EC2 Provisioning
 
-- Selected a region-specific Amazon Linux 2 AMI  
+- - Selected a region-specific Amazon Linux 2023 AMI (modern, security-focused default)
 - Created and associated an SSH key pair  
 - Launched an EC2 instance using CLI commands  
 - Verified instance state and metadata  
+
+![EC2 instance running](screenshots/ec2-running.png)
+
+_EC2 launch confirmation showing successful initialization and security group creation._
 
 ### Secure Access (SSH)
 
@@ -110,17 +116,31 @@ These decisions prioritize clarity, reproducibility, and operational discipline.
 - Validated security group rules and connectivity  
 - Confirmed successful remote access  
 
+![Secure SSH access and system verification](screenshots/ssh-access.png)
+
+_Successful SSH connection using key-based authentication, followed by Linux system verification on Amazon Linux 2023._
+
 ### Monitoring & Observability
 
-- Retrieved instance metrics using Amazon CloudWatch  
-- Observed CPU utilization and instance health  
-- Validated metric availability after instance launch  
+Instance-level monitoring and alerting were configured using the AWS CLI.
+
+- Verified that EC2 detailed monitoring was enabled
+- Created a CloudWatch alarm for high CPU utilization
+- Validated alarm configuration and state via CLI
+
+![CloudWatch alarm creation via AWS CLI](screenshots/cloudwatch-alarm-cli.png)
+
+![CloudWatch alarm configuration and state details](screenshots/cloudwatch-alarm-details-cli.png)
+
+*CloudWatch CPU utilization alarm created, configured, and validated using AWS CLI, demonstrating automation-first observability and alerting.*
 
 ### Resource Cleanup
 
 - Terminated the EC2 instance via the AWS CLI  
 - Verified termination state  
-- Ensured no lingering compute resources remained  
+- Ensured no lingering compute resources remained
+
+This step reinforces AWS cost governance and responsible cloud usage. 
 
 ---
 
@@ -134,6 +154,22 @@ During execution, AWS security controls behaved as expected:
 - Terminating EC2 instances did not affect IAM users or policies  
 
 These observations reinforced AWS’s **separation of identity, compute, and billing domains**.
+
+### IAM Configuration
+
+IAM users and permissions were configured explicitly to separate identity management
+from compute resources. Temporary broad permissions were applied for learning purposes
+and later restricted to observe least-privilege enforcement. MFA was temporarily disabled for lab demonstration purposes. In production environments, MFA is enforced for all IAM users.
+
+![IAM user and attached permissions](screenshots/iam-user-permissions.png)
+
+*IAM user configuration showing attached policies and separation from the root account.*
+
+## Security Considerations
+
+All screenshots have been sanitized to remove sensitive identifiers such as
+AWS account IDs, instance IDs, public IP addresses, and SSH fingerprints.
+MFA and least-privilege IAM practices are enforced in production environments.
 
 ---
 
@@ -162,7 +198,9 @@ aws-ec2-cli-infrastructure-project/
 ├── screenshots/
 │   ├── ec2-running.png
 │   ├── ssh-access.png
-│   └── cloudwatch-metrics.png
+|   ├── iam-user-permissions.png
+|   ├── cloudwatch-alarm-cli.png
+│   └── cloudwatch-alarm-details-cli.png
 └── docs/
     └── command-reference.md
 ```
