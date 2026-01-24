@@ -1,233 +1,244 @@
-# ☁️ Google Cloud Datastore + Cloud Shell Lab  
-**Serverless NoSQL • Cloud Shell • IAM • Cloud Data Services**
+# ☁️ Google App Engine Guestbook Application
 
-![GCP](https://img.shields.io/badge/Google%20Cloud-Datastore-blue)
-![CloudShell](https://img.shields.io/badge/Cloud-Shell-success)
-![NoSQL](https://img.shields.io/badge/NoSQL-Serverless-orange)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![GCP](https://img.shields.io/badge/Google%20Cloud-App%20Engine-blue)
+![Python](https://img.shields.io/badge/Python-3.10-green)
+![Firestore](https://img.shields.io/badge/Firestore-Datastore%20Mode-orange)
+![Flask](https://img.shields.io/badge/Framework-Flask-lightgrey)
+![Status](https://img.shields.io/badge/Status-Deployed-success)
 
----
-
-## 🚀 Project Overview
-
-This lab demonstrates hands-on experience using **Google Cloud Datastore (Firestore in Datastore Mode)** with **Cloud Shell** to:
-
-- Create and manage NoSQL entities  
-- Perform cloud-based data operations  
-- Use serverless data storage  
-- Apply IAM access controls  
-- Query and manage data via the GCP Console  
-
-The lab reflects **modern, cloud-native database usage** without managing servers, VMs, or infrastructure.
+**Serverless Python App • App Engine (PaaS) • Firestore (Datastore Mode) • Cloud Shell**
 
 ---
 
-## 🎯 Objectives
+## 📌 Project Overview
 
-- Access Google Cloud Shell  
-- Navigate Google Cloud Console  
-- Use Datastore Studio  
-- Create and query entities  
-- Understand NoSQL data modeling  
-- Apply IAM-based access  
-- Explore cloud-managed data services  
+This project demonstrates **end-to-end deployment of a cloud-native Python Guestbook application** using **Google App Engine (Standard Environment)** with **Firestore in Datastore Mode** as a managed NoSQL backend.
+
+The lab covers the full lifecycle of a modern cloud application:
+
+- Local execution in **Google Cloud Shell**
+- Frontend–backend integration using **Flask**
+- Persistent data storage using **Cloud Datastore**
+- Serverless deployment to **Google App Engine (PaaS)**
+- Real-world cloud troubleshooting and modernization, including runtime deprecations and datastore initialization errors
+
+No virtual machines or servers were managed directly, highlighting **platform-as-a-service (PaaS)** and **serverless architecture principles**.
+
+---
+
+## 🎯 Lab Objectives
+
+- Create and configure a new Google Cloud project
+- Execute a Python Flask application locally in Cloud Shell
+- Initialize Firestore in Datastore Mode
+- Persist and retrieve user messages via a NoSQL backend
+- Deploy a production-ready application to Google App Engine
+- Validate application behavior via web UI and Datastore Studio
+- Diagnose and resolve runtime, dependency, and deployment errors
 
 ---
 
 ## 🛠️ Tools & Environment
 
 | Component | Purpose |
-|----------|---------|
-| Google Cloud Console | Cloud management |
-| Cloud Shell | CLI-based interaction |
-| Datastore Studio | NoSQL database UI |
-| Firestore (Datastore Mode) | Serverless NoSQL DB |
-| IAM | Access control |
-| Web UI | Entity management |
+|---------|--------|
+| Google Cloud Platform | Cloud infrastructure & services |
+| Cloud Shell | Linux-based development environment |
+| Flask | Python web framework |
+| Firestore (Datastore Mode) | Serverless NoSQL database |
+| Google App Engine | PaaS application hosting |
+| gcloud CLI | Deployment & project management |
+| Git | Source code management |
 
 ---
 
 ## 🏗️ Architecture Overview
 
-```text
-User
-  |
-  | Browser / Cloud Shell
-  |
-Google Cloud Console
-  |
-Datastore Studio
-  |
-Firestore (Datastore Mode)
-  |
-Serverless Storage Layer
+```mermaid
+flowchart LR
+    A[User Browser] -->|HTTP Requests| B[Google App Engine<br/>(Python 3 Runtime)]
+    B -->|Datastore Client API| C[Firestore<br/>(Datastore Mode)]
+    C -->|Managed Storage| D[Serverless Persistence Layer]
 ```
 
 ---
 
 ## 🧪 Lab Implementation
 
-### 1️⃣ Access Cloud Shell
+### 1️⃣ Project Creation & Cloud Shell Setup
 
-- Opened Google Cloud Console  
-- Launched Cloud Shell  
-- Verified project context  
+- Logged into Google Cloud Console
+- Created project: `guestbook-lab-godwin-akpan`
+- Launched Cloud Shell (preconfigured Linux container)
+- Verified active project context
 
 ```bash
 gcloud config list
 ```
 
-📸 *Screenshot: Cloud Shell Environment*
+---
+
+### 2️⃣ Cloning the Guestbook Application
+
+```bash
+git clone https://github.com/GoogleCloudPlatform/python-docs-samples --depth=1
+cd python-docs-samples/appengine/standard/guestbook
+```
+
+**Observation**
+- Legacy Python 2 App Engine samples were deprecated  
+- Required migration to Python 3 + Flask  
+- Demonstrated ability to recognize and adapt outdated cloud examples  
 
 ---
 
-### 2️⃣ Access Datastore Studio
+### 3️⃣ Installing Dependencies
 
-- Navigated to Datastore > Entities
-- Selected default database
-- Viewed existing entities
+```bash
+pip install -r requirements.txt
+```
 
-📸 *Screenshot: Datastore Studio Interface*
-
----
-
-### 3️⃣ Create NoSQL Entities
-
-- Created a Greeting kind
-- Added properties (e.g., message, author, timestamp)
-- Saved entries to Datastore
-
-📸 *Screenshot: Entity Creation*
-
+- Dependency version warnings observed (e.g., protobuf, grpc)
+- Application executed successfully despite shared Cloud Shell environment constraints
 
 ---
 
-### 4️⃣ Query Entities
+### 4️⃣ Running the Application Locally
 
-- Filtered entities by kind
-- Viewed property values
-- Verified data persistence
+```bash
+python3 main.py
+```
 
-📸 *Screenshot: Query Results*
+- Application launched on http://127.0.0.1:8080
+- Accessed via Cloud Shell Web Preview
+- Successfully submitted guestbook messages
+- Verified frontend–backend communication
 
 ---
 
-### 5️⃣ IAM & Access Control
+### 5️⃣ Configuring Firestore (Datastore Mode)
 
-- Reviewed project IAM roles
-- Confirmed access permissions
-- Understood principle of least privilege
+- Navigated to Datastore setup  
+- Enabled Firestore in Datastore Mode  
+- Multi-region: `nam5`  
+- Open rules (testing environment)  
 
-📸 *Screenshot: IAM Configuration*
+This resolved initial datastore access errors.
+
+---
+
+### 6️⃣ Submitting & Displaying Messages
+
+- Submitted message: **“Hello from Godwin Akpan!”**  
+- Message immediately rendered on the Guestbook UI  
+- Confirmed correct request handling and backend persistence  
+
+---
+
+### 7️⃣ Verifying Data in Datastore Studio
+
+- Opened Datastore Studio  
+- Queried kind: `Greeting`  
+- Verified stored entity and message value  
+
+---
+
+### 8️⃣ Troubleshooting & Cloud Modernization
+
+#### 🔴 Issue 1: Python 2 Runtime Deprecation
+
+**Error**
+```text
+Runtime python27 is end of support
+```
+
+**Resolution**
+- Migrated to Python 3.10 App Engine runtime  
+- Updated `app.yaml`:
+
+```yaml
+runtime: python310
+entrypoint: gunicorn -b :$PORT main:app
+```
+
+---
+
+#### 🔴 Issue 2: Datastore Not Initialized
+
+**Error**
+```text
+404 The database (default) does not exist
+```
+
+**Resolution**
+- Enabled Firestore in Datastore Mode via GCP Console
+
+---
+
+#### 🔴 Issue 3: Deprecated Python Modules
+
+**Error**
+```text
+ModuleNotFoundError: No module named 'cStringIO'
+```
+
+**Resolution**
+- Replaced legacy Python 2 code with Flask-based Python 3 implementation  
+
+---
+
+### 9️⃣ Deploying to Google App Engine
+
+```bash
+gcloud app create --region=us-central
+gcloud app deploy
+gcloud app browse
+```
+
+**Deployment URL**
+```text
+https://guestbook-lab-godwin-akpan.uc.r.appspot.com
+```
 
 ---
 
 ## 📊 Results
 
-- Serverless NoSQL database accessed
-- Entities created successfully
-- Data persisted in Datastore
-- Queries executed via UI
-- Cloud Shell environment verified
+- Flask application executed locally and in production  
+- Messages persisted in Firestore (Datastore Mode)  
+- Serverless App Engine deployment successful  
+- Datastore reads/writes verified  
+- Cloud errors diagnosed and resolved  
 
 ---
 
-## 🔍 Key Learnings
+## 📸 Screenshots
 
-- Google Datastore is fully managed and serverless
-- NoSQL schemas are flexible
-- Cloud Shell enables fast cloud access
-- IAM controls data access
-- Web UI simplifies data management
+<p align="center">
+  <img src="screenshots/cloud-shell.png" width="45%" />
+  <img src="screenshots/guestbook-ui.png" width="45%" />
+</p>
 
----
+<p align="center">
+  <img src="screenshots/datastore-entity.png" width="45%" />
+  <img src="screenshots/deployment-logs.png" width="45%" />
+</p>
 
-## 🧠 Cloud Data Skills Demonstrated
-
-- NoSQL data modeling
-- Cloud-based database management
-- IAM access control
-- Cloud Shell usage
-- Serverless architecture understanding
-- Data query validation
-
----
-
-## 🔐 Security & Governance Context
-
-| Principle | Relevance |
-|----------|-----------|
-| Access Control | IAM roles |
-| Data Integrity | Managed persistence |
-| Auditability | Activity logs |
-| Least Privilege | Role-based access |
-| Governance | Cloud-managed policies |
+**Screenshots shown:**
+- Cloud Shell running Flask application  
+- Guestbook web UI with submitted message  
+- Datastore Studio showing stored entity  
+- App Engine deployment logs  
 
 ---
 
-## 📁 Repository Structure
+## 💼 Resume Bullet (Cloud-Optimized)
 
-```text
-google-cloud-datastore-lab/
-├── README.md
-├── screenshots/
-│   ├── cloud-shell.png
-│   ├── datastore-ui.png
-│   ├── entity-create.png
-│   ├── query-results.png
-│   └── iam.png
-└── docs/
-    └── lab-notes.pdf
-```
-
----
-
-## 💼 Resume Bullet
-
-**Used Google Cloud Datastore and Cloud Shell** to create, manage, and query NoSQL entities in a serverless environment, demonstrating cloud data services, IAM access control, and cloud-native database management skills.
-
----
-
-## 🚫 Scope & Limitations
-
-- UI-based operations  
-- No API-based automation  
-- No large-scale datasets  
-- Educational environment  
-
----
-
-## 🔮 Future Enhancements
-
-- Datastore API usage  
-- Cloud Functions integration  
-- Firestore native mode  
-- REST-based queries  
-- Terraform provisioning  
-
----
-
-## 🎯 Why This Lab Matters
-
-This project demonstrates:
-
-- Multi-cloud data platform exposure  
-- Serverless database usage  
-- IAM governance awareness  
-- Cloud-native workflows  
-- Practical GCP experience  
-
-It aligns with roles such as:
-
-- Cloud Engineer  
-- Data Engineer  
-- Platform Engineer  
-- Cloud Security Analyst  
-- Solutions Architect  
+> Deployed a Python Flask Guestbook application to **Google App Engine (PaaS)** using **Firestore in Datastore Mode**, demonstrating serverless application hosting, NoSQL persistence, Cloud Shell development, IAM-aware access, and cloud troubleshooting across runtime deprecations and deployment errors.
 
 ---
 
 ## 👤 Author
 
 **Godwin Etim Akpan**  
-GIS | Big Data | Cybersecurity | Cloud Computing  
+GIS • Big Data • Cybersecurity • Cloud Computing
