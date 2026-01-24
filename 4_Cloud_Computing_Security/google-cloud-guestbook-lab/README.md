@@ -232,12 +232,6 @@ https://guestbook-lab-godwin-akpan.uc.r.appspot.com
 
 ---
 
-## 💼 Resume Bullet (Cloud-Optimized)
-
-> Deployed a Python Flask Guestbook application to **Google App Engine (PaaS)** using **Firestore in Datastore Mode**, demonstrating serverless application hosting, NoSQL persistence, Cloud Shell development, IAM-aware access, and cloud troubleshooting across runtime deprecations and deployment errors.
-
----
-
 ## 👤 Author
 
 **Godwin Etim Akpan**  
