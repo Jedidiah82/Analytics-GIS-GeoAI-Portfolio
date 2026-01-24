@@ -84,8 +84,6 @@ hdfs dfs -mkdir /input
 hdfs dfs -put data.txt /input
 ```
 
-📸 *Screenshot: HDFS File Upload*
-
 ---
 
 ### 2️⃣ MapReduce Job Execution
@@ -98,8 +96,6 @@ hdfs dfs -put data.txt /input
 hadoop jar hadoop-mapreduce-examples.jar wordcount /input /output
 ```
 
-📸 *Screenshot: Job Execution*
-
 ---
 
 ### 3️⃣ Output Analysis
@@ -108,8 +104,6 @@ hadoop jar hadoop-mapreduce-examples.jar wordcount /input /output
 - Verified word counts
 - Interpreted output
 - hdfs dfs -cat /output/part-r-00000
-
-📸 *Screenshot: Output Results*
 
 ---
 
