@@ -117,7 +117,6 @@ hadoop jar hadoop-mapreduce-examples.jar wordcount /input /output
 ---
 
 ## 📸 Screenshots
-
 *Evidence of Hadoop MapReduce execution in a single-node cluster (Cloudera QuickStart – CDH 5.12).*
 
 ### Hadoop Services & Cluster Status
