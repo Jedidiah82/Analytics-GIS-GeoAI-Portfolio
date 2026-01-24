@@ -56,8 +56,8 @@ No virtual machines or servers were managed directly, highlighting **platform-as
 
 ```mermaid
 flowchart LR
-    A[User Browser] -->|HTTP Requests| B[Google App Engine<br/>(Python 3 Runtime)]
-    B -->|Datastore Client API| C[Firestore<br/>(Datastore Mode)]
+    A[User Browser] -->|HTTP Requests| B["Google App Engine<br/>(Python 3 Runtime)"]
+    B -->|Datastore Client API| C["Firestore<br/>(Datastore Mode)"]
     C -->|Managed Storage| D[Serverless Persistence Layer]
 ```
 
