@@ -1,240 +1,202 @@
-# ☁️ CloudSim Performance Simulation Lab  
-**Cloud Modeling • Resource Allocation • Performance Evaluation**
+# ☁️ CloudSim Scheduling Algorithms – Cloud Performance Simulation Project  
+**Custom Scheduling • Performance Analysis • Cloud Systems Modeling**
 
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![CloudSim](https://img.shields.io/badge/CloudSim-Simulation-blue)
 ![Java](https://img.shields.io/badge/Java-Modeling-orange)
-![Cloud](https://img.shields.io/badge/Cloud-Performance%20Analysis-success)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Cloud](https://img.shields.io/badge/Cloud-Systems%20Modeling-success)
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
-This lab demonstrates the use of **CloudSim**, a cloud computing simulation framework, to model and evaluate:
+This project examines **task scheduling behaviour in cloud computing environments** using **CloudSim**, a widely adopted cloud simulation framework used in research and industry-facing performance studies.
 
-- Virtual machine (VM) allocation  
-- Cloudlet (task) scheduling  
-- Data center performance  
-- Resource utilization  
-- Cloud infrastructure efficiency  
+The work focuses on **implementing and evaluating custom cloudlet scheduling algorithms** to understand how scheduling decisions influence **execution order, waiting time, and turnaround time** under controlled conditions.
 
-Instead of deploying real cloud resources, **CloudSim allows controlled experimentation** to analyze how cloud systems behave under different workloads and configurations.
-
-This is widely used in **cloud research, performance engineering, and academic studies**.
+The project builds on academic cloud computing foundations and extends them through **independent implementation, analysis, and interpretation**, with an emphasis on clarity, reproducibility, and practical insight rather than coursework-style demonstration.
 
 ---
 
-## 🎯 Objectives
+## Project Focus
 
-- Simulate cloud data center environments  
-- Configure hosts, VMs, and cloudlets  
-- Evaluate task execution performance  
-- Compare scheduling and allocation policies  
-- Analyze response time and resource usage  
-- Understand cloud scalability behavior  
-
----
-
-## 🛠️ Tools & Environment
-
-| Component | Purpose |
-|----------|---------|
-| CloudSim | Cloud simulation framework |
-| Java | Simulation programming |
-| Eclipse / IntelliJ | Development IDE |
-| JVM | Execution environment |
-| CSV / Logs | Output analysis |
+- Model cloud execution workflows using simulation  
+- Implement and evaluate **custom cloudlet scheduling algorithms**  
+- Compare execution behaviour under **identical workloads**  
+- Analyse scheduling outcomes using **reproducible metrics**  
+- Translate scheduling theory into **practical systems insight**  
 
 ---
 
-## 🏗️ Simulation Architecture
+## Context & Motivation
+
+Scheduling decisions play a critical role in cloud and distributed systems, directly influencing:
+
+- **Throughput**  
+- **Latency**  
+- **Fairness**  
+- **Resource utilisation**  
+
+While commercial cloud platforms rely on complex and proprietary schedulers, **foundational algorithms** such as:
+
+- First-Come, First-Served (FCFS)  
+- Shortest Job First (SJF)  
+- Priority Scheduling  
+
+remain essential for understanding how scheduling policies behave under different workload conditions.
+
+This project uses **CloudSim** to isolate scheduler behaviour in a **transparent and repeatable environment**, allowing clear observation of cause-and-effect relationships without infrastructure noise.
+
+---
+
+## Tools & Environment
+
+- **CloudSim** – Discrete-event cloud simulation toolkit  
+- **Java** – Scheduler and simulation logic  
+- **Eclipse IDE** – Development environment  
+- **CSV outputs** – Structured performance metrics  
+- **Python** – Post-simulation analysis  
+
+---
+
+## Conceptual Architecture
 
 ```text
-User Workload
-   |
-Cloudlets (Tasks)
-   |
-VMs (Virtual Machines)
-   |
-Hosts (Physical Servers)
-   |
-Datacenter
-   |
-CloudSim Simulation Engine
+User / Broker
+     |
+ Cloudlets (Tasks)
+     |
+ Virtual Machine
+     |
+ Cloudlet Scheduler
+     |
+ Host
+     |
+ Datacenter
+     |
+ CloudSim Engine
 ```
 
----
-
-## 🧪 Lab Implementation
-
-### 1️⃣ Datacenter Configuration
-
-- Defined physical hosts (CPU, RAM, storage, bandwidth)  
-- Configured processing elements (PEs)  
-- Established resource capacities  
-
-📸 *Screenshot: Datacenter Configuration Code*
+This simplified execution pipeline reflects core cloud scheduling concepts while keeping the analysis focused on scheduler behaviour rather than infrastructure complexity.
 
 ---
 
-### 2️⃣ Virtual Machine (VM) Setup
+## Scheduling Algorithms Implemented
 
-Created VMs with:
+This project implements **custom `CloudletScheduler` classes** that are **not provided by default in CloudSim**, enabling controlled evaluation of foundational scheduling strategies.
 
-- CPU cores  
-- RAM  
-- Bandwidth  
+### First-Come, First-Served (FCFS)
 
-Assigned scheduling policies.
+- Executes tasks strictly in order of arrival
+- Serves as a deterministic baseline for comparison
 
-📸 *Screenshot: VM Configuration*
+### Shortest Job First (SJF)
 
----
+- Prioritises tasks with shorter execution lengths
+- Reduces average waiting time under **heterogeneous workloads**
 
-### 3️⃣ Cloudlet (Task) Creation
+### Priority Scheduling
 
-- Defined computational workloads  
-- Assigned instruction lengths  
-- Mapped tasks to VMs  
+- Executes tasks based on assigned priority values
+- Reflects service differentiation strategies used in practice
 
-📸 *Screenshot: Cloudlet Setup*
-
----
-
-### 4️⃣ Scheduling Policies
-
-Tested:
-
-- Time-shared scheduling  
-- Space-shared scheduling  
-
-Compared execution efficiency.
-
-📸 *Screenshot: Scheduling Configuration*
+Each scheduler was evaluated using **identical workloads** to ensure a fair and controlled comparison.
 
 ---
 
-### 5️⃣ Simulation Execution
+## Simulation Design
 
-- Started CloudSim engine  
-- Monitored execution logs  
-- Captured performance metrics  
+The simulation environment was intentionally kept simple to isolate scheduler behaviour.
 
-📸 *Screenshot: Simulation Output*
+- Single datacenter and single host
+- One virtual machine
+- Space-shared execution model
+- Ten homogeneous cloudlets
+- Equal computational length per cloudlet
 
----
-
-## 📊 Results
-
-- ✅ Tasks executed successfully  
-- ✅ VM utilization measured  
-- ✅ Scheduling behavior observed  
-- ✅ Performance metrics collected  
-- ✅ Simulation reproducible  
+This design removes confounding variables, allowing differences in **scheduler behaviour**, rather than resource variation, to be observed.
 
 ---
 
-## 🔍 Key Learnings
+## Results Summary
 
-- CloudSim enables cost-free performance testing  
-- Scheduling policies impact execution time  
-- VM sizing affects throughput  
-- Cloud modeling helps predict real-world behavior  
-- Simulation supports research and optimization  
-
----
-
-## 🧠 Cloud Engineering Skills Demonstrated
-
-- Cloud architecture modeling  
-- Resource allocation analysis  
-- Performance benchmarking  
-- Scheduling policy evaluation  
-- Infrastructure simulation  
-- Data interpretation  
+| Scheduler | Avg Waiting Time | Avg Turnaround Time | Avg Finish Time |
+|----------|------------------:|--------------------:|----------------:|
+| FCFS     | 1800.0            | 400.0               | 4000.1          |
+| SJF      | 1800.0            | 400.0               | 4000.1          |
+| Priority | 1800.0            | 400.0               | 4000.1          |
 
 ---
 
-## 🔐 Security & Governance Context
+## Key Insights
 
-While CloudSim is a simulation tool, this lab supports:
+- When workloads are **homogeneous**, scheduling algorithms converge in performance
+- **SJF behaves like FCFS** when task lengths are identical
+- **Priority scheduling changes execution order**, not total execution time
+- Performance differences emerge primarily under **heterogeneous workloads**
 
-| Principle | Relevance |
-|----------|-----------|
-| Capacity Planning | Prevents over-provisioning |
-| Resilience Testing | Identifies bottlenecks |
-| Risk Reduction | Avoids misconfiguration |
-| Cost Optimization | Predicts resource needs |
+These observations reinforce established scheduling theory and provide intuition applicable to real cloud and batch-processing systems.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
-cloudsim-performance-lab/
+cloudsim-scheduling-project/
 ├── README.md
 ├── src/
-│   └── CloudSimSimulation.java
+│   ├── FCFSCloudletScheduler.java
+│   ├── SJFCloudletScheduler.java
+│   ├── PriorityCloudletScheduler.java
+│   └── SchedulerComparison.java
 ├── results/
-│   ├── output.log
-│   └── metrics.csv
+│   ├── fcfs.csv
+│   ├── sjf.csv
+│   └── priority.csv
 ├── screenshots/
-│   ├── datacenter.png
-│   ├── vm-config.png
-│   ├── cloudlets.png
-│   └── results.png
+│   └── eclipse-execution.png
 └── docs/
     └── analysis-report.pdf
 ```
 
 ---
 
-## 💼 Resume Bullet
+## Practical Relevance
 
-**Simulated cloud infrastructure performance using CloudSim (Java)** by modeling data centers, virtual machines, and workloads to evaluate scheduling policies, resource utilization, and execution efficiency.
+Although CloudSim is a simulation tool, the concepts demonstrated here translate directly to:
 
----
+- Cloud workload scheduling
+- Batch and queue-based processing systems
+- Distributed computing platforms
+- Container orchestration principles
+- Performance benchmarking workflows
 
-## 🚫 Scope & Limitations
-
-- Simulation environment (not real cloud)  
-- No real network latency  
-- No security attack modeling  
-- Academic workload models  
-
----
-
-## 🔮 Future Enhancements
-
-- Energy consumption modeling  
-- Multi-datacenter simulation  
-- SLA violation analysis  
-- Fault tolerance scenarios  
-- Hybrid cloud simulation  
+The project builds foundational understanding relevant to **AWS, Azure, GCP, Kubernetes, and HPC environments**.
 
 ---
 
-## 🎯 Why This Lab Matters
+## Scope and Constraints
 
-This project demonstrates:
+- Simulation-based (no real cloud deployment)
+- Single VM and host
+- No network latency modelling
+- No energy or cost optimisation
 
-- Cloud engineering research skills  
-- Performance optimization understanding  
-- Infrastructure modeling capability  
-- Analytical thinking  
-- System design evaluation  
-
-It aligns with roles such as:
-
-- Cloud Engineer  
-- Performance Engineer  
-- Cloud Architect  
-- Research Engineer  
-- Infrastructure Analyst  
+These constraints were intentional to preserve analytical clarity.
 
 ---
 
-## 👤 Author
+## Future Directions
+
+- Heterogeneous task workloads
+- Multi-VM and multi-host scenarios
+- Time-shared execution models
+- Energy-aware scheduling
+- Adaptive or ML-based schedulers
+
+---
+
+## Author
 
 **Godwin Etim Akpan**  
-GIS | Big Data | Cybersecurity | Cloud Computing  
+Big Data • Cloud Computing • GIS • Cybersecurity
