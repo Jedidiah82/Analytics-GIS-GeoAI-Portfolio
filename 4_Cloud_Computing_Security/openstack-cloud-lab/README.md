@@ -9,7 +9,7 @@
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This lab demonstrates hands-on experience deploying and managing **virtual machines (VMs)** and **cloud networking** in a **private OpenStack environment**.
 
@@ -25,7 +25,7 @@ This mirrors how **enterprise and research private clouds** are built outside of
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Create a private cloud network  
 - Configure subnets and routing  
@@ -37,7 +37,7 @@ This mirrors how **enterprise and research private clouds** are built outside of
 
 ---
 
-## 🛠️ Tools & Environment
+## Tools & Environment
 
 | Component | Purpose |
 |----------|---------|
@@ -52,7 +52,7 @@ This mirrors how **enterprise and research private clouds** are built outside of
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```text
 User
@@ -74,7 +74,7 @@ OpenStack Control Plane
 
 ---
 
-## 🔐 Security Design
+## Security Design
 
 | Control | Implementation |
 |--------|----------------|
@@ -86,7 +86,7 @@ OpenStack Control Plane
 
 ---
 
-## 🧪 Lab Implementation
+## Lab Implementation
 
 ### 1️⃣ Network Creation
 
@@ -150,7 +150,7 @@ ssh -i openstack-key.pem ubuntu@<floating-ip>
 
 ---
 
-### ✅ Verification
+### Verification
 
 The following were successfully verified:
 
@@ -162,17 +162,17 @@ The following were successfully verified:
 
 ---
 
-## 📊 Results
+## Results
 
-- ✅ VM successfully deployed  
-- ✅ Secure SSH access achieved  
-- ✅ Network routing functional  
-- ✅ Firewall rules enforced  
-- ✅ Private cloud isolation confirmed  
+- VM successfully deployed  
+- Secure SSH access achieved  
+- Network routing functional  
+- Firewall rules enforced  
+- Private cloud isolation confirmed  
 
 ---
 
-## 🔍 Key Learnings
+## Key Learnings
 
 - OpenStack mirrors enterprise private cloud design  
 - Networking configuration is more explicit than AWS/Azure  
@@ -182,7 +182,7 @@ The following were successfully verified:
 
 ---
 
-## 🧠 Cloud Architecture Skills Demonstrated
+## Cloud Architecture Skills Demonstrated
 
 - Virtual networking  
 - Compute provisioning  
@@ -193,7 +193,7 @@ The following were successfully verified:
 
 ---
 
-## 🔐 Security Framework Alignment (NIST CSF)
+## Security Framework Alignment (NIST CSF)
 
 | Function | Applied |
 |---------|--------|
@@ -205,7 +205,7 @@ The following were successfully verified:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 openstack-cloud-lab/
@@ -224,13 +224,7 @@ openstack-cloud-lab/
 
 ---
 
-## 💼 Resume Bullet
-
-**Deployed and secured virtual machines in a private OpenStack cloud environment** by configuring tenant networks, subnets, routers, security groups, and SSH-based access, demonstrating cloud infrastructure and network security fundamentals.
-
----
-
-## 🚫 Scope & Limitations
+## Scope & Limitations
 
 - Lab environment (not production)  
 - No high availability  
@@ -239,7 +233,7 @@ openstack-cloud-lab/
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - OpenStack CLI automation  
 - Terraform integration  
@@ -249,7 +243,7 @@ openstack-cloud-lab/
 
 ---
 
-## 🎯 Why This Lab Matters
+## Why This Lab Matters
 
 This project demonstrates:
 
