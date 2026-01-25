@@ -179,26 +179,16 @@ Chinese restaurants rank **mid-level among 78 categories**, suggesting that whil
 
 *Figure 8. Original K-Means clustering of Toronto neighborhoods using Foursquare venue data (IBM Capstone project).*
 
-This interactive map represents the **original analytical outcome** of the project, generated using the Foursquare Places API prior to its deprecation.
+This map represents the **original analytical outcome** of the project, generated using the Foursquare Places API prior to its deprecation.
 
-- Five distinct neighborhood clusters
-- Orange cluster highlights areas with high Chinese restaurant density
-- Spatial patterns align with venue composition and density analyses
+- Five distinct neighborhood clusters  
+- Orange cluster highlights areas with high Chinese restaurant density  
+- Spatial patterns align with venue composition and density analyses  
 - Serves as the **primary basis for business conclusions**
 
-📍 **Interactive version:**  
-[`toronto_cluster_map.html`](toronto_cluster_map.html)
+> *The original interactive map was generated during the IBM Capstone project when the Foursquare API was available.*
 
 ---
-
-![Toronto Clustering Map Preview](figures/toronto_cluster_map_preview.png)
-
-📍 **Open interactive map:**  
-[View full interactive map (HTML)](toronto_cluster_map.html)
-
-📍 **Interactive map (GitHub Pages):**  
-👉 https://<username>.github.io/location-intelligence-toronto/toronto_cluster_map.html
-
 
 #### Synthetic Clustering Map — Reproducibility Demonstration
 
@@ -206,21 +196,26 @@ This interactive map represents the **original analytical outcome** of the proje
 
 *Figure 9. Reproduced K-Means clustering using a synthetic venue dataset with identical schema.*
 
+📍 **Interactive map (GitHub Pages):**  
+👉 https://YOUR_USERNAME.github.io/location-intelligence-toronto/toronto_cluster_map.html
+
+> *Note: GitHub does not render interactive HTML maps directly inside README previews.*
+
 To ensure **long-term reproducibility**, a synthetic venue dataset was generated with:
-- identical category structure
-- similar spatial distribution
-- preserved clustering behavior
+- identical category structure  
+- similar spatial distribution  
+- preserved clustering behavior  
 
 This map demonstrates that:
-- clustering logic remains stable
-- spatial insights are consistent
-- conclusions do not depend on live API access
+- clustering logic remains stable  
+- spatial insights are consistent  
+- conclusions do not depend on live API access  
 
 ---
 
 ### Interpretation Consistency
 
-Both the original and synthetic clustering maps produce **consistent spatial patterns**, reinforcing the validity of the analytical approach and confirming that business insights are **methodology-driven**, not API-dependent.
+Both the original and synthetic clustering maps produce **consistent spatial patterns**, confirming that the project’s insights are **methodology-driven rather than API-dependent**.
 
 ---
 
