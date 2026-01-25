@@ -4,7 +4,7 @@ Peer-reviewed publications and manuscripts-in-progress covering infectious disea
 
 ---
 
-## 🧪 Included Projects
+## Included Projects
 
 ### **1. COVID-19 Reinfection in Liberia — PLOS ONE**
 - National reinfection patterns  
@@ -23,7 +23,7 @@ Peer-reviewed publications and manuscripts-in-progress covering infectious disea
 
 ---
 
-## 📚 Publications Access & Hosting
+## Publications Access & Hosting
 
 The majority of my peer-reviewed publications and manuscripts-in-progress  
 are hosted on ResearchGate due to journal policies and collaboration agreements.
@@ -33,7 +33,7 @@ https://www.researchgate.net/profile/Godwin-Akpan-5
 
 ---
 
-## 📁 Repository Purpose
+## Repository Purpose
 
 This GitHub repository serves as a complementary technical and reproducibility space for:
 - Methods summaries  
