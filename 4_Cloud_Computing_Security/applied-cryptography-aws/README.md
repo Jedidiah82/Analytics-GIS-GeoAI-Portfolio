@@ -194,7 +194,6 @@ Encrypted Session (AES)
   ↓
 AWS API Endpoint
 ```
-![TLS Flow](diagrams/tls-flow.png)
 
 ### SSH Authentication Flow
 ```text
@@ -204,8 +203,6 @@ SSH Handshake (RSA / ECDSA)
   ↓
 EC2 Instance (Public Key)
 ```
-![SSH Auth Flow](diagrams/ssh-auth-flow.png)
-
 
 ### AWS KMS Envelope Encryption
 ```text
@@ -217,8 +214,6 @@ Encrypted by CMK (KMS)
   ↓
 Encrypted Data Stored
 ```
-![KMS Envelope Encryption](diagrams/kms-envelope-encryption.png)
-
 
 ## Extended Lab: AWS KMS + Encrypted S3 (Optional)
 ### Create Encrypted S3 Bucket
