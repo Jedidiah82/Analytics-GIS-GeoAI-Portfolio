@@ -9,7 +9,7 @@ This section includes **operational GIS + applied epidemiology** analyses used f
 
 ---
 
-## 📂 Projects Overview
+## Projects Overview
 
 | Project | Focus |
 |--------|-------|
@@ -21,7 +21,7 @@ This section includes **operational GIS + applied epidemiology** analyses used f
 
 ---
 
-## 🧰 Each Project Folder Includes
+## Each Project Folder Includes
 - README.md  
 - Methods summary  
 - Documented workflow  
@@ -30,7 +30,7 @@ This section includes **operational GIS + applied epidemiology** analyses used f
 
 ---
 
-## 🌍 Applications
+## Applications
 - Outbreak analytics  
 - Health system readiness  
 - Emergency risk communication  
