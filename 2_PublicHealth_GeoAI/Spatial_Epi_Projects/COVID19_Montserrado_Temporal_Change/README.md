@@ -12,8 +12,8 @@
 ![Client NPHIL](https://img.shields.io/badge/Client-NPHIL-006400)
 ![Partners](https://img.shields.io/badge/Partners-AFENET%20%7C%20WHO%20%7C%20CDC-0057B7)
 
-**Client / Partners:** Liberia Ministry of Health (MoH), NPHIL, AFENET, CDC, WHO  
-**Role:** GIS & Data Specialist — COVID-19 Surveillance Mapping Team  
+**Client / Partners:** Liberia Ministry of Health (MoH), National Public Health Institute of Liberia (NPHIL); AFENET, CDC, WHO   
+**Role:** GIS & Data Specialist — COVID-19 Surveillance & Spatial Analytics Team  
 **Tools:** ArcGIS Pro  
 **Data Source:** National Public Health Institute of Liberia (NPHIL)
 
