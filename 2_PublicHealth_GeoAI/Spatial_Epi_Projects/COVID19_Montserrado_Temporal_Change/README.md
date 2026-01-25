@@ -124,7 +124,7 @@ By early 2023, **new and active cases are minimal**, with recovered cases domina
 
 ## Temporal Progression of COVID-19 Hotspots (2021–2023)
 
-[![COVID-19 Temporal Progression Preview](figures/covid_temporal_preview.png)](figures/covid_temporal_progression.mp4)
+[![Temporal progression preview](figures/covid_temporal_preview.png)](figures/covid_temporal_progression.mp4)
 
 **Figure:** Animated time-series visualization of COVID-19 case density across Montserrado County, Liberia,
 illustrating the transition from peak transmission (June 2021) to post-wave recovery (July 2022) and
