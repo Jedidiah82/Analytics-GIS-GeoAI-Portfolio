@@ -194,7 +194,7 @@ This approach aligns with **WHO and CDC recommendations** for spatially informed
 
 ```mermaid
 flowchart TD
-    A[COVID-19 Case Reporting<br/>(Health Facilities & Labs)] --> B[NPHIL Data Validation]
+    A["COVID-19 Case Reporting<br/>(Health Facilities & Labs)"] --> B[NPHIL Data Validation]
     B --> C[Community-Level Aggregation]
     C --> D[GIS Spatial Analysis]
     D --> E[Hotspot & Density Detection]
