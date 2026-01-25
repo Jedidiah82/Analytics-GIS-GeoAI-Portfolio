@@ -5,7 +5,7 @@
 ![KMeans](https://img.shields.io/badge/ML-KMeans-orange)
 ![Foursquare](https://img.shields.io/badge/API-Foursquare-lightgrey)
 
-## 📌 Overview
+## Overview
 A geo-analytics workflow to identify **optimal locations for Chinese restaurant expansion** across Toronto neighborhoods.
 
 Combines:
@@ -18,19 +18,19 @@ Combines:
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Identify underserved neighborhoods  
 - Map clusters of complementary venues  
 - Provide a reusable geospatial market analysis framework  
 
 ---
 
-## 🛠️ Stack
+## Stack
 `Python` · `pandas` · `BeautifulSoup` · `Geopy` · `Foursquare Places API` · `scikit-learn` · `Folium`  
 
 ---
 
-## 🔬 Workflow Summary
+## Workflow Summary
 
 1. **Scraping**
    - Extract neighborhood names from Wikipedia  
@@ -48,21 +48,39 @@ Combines:
 
 ---
 
-## 🧭 Key Insights
+## Workflow Architecture
+
+```mermaid
+flowchart TD
+    A[Wikipedia<br/>Neighborhood Data] --> B[HTML Parsing<br/>BeautifulSoup]
+    B --> C[Neighborhood Names]
+    C --> D[Geocoding<br/>Latitude & Longitude]
+    D --> E[Foursquare API<br/>500m Radius Search]
+    E --> F[Venue Categories]
+    F --> G[One-Hot Encoding<br/>Venue Density]
+    G --> H[K-Means Clustering<br/>k = 5]
+    H --> I[Cluster Labels]
+    I --> J[Folium Maps<br/>Clusters & Heatmaps]
+    J --> K[Site Selection Insights]
+```
+
+---
+
+## Key Insights
 - East York, York, and West Toronto show strong market potential  
 - Clusters reveal neighborhood similarities in amenities  
 - Framework generalizes to any retail or service location analysis  
 
 ---
 
-## 📊 Deliverables
+## Deliverables
 - Interactive HTML maps  
 - Cluster membership tables  
 - Density plots  
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 - Add census demographics and mobility data  
 - Try HDBSCAN or GMM clustering  
 - Deploy as a web-based decision tool  
