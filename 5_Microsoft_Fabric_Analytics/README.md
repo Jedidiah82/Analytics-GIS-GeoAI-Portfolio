@@ -3,11 +3,11 @@
 This section documents my growing expertise in **Microsoft Fabric**, **Power BI**, and **enterprise analytics engineering**.  
 It includes work on modern data engineering pipelines, semantic modeling, visualization, and real-time analytics using the Microsoft unified data stack.
 
-> 📌 *This pillar is actively expanding as I complete Microsoft Fabric training and Power BI certification coursework.*
+> *This pillar is actively expanding as I complete Microsoft Fabric training and Power BI certification coursework.*
 
 ---
 
-## 🎯 Objectives of This Pillar
+## Objectives of This Pillar
 
 - Build end-to-end **Fabric Lakehouse** architectures  
 - Develop **Power BI data models**, DAX measures, star schemas  
@@ -19,7 +19,7 @@ It includes work on modern data engineering pipelines, semantic modeling, visual
 
 ---
 
-## 📂 Folder Structure (Growing)
+## Folder Structure (Growing)
 
 ```
 5_Microsoft_Fabric_Analytics/
@@ -37,33 +37,33 @@ It includes work on modern data engineering pipelines, semantic modeling, visual
 
 ---
 
-## 🏗️ Core Skills Demonstrated
+## Core Skills Demonstrated
 
-### 🪣 **Fabric Lakehouse Engineering**
+### **Fabric Lakehouse Engineering**
 - Delta tables, medallion architecture (Bronze → Silver → Gold)
 - PySpark & SQL notebooks for data transformation
 - Lakehouse schema design and optimization  
 - Table versioning and time travel
 
-### 📊 **Power BI Analytics & Visualization**
+### **Power BI Analytics & Visualization**
 - Star schema modeling  
 - DAX measures and KPI development  
 - Interactive report design  
 - Row-level security (RLS) fundamentals  
 
-### 🔄 **Pipelines & Dataflows**
+### **Pipelines & Dataflows**
 - Automated ingestion with Dataflows Gen2  
 - Pipeline scheduling and monitoring  
 - ETL/ELT pattern implementation  
 
-### ⚡ **Real-Time Analytics**
+### **Real-Time Analytics**
 - Kusto Query Language (KQL)  
 - Event stream ingestion  
 - Time-series dashboards in Power BI  
 
 ---
 
-## 📌 Sample Work to Be Added
+## Sample Work to Be Added
 
 - **Sales & Operations Analytics Lakehouse**
 - **Public Health Surveillance Dashboard (Power BI)**
@@ -75,7 +75,7 @@ _(These will be uploaded as experience deepens.)_
 
 ---
 
-## 🧠 Learning Plan & Certifications in Progress
+## Learning Plan & Certifications in Progress
 
 - **Microsoft Certified: Fabric Analytics Engineer (DP-600)**  
 - **Microsoft Certified: Power BI Data Analyst (PL-300)**  
@@ -84,7 +84,7 @@ _(These will be uploaded as experience deepens.)_
 
 ---
 
-## 📝 Future Additions
+## Future Additions
 
 - End-to-end Fabric + Azure integration demo  
 - Real-time streaming dashboard using EventStream  
