@@ -26,7 +26,7 @@ flowchart LR
     B --> C[Vegetation Index<br/>NDVI Computation]
     C --> D[Temporal Analysis<br/>2001–2015 Trends]
     D --> E[Land Productivity Assessment<br/>Trends.Earth]
-    E --> F[Land Degradation Classification<br/>Improved | Stable | Degraded]
+    E --> F["Land Degradation Classification<br/>Improved | Stable | Degraded"]
     F --> G[Spatial Hotspot Identification]
     G --> H[Policy-Ready Maps & Indicators<br/>SDG 15.3 Reporting]
 ```
