@@ -30,7 +30,7 @@ Each folder contains:
 
 ---
 
-## 🚀 Skills Demonstrated
+## Skills Demonstrated
 
 - Distributed NLP modeling  
 - Feature engineering at scale  
