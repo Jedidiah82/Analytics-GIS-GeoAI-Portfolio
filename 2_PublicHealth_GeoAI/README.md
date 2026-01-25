@@ -10,7 +10,7 @@ Designed for roles with:
 
 ---
 
-## 📂 Contents
+## Contents
 
 | Category | Description |
 |---------|-------------|
@@ -20,7 +20,7 @@ Designed for roles with:
 
 ---
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 - Time-series modeling (ARIMA, STL, Prophet)  
 - GeoAI regression & forecasting (XGBoost, spatial lags)  
@@ -30,7 +30,7 @@ Designed for roles with:
 
 ---
 
-## 📘 Reproducibility
+## Reproducibility
 
 All subfolders contain:
 - `README.md`  
