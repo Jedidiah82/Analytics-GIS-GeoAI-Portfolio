@@ -1,4 +1,4 @@
-# 🧠 Big Data & Machine Learning Projects
+# Big Data & Machine Learning Projects
 
 This folder contains advanced projects demonstrating:
 
@@ -10,7 +10,7 @@ This folder contains advanced projects demonstrating:
 
 ---
 
-## 📂 Contents
+## Contents
 
 | Folder | Project | Summary |
 |--------|---------|---------|
