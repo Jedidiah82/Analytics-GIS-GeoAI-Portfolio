@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates **end-to-end deployment of a cloud-native Python Guestbook application** using **Google App Engine (Standard Environment)** with **Firestore in Datastore Mode** as a managed NoSQL backend.
 
@@ -26,7 +26,7 @@ No virtual machines or servers were managed directly, highlighting **platform-as
 
 ---
 
-## 🎯 Lab Objectives
+## Lab Objectives
 
 - Create and configure a new Google Cloud project
 - Execute a Python Flask application locally in Cloud Shell
@@ -38,7 +38,7 @@ No virtual machines or servers were managed directly, highlighting **platform-as
 
 ---
 
-## 🛠️ Tools & Environment
+## Tools & Environment
 
 | Component | Purpose |
 |---------|--------|
@@ -52,7 +52,7 @@ No virtual machines or servers were managed directly, highlighting **platform-as
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```mermaid
 flowchart LR
@@ -63,7 +63,7 @@ flowchart LR
 
 ---
 
-## 🧪 Lab Implementation
+## Lab Implementation
 
 ### 1️⃣ Project Creation & Cloud Shell Setup
 
@@ -145,7 +145,7 @@ This resolved initial datastore access errors.
 
 ### 8️⃣ Troubleshooting & Cloud Modernization
 
-#### 🔴 Issue 1: Python 2 Runtime Deprecation
+#### Issue 1: Python 2 Runtime Deprecation
 
 **Error**
 ```text
@@ -163,7 +163,7 @@ entrypoint: gunicorn -b :$PORT main:app
 
 ---
 
-#### 🔴 Issue 2: Datastore Not Initialized
+#### Issue 2: Datastore Not Initialized
 
 **Error**
 ```text
@@ -175,7 +175,7 @@ entrypoint: gunicorn -b :$PORT main:app
 
 ---
 
-#### 🔴 Issue 3: Deprecated Python Modules
+#### Issue 3: Deprecated Python Modules
 
 **Error**
 ```text
@@ -202,7 +202,7 @@ https://guestbook-lab-godwin-akpan.uc.r.appspot.com
 
 ---
 
-## 📊 Results
+## Results
 
 - Flask application executed locally and in production  
 - Messages persisted in Firestore (Datastore Mode)  
@@ -212,7 +212,7 @@ https://guestbook-lab-godwin-akpan.uc.r.appspot.com
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <p align="center">
   <img src="screenshots/cloud-shell.png" width="45%" />

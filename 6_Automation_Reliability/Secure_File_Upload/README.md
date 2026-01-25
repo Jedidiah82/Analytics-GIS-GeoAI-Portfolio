@@ -1,12 +1,12 @@
 # 🔐 Secure File Upload & API Data Ingestion (REST)
 
-## 🧠 Overview
+## Overview
 
 This project demonstrates a secure, automated workflow for uploading files and structured metadata to a web server using REST APIs.
 
 It simulates real-world **cloud, enterprise, and public-sector ingestion pipelines**, where images and form data must be transferred securely, validated, and processed at scale.
 
-## 🎯 Objectives
+## Objectives
 
 - Upload image files via HTTP `POST` requests  
 - Submit structured metadata as JSON payloads  
@@ -15,7 +15,7 @@ It simulates real-world **cloud, enterprise, and public-sector ingestion pipelin
 - Support privacy-aware data ingestion workflows
 - Enable secure public-sector data exchange
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Category | Tools |
 | --- | --- |
@@ -25,7 +25,7 @@ It simulates real-world **cloud, enterprise, and public-sector ingestion pipelin
 | Data Format | JSON |
 | OS | Linux |
 
-## ⚙️ How It Works
+## How It Works
 
 1. Images are read from a local directory  
 2. Files are uploaded using `multipart/form-data`  
@@ -35,7 +35,7 @@ It simulates real-world **cloud, enterprise, and public-sector ingestion pipelin
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart LR
@@ -48,7 +48,7 @@ flowchart LR
 
 ---
 
-## 🧪 Key Features
+## Key Features
 
 - Automated file upload using REST APIs  
 - JSON-based data ingestion  
@@ -57,7 +57,7 @@ flowchart LR
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```text
 4_Secure_File_Upload_API/
@@ -95,7 +95,7 @@ chmod +x run.py
 }
 ```
 
-## 🚀 Example Use Cases
+## Example Use Cases
 
 - Cloud data ingestion pipelines
 - GIS imagery uploads to catalog systems
@@ -105,19 +105,19 @@ chmod +x run.py
 - Disaster response data portals
 - GIS asset repositories
 
-## 📎 Skills Demonstrated
+## Skills Demonstrated
 
 - REST API integration
 - Secure file transfer workflows
 - JSON data handling
 - Python automation for ingestion systems
 
-## 🔗 Related Portfolio Pillar
+## Related Portfolio Pillar
 
 Part of:
 ⚙️🛡️📊 **Automation, Reliability & Secure Data Systems**
 
-## 🧭 Next Steps (Planned Improvements)
+## Next Steps (Planned Improvements)
 
 - API authentication (OAuth / API keys)
 - Retry logic for network failures

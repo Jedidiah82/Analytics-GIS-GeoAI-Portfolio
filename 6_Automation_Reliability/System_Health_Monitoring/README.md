@@ -2,7 +2,7 @@
 
 ---
 
-## 🧠 Overview  
+## Overview  
 
 This project implements an automated **system health monitoring and alerting tool** designed to support **data platforms, GeoAI pipelines, and public health information systems** by ensuring infrastructure reliability and availability.
 
@@ -10,7 +10,7 @@ It simulates real-world **IT operations, DevOps, and reliability engineering** w
 
 ---
 
-## 🎯 Objectives  
+## Objectives  
 
 The system monitors critical infrastructure indicators:  
 
@@ -23,7 +23,7 @@ If any condition fails, an automated **alert email** is sent to administrators t
 
 ---
 
-## 🛠️ Tools & Technologies  
+## Tools & Technologies  
 
 | Category | Tools |
 |---------|-------|
@@ -36,7 +36,7 @@ If any condition fails, an automated **alert email** is sent to administrators t
 
 ---
 
-## ⚙️ How It Works  
+## How It Works  
 
 - Collects system metrics using `psutil`  
 - Evaluates against predefined thresholds  
@@ -46,7 +46,7 @@ If any condition fails, an automated **alert email** is sent to administrators t
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart LR
@@ -60,17 +60,17 @@ flowchart LR
 
 ---
 
-## 🧪 Key Features  
+## Key Features  
 
-- 🔍 Real-time system diagnostics  
-- 📧 Automated email alerts  
-- 🕒 Scheduled monitoring via cron  
-- 🛡️ Reliability-focused checks  
-- 📈 Infrastructure readiness validation  
+- Real-time system diagnostics  
+- Automated email alerts  
+- /Scheduled monitoring via cron  
+- Reliability-focused checks  
+- Infrastructure readiness validation  
 
 ---
 
-## 🗂️ Project Structure  
+## Project Structure  
 
 ```text
 system_health_monitoring/
@@ -82,7 +82,7 @@ system_health_monitoring/
 
 ---
 
-## 🚀 Example Use Case  
+## Example Use Case  
 
 This tool can be used in:  
 
@@ -96,7 +96,7 @@ This tool can be used in:
 
 ---
 
-## 📌 Sample Alert Scenarios  
+## Sample Alert Scenarios  
 
 | Condition | Alert Triggered |
 |----------|------------------|
@@ -107,7 +107,7 @@ This tool can be used in:
 
 ---
 
-## 📎 Skills Demonstrated  
+## Skills Demonstrated  
 
 - System monitoring  
 - Python automation  
@@ -118,14 +118,14 @@ This tool can be used in:
 
 ---
 
-## 🔗 Related Portfolio Pillar  
+## Related Portfolio Pillar  
 
 Part of:  
 **⚙️🛡️📊 Automation, Reliability & Secure Data Systems**  
 
 ---
 
-## 🧭 Next Steps  
+## Next Steps  
 
 Planned improvements:  
 

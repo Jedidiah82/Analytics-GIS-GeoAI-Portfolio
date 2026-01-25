@@ -40,7 +40,7 @@ Microsoft Azure secures the underlying cloud infrastructure, while application c
 The following section maps the implemented controls explicitly to the NIST Cybersecurity
 Framework (CSF) functions within a cloud shared responsibility model.
 
-## 🔐 NIST CSF & Shared Responsibility Mapping
+## NIST CSF & Shared Responsibility Mapping
 
 This project demonstrates alignment with the **NIST Cybersecurity Framework (CSF)** under a **cloud shared responsibility model**.
 

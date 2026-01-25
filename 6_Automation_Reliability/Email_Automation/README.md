@@ -1,6 +1,6 @@
 # 📧 Email Automation & Notification System  
 
-## 🧠 Overview  
+## Overview  
 
 This project implements an **automated email notification system** using Python and SMTP to deliver structured messages, alerts, and reports to recipients.
 
@@ -8,7 +8,7 @@ It reflects real-world workflows used in **IT operations, DevOps, SOC environmen
 
 ---
 
-## 🎯 Objectives  
+## Objectives  
 
 The system is designed to:  
 
@@ -20,7 +20,7 @@ The system is designed to:
 
 ---
 
-## 🛠️ Tools & Technologies  
+## Tools & Technologies  
 
 | Category | Tools |
 | --------- | ------- |
@@ -32,7 +32,7 @@ The system is designed to:
 
 ---
 
-## ⚙️ How It Works  
+## How It Works  
 
 1. Email content is generated dynamically  
 2. SMTP server connection is established  
@@ -42,7 +42,7 @@ The system is designed to:
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart LR
@@ -53,17 +53,17 @@ flowchart LR
 
 ---
 
-## 🧪 Key Features  
+## Key Features  
 
-- 📧 Automated email delivery  
-- 📎 File attachment support  
-- 🕒 Scheduled notifications  
-- 🔐 Secure SMTP communication  
-- ⚡ Fast message dispatch  
+- Automated email delivery  
+- File attachment support  
+- Scheduled notifications  
+- Secure SMTP communication  
+- Fast message dispatch  
 
 ---
 
-## 🗂️ Project Structure  
+## Project Structure  
 
 ```text
 6_Email_Automation_System/
@@ -75,7 +75,7 @@ flowchart LR
 
 ---
 
-## 🚀 Example Use Cases  
+## Example Use Cases  
 
 This tool can be used in:  
 
@@ -89,7 +89,7 @@ This tool can be used in:
 
 ---
 
-## 📌 Sample Email  
+## Sample Email  
 
 ```text
 Subject: System Alert – High CPU Usage  
@@ -100,7 +100,7 @@ Please check the system. CPU usage has exceeded 80%.
 
 ---
 
-## 📎 Skills Demonstrated
+## Skills Demonstrated
 
 - Email automation
 - Python scripting
@@ -111,14 +111,14 @@ Please check the system. CPU usage has exceeded 80%.
 
 ---
 
-## 🔗 Related Portfolio Pillar
+## Related Portfolio Pillar
 
 Part of:
 ⚙️🛡️📊 **Automation, Reliability & Secure Data Systems**
 
 ---
 
-## 🧭 Next Steps
+## Next Steps
 
 Planned improvements:
 
