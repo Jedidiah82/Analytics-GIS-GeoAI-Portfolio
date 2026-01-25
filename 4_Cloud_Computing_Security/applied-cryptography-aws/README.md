@@ -1,4 +1,4 @@
-# 🔐 Applied Cryptography Using AWS Services & Secure Communication Protocols
+# Applied Cryptography Using AWS Services & Secure Communication Protocols
 
 > **Portfolio project demonstrating applied cryptography, secure communication, and key management using AWS cloud services instead of manual cryptographic implementations.**
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project is a **modern, cloud-aligned replacement for legacy cryptography labs**, demonstrating how cryptographic principles are applied in real-world cloud environments using **AWS-managed services**. 
 
@@ -24,7 +24,7 @@ All activities were performed using **AWS CLI on Windows PowerShell**.
 
 ---
 
-## 🏗️ Security Architecture & Trust Boundaries
+## Security Architecture & Trust Boundaries
 
 ![AWS Secure CI/CD & Cryptography Architecture](aws-oidc-static-site-architecture.png)
 
@@ -39,7 +39,7 @@ credentials through OIDC-based federated identity.
 The following mapping demonstrates how the implemented architecture aligns with
 the NIST Cybersecurity Framework (CSF) functions under a shared responsibility model.
 
-## 🔐 NIST CSF & Shared Responsibility Mapping
+## NIST CSF & Shared Responsibility Mapping
 This project demonstrates alignment with the NIST Cybersecurity Framework (CSF) within a
 shared responsibility cloud model.
 
@@ -77,13 +77,13 @@ configuration, identity governance, and access control.
 
 ---
 
-## 🎯 Project Aim
+## Project Aim
 
 To apply modern cryptographic principles—**authentication, key exchange, encryption, and key management**—using AWS cloud services in a secure and industry-aligned manner.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Apply asymmetric cryptography using SSH key-based authentication  
 - Observe Diffie-Hellman key exchange via TLS and SSH  
@@ -93,7 +93,7 @@ To apply modern cryptographic principles—**authentication, key exchange, encry
 
 ---
 
-## 🛠️ Tools & Environment
+## Tools & Environment
 
 - AWS CLI v2 (Windows PowerShell)
 - Amazon EC2 (Amazon Linux 2023)
@@ -104,7 +104,7 @@ To apply modern cryptographic principles—**authentication, key exchange, encry
 
 ---
 
-## 🧭 Implementation Summary
+## Implementation Summary
 
 ### Environment Setup
 - Configured AWS CLI using IAM access keys
@@ -131,7 +131,7 @@ To apply modern cryptographic principles—**authentication, key exchange, encry
 
 ---
 
-## ✅ Results
+## Results
 
 - Secure EC2 provisioning completed using AWS-managed cryptography
 - Encrypted communication achieved without manual cryptographic coding
@@ -141,7 +141,7 @@ To apply modern cryptographic principles—**authentication, key exchange, encry
 
 ---
 
-## 🧠 Key Takeaways
+## Key Takeaways
 
 - Modern cloud platforms abstract cryptography securely and at scale
 - AMI selection and API access are region-specific
@@ -151,7 +151,7 @@ To apply modern cryptographic principles—**authentication, key exchange, encry
 
 ---
 
-## 📘 Security Theory Appendix
+## Security Theory Appendix
 
 ### DES (Data Encryption Standard)
 - Symmetric encryption algorithm
@@ -182,7 +182,7 @@ To apply modern cryptographic principles—**authentication, key exchange, encry
 
 ---
 
-## 🏗️ Cryptography & Security Architecture
+## Cryptography & Security Architecture
 
 ### TLS Flow (AWS CLI → AWS API)
 ```text
@@ -220,7 +220,7 @@ Encrypted Data Stored
 ![KMS Envelope Encryption](diagrams/kms-envelope-encryption.png)
 
 
-## 🧱 Extended Lab: AWS KMS + Encrypted S3 (Optional)
+## Extended Lab: AWS KMS + Encrypted S3 (Optional)
 ### Create Encrypted S3 Bucket
 ```powershell
 aws s3 mb s3://my-secure-crypto-lab-bucket
@@ -248,7 +248,7 @@ aws s3 cp test.txt s3://my-secure-crypto-lab-bucket/
 ✔ Enterprise-grade security controls
 
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 applied-cryptography-aws/
@@ -266,13 +266,13 @@ applied-cryptography-aws/
 ```
 
 
-## 🎓 Certification & Industry Alignment
+## Certification & Industry Alignment
 - **CompTIA Security+** — Cryptography, TLS, IAM, encryption
 - **CompTIA CySA+** — Least privilege, cloud security controls
 - **AWS Security** — IAM, KMS, encrypted services, secure access
 
 
-## 💡 Why This Project Matters
+## Why This Project Matters
 
 This project demonstrates how cryptography is **applied in real systems**, not just how algorithms work on paper.
 
@@ -289,16 +289,14 @@ Rather than implementing cryptographic algorithms manually, the project emphasiz
 
 This approach aligns directly with expectations for **cloud security, DevSecOps, and infrastructure security roles.**
 
-
-## 🚫 Scope & Limitations
+## Scope & Limitations
 - Not a production-ready deployment
 - Single EC2 instance (no high availability)
 - Default VPC used
 - AdministratorAccess used temporarily for learning
 - Designed for education and portfolio demonstration
 
-
-## ♻️ Reproducibility
+## Reproducibility
 
 This lab can be reproduced using AWS Free Tier resources.
 
@@ -311,9 +309,7 @@ High-level steps:
 6. (Optional) Enable KMS-backed S3 encryption
 7. Terminate all resources
 
-
-## 🏁 Final Notes
+## Final Notes
 This project demonstrates **applied cloud cryptography**, emphasizing how modern platforms securely implement encryption, authentication, and key management in real-world environments.
 
 It reflects industry best practices and provides a strong foundation for roles in **cloud security, cybersecurity, and DevSecOps**.
-
