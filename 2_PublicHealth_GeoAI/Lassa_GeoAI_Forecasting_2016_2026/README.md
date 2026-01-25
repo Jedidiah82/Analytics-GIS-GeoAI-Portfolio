@@ -16,7 +16,7 @@
 
 ---
 
-## 📌 Project Metadata
+## Project Metadata
 
 | Field | Details |
 |------|---------|
@@ -29,7 +29,7 @@
 
 ---
 
-## 📝 Description
+## Description
 
 A reproducible **spatio-temporal forecasting pipeline** combining national time-series models  
 (**ARIMA, Prophet, STL decomposition**) with **GeoAI-based county-level prediction using XGBoost**.
@@ -45,7 +45,7 @@ A reproducible **spatio-temporal forecasting pipeline** combining national time-
 
 ---
 
-## 📊 Datasets
+## Datasets
 
 ### 1️⃣ Lassa Fever Line List (Mocked)
 
@@ -59,7 +59,7 @@ A reproducible **spatio-temporal forecasting pipeline** combining national time-
 
 ---
 
-## 🤖 Models Used
+## Models Used
 
 - **ARIMA** – Univariate time-series forecasting  
 - **Prophet** – Trend and seasonality decomposition  
@@ -68,7 +68,7 @@ A reproducible **spatio-temporal forecasting pipeline** combining national time-
 
 ---
 
-## ⚙️ Dependencies
+## Dependencies
 
 - **Python:** ≥ 3.10  
 - **Core:** pandas, numpy, scikit-learn  
@@ -78,7 +78,7 @@ A reproducible **spatio-temporal forecasting pipeline** combining national time-
 
 ---
 
-## 🔁 Reproducibility
+## Reproducibility
 
 ### Requirements
 
@@ -94,7 +94,7 @@ Open 05_Reproducibility_Notebook.ipynb and execute all cells
 
 ---
 
-## 🔬 Project Overview
+## Project Overview
 
 This folder presents a complete **spatio-temporal forecasting workflow** for Lassa fever in Liberia.
 
@@ -109,16 +109,16 @@ through **2026**.
 
 ### Key Outputs
 
-- 📈 National-level case forecasts (ARIMA, Prophet)  
-- 🔍 Trend, seasonality, and anomaly decomposition (STL)  
-- 🤖 County-level GeoAI projections (XGBoost)  
-- 🗺 Heatmaps and hotspot spatial predictions  
-- 🎥 Optional forecast animations  
-- 📝 Manuscript-ready figures  
+- National-level case forecasts (ARIMA, Prophet)  
+- Trend, seasonality, and anomaly decomposition (STL)  
+- County-level GeoAI projections (XGBoost)  
+- Heatmaps and hotspot spatial predictions  
+- Optional forecast animations  
+- Manuscript-ready figures  
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 1. Build a cleaned national and county-level dataset (2016–2022).  
 2. Model monthly national incidence using:
@@ -132,7 +132,7 @@ through **2026**.
 
 ---
 
-## 🧠 Modeling Workflow
+## Modeling Workflow
 
 ### 1️⃣ Time-Series Forecasting (National)
 
@@ -158,7 +158,7 @@ through **2026**.
 
 ---
 
-## 🖼 Example Outputs (Figures)
+## Example Outputs (Figures)
 
 All generated plots and maps are available in the **Figures** folder:
 
@@ -178,7 +178,7 @@ This includes:
 
 ---
 
-## 🔒 Data Disclaimer
+## Data Disclaimer
 
 All visualizations and outputs are derived from **aggregated, non-identifiable surveillance data**.
 
@@ -189,7 +189,7 @@ All visualizations and outputs are derived from **aggregated, non-identifiable s
 
 ---
 
-## 📚 Citation
+## Citation
 
 If referencing this work:
 
