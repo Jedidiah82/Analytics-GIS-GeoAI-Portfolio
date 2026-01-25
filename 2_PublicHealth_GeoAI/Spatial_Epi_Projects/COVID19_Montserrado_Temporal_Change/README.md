@@ -1,13 +1,16 @@
 # 🌆 COVID-19 Temporal Hotspot Change — Montserrado County, Liberia (2021–2023)
 
 ![GIS](https://img.shields.io/badge/GIS-Spatial%20Analysis-success)
-![Public Health](https://img.shields.io/badge/Public%20Health-Epidemiology-blue)
 ![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-Desktop%20GIS-2C7BE5)
-![COVID-19](https://img.shields.io/badge/COVID--19-Surveillance-red)
 ![Spatiotemporal Analysis](https://img.shields.io/badge/Analysis-Spatiotemporal-orange)
+
+![Public Health](https://img.shields.io/badge/Public%20Health-Epidemiology-blue)
+![COVID-19](https://img.shields.io/badge/COVID--19-Surveillance-red)
 ![Policy Support](https://img.shields.io/badge/Use-Policy%20Decision--Support-purple)
-![MoH](https://img.shields.io/badge/Client-Ministry%20of%20Health-darkgreen)
-![WHO/CDC](https://img.shields.io/badge/Partners-WHO%20%7C%20CDC-0057B7)
+
+![Client MoH](https://img.shields.io/badge/Client-Liberia%20MoH-darkgreen)
+![Client NPHIL](https://img.shields.io/badge/Client-NPHIL-006400)
+![Partners](https://img.shields.io/badge/Partners-AFENET%20%7C%20WHO%20%7C%20CDC-0057B7)
 
 **Client / Partners:** Liberia Ministry of Health (MoH), NPHIL, AFENET, CDC, WHO  
 **Role:** GIS & Data Specialist — COVID-19 Surveillance Mapping Team  
