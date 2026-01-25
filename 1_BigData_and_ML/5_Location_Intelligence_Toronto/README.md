@@ -191,6 +191,15 @@ This interactive map represents the **original analytical outcome** of the proje
 
 ---
 
+![Toronto Clustering Map Preview](figures/toronto_cluster_map_preview.png)
+
+📍 **Open interactive map:**  
+[View full interactive map (HTML)](toronto_cluster_map.html)
+
+📍 **Interactive map (GitHub Pages):**  
+👉 https://<username>.github.io/location-intelligence-toronto/toronto_cluster_map.html
+
+
 #### Synthetic Clustering Map — Reproducibility Demonstration
 
 ![Synthetic Toronto Clustering Map](figures/toronto_cluster_map_synthetic.png)
