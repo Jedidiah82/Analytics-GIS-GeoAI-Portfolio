@@ -1,6 +1,6 @@
 # 🌆 COVID-19 Temporal Hotspot Change — Montserrado County, Liberia (2021–2023)
 
-> A spatiotemporal GIS analysis of COVID-19 case dynamics across Montserrado County in Liberia, supporting national surveillance, hotspot detection, and evidence-based public health decision-making.
+> A spatiotemporal GIS analysis of COVID-19 case dynamics across Montserrado County in Liberia, supporting national COVID-19 surveillance, hotspot detection, and evidence-based public health response planning.
 
 ![GIS](https://img.shields.io/badge/GIS-Spatial%20Analysis-success)
 ![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-Desktop%20GIS-2C7BE5)
@@ -14,7 +14,7 @@
 **Client / Partners:** Liberia Ministry of Health (MoH), National Public Health Institute of Liberia (NPHIL); AFENET, CDC, WHO   
 **Role:** GIS & Data Specialist — COVID-19 Surveillance & Spatial Analytics Team  
 **Tools:** ArcGIS Pro  
-**Data Source:** National Public Health Institute of Liberia (NPHIL)
+**Primary Data Source:** National Public Health Institute of Liberia (NPHIL)
 
 ---
 
