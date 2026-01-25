@@ -114,19 +114,43 @@ flowchart TD
     F --> G[Optimal Airport Site Identification]
 ```
 
+## Key Input Criteria Maps
+
+### Slope (Terrain Suitability)
+![Slope Map](figures/slope.png)
+
+Flat to gently sloping terrain was prioritized to meet runway
+engineering requirements and reduce earthwork costs.
+
+### Distance to Streams
+![Distance to Streams](figures/distance_to_streams.png)
+
+Areas farther from drainage networks were preferred to minimize
+flood risk and environmental impact.
+
+### Land Use / Land Cover
+![Land Use Classification](figures/landuse.png)
+
+Vegetated areas were ranked highest due to lower displacement
+and reduced development cost.
+
+### Geological Suitability
+![Geology Map](figures/geology.png)
+
+Granite gneiss and grey gneiss formations were prioritized due
+to their structural strength and impermeability.
+
 ---
 
-## Results & Outputs
+## Final Site Suitability Map
+![Airport Site Suitability Map](figures/final_suitability.png)
 
-### Site Suitability Classification
-- **Most Suitable**
-- **Suitable**
-- **Not Suitable**
+The composite suitability surface identifies zones classified as
+**Most Suitable**, **Suitable**, and **Not Suitable**, based on
+fuzzy logic integration of all criteria.
 
-The final suitability map highlights an optimal airport site near:
-
-> **Latitude:** 7.53°N  
-> **Longitude:** 4.53°E  
+**Optimal Site Identified Near:**  
+Latitude 7.53° N, Longitude 4.53° E
 
 This location balances **terrain stability, accessibility, hydrological safety, and land-use compatibility**.
 
