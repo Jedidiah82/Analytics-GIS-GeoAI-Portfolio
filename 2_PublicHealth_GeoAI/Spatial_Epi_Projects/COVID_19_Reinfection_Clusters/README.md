@@ -13,7 +13,3 @@ Identifies spatial clusters of COVID-19 reinfections using:
 
 ## Maps Included
 ![Reinfection Map](reinfection_map.png)
-
-## Next Steps
-- Add spatio-temporal scan statistics (SaTScan)  
-- Compare primary vs secondary reinfection clusters  
