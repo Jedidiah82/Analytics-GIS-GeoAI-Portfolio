@@ -8,7 +8,7 @@
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This lab demonstrates hands-on experience with **Apache Hadoop MapReduce** for processing large datasets in a **distributed computing environment**.
 
@@ -24,7 +24,7 @@ This mirrors how big data pipelines operate in cloud and enterprise data platfor
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Upload datasets to HDFS  
 - Run MapReduce jobs  
@@ -35,7 +35,7 @@ This mirrors how big data pipelines operate in cloud and enterprise data platfor
 
 ---
 
-## 🛠️ Tools & Environment
+## Tools & Environment
 
 | Component | Purpose |
 |----------|---------|
@@ -48,7 +48,7 @@ This mirrors how big data pipelines operate in cloud and enterprise data platfor
 
 ---
 
-## 🏗️ Hadoop MapReduce Architecture
+## Hadoop MapReduce Architecture
 
 ```mermaid
 flowchart TB
@@ -70,7 +70,7 @@ _Hadoop MapReduce processing workflow showing data ingestion into HDFS, parallel
 
 ---
 
-## 🧪 Lab Implementation
+## Lab Implementation
 
 ### 1️⃣ Data Ingestion (HDFS)
 
@@ -106,7 +106,7 @@ hadoop jar hadoop-mapreduce-examples.jar wordcount /input /output
 
 ---
 
-## 📊 Results
+## Results
 
 - ✅ Data processed successfully
 - ✅ Distributed execution confirmed
@@ -116,7 +116,7 @@ hadoop jar hadoop-mapreduce-examples.jar wordcount /input /output
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 *Evidence of Hadoop MapReduce execution in a single-node cluster (Cloudera QuickStart – CDH 5.12).*
 
 ### Hadoop Services & Cluster Status
@@ -139,7 +139,7 @@ hadoop jar hadoop-mapreduce-examples.jar wordcount /input /output
 - Output results from HDFS
 - MapReduce program development in Eclipse
 
-## 🔍 Key Learnings
+## Key Learnings
 
 - Hadoop enables scalable batch processing
 - HDFS supports fault-tolerant storage
@@ -149,7 +149,7 @@ hadoop jar hadoop-mapreduce-examples.jar wordcount /input /output
 
 ---
 
-## 🧠 Data Engineering Skills Demonstrated
+## Data Engineering Skills Demonstrated
 
 - HDFS file management
 - MapReduce job execution
@@ -160,7 +160,7 @@ hadoop jar hadoop-mapreduce-examples.jar wordcount /input /output
 
 ---
 
-## 🔐 Security & Governance Context
+## Security & Governance Context
 
 | Principle | Relevance |
 |----------|-----------|
@@ -172,7 +172,7 @@ hadoop jar hadoop-mapreduce-examples.jar wordcount /input /output
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 hadoop-mapreduce-lab/
@@ -194,13 +194,7 @@ hadoop-mapreduce-lab/
 
 ---
 
-### 💼 Resume Bullet
-
-**Executed Hadoop MapReduce jobs on HDFS** to process large datasets using distributed batch processing, demonstrating data engineering, Linux administration, and scalable analytics skills.
-
----
-
-## 🚫 Scope & Limitations
+## Scope & Limitations
 
 - Single-node / lab cluster  
 - Batch processing only  
@@ -209,7 +203,7 @@ hadoop-mapreduce-lab/
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Extend MapReduce logic to structured datasets (e.g., yearly usage logs)
 - Identify year of maximum and minimum usage using Reducer-based aggregation
@@ -221,7 +215,7 @@ hadoop-mapreduce-lab/
 
 ---
 
-## 🎯 Why This Lab Matters
+## Why This Lab Matters
 
 This project demonstrates:
 
