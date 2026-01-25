@@ -56,6 +56,66 @@ The analysis integrated the following spatial datasets:
 
 ---
 
+## Analytical Workflow
+```mermaid
+flowchart TD
+    A[Data Acquisition] --> B[Data Preprocessing]
+
+    subgraph Data_Sources
+        A1[Landsat 8 Imagery]
+        A2[SRTM DEM]
+        A3[Geological Map]
+        A4[Road Network]
+        A5[Stream Network]
+    end
+
+    A1 --> B
+    A2 --> B
+    A3 --> B
+    A4 --> B
+    A5 --> B
+
+    B --> C[Derive Thematic Layers]
+
+    subgraph Thematic_Layers
+        C1[Slope Map]
+        C2[Distance to Roads]
+        C3[Distance to Streams]
+        C4[Land Use / Land Cover]
+        C5[Geology Classes]
+    end
+
+    C --> C1
+    C --> C2
+    C --> C3
+    C --> C4
+    C --> C5
+
+    C1 --> D[Fuzzy Membership Assignment]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    C5 --> D
+
+    D --> E[Fuzzy Overlay Integration]
+
+    E --> F[Site Suitability Classification]
+
+    subgraph Suitability_Classes
+        F1[Not Suitable]
+        F2[Suitable]
+        F3[Most Suitable]
+    end
+
+    F --> F1
+    F --> F2
+    F --> F3
+
+    F --> G[Optimal Airport Site Identification]
+```
+
+---
+
 ## Results & Outputs
 
 ### Site Suitability Classification
