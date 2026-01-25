@@ -8,8 +8,7 @@
 ![COVID-19](https://img.shields.io/badge/COVID--19-Surveillance-red)
 ![Policy Support](https://img.shields.io/badge/Use-Policy%20Decision--Support-purple)
 
-![Client MoH](https://img.shields.io/badge/Client-Liberia%20MoH-darkgreen)
-![Client NPHIL](https://img.shields.io/badge/Client-NPHIL-006400)
+![Clients MoH](https://img.shields.io/badge/Client-Liberia%20MoH%20%7C%20NPHIL-006400)
 ![Partners](https://img.shields.io/badge/Partners-AFENET%20%7C%20WHO%20%7C%20CDC-0057B7)
 
 **Client / Partners:** Liberia Ministry of Health (MoH), National Public Health Institute of Liberia (NPHIL); AFENET, CDC, WHO   
