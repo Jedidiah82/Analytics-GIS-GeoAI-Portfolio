@@ -4,7 +4,7 @@
 ![Hive](https://img.shields.io/badge/Hive-SQL-green)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Intrusion%20Detection-red)
 
-## 📌 Overview
+## Overview
 This project builds a **distributed cybersecurity machine learning pipeline** using:
 
 - Apache Hive (SQL analytics)
@@ -15,19 +15,19 @@ Dataset: **UNSW-NB15 (2.54M network traffic records)**
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Detect cyberattacks using ML classification  
 - Analyze protocol/traffic distributions using Hive  
 - Evaluate Big Data scaling behavior in Spark  
 
 ---
 
-## 🛠️ Stack
+## Stack
 `Hive` · `PySpark` · `HDFS` · `pandas` · `matplotlib`  
 
 ---
 
-## 🔬 Workflow Summary
+## Workflow Summary
 
 ### 1. Hive Data Exploration
 - Ingested CSV → Hive tables  
@@ -45,7 +45,7 @@ This visualization highlights the heavy-tailed nature of network traffic in the 
 
 ---
 
-## 🧭 Big Data Intrusion Detection Pipeline 
+## Big Data Intrusion Detection Pipeline 
 
 ```mermaid
 flowchart LR
@@ -109,11 +109,11 @@ Results demonstrate Spark MLlib handles multi-million record datasets efficientl
 
 ---
 
-## 📈 Visual Analytics & Model Evaluation
+## Visual Analytics & Model Evaluation
 
 This project includes comprehensive visual analysis to validate data behavior, feature relationships, and model performance.
 
-### 🔍 Traffic Patterns by Attack Category
+### Traffic Patterns by Attack Category
 ![Protocol Heatmap](figures/protocol_heatmap.png)
 
 Shows protocol usage (TCP/UDP/Other) across attack types.  
@@ -121,42 +121,42 @@ Highlights heavy TCP usage for unknown and exploit-based attacks.
 
 ---
 
-### 🔗 Feature Correlation Analysis
+### Feature Correlation Analysis
 ![Correlation Heatmap](figures/correlation_heatmap.png)
 
 Low correlations between key features (`sbytes`, `dbytes`, `sttl`, `dttl`) indicate good feature diversity for ML modeling.
 
 ---
 
-### 📊 Distribution of Source Bytes
+### Distribution of Source Bytes
 ![sbytes Distribution](figures/sbytes_distribution.png)
 
 Reveals a **heavy-tailed distribution**, common in malicious network traffic, validating the dataset’s realism.
 
 ---
 
-### 📈 ROC Curve – Binary Classifier
+### ROC Curve – Binary Classifier
 ![ROC Curve](figures/roc_curve.png)
 
 **AUC = 0.987**, demonstrating strong separation between attack and normal traffic.
 
 ---
 
-### 🎯 Predicted Probability Distribution
+### Predicted Probability Distribution
 ![Probability Distribution](figures/probability_distribution.png)
 
 Shows clear confidence separation between attack and normal predictions.
 
 ---
 
-### 📉 Confusion Matrix (Multi-Class)
+### Confusion Matrix (Multi-Class)
 ![Confusion Matrix](figures/confusion_matrix.png)
 
 Highlights strong classification performance across most attack categories, with some overlap in rare classes.
 
 ---
 
-## 📊 Deliverables
+## Deliverables
 - Hive SQL scripts  
 - PySpark training notebook  
 - Evaluation plots  
@@ -164,7 +164,7 @@ Highlights strong classification performance across most attack categories, with
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 - Add **Kafka + Spark Streaming** for real-time IDS  
 - Export features → SIEM (Splunk / ELK)  
 - Test Gradient Boosting or deep learning models  
