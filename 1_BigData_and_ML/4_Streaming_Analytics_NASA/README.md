@@ -4,7 +4,7 @@
 ![BigData](https://img.shields.io/badge/Data-RealTime-green)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 
-## 📌 Overview
+## Overview
 This project simulates **real-time ingestion and analysis of NASA server logs** using Spark Structured Streaming.
 
 It demonstrates:
@@ -15,19 +15,19 @@ It demonstrates:
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Build a streaming job that consumes log lines  
 - Monitor HTTP status code trends  
 - Evaluate performance: input rates, batch durations, memory usage  
 
 ---
 
-## 🛠️ Stack
+## Stack
 `Spark Structured Streaming` · `Python` · `HDFS` · `PowerShell feeder`  
 
 ---
 
-## 🔬 Workflow
+## Workflow
 
 ### **1. Log Feeder**
 A PowerShell script streams NASA logs line-by-line to a socket.
@@ -44,14 +44,14 @@ A PowerShell script streams NASA logs line-by-line to a socket.
 
 ---
 
-## 📊 Deliverables
+## Deliverables
 - Throughput vs time plot  
 - Latency/batch duration plot  
 - Streaming dashboard screenshots  
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 - Replace socket with **Kafka topic**  
 - Persist results to **Elasticsearch**  
 - Train streaming anomaly detection model  
