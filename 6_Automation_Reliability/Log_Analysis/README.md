@@ -1,6 +1,6 @@
 # 📊 Log Processing & Reliability Engineering Automation  
 
-## 🧠 Overview  
+## Overview  
 
 This project demonstrates an automated system for **processing log files**, detecting **errors and anomalies**, and generating actionable insights to improve **system reliability**.
 
@@ -8,7 +8,7 @@ It reflects real-world workflows used in **IT Operations, DevOps, and Security O
 
 ---
 
-## 🎯 Objectives  
+## Objectives  
 
 The system is designed to:  
 
@@ -20,7 +20,7 @@ The system is designed to:
 
 ---
 
-## 🛠️ Tools & Technologies  
+## Tools & Technologies  
 
 | Category | Tools |
 | --------- | ------- |
@@ -33,7 +33,7 @@ The system is designed to:
 
 ---
 
-## ⚙️ How It Works  
+## How It Works  
 
 1. Reads log files from a target directory  
 2. Uses regular expressions to extract key events  
@@ -43,7 +43,7 @@ The system is designed to:
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart LR
@@ -55,17 +55,17 @@ flowchart LR
 
 ---
 
-## 🧪 Key Features  
+## Key Features  
 
-- 📄 Automated log parsing  
-- 🔍 Error and anomaly detection  
-- 📊 Summary report generation  
-- 🕒 Scheduled execution  
-- 🛡️ Reliability-focused diagnostics  
+- Automated log parsing  
+- Error and anomaly detection  
+- Summary report generation  
+- Scheduled execution  
+- Reliability-focused diagnostics  
 
 ---
 
-## 🗂️ Project Structure  
+## Project Structure  
 
 ```text
 5_Log_Processing_Reliability/
@@ -77,7 +77,7 @@ flowchart LR
 
 ---
 
-## 🚀 Example Use Case
+## Example Use Case
 
 This tool can be used in:
 
@@ -91,7 +91,7 @@ This tool can be used in:
 
 ---
 
-### 📌 Sample Output
+### Sample Output
 
 ```text
 ERROR detected in system.log  
@@ -102,7 +102,7 @@ Message: Failed login attempt
 
 ---
 
-## 📎 Skills Demonstrated
+## Skills Demonstrated
 
 - Log analysis
 - Regex pattern matching
@@ -113,14 +113,14 @@ Message: Failed login attempt
 
 ---
 
-## 🔗 Related Portfolio Pillar
+## Related Portfolio Pillar
 
 Part of:
 ⚙️🛡️📊 **Automation, Reliability & Secure Data Systems**
 
 ---
 
-## 🧭 Next Steps
+## Next Steps
 
 - Planned improvements:
 - SIEM integration (Splunk / ELK)
