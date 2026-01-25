@@ -4,7 +4,7 @@
 ![NLP](https://img.shields.io/badge/NLP-Language%20Modeling-blue)
 ![Stats](https://img.shields.io/badge/Statistics-Smoothing-green)
 
-## 📌 Overview
+## Overview
 This project implements **N-gram probability estimators** using PySpark:
 
 - **Maximum Likelihood Estimation (MLE)**
@@ -15,19 +15,19 @@ Evaluation focuses on **rare-event probability correction**, divergence metrics,
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Compare estimator performance at multiple sample sizes  
 - Quantify divergence from reference “full corpus” distribution  
 - Visualize rank-frequency and tail behavior  
 
 ---
 
-## 🛠️ Stack
+## Stack
 `PySpark` · `NumPy` · `pandas` · `matplotlib`  
 
 ---
 
-## 🔬 Key Findings
+## Key Findings
 
 ### **Good–Turing**
 - Best for long-tail corrections  
@@ -45,14 +45,14 @@ All estimators begin stabilizing by **~1 million tokens**.
 
 ---
 
-## 📊 Deliverables
+## Deliverables
 - Zipf curves  
 - Divergence plots (KL, JS, L1)  
 - Smoothing comparison tables  
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 - Extend to **Kneser–Ney smoothing**  
 - Implement a small **backoff language model**  
 - Integrate into a streaming text pipeline  
