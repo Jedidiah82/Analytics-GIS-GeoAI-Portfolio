@@ -61,7 +61,7 @@ flowchart TD
     A[Wikipedia Neighborhood Data] --> B[HTML Parsing<br/>BeautifulSoup]
     B --> C[Cleaned Boroughs & Neighborhoods]
     C --> D[Geocoding<br/>Latitude & Longitude]
-    D --> E[Venue Dataset<br/>(Foursquare / Synthetic)]
+    D --> E["Venue Dataset<br/>(Foursquare / Synthetic)"]
     E --> F[Venue Categories]
     F --> G[One-Hot Encoding]
     G --> H[K-Means Clustering<br/>k = 5]
