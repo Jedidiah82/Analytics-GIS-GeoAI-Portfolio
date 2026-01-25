@@ -1,11 +1,11 @@
-# 🧠 Machine Learning on Big Data - large-scale NLP and document clustering
+# Machine Learning on Big Data - large-scale NLP and document clustering
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Apache Spark](https://img.shields.io/badge/Spark-3.5-orange)
 ![NLP](https://img.shields.io/badge/NLP-Text%20Analysis-lightgrey)
 ![ML](https://img.shields.io/badge/ML-Classification-yellow)
 
-## 📌 Overview
+## Overview
 This project explores **large-scale NLP and document clustering** using Apache Spark and Python.  
 It applies:
 
@@ -17,19 +17,19 @@ Datasets include Text8, news headlines, and 20-Newsgroups samples.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Train Word2Vec embeddings and test semantic analogies  
 - Classify news headlines using TF-IDF vs Word2Vec  
 - Cluster documents and visualize with PCA projections  
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 `Python` · `Apache Spark` · `MLlib` · `scikit-learn` · `NLTK` · `Matplotlib`  
 
 ---
 
-## 🔬 Workflow Summary
+## Workflow Summary
 ### **Task 1a — Word2Vec Embeddings**
 - Trained embeddings on Text8  
 - Nearest-neighbor queries:  
@@ -53,14 +53,14 @@ TF-IDF significantly outperformed Word2Vec for headline classification.
 
 ---
 
-## 📊 Deliverables
+## Deliverables
 - Word2Vec semantic similarity results  
 - Confusion matrix + classification metrics  
 - PCA and K-Means visualizations  
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 - Replace TF-IDF with **BERT embeddings**  
 - Use **UMAP** for better dimensionality reduction  
 - Experiment with **Spectral** and **Agglomerative** clustering  
