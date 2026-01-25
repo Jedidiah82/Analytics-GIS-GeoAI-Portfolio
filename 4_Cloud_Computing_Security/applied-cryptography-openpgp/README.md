@@ -7,7 +7,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Cloud](https://img.shields.io/badge/Cloud-Azure%20Key%20Vault-blueviolet)
 
-## 📘 Portfolio Artifact – Applied Cryptography
+## Portfolio Artifact – Applied Cryptography
 
 This project demonstrates the **real-world application of cryptographic principles**—secure data storage, secure data transmission, and digital signatures—using **GnuPG (Gpg4win)** on a modern Windows platform.
 
@@ -17,7 +17,7 @@ Rather than manually implementing cryptographic algorithms (e.g., DES, RSA, Diff
 
 ---
 
-## 🎯 What This Demonstrates
+## What This Demonstrates
 
 - Public-key cryptography using **OpenPGP**
 - Digital signatures for **integrity** and **non-repudiation**
@@ -28,7 +28,7 @@ Rather than manually implementing cryptographic algorithms (e.g., DES, RSA, Diff
 
 ---
 
-## 🧭 Core Security Principles Demonstrated
+## Core Security Principles Demonstrated
 
 | Security Principle | Implementation |
 |------------------|----------------|
@@ -41,7 +41,7 @@ Rather than manually implementing cryptographic algorithms (e.g., DES, RSA, Diff
 
 ---
 
-## 🔐 Explicit Mapping to NIST Cybersecurity Framework (CSF)
+## Explicit Mapping to NIST Cybersecurity Framework (CSF)
 
 ### Identify (ID)
 - Cryptographic assets (keys, certificates) are clearly identified and managed.
@@ -94,7 +94,7 @@ Rather than manually implementing cryptographic algorithms (e.g., DES, RSA, Diff
 
 ---
 
-## 🛡️ Mapping to ISO/IEC 27001 (Annex A)
+## Mapping to ISO/IEC 27001 (Annex A)
 
 | ISO 27001 Control | Alignment |
 |------------------|----------|
@@ -106,11 +106,11 @@ Rather than manually implementing cryptographic algorithms (e.g., DES, RSA, Diff
 
 ---
 
-## ☁️ Cloud Security Bridge (Enterprise Equivalents)
+## Cloud Security Bridge (Enterprise Equivalents)
 
 Although this lab uses **local OpenPGP**, the cryptographic model directly maps to cloud-native services.
 
-### 🔑 AWS KMS (Key Management Service)
+### AWS KMS (Key Management Service)
 
 | OpenPGP Concept | AWS KMS Equivalent |
 |---------------|-------------------|
@@ -122,7 +122,7 @@ Although this lab uses **local OpenPGP**, the cryptographic model directly maps 
 
 ---
 
-### 🔐 Azure Key Vault
+### Azure Key Vault
 
 | OpenPGP Concept | Azure Key Vault Equivalent |
 |---------------|----------------------------|
@@ -137,7 +137,7 @@ Although this lab uses **local OpenPGP**, the cryptographic model directly maps 
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - Gpg4win 4.4.1
 - GnuPG (OpenPGP)
@@ -147,7 +147,7 @@ Although this lab uses **local OpenPGP**, the cryptographic model directly maps 
 
 ---
 
-## 🧪 Implementation Summary
+## Implementation Summary
 
 - Installed and configured Gpg4win
 - Generated OpenPGP public/private key pair
@@ -158,7 +158,7 @@ Although this lab uses **local OpenPGP**, the cryptographic model directly maps 
 
 ---
 
-## 🔐 Cybersecurity Role Relevance
+## Cybersecurity Role Relevance
 
 This project aligns with responsibilities in:
 
@@ -170,7 +170,7 @@ This project aligns with responsibilities in:
 
 ---
 
-## 💡 Why This Project Matters
+## Why This Project Matters
 
 Modern security professionals **do not implement cryptographic algorithms manually**.  
 They **design, configure, validate, and audit secure cryptographic systems**.
@@ -184,7 +184,7 @@ This artifact demonstrates:
 
 ---
 
-## ☁️ Cloud Key Management Extension (Azure Key Vault)
+## Cloud Key Management Extension (Azure Key Vault)
 
 To bridge local cryptographic fundamentals with enterprise cloud security,
 this lab was extended using **Azure Key Vault** to demonstrate how modern
@@ -228,7 +228,7 @@ cloud platforms manage encryption keys without exposing private material.
 ### Verification Evidence
 - Successful encryption and decryption operations were verified using Azure Key Vault CLI, with private key material remaining non-exportable and inaccessible.
 
-### 🔐 Conceptual Architecture Diagram
+### Conceptual Architecture Diagram
 
 ```text
 ┌──────────────────────────────┐
@@ -303,7 +303,7 @@ This comparison demonstrates how foundational cryptography skills translate dire
 
 ---
 
-## 📁 Recommended Repository Structure
+## Recommended Repository Structure
 
 ```text
 applied-cryptography-openpgp/
