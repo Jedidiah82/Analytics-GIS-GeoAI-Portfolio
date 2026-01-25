@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌡 Spatial Distribution of AFI Patients Positive for SARS-CoV-2 — Greater Monrovia, Liberia (Dec 2021)
 
 ![GIS](https://img.shields.io/badge/GIS-Spatial%20Analysis-green)
@@ -18,9 +17,6 @@
 **Clients/Partners:** AFENET Liberia, NPHIL, Ministry of Health, U.S. CDC  
 
 ---
-=======
-# 🌡 Spatial Distribution of Acute Febrile Illness (AFI) Patients Positive for SARS-CoV-2 — Monrovia, Liberia
->>>>>>> d0bb279e2fea950be49b8044e151d25b69afe41b
 
 ## Overview
 
