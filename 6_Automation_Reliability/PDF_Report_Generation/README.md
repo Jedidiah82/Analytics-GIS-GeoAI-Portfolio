@@ -1,6 +1,6 @@
 # 📄 Automated PDF Report Generation & Email Delivery  
 
-## 🧠 Overview  
+## Overview  
 
 This project automates the generation of **professional PDF reports** from structured data and securely delivers them via email to stakeholders.
 
@@ -8,7 +8,7 @@ It reflects real-world workflows used in **public health reporting, compliance d
 
 ---
 
-## 🎯 Objectives  
+## Objectives  
 
 The system is designed to:  
 
@@ -20,7 +20,7 @@ The system is designed to:
 
 ---
 
-## 🛠️ Tools & Technologies  
+## Tools & Technologies  
 
 | Category | Tools |
 | --------- | ------- |
@@ -32,7 +32,7 @@ The system is designed to:
 
 ---
 
-## ⚙️ How It Works  
+## How It Works  
 
 1. Data is formatted into a report template  
 2. ReportLab generates a PDF file  
@@ -42,7 +42,7 @@ The system is designed to:
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart LR
@@ -55,7 +55,7 @@ flowchart LR
 
 ---
 
-## 🧪 Key Features  
+## Key Features  
 
 - 📄 Automated PDF creation  
 - 📧 Email delivery system  
@@ -65,7 +65,7 @@ flowchart LR
 
 ---
 
-## 🗂️ Project Structure  
+## Project Structure  
 
 ```text
 automated_pdf_reporting/
@@ -76,7 +76,7 @@ automated_pdf_reporting/
 └── README.md
 ```
 
-## 🚀 Example Use Case  
+## Example Use Case  
 
 This tool can be used in:  
 
@@ -91,7 +91,7 @@ This tool can be used in:
 
 ---
 
-## 📌 Sample Output  
+## Sample Output  
 
 Processed Update on 2025-01-15
 
@@ -102,7 +102,7 @@ Processed Update on 2025-01-15
 
 ---
 
-## 📎 Skills Demonstrated  
+## Skills Demonstrated  
 
 - Python automation  
 - PDF report generation  
@@ -112,14 +112,14 @@ Processed Update on 2025-01-15
 
 ---
 
-## 🔗 Related Portfolio Pillar  
+## Related Portfolio Pillar  
 
 Part of:  
 **⚙️🛡️📊 Automation, Reliability & Secure Data Systems**  
 
 ---
 
-## 🧭 Next Steps  
+## Next Steps  
 
 Planned improvements:  
 
