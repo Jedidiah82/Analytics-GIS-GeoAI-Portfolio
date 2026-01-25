@@ -1,4 +1,4 @@
-# 🌡 AFI / SARS-CoV-2 Distribution — Liberia
+# 🌡 Spatial Distribution of Acute Febrile Illness (AFI) Patients Positive for SARS-CoV-2 — Monrovia, Liberia
 
 ## Overview
 Maps acute febrile illness (AFI) and SARS-CoV-2 distribution across counties and facilities.
