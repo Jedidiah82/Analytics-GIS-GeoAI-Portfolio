@@ -1,6 +1,6 @@
 # 🖼️ Image Processing & Data Standardization Pipeline  
 
-## 🧠 Overview  
+## Overview  
 
 This project automates the processing and standardization of image files to support **GeoAI, GIS, and cloud ingestion pipelines**.
 
@@ -8,7 +8,7 @@ It reflects real-world workflows used in **data engineering, spatial analytics, 
 
 ---
 
-## 🎯 Objectives  
+## Objectives  
 
 The system is designed to:  
 
@@ -20,7 +20,7 @@ The system is designed to:
 
 ---
 
-## 🛠️ Tools & Technologies  
+## Tools & Technologies  
 
 | Category | Tools |
 | --------- | ------- |
@@ -32,7 +32,7 @@ The system is designed to:
 
 ---
 
-## ⚙️ How It Works  
+## How It Works  
 
 1. Scans an input directory for image files  
 2. Converts images to JPEG format  
@@ -42,7 +42,7 @@ The system is designed to:
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart LR
@@ -55,17 +55,17 @@ flowchart LR
 
 ---
 
-## 🧪 Key Features  
+## Key Features  
 
-- 🖼️ Automated image conversion  
-- 📐 Resolution standardization  
-- 🎨 Color channel optimization  
-- 📁 Batch processing  
-- ⚡ Performance-ready outputs  
+- Automated image conversion  
+- Resolution standardization  
+- Color channel optimization  
+- Batch processing  
+- Performance-ready outputs  
 
 ---
 
-## 🗂️ Project Structure  
+## Project Structure  
 
 ```text
 image_processing_pipeline/
@@ -76,7 +76,7 @@ image_processing_pipeline/
 
 ---
 
-## 🚀 Example Use Case  
+## Example Use Case  
 
 This tool can be used in:  
 
@@ -92,7 +92,7 @@ This tool can be used in:
 
 ---
 
-## 📌 Sample Transformation  
+## Sample Transformation  
 
 | Before | After |
 | -------- | ------- |
@@ -102,7 +102,7 @@ This tool can be used in:
 
 ---
 
-## 📎 Skills Demonstrated  
+## Skills Demonstrated  
 
 - Python scripting  
 - Image processing  
@@ -112,14 +112,14 @@ This tool can be used in:
 
 ---
 
-## 🔗 Related Portfolio Pillar  
+## Related Portfolio Pillar  
 
 Part of:  
 **⚙️🛡️📊 Automation, Reliability & Secure Data Systems**  
 
 ---
 
-## 🧭 Next Steps  
+## Next Steps  
 
 Planned improvements:  
 
