@@ -3,11 +3,9 @@
 ![GIS](https://img.shields.io/badge/GIS-Spatial%20Analysis-success)
 ![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-Desktop%20GIS-2C7BE5)
 ![Spatiotemporal Analysis](https://img.shields.io/badge/Analysis-Spatiotemporal-orange)
-
 ![Public Health](https://img.shields.io/badge/Public%20Health-Epidemiology-blue)
 ![COVID-19](https://img.shields.io/badge/COVID--19-Surveillance-red)
 ![Policy Support](https://img.shields.io/badge/Use-Policy%20Decision--Support-purple)
-
 ![Clients MoH](https://img.shields.io/badge/Client-Liberia%20MoH%20%7C%20NPHIL-006400)
 ![Partners](https://img.shields.io/badge/Partners-AFENET%20%7C%20WHO%20%7C%20CDC-0057B7)
 
