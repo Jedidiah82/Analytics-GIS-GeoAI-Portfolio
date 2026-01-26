@@ -288,18 +288,12 @@ These diagrams highlight the architectural evolution from local cryptographic ke
 While OpenPGP secures data through locally managed private keys and passphrases, Azure Key Vault enforces cryptographic operations through identity-based access control and non-exportable keys—eliminating private key exposure.
 This comparison demonstrates how foundational cryptography skills translate directly into enterprise cloud security architectures.
 
-## 🔍 Threat Considerations (High-Level, Practical)
+## Threat Considerations (High-Level, Practical)
 
 - Private key compromise mitigated via non-exportable keys (Key Vault)
 - Unauthorized encryption attempts blocked by RBAC
 - Replay and tampering mitigated via asymmetric cryptography
 - Accidental data exposure reduced through encryption at rest
-
----
-
-## 📌 Resume Bullet
-
-> Implemented secure data storage, encrypted transmission, and digital signatures using OpenPGP (GnuPG/Gpg4win), applying public-key cryptography, key management, and integrity controls aligned with NIST CSF and ISO/IEC 27001.
 
 ---
 
