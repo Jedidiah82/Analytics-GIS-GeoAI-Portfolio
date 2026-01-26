@@ -29,7 +29,7 @@
 
 ---
 
-## 👋 Professional Summary
+## Professional Summary
 
 Data & Geospatial Analyst with **10+ years of experience** delivering **GIS-driven public health intelligence, large-scale analytics, and decision-support systems** across Africa and the United States.
 
@@ -39,13 +39,13 @@ Recognized for translating complex data into **actionable intelligence** that st
 
 ---
 
-## 🎯 Domains of Expertise
+## Domains of Expertise
 
 **Data Analytics • GIS/GeoAI • Cloud Engineering • Cybersecurity Analytics • Public Health Informatics**
 
 ---
 
-## 💡 Leadership & Impact
+## Leadership & Impact
 
 - 10+ years delivering GIS-driven intelligence systems  
 - Proven leadership in outbreak surveillance & spatial epidemiology  
@@ -55,9 +55,9 @@ Recognized for translating complex data into **actionable intelligence** that st
 
 ---
 
-## ⭐ Featured Projects <a name="featured-projects"></a>
+## Featured Projects <a name="featured-projects"></a>
 
-### 🦠 Lassa Fever GeoAI Forecasting  
+### Lassa Fever GeoAI Forecasting  
 [![Lassa GeoAI](assets/thumbnails/lassa-geoai.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)
 
 Spatio-temporal disease forecasting using **ARIMA, Prophet, STL, and XGBoost**.  
@@ -66,7 +66,7 @@ Spatio-temporal disease forecasting using **ARIMA, Prophet, STL, and XGBoost**.
 
 ---
 
-### 🛡 Intrusion Detection (UNSW-NB15)  
+### Intrusion Detection (UNSW-NB15)  
 [![Intrusion Detection](assets/thumbnails/unsw-intrusion.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection)
 
 Big Data cybersecurity analytics using **Hive & PySpark**.  
@@ -75,7 +75,7 @@ Big Data cybersecurity analytics using **Hive & PySpark**.
 
 ---
 
-### 🌊 NCEM Flood Exposure Mapping  
+### NCEM Flood Exposure Mapping  
 [![NCEM Flood](assets/thumbnails/ncem-flood.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)
 
 GIS-based hazard exposure analysis for emergency response.  
@@ -84,7 +84,7 @@ GIS-based hazard exposure analysis for emergency response.
 
 ---
 
-### ☁️ Cloud Infrastructure / CloudSim  
+### Cloud Infrastructure / CloudSim  
 [![CloudSim](assets/thumbnails/cloudsim.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/cloudsim-performance-lab)
 
 Cloud performance simulation & infrastructure modeling.  
@@ -93,7 +93,7 @@ Cloud performance simulation & infrastructure modeling.
 
 ---
 
-### ⚙️ AWS EC2 CLI Lab  
+### AWS EC2 CLI Lab  
 [![AWS EC2](assets/thumbnails/aws-ec2.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)
 
 Enterprise-style AWS infrastructure provisioning using CLI.  
@@ -102,7 +102,7 @@ Enterprise-style AWS infrastructure provisioning using CLI.
 
 ---
 
-### 🔧 System Health Monitoring Automation  
+### System Health Monitoring Automation  
 [![System Health](assets/thumbnails/system-health.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)
 
 Python-based monitoring with alerts & reliability engineering.  
@@ -111,7 +111,7 @@ Python-based monitoring with alerts & reliability engineering.
 
 ---
 
-## 🧠 Core Skill Areas
+## Core Skill Areas
 
 - **Data Science & ML:** Python, Spark, PySpark, XGBoost  
 - **GIS & GeoAI:** ArcGIS, GeoPandas, Remote Sensing  
@@ -121,7 +121,7 @@ Python-based monitoring with alerts & reliability engineering.
 
 ---
 
-## 🧭 Portfolio Pillars
+## Portfolio Pillars
 
 - Big Data & Machine Learning  
 - Public Health GeoAI  
@@ -131,7 +131,7 @@ Python-based monitoring with alerts & reliability engineering.
 
 ---
 
-## 🌍 Vision
+## Vision
 
 To advance data-driven public health, resilient infrastructure, and secure digital systems through the integration of GeoAI, advanced analytics, and cloud technologies.
 
