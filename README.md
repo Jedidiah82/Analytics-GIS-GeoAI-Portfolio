@@ -24,7 +24,7 @@
 
 ---
 
-## 👋 Professional Summary
+## Professional Summary
 
 Data & Geospatial Analytics Leader with 10+ years of experience delivering intelligence-driven solutions across public health, infrastructure, and emergency response in Africa and the United States.
 
@@ -43,7 +43,7 @@ Data Analytics, GIS/GeoAI, Cloud Engineering, Cybersecurity Analytics, Public He
 
 ---
 
-## 💡 Professional Impact
+## Professional Impact
 
 - Led GIS and analytics initiatives supporting national disease surveillance and emergency response  
 - Designed GeoAI-driven forecasting models for outbreak prediction and spatial risk analysis  
@@ -53,13 +53,13 @@ Data Analytics, GIS/GeoAI, Cloud Engineering, Cybersecurity Analytics, Public He
 
 ---
 
-## 🎯 Mission Statement
+## Mission Statement
 
 To build intelligent, secure, and data-driven systems that strengthen public health, protect critical infrastructure, and empower decision-makers through geospatial and analytical excellence.
 
 ---
 
-## 🎯 Strategic Engagement Areas
+## Strategic Engagement Areas
 
 ### Consulting & Advisory
 - Data & Analytics Strategy  
@@ -93,7 +93,7 @@ To build intelligent, secure, and data-driven systems that strengthen public hea
 
 ---
 
-## 🚀 Portfolio Overview
+## Portfolio Overview
 
 This portfolio showcases applied and research-driven work at the intersection of:
 
@@ -109,7 +109,7 @@ Projects span academic research, applied analytics, emergency management, nation
 
 ---
 
-## 🧭 System-Wide Portfolio Architecture
+## System-Wide Portfolio Architecture
 
 ```mermaid
 flowchart TB
@@ -131,7 +131,7 @@ flowchart TB
 
 ---
 
-## ⭐ Featured Projects
+## Featured Projects
 
 - 🔮 **[Lassa Fever GeoAI Forecasting](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)**  
   Predictive disease modeling to support early-warning surveillance and public health preparedness.
@@ -153,7 +153,7 @@ flowchart TB
 
 ---
 
-## 📚 Publications & Research Impact
+## Publications & Research Impact
 
 My work includes applied research and field-based analytics in public health, epidemiology, and geospatial intelligence.
 
@@ -176,7 +176,7 @@ Select research outputs and technical reports are available within this portfoli
 
 ---
 
-## 💡 Thought Leadership & Vision
+## Thought Leadership & Vision
 
 I believe the future of public health, infrastructure resilience, and security intelligence lies in the **integration of GeoAI, Big Data, and cloud-native systems**.
 
@@ -191,7 +191,7 @@ Through research, applied analytics, and technical leadership, I aim to shape ho
 
 ---
 
-## 🔁 DevOps & Automation Workflow
+## DevOps & Automation Workflow
 
 ```mermaid
 flowchart LR
@@ -204,7 +204,7 @@ flowchart LR
 
 ---
 
-## 📂 Portfolio Pillars
+## Portfolio Pillars
 
 Below are the core pillars of the portfolio, each with dedicated project folders.
 
@@ -260,19 +260,19 @@ This section includes hands-on cloud infrastructure labs, security engineering p
 private cloud deployments, and performance simulations across AWS, Azure, GCP, OpenStack, 
 and Hadoop-based environments.
 
-### ☁️ Cloud Platforms (Hands-On)
+### Cloud Platforms (Hands-On)
 - AWS (EC2, S3, IAM, VPC)  
 - Azure (AD, Resource Groups)  
 - GCP (IAM, Compute)  
 
-### 🔐 Cloud Security (Applied)
+### Cloud Security (Applied)
 - Identity & Access Management  
 - Threat detection & SIEM integration  
 - CIS hardening foundations  
 - Network segmentation & secure VPC design  
 - Compliance-aligned configurations  
 
-### 🛡 Cybersecurity Analytics (SOC-Focused)
+### Cybersecurity Analytics (SOC-Focused)
 - Splunk log analysis & alert tuning  
 - Threat intel (VirusTotal, GreyNoise)  
 - Email investigations & phishing detection  
@@ -308,7 +308,7 @@ data operations for geospatial, public health, and cloud-based systems.
 
 _These projects support secure GeoAI, public health analytics, and cloud-enabled systems._
 
-**🧪 Lab Source:**  
+**Lab Source:**  
 Automation projects are based on the **Google IT Automation with Python Professional Certificate**.
 
 ### Focus Areas
@@ -323,7 +323,7 @@ _These projects support secure GeoAI, public health analytics, and cloud-enabled
 
 ---
 
-## 🧠 Technical Skills Overview
+## Technical Skills Overview
 
 **Data & ML:**  
 Python • Spark • Hive • SQL • Pandas • GeoPandas • XGBoost • Prophet • scikit-learn  
@@ -348,7 +348,7 @@ ArcGIS Dashboards • Matplotlib • Seaborn • Power BI • Fabric Visuals
 
 ---
 
-## 🧩 Skills Matrix (Role-Aligned Competencies)
+## Skills Matrix (Role-Aligned Competencies)
 
 | Skill Area | Tools & Technologies | Expertise Level | Evidence |
 |-----------|----------------------|------------|----------|
@@ -364,7 +364,7 @@ ArcGIS Dashboards • Matplotlib • Seaborn • Power BI • Fabric Visuals
 
 ---
 
-## 🎓 Certifications & Training
+## Certifications & Training
 
 - Esri GIS & Spatial Data Science Certifications  
 - IBM Data Science Professional Certificate  
@@ -378,7 +378,7 @@ ArcGIS Dashboards • Matplotlib • Seaborn • Power BI • Fabric Visuals
 
 ---
 
-## 🔄 Reproducibility
+## Reproducibility
 
 Each project folder includes:
 
@@ -397,7 +397,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧭 Future Additions
+## Future Additions
 - Large-scale GeoAI using Spark
 - Automated Lassa Fever EWS dashboard
 - Hazard dashboards (NCEM-style)
