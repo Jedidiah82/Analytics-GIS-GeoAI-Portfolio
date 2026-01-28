@@ -282,24 +282,23 @@ and Hadoop-based environments.
 ---
 
 # 5️⃣ Data Engineering & Analytics Engineering (Established Competency)
-📦 Python • SQL • ETL/ELT • Spark • Airflow • Kafka • Data Warehousing
+📦 Python • SQL • ETL/ELT • Spark • Airflow • Kafka • Data Warehousing  
+_Engineering Continuation of Big Data & Machine Learning_
 
-This pillar represents established, production-oriented data engineering and analytics
-engineering capabilities developed through advanced academic training and applied
-projects in the MSc Big Data Technologies program.
+This pillar represents established, production-oriented **data engineering and analytics engineering** capabilities developed through advanced academic training and applied projects within the **MSc Big Data Technologies** program. It extends the analytical and machine learning work in **Big Data & Machine Learning** into **production-grade data platforms** that enable reliable ingestion, transformation, orchestration, and delivery at scale.
 
-Work in this area demonstrates the design, implementation, and evaluation of scalable data platforms supporting large-scale analytics, machine learning pipelines, and decision-support systems.
+Work in this area demonstrates the **design, implementation, and evaluation of scalable data platforms** supporting large-scale analytics, machine learning pipelines, and decision-support systems.
 
-Core capabilities include:
-• End-to-end data engineering pipelines (Python, SQL, ETL/ELT)
-• Relational, NoSQL, and Big Data systems (RDBMS, Spark, Hadoop)
-• Distributed processing and ML-enabled data pipelines (Spark, PySpark, ML workflows)
-• Workflow orchestration and streaming fundamentals (Airflow, Kafka)
-• Analytics engineering practices (data modeling, transformation layers, curated datasets)
-• Cloud-agnostic lakehouse and warehouse patterns supporting BI and ML workloads
+**Core capabilities include:**
+- End-to-end data engineering pipelines (Python, SQL, ETL/ELT)
+- Relational, NoSQL, and Big Data systems (RDBMS, Spark, Hadoop)
+- Distributed processing and ML-enabled data pipelines (Spark, PySpark, ML workflows)
+- Workflow orchestration and streaming fundamentals (Airflow, Kafka)
+- Analytics engineering practices (data modeling, transformation layers, curated datasets)
+- Cloud-agnostic lakehouse and warehouse patterns supporting BI and ML workloads
 
-This competency is being **formalized and industry-aligned** through the
-**IBM Data Engineering Professional Certificate**, reinforcing best practices, tooling standards, and employer-recognized credentials that formalize and extend the theoretical and applied foundation of the **MSc Big Data Technologies** program. 
+This competency is being **formalized and industry-aligned** through the  
+**IBM Data Engineering Professional Certificate**, reinforcing best practices, tooling standards, and employer-recognized credentials that extend and operationalize the theoretical and applied foundation of the **MSc Big Data Technologies** program. 
 
 ---
 
