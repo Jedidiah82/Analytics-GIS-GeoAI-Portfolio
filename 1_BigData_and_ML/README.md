@@ -48,7 +48,7 @@ These projects are ideal for demonstrating competencies in:
 
 ---
 
-```Mermaid
+```mermaid
 graph TD
 
 A[Machine Learning & AI for GeoAI / Infrastructure System]
