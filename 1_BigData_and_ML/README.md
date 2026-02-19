@@ -48,9 +48,9 @@ These projects are ideal for demonstrating competencies in:
 
 ---
 
-## 🧠 Machine Learning & AI Taxonomy (GeoAI Focus)
+## Machine Learning & AI Taxonomy (GeoAI Focus)
 
-![ML AI Diagram](1_BigData_and_ML/MLTaxonomy.png)
+![ML AI Diagram](./1_BigData_and_ML/MLTaxonomy.png)
 
 ```mermaid
 graph TD
