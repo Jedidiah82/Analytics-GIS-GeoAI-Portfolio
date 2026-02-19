@@ -85,23 +85,24 @@ flowchart TB
 ---
 
 ## Portfolio Structure
-### 1️⃣ Big Data & Machine Learning
-Spark • Hive • PySpark • Distributed ML • Feature Engineering
 
-### 2️⃣ Public Health GeoAI & Spatio-Temporal Modeling
-Disease Forecasting • Spatial Epidemiology • Surveillance Systems
+- **[1️⃣ Big Data & Machine Learning](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML)**  
+  Spark • Hive • PySpark • ML Pipelines • Feature Engineering  
 
-### 3️⃣ GIS, Spatial Data Science & Remote Sensing
-ArcGIS • QGIS • Raster Analysis • Environmental Modeling
+- **[2️⃣ Public Health GeoAI & Spatio-Temporal Modeling](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI)**  
+  Disease Forecasting • Hotspot Modeling • Surveillance Analytics  
 
-### 4️⃣ Cloud Computing & Security Engineering
-AWS • Azure • GCP • IAM • SIEM • Threat Detection
+- **[3️⃣ GIS, Spatial Data Science & Remote Sensing](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience)**  
+  ArcGIS • GeoPandas • Remote Sensing • Spatial Modeling  
 
-### 5️⃣ Data Engineering & Analytics Engineering
-ETL/ELT • Data Pipelines • Spark • Workflow Orchestration
+- **[4️⃣ Cloud Computing & Security Engineering](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security)**  
+  AWS • Azure • GCP • IAM • SIEM • Threat Detection  
 
-### 6️⃣ Automation, Reliability & Secure Systems
-Python • APIs • Monitoring • Reporting • Infrastructure Automation
+- **[5️⃣ Data Engineering & Analytics Engineering](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/5_Data_Engineering_Analytics)**  
+  ETL/ELT • Spark • Orchestration • Lakehouse Patterns • Microsoft Fabric  
+
+- **[6️⃣ Automation, Reliability & Secure Systems](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability)**  
+  Python Automation • Monitoring • Reporting • APIs  
 
 ---
 
