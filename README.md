@@ -1,4 +1,4 @@
-<h1 align="center">📊 Data Analytics • GIS–GeoAI • Cloud, Cybersecurity & Public Health Intelligence Portfolio</h1>
+<h1 align="center">📊 Data Analytics • GeoAI • Big Data • Cloud & Cybersecurity Portfolio</h1>
 
 <p align="center">
   <strong>Godwin Etim Akpan</strong><br>
