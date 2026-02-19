@@ -52,6 +52,9 @@ These projects are ideal for demonstrating competencies in:
 
 ![ML AI Diagram](figures/MLtaxonomy.png)
 
+### More Detailed ML & AI Diagram
+_Zoom in to see more details_
+
 ```mermaid
 graph TD
 
