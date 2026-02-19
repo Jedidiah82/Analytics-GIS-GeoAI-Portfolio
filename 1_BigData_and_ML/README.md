@@ -211,7 +211,7 @@ M --> OUT[Insights & Decision Systems]
 
 ---
 
-## 🎯 Key Strength
+## Key Strength
 
 This portfolio reflects a **systems-level approach to AI**, combining:
 
