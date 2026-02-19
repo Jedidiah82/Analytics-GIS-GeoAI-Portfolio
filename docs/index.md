@@ -1,7 +1,7 @@
 <h1 align="center">📊 Godwin Etim Akpan</h1>
 
 <p align="center">
-  <strong>Data Analytics • GIS–GeoAI • Cloud • Cybersecurity • Public Health Intelligence</strong>
+  <strong>Applied Data Science • GIS–GeoAI • Big Data • Cloud • Cybersecurity • Public Health Intelligence>
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
   📍 Raleigh, NC, USA |
   <a href="https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio">Portfolio</a> |
   <a href="https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/">LinkedIn</a> |
-  <a href="mailto:godwineakpan1@gmail.com">Email Me</a>
+  <a href="mailto:godwineakpan1@gmail.com">Email</a>
 </p>
 
 <p align="center">
