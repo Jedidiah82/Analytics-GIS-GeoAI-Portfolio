@@ -48,6 +48,10 @@ These projects are ideal for demonstrating competencies in:
 
 ---
 
+## 🧠 Machine Learning & AI Taxonomy (GeoAI Focus)
+
+![ML AI Diagram](path_to_MLTaxonomy.png)
+
 ```mermaid
 graph TD
 
