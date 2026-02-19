@@ -230,5 +230,5 @@ pip install -r requirements.txt
 To advance public health, resilient infrastructure, and secure digital systems through the integration of **GeoAI, advanced analytics, and cloud-native technologies**.
 
 ---
-### © 2025 Godwin Etim Akpan  
-**Data Analytics • GeoAI • Cloud • Cybersecurity • Public Health Intelligence**  
+**© 2025 Godwin Etim Akpan**  
+Data Analytics • GeoAI • Cloud • Cybersecurity • Public Health Intelligence  
