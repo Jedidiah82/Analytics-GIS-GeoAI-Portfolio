@@ -1,4 +1,4 @@
-# Big Data & Machine Learning Projects
+# 📊🧮 Big Data & Machine Learning Projects
 
 This folder showcases advanced projects applying machine learning and big data technologies to real-world problems in:
 
