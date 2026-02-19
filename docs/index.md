@@ -112,7 +112,7 @@ Big Data cybersecurity analytics using **Hive & PySpark**.
 ### NCEM Flood Exposure Mapping  
 [![NCEM Flood](assets/thumbnails/ncem-flood.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)
 
-Hazard exposure modeling for emergency preparedness and response.
+Hazard exposure modeling for emergency preparedness and response.  
 🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)
 
 ---
@@ -128,7 +128,7 @@ Cloud performance simulation & infrastructure modeling.
 ### AWS EC2 CLI Lab  
 [![AWS EC2](assets/thumbnails/aws-ec2.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)
 
-AWS provisioning and management using CLI with IAM foundations.
+AWS provisioning and management using CLI with IAM foundations.  
 🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)
 
 ---
@@ -136,7 +136,7 @@ AWS provisioning and management using CLI with IAM foundations.
 ### System Health Monitoring Automation  
 [![System Health](assets/thumbnails/system-health.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)
 
-Python-based monitoring, alerting, and reliability automation. 
+Python-based monitoring, alerting, and reliability automation.   
 🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)
 
 ---
@@ -195,10 +195,16 @@ Python-based monitoring, alerting, and reliability automation.
 - Splunk Core Certified User  
 - Google IT Automation with Python  
 - IBM Data Science Professional Certificate  
-- IBM Data Engineering Professional Certificate *(In Progress / Continuing)*  
-- Microsoft Fabric & Power BI *(DP-600, DP-700, PL-300 — In Progress)*  
+
+### In Progress
+
+- IBM Data Engineering Professional Certificate  
+- Microsoft Fabric & Power BI Certifications *(DP-600, DP-700, PL-300)*  
+
+### Public Health & Leadership
+
 - Field Epidemiology Training Program (FETP)  
-- Project Management in Global Health (University of Washington)  
+- Project Management in Global Health (University of Washington)   
 
 ---
 
