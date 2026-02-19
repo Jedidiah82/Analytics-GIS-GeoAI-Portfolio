@@ -1,7 +1,7 @@
 <h1 align="center">📊 Godwin Etim Akpan</h1>
 
 <p align="center">
-  <strong>Applied Data Science • GIS–GeoAI • Big Data • Cloud • Cybersecurity • Public Health Intelligence>
+  <strong>Applied Data Science • GIS–GeoAI • Big Data • Cloud • Cybersecurity • Public Health Intelligence</strong>
 </p>
 
 <p align="center">
