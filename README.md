@@ -99,6 +99,7 @@ flowchart TB
   AWS • Azure • GCP • IAM • SIEM • Threat Detection  
 
 - **[5️⃣ Data Engineering & Analytics Engineering](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/5_Data%20%26%20Analytics%20Engineering)**
+
   ETL/ELT • Spark • Orchestration • Lakehouse Patterns • Microsoft Fabric  
 
 - **[6️⃣ Automation, Reliability & Secure Systems](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability)**  
