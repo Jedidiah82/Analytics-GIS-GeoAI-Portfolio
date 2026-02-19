@@ -133,22 +133,22 @@ flowchart TB
 
 ## Featured Projects
 
-- 🔮 **[Lassa Fever GeoAI Forecasting](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)**  
+- **[Lassa Fever GeoAI Forecasting](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)**  
   Predictive disease modeling to support early-warning surveillance and public health preparedness.
 
-- 🛡️ **[Intrusion Detection (UNSW-NB15)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection)**  
+- **[Intrusion Detection (UNSW-NB15)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection)**  
   Big Data cybersecurity analytics using Hive and PySpark.
 
-- 🌊 **[NCEM Flood Exposure Mapping](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)**  
+- **[NCEM Flood Exposure Mapping](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)**  
   Hazard exposure analysis for emergency management.
 
-- ☁️ **[Cloud Infrastructure / CloudSim](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/cloudsim-performance-lab)**
+- **[Cloud Infrastructure / CloudSim](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/cloudsim-performance-lab)**
   Cloud performance simulation & infrastructure modeling.  
 
-- ⚙️ **[AWS EC2 CLI Lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)**
+- **[AWS EC2 CLI Lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)**
   Hands-on AWS infrastructure provisioning and management using CLI.  
 
-- 🔧 **[System Health Monitoring Automation](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)**  
+- **[System Health Monitoring Automation](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)**  
   Automated infrastructure monitoring and alerting.
 
 ---
@@ -281,13 +281,24 @@ and Hadoop-based environments.
 
 ---
 
-# 5️⃣ Microsoft Fabric & Power BI (Developing Competency)
+# 5️⃣ Data Engineering & Analytics Engineering (Established Competency)
+📦 Python • SQL • ETL/ELT • Spark • Airflow • Kafka • Data Warehousing  
+_Engineering Continuation of Big Data & Machine Learning_
 
-- Fabric Lakehouse & Delta architecture  
-- Power BI modeling, DAX, semantic modeling  
-- Real-Time Analytics in Fabric  
-- Data Pipelines & Dataflows  
-- End-to-end analytics engineering workflows  
+This pillar represents established, production-oriented **data engineering and analytics engineering** capabilities developed through advanced academic training and applied projects within the **MSc Big Data Technologies** program. It extends the analytical and machine learning work in **Big Data & Machine Learning** into **production-grade data platforms** that enable reliable ingestion, transformation, orchestration, and delivery at scale.
+
+Work in this area demonstrates the **design, implementation, and evaluation of scalable data platforms** supporting large-scale analytics, machine learning pipelines, and decision-support systems.
+
+**Core capabilities include:**
+- End-to-end data engineering pipelines (Python, SQL, ETL/ELT)
+- Relational, NoSQL, and Big Data systems (RDBMS, Spark, Hadoop)
+- Distributed processing and ML-enabled data pipelines (Spark, PySpark, ML workflows)
+- Workflow orchestration and streaming fundamentals (Airflow, Kafka)
+- Analytics engineering practices (data modeling, transformation layers, curated datasets)
+- Cloud-agnostic lakehouse and warehouse patterns supporting BI and ML workloads
+
+This competency is being **formalized and industry-aligned** through the  
+**IBM Data Engineering Professional Certificate**, reinforcing best practices, tooling standards, and employer-recognized credentials that extend and operationalize the theoretical and applied foundation of the **MSc Big Data Technologies** program. 
 
 ---
 

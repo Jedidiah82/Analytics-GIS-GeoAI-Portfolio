@@ -215,7 +215,7 @@ Encrypted by CMK (KMS)
 Encrypted Data Stored
 ```
 
-## Extended Lab: AWS KMS + Encrypted S3 (Optional)
+## AWS KMS + Encrypted S3 
 ### Create Encrypted S3 Bucket
 ```powershell
 aws s3 mb s3://my-secure-crypto-lab-bucket

@@ -14,7 +14,7 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This portfolio showcases **hands-on, modern cloud engineering and security projects** across multiple platforms, focusing on secure infrastructure, identity management, data processing, and real-world cloud operations.
 
@@ -22,7 +22,7 @@ All projects follow **industry-aligned, cloud-native practices** — no legacy t
 
 ---
 
-## 🧭 Navigation
+## Navigation
 
 - [Featured Projects](#-featured-cloud--security-projects)  
 - [Cloud Platforms](#cloud-platforms-covered)  
@@ -31,37 +31,37 @@ All projects follow **industry-aligned, cloud-native practices** — no legacy t
 
 ---
 
-## 📂 Featured Cloud & Security Projects
+## Featured Cloud & Security Projects
 
-### 🔐 Applied Cryptography (AWS)
+### Applied Cryptography (AWS)
 Secure authentication, encryption, and IAM-based cryptographic operations using AWS-managed services.  
 **Open Project:** [applied-cryptography-aws](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/applied-cryptography-aws)
 
-### 🔐 Secure Data Storage & Digital Signatures (OpenPGP)
+### Secure Data Storage & Digital Signatures (OpenPGP)
 Local cryptography lab demonstrating encryption, signing, and key management aligned with NIST & ISO standards.  
 **Open Project:** [applied-cryptography-openpgp](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/applied-cryptography-openpgp)
 
-### 🚀 AWS EC2 Provisioning via CLI  
+### AWS EC2 Provisioning via CLI  
 End-to-end EC2 lifecycle management using AWS CLI, IAM, SSH, and CloudWatch monitoring.  
 **Open Project:** [aws-ec2-cli-lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)
 
-### 🌐 Azure Static Web App Deployment  
+### Azure Static Web App Deployment  
 CI/CD pipeline with GitHub Actions and secure serverless hosting on Azure.  
 **Open Project:** [azure-hello-world](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/azure-hello-world)
 
-### 📊 CloudSim Performance Simulation  
+### CloudSim Performance Simulation  
 Cloud infrastructure performance modeling using Java-based CloudSim.  
 **Open Project:** [cloudsim-performance-lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/cloudsim-performance-lab)
 
-### ☁️ Google Cloud Datastore + Cloud Shell  
+### Google Cloud Datastore + Cloud Shell  
 Serverless NoSQL database lab using Google Cloud Datastore and Cloud Shell.  
 **Open Project:** [google-cloud-guestbook-lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/google-cloud-guestbook-lab)
 
-### 🗃 Hadoop MapReduce Lab  
+### Hadoop MapReduce Lab  
 Distributed batch data processing using HDFS and MapReduce.  
 **Open Project:** [hadoop-mapreduce-lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/hadoop-mapreduce-lab)
 
-### 🏗 OpenStack Cloud Network & VM Deployment  
+### OpenStack Cloud Network & VM Deployment  
 Private cloud networking, VM provisioning, security groups, and SSH-based access using OpenStack.  
 **Open Project:** [openstack-cloud-lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/openstack-cloud-lab)
 
@@ -99,7 +99,7 @@ Private cloud networking, VM provisioning, security groups, and SSH-based access
 
 ---
 
-## 🔐 Security Focus Areas
+## Security Focus Areas
 
 - Identity & Access Management (IAM)  
 - Secure authentication (SSH, TLS, Keys)  
@@ -111,7 +111,7 @@ Private cloud networking, VM provisioning, security groups, and SSH-based access
 
 ---
 
-## 🧱 Repository Structure
+## Repository Structure
 
 ```text
 4_Cloud_Computing_Security/
@@ -128,7 +128,7 @@ Private cloud networking, VM provisioning, security groups, and SSH-based access
 
 ---
 
-## 💡 Why This Portfolio Matters
+## Why This Portfolio Matters
 
 This collection demonstrates:
 
