@@ -1,12 +1,12 @@
 # Big Data & Machine Learning Projects
 
-This folder contains advanced projects demonstrating:
+This folder showcases advanced projects applying machine learning and big data technologies to real-world problems in:
 
-- Distributed processing (Spark, Hive, HDFS)  
-- Large-scale NLP  
-- Cybersecurity intrusion detection  
-- Streaming log analytics  
-- Geospatial clustering and market analysis  
+- Distributed data processing (Spark, Hive, HDFS)  
+- Natural language processing (NLP)  
+- Cybersecurity analytics  
+- Streaming data systems  
+- Geospatial intelligence (GeoAI)
 
 ---
 
@@ -30,27 +30,29 @@ Each folder contains:
 
 ---
 
-## Skills Demonstrated
+## Core Competencies Demonstrated
 
-- Distributed NLP modeling  
-- Feature engineering at scale  
-- Model evaluation (AUC, F1, confusion matrix)  
-- Real-time log processing  
-- Geospatial cluster analytics  
-
-These projects are ideal for demonstrating competencies in:
-
-- **Data Engineering**  
-- **Machine Learning**  
-- **Cybersecurity Analytics**  
-- **Geospatial Data Science**  
-- **Cloud-based Big Data Processing**
+- Scalable data processing and feature engineering (Spark, Hive)
+- Machine learning modeling and evaluation (AUC, F1, confusion matrix)
+- Real-time data processing (Spark Structured Streaming)
+- Geospatial analytics and clustering (GeoAI)
+- Applied NLP and representation learning (Word2Vec, TF-IDF)
+- Cybersecurity analytics (intrusion detection using UNSW-NB15)
 
 ---
 
 ## Machine Learning & AI Taxonomy (GeoAI Focus)
 
-![ML AI Diagram](./1_BigData_and_ML/MLTaxonomy.png)
+This diagram illustrates how machine learning techniques integrate into real-world systems across GeoAI, infrastructure, and public health analytics.
+It reflects a systems-oriented approach — connecting models, data pipelines, and decision-making workflows.
+
+![ML AI Diagram](figures/MLtaxonomy.png)
+
+> This framework reflects how I approach real-world AI problems — combining data engineering, machine learning, and domain-specific analytics (GeoAI, time-series, and infrastructure systems).
+
+### Detailed Machine Learning Architecture
+The expanded diagram below provides a deeper breakdown of algorithms, relationships, and learning paradigms across AI systems.
+
 
 ```mermaid
 graph TD
@@ -131,3 +133,16 @@ H --> ARIMA[ARIMA]
 H --> PROPHET[Prophet]
 H --> LSTM_TS[LSTM Forecasting]
 ```
+
+---
+
+## Key Strength
+
+This portfolio demonstrates a systems-level approach to AI, combining:
+
+- Data engineering and scalable processing  
+- Machine learning and statistical modeling  
+- Geospatial intelligence (GeoAI)  
+- Time-series forecasting and anomaly detection  
+
+to build practical, decision-support solutions across infrastructure, public health, and cybersecurity domains.
