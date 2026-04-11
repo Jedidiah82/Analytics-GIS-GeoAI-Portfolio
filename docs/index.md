@@ -129,6 +129,30 @@ Python-based monitoring, alerting, and reliability automation.
 
 ---
 
+## Selected Public Health & Humanitarian Analytics Projects
+
+### Cross-Border Ebola & Marburg Risk Mapping  
+Geospatial risk modeling across Liberia’s borders using mobility corridors, ecological suitability, and vulnerability scoring to support outbreak preparedness and cross-border surveillance planning.  
+[View Project](./3_GIS_Spatial_DataScience/CrossBorder_Ebola_Marburg_Risk/)
+
+---
+
+### COVID-19 Temporal Hotspot Analysis (Montserrado County)  
+Spatiotemporal GIS analysis of COVID-19 case dynamics to support surveillance reporting, hotspot detection, and evidence-based public health response.  
+[View Project](./3_GIS_Spatial_DataScience/COVID19_Montserrado_Temporal_Change/)
+
+---
+
+### AFI / SARS-CoV-2 Spatial Distribution (Greater Monrovia)  
+High-resolution epidemiological mapping of acute febrile illness (AFI) cases to support targeted testing, surveillance optimization, and outbreak intelligence.  
+[View Project](./3_GIS_Spatial_DataScience/AFI_SARSCoV2_Distribution/)
+
+---
+
+**Impact:** Supported outbreak surveillance, hotspot detection, and cross-border risk prioritization in real-world public health operations.
+
+---
+
 ## 🧱 Portfolio Pillars (Explore by Area)
 
 - **[1️⃣ Big Data & Machine Learning](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML)**  
@@ -176,23 +200,22 @@ Python-based monitoring, alerting, and reliability automation.
 
 ---
 
-## Certifications & Training (Selected)
+## Certifications & Training
 
-- CompTIA CySA+  
-- CompTIA Security+ (CE)  
-- Splunk Core Certified User  
+**Public Health & Humanitarian**
+- Field Epidemiology Training Program (FETP)  
+- Project Management in Global Health (University of Washington)
+- R for Applied Epidemiology (Applied Epi)
+
+**Data & Technology**
+- CompTIA CySA+ | Security+ (CE)  
 - Google IT Automation with Python  
 - IBM Data Science Professional Certificate  
+- Splunk Core Certified User  
 
-### In Progress
-
+**In Progress**
 - IBM Data Engineering Professional Certificate  
-- Microsoft Fabric & Power BI Certifications *(DP-600, DP-700, PL-300)*  
-
-### Public Health & Leadership
-
-- Field Epidemiology Training Program (FETP)  
-- Project Management in Global Health (University of Washington)   
+- Microsoft Fabric & Power BI (DP-600, DP-700, PL-300)
 
 ---
 
