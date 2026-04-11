@@ -58,6 +58,8 @@ The processed datasets supported WHO and partner-produced epidemic mapping and r
   <img src="./CrossBorder_Ebola_Marburg_Risk/ebola_deaths_timeline_map.png" width="800"/>
 </p>
 
+![Ebola Death Toll](ebola_deaths_timeline_map.png)
+
 <p align="center"><em>
 Ebola outbreak progression maps showing spatio-temporal distribution of cases across Liberia during the 2014–2015 epidemic.  
 Source: WHO, national health ministries, and humanitarian data partners.  
