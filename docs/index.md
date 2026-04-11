@@ -142,19 +142,19 @@ Python-based monitoring, alerting, and reliability automation.
 
 ### Cross-Border Ebola & Marburg Risk Mapping  
 Geospatial risk modeling across Liberia’s borders using mobility corridors, ecological suitability, and vulnerability scoring to support outbreak preparedness and cross-border surveillance planning.  
-[View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Spatial_Epi_Projects/CrossBorder_Ebola_Marburg_Risk)
+👉 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Spatial_Epi_Projects/CrossBorder_Ebola_Marburg_Risk)
 
 ---
 
 ### COVID-19 Temporal Hotspot Analysis (Montserrado County)  
 Spatiotemporal GIS analysis of COVID-19 case dynamics to support surveillance reporting, hotspot detection, and evidence-based public health response.  
-[View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Spatial_Epi_Projects/COVID19_Montserrado_Temporal_Change)
+👉 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Spatial_Epi_Projects/COVID19_Montserrado_Temporal_Change)
 
 ---
 
 ### AFI / SARS-CoV-2 Spatial Distribution (Greater Monrovia)  
 High-resolution epidemiological mapping of acute febrile illness (AFI) cases to support targeted testing, surveillance optimization, and outbreak intelligence.  
-[View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Spatial_Epi_Projects/AFI_SARSCoV2_Distribution)
+👉 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Spatial_Epi_Projects/AFI_SARSCoV2_Distribution)
 
 ---
 
