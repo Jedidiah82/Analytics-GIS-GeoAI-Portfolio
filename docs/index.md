@@ -1,11 +1,11 @@
-<h1 align="center">📊 Godwin Etim Akpan</h1>
+<h1 align="center"> Godwin Etim Akpan</h1>
 
 <p align="center">
   <strong>Applied Data Science • GIS–GeoAI • Big Data • Cloud • Cybersecurity • Public Health Intelligence</strong>
 </p>
 
 <p align="center">
-  <em>Driving intelligence-led solutions at the intersection of data, geography, and security for public health and infrastructure resilience.</em>
+  <em>Driving intelligence-led, data-driven decision-making at the intersection of geospatial analytics, public health, and secure data systems.</em>
 </p>
 
 <p align="center">
@@ -55,6 +55,15 @@ I specialize in **GeoAI, Big Data Analytics, Cloud Computing, Cybersecurity Anal
 
 ---
 
+## What I Bring
+
+- Field-tested experience supporting outbreak response and humanitarian data systems  
+- Strong technical capability across GIS, data engineering, and advanced analytics  
+- Ability to translate complex, multi-source data into actionable insights for decision-makers  
+- Proven experience working in high-pressure, resource-constrained environments
+
+---
+
 ## Portfolio Overview
 
 This portfolio showcases applied and research-driven work across:
@@ -84,7 +93,7 @@ This portfolio showcases applied and research-driven work across:
 ### Lassa Fever GeoAI Forecasting  
 [![Lassa GeoAI](assets/thumbnails/lassa-geoai.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)
 
-Spatio-temporal disease forecasting using **ARIMA, Prophet, STL, and XGBoost**.  
+Spatio-temporal disease forecasting using **ARIMA, Prophet, STL, and XGBoost** to support early warning and outbreak preparedness.  
 🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)
 
 ---
