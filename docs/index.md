@@ -71,7 +71,7 @@ This portfolio showcases applied and research-driven work across:
 
 ### System-Wide Architecture
 
-![System Architecture](docs/images/system_architecture.png)
+![System Architecture](./images/system_architecture.png)
 
 ---
 
