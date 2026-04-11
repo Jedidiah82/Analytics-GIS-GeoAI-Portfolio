@@ -69,25 +69,9 @@ This portfolio showcases applied and research-driven work across:
 
 ---
 
-## System-Wide Architecture
+### System-Wide Architecture
 
-```mermaid
-flowchart TB
-    A[Data Sources] --> B[Automation & Processing]
-    B --> C[Analytics & GeoAI]
-    C --> D[Visualization & Reporting]
-    D --> E[Stakeholders]
-
-    subgraph SecurityLayer["Security & Monitoring"]
-        F[Access Control]
-        G[Monitoring]
-        H[Logging & Audit]
-    end
-
-    B --> SecurityLayer
-    C --> SecurityLayer
-    D --> SecurityLayer
-```
+![System Architecture](docs/images/system_architecture.png)
 
 ---
 
