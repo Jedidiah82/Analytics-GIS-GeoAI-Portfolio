@@ -54,13 +54,9 @@ The processed datasets supported WHO and partner-produced epidemic mapping and r
 
 ## Example Output (WHO / Partners)
 
-<p align="center">
-  <img src="./CrossBorder_Ebola_Marburg_Risk/ebola_deaths_timeline_map.png" width="800"/>
-</p>
-
 ![Ebola Death Toll](ebola_deaths_timeline_map.png)
 
-<p align="center"><em>
+<p align="left"><em>
 Ebola outbreak progression maps showing spatio-temporal distribution of cases across Liberia during the 2014–2015 epidemic.  
 Source: WHO, national health ministries, and humanitarian data partners.  
 Note: Visualization produced by WHO and partners. My role focused on upstream data cleaning, harmonization, and preparation of national surveillance datasets used in these outputs.
