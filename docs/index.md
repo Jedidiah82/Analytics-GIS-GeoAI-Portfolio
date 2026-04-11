@@ -75,7 +75,7 @@ This portfolio showcases applied and research-driven work across:
   <img src="./images/system_architecture.png" alt="System-Wide Architecture" width="600"/>
 </p>
 
-<p align="center"><em>Conceptual architecture showing how data sources flow through processing and automation into analytics and GeoAI modeling, then into visualization and reporting for stakeholder decision-making, while security, monitoring, logging, and audit controls remain embedded across the pipeline.</em></p>
+<p align="left"><em>Conceptual architecture showing how data sources flow through processing and automation into analytics and GeoAI modeling, then into visualization and reporting for stakeholder decision-making, while security, monitoring, logging, and audit controls remain embedded across the pipeline.</em></p>
 
 ---
 
