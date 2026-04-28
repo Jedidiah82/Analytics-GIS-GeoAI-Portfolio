@@ -65,31 +65,9 @@ All datasets were **validated and standardized** according to **NPHIL surveillan
 
 ## Analytical Workflow
 
-```mermaid
-flowchart TD
-    A[NPHIL COVID-19 Surveillance Data] --> B[Data Validation & Cleaning]
-    B --> C[Community-Level Case Disaggregation]
-    C --> D[Case Status Classification]
-    D --> E[Spatial Point Mapping]
-    E --> F[Density & Hotspot Analysis]
-    F --> G[Temporal Comparison]
-    G --> H[Map Layout & Symbology Design]
-    H --> I[National Situation Reports & Decision Support]
-
-    subgraph Case_Status
-        D1[New Cases]
-        D2[Active Cases]
-        D3[Recovered Cases]
-        D4[Deaths]
-        D5[Possible Reinfections]
-    end
-
-    D --> D1
-    D --> D2
-    D --> D3
-    D --> D4
-    D --> D5
-```
+<p align="center">
+  <img src="./figures/analytical workflow1.png" alt="Analytical Workflow" width="600"/>
+</p>
 
 ---
 
@@ -192,26 +170,9 @@ This approach aligns with **WHO and CDC recommendations** for spatially informed
 
 ### Decision-Support Workflow
 
-```mermaid
-flowchart TD
-    A["COVID-19 Case Reporting<br/>(Health Facilities & Labs)"] --> B[NPHIL Data Validation]
-    B --> C[Community-Level Aggregation]
-    C --> D[GIS Spatial Analysis]
-    D --> E[Hotspot & Density Detection]
-    E --> F[Temporal Trend Assessment]
-    F --> G[Situation Reports & Dashboards]
-    G --> H[Policy Decisions & Resource Allocation]
-
-    subgraph Stakeholders
-        H1[Ministry of Health]
-        H2[County Health Teams]
-        H3[AFENET / CDC / WHO]
-    end
-
-    H --> H1
-    H --> H2
-    H --> H3
-```
+<p align="center">
+  <img src="./figures/decision-support workflow1.png" alt="Decision-Support Workflow" width="600"/>
+</p>
 
 ---
 
