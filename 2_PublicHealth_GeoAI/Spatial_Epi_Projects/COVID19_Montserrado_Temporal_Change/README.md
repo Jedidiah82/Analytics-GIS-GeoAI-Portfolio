@@ -1,4 +1,4 @@
-# 🌆 COVID-19 Temporal Hotspot Change — Montserrado County, Liberia (2021–2023)
+# 🌆 COVID-19 Spatiotemporal Case Dynamics and Hotspot Patterns — Montserrado County (2021–2023)
 
 > A spatiotemporal GIS analysis of COVID-19 case dynamics across Montserrado County in Liberia, supporting national COVID-19 surveillance, hotspot detection, and evidence-based public health response planning.
 
@@ -26,16 +26,16 @@ This project presents a **temporal GIS analysis of COVID-19 case distributions**
 - **July 27, 2022** — Post-wave recovery phase  
 - **February 19, 2023** — Stabilization phase  
 
-A three-map time series was developed to visualize **changes in case status, spatial clustering, and hotspot intensity** over time. The maps supported **national surveillance reporting, situational awareness, and targeted public-health response planning**.
+A three-map time series was developed to visualize **changes in case status, spatial clustering, and hotspot intensity** over time. The maps support **national surveillance reporting, situational awareness, and targeted public-health response planning**.
 
 ---
 
 ## Objectives
 
-- Enhance situational awareness during and after major COVID-19 waves  
-- Track spatial and temporal shifts in case density and clustering  
-- Support public health communication with clear, community-level visualizations  
-- Inform resource allocation and preparedness planning  
+- Enhance situational awareness during and after COVID-19 waves
+- Track spatial and temporal shifts in case distribution
+- Support public health communication through clear visualizations
+- Inform resource allocation and preparedness planning 
 
 ---
 
@@ -56,10 +56,12 @@ All datasets were **validated and standardized** according to **NPHIL surveillan
 ## Methodology
 
 - Community-level point mapping of confirmed case records  
-- Density-based visualization to identify clustering and hotspots  
+- Density-based spatial analysis was used to identify clustering patterns and approximate hotspot areas (note: formal spatial autocorrelation statistics such as Moran’s I or Getis-Ord Gi* were not applied in this analysis).  
 - Time-series comparison across three epidemiological snapshots  
 - Zoom-in inset panels for high-density urban areas  
-- Custom symbology for rapid interpretation by non-technical stakeholders  
+- Custom symbology for rapid interpretation by non-technical stakeholders
+
+_Spatial analysis was primarily descriptive, focusing on density visualization and temporal comparison rather than formal spatial statistical modeling._
 
 ---
 
@@ -197,7 +199,7 @@ This approach aligns with **WHO and CDC recommendations** for spatially informed
 
 - Analysis limited to reported and validated cases  
 - Spatial resolution constrained by available community boundary definitions  
-- Focused on descriptive spatial analysis; transmission dynamics not modeled  
+- Focused on descriptive spatial analysis; formal spatial statistical modeling and transmission dynamics were not implemented  
 
 ---
 
