@@ -49,7 +49,7 @@ The objective was to support **epidemiological understanding of SARS-CoV-2 circu
 
 ## Map Output
 
-![AFI SARS-CoV-2 Distribution Map](AFI_SARSCoV2_Distribution.png)
+![AFI SARS-CoV-2 Distribution Map](../../2_PublicHealth_GeoAI/Spatial_Epi_Projects/AFI_SARSCoV2_Distribution/AFI_SARSCoV2_Distribution.png)
 
 *Figure 1. Spatial distribution of AFI patients positive for SARS-CoV-2 by PCR and serological methods, Greater Monrovia, Liberia (December 2021).*
 

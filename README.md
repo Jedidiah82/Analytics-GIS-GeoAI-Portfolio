@@ -1,10 +1,8 @@
-<h1 align="center">Godwin Etim Akpan</h1>
+# Godwin Etim Akpan
 
-<h3 align="center">Data Analytics | Data Engineering | Enterprise GIS | GeoAI | AI-Driven Decision Support</h3>
+## Data Analytics | Data Engineering | Enterprise GIS | GeoAI | AI-Driven Decision Support
 
-<p align="center">
-  Transforming data into intelligent, explainable, and operational decision-support systems through analytics, geospatial science and AI.
-</p>
+Transforming data into intelligent, explainable, and operational decision-support systems through data analytics, data engineering, geospatial science, and artificial intelligence.
 
 <p align="center">
   Raleigh, North Carolina, USA |
@@ -14,20 +12,20 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Data%20Analytics-Decision%20Support-blue" />
-  <img src="https://img.shields.io/badge/Data%20Engineering-ETL%20%7C%20Pipelines-darkblue" />
-  <img src="https://img.shields.io/badge/GeoAI-Spatial%20ML-blueviolet" />
-  <img src="https://img.shields.io/badge/GIS-ArcGIS%20%7C%20GeoPandas-green" />
-  <img src="https://img.shields.io/badge/FastAPI-Secure%20APIs-teal" />
-  <img src="https://img.shields.io/badge/AWS-Cloud-orange" />
-  <img src="https://img.shields.io/badge/PostGIS-Spatial%20Data-darkgreen" />
+  <img src="https://img.shields.io/badge/Data%20Analytics-Decision%20Support-2563EB" />
+  <img src="https://img.shields.io/badge/Data%20Engineering-ETL%20%7C%20Pipelines-2563EB" />
+  <img src="https://img.shields.io/badge/GeoAI-Spatial%20ML-16A34A" />
+  <img src="https://img.shields.io/badge/GIS-ArcGIS%20%7C%20GeoPandas-16A34A" />
+  <img src="https://img.shields.io/badge/PostGIS-Spatial%20Data-16A34A" />
+  <img src="https://img.shields.io/badge/FastAPI-Secure%20APIs-0F766E" />
+  <img src="https://img.shields.io/badge/AWS%20%7C%20Azure-Cloud-0F766E" />
 </p>
 
 ## Professional Mission
 
-I design and develop data-driven systems that transform spatial and non-spatial data into actionable intelligence for public health, emergency management, humanitarian response and enterprise decision support.
+I design and develop intelligent data-driven systems that transform spatial and non-spatial data into actionable insights for public health, emergency management, humanitarian response, and evidence-based organisational decision-making.
 
-My work integrates data analytics, data engineering, enterprise GIS, GeoAI, cloud computing, secure APIs, and responsible AI to bridge academic research and operational implementation.
+My work integrates data analytics, data engineering, enterprise GIS, GeoAI, machine learning, cloud computing, secure APIs, explainable AI, and responsible AI to bridge academic research and operational implementation.
 
 ## Overview
 
@@ -109,8 +107,8 @@ An end-to-end hybrid-cloud GeoAI surveillance platform integrating spatial intel
 
 **Links:**
 
-- Public dashboard: <https://geoai-health-surveillance-system-bygrraq7o4uwsfokny3lhg.streamlit.app/>
-- Repository: <https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System>
+- Public dashboard: [Open dashboard](https://geoai-health-surveillance-system-bygrraq7o4uwsfokny3lhg.streamlit.app/)
+- Repository: [View source code](https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System)
 - Secure API documentation: available for authorised academic review
 
 This project demonstrates the complete lifecycle of a modern GeoAI system, from data engineering and spatial analytics to machine learning, explainability, governance, secure APIs, cloud deployment and operational decision support.
@@ -177,9 +175,9 @@ Selected publications are available through Google Scholar and ResearchGate.
 
 **Research profiles:**
 
-- ResearchGate: <https://www.researchgate.net/profile/Godwin-Akpan-5>
-- Google Scholar: <https://scholar.google.com/citations?user=pezE_XwAAAAJ&hl=en&authuser=1>
-- ORCID: <https://orcid.org/0000-0001-8204-9219>
+- ResearchGate: [Research Profile](https://www.researchgate.net/profile/Godwin-Akpan-5)
+- Google Scholar: [Scholar Profile](https://scholar.google.com/citations?user=pezE_XwAAAAJ&hl=en&authuser=1)
+- ORCID: [0000-0001-8204-9219](https://orcid.org/0000-0001-8204-9219)
 
 ## Academic Research
 

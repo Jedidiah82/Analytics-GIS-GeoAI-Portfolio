@@ -51,8 +51,8 @@ An end-to-end hybrid-cloud GeoAI platform integrating data engineering, spatial 
 
 ### Project Links
 
-- **Live Dashboard:** <https://geoai-health-surveillance-system-bygrraq7o4uwsfokny3lhg.streamlit.app/>
-- **GitHub Repository:** <https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System>
+- **Live Dashboard:** [Open dashboard](https://geoai-health-surveillance-system-bygrraq7o4uwsfokny3lhg.streamlit.app/)
+- **GitHub Repository:** [View source code](https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System)
 - **Secure API Documentation:** Available for authorised academic review
 
 This project demonstrates the complete lifecycle of a modern GeoAI system, from data engineering and spatial analytics through machine learning, explainability, governance, secure API development and cloud deployment.
@@ -246,14 +246,14 @@ I also welcome opportunities for research collaboration, consulting and open-sou
 
 # Connect
 
-- Location: Raleigh, North Carolina, USA
-- GitHub: <https://github.com/Jedidiah82>
-- LinkedIn: <https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/>
-- Resume / CV: Available on request
-- Google Scholar: <https://scholar.google.com/citations?user=pezE_XwAAAAJ&hl=en&authuser=1>
-- ORCID: <https://orcid.org/0000-0001-8204-9219>
-- ResearchGate: <https://www.researchgate.net/profile/Godwin-Akpan-5>
-- Email: <mailto:godwineakpan1@gmail.com>
+- **Location:** Raleigh, North Carolina, USA
+- **GitHub:** [Jedidiah82](https://github.com/Jedidiah82)
+- **LinkedIn:** [Godwin Etim Akpan](https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/)
+- **Google Scholar:** [Scholar Profile](https://scholar.google.com/citations?user=pezE_XwAAAAJ&hl=en&authuser=1)
+- **ORCID:** [0000-0001-8204-9219](https://orcid.org/0000-0001-8204-9219)
+- **ResearchGate:** [Research Profile](https://www.researchgate.net/profile/Godwin-Akpan-5)
+- **Email:** [godwineakpan1@gmail.com](mailto:godwineakpan1@gmail.com)
+- **Resume/CV:** Available upon request
 
 ---
 
