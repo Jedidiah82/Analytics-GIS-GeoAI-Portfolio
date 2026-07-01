@@ -100,8 +100,7 @@ The lab covers:
 +----------------------+
 ```
 
-📸 **Screenshot Placeholder 1 – Architecture Diagram**
-![Architecture Diagram](diagrams/aws-ec2-cli-architecture.png)
+Screenshot evidence can be added here if this lab is expanded into a standalone project page.
 
 ## 📁 Repository Structure
 
@@ -133,8 +132,7 @@ aws-ec2-cli-lab/
 - Custom least-privilege policy (tested)
 
 
-📸 **Screenshot Placeholder 2 – IAM Policies**
-![IAM Policies](diagrams/iam-user-policies.png)
+Screenshot evidence can be added here if this lab is expanded into a standalone project page.
 
 ## 🖥️ Local Environment
 ### Tools
@@ -147,8 +145,7 @@ Verify AWS CLI:
 aws --version
 ```
 
-📸 **Screenshot Placeholder 3 – AWS CLI Version**
-![AWS CLI Version](diagrams/aws-cli-version.png)
+Screenshot evidence can be added here if this lab is expanded into a standalone project page.
 
 
 ## 🔑 AWS CLI Configuration
@@ -166,8 +163,7 @@ Verification:
 aws sts get-caller-identity
 ```
 
-📸 **Screenshot Placeholder 4 – STS Identity**
-![STS Identity](diagrams/aws-sts-identity.png)
+Screenshot evidence can be added here if this lab is expanded into a standalone project page.
 
 
 ## 🔐 EC2 Key Pair Creation (CLI)
@@ -178,8 +174,7 @@ aws ec2 create-key-pair `
   --output text > week10-cli-key.pem
 ```
 
-📸 **Screenshot Placeholder 5 – Key Pair CLI**
-![Key Pair CLI](diagrams/ec2-keypair-cli.png)
+Screenshot evidence can be added here if this lab is expanded into a standalone project page.
 
 
 ## 🧩 AMI Discovery (Region-Aware)
@@ -212,8 +207,7 @@ aws ec2 run-instances `
   --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=Week10-EC2-CLI}]"
 ```
 
-📸 **Screenshot Placeholder 6 – EC2 Instance Running (Console View)**
-![EC2 Running](diagrams/ec2-instance-running.png)
+Screenshot evidence can be added here if this lab is expanded into a standalone project page.
 
 
 ## 🔑 SSH Access
@@ -227,8 +221,7 @@ whoami
 uname -a
 ```
 
-📸 **Screenshot Placeholder 7 – SSH Session**
-![SSH Session](diagrams/ssh-session.png)
+Screenshot evidence can be added here if this lab is expanded into a standalone project page.
 
 
 ## 📊 CloudWatch Monitoring
@@ -238,8 +231,7 @@ Enabled metrics:
 - Ready for alarms & dashboards
 
 
-📸 **Screenshot Placeholder 8 – CloudWatch Metrics**
-![CloudWatch Metrics](diagrams/cloudwatch-metrics.png)
+Screenshot evidence can be added here if this lab is expanded into a standalone project page.
 
 
 ## 🔐 Least-Privilege IAM Experiment
@@ -266,8 +258,7 @@ Custom policy tested:
 - IAM enforcement validated
 - AdministratorAccess restored for continued practice
 
-📸 **Screenshot Placeholder 9 – Access Denied**
-![Access Denied](diagrams/access-denied-errors.png)
+Screenshot evidence can be added here if this lab is expanded into a standalone project page.
 
 
 ## 🧹 Resource Cleanup
@@ -279,8 +270,7 @@ aws ec2 terminate-instances `
 ✔ Instance terminated
 ✔ No ongoing charges
 
-📸 **Screenshot Placeholder 10 – EC2 Terminated**
-![EC2 Terminated](diagrams/ec2-terminated.png)
+Screenshot evidence can be added here if this lab is expanded into a standalone project page.
 
 
 ## 🧠 Key Decisions & Lessons Learned
