@@ -1,20 +1,22 @@
 ---
 layout: default
 title: Godwin Etim Akpan
-description: Data Analytics, Data Engineering, Enterprise GIS, GeoAI, and AI-Driven Decision Support
+description: Data Analytics, Data Engineering, Enterprise GIS, GeoAI, and Intelligent Decision Support
 ---
 
-<h1 align="center">Godwin Etim Akpan</h1>
+<h1 align="center">Building Intelligent Decision-Support Systems</h1>
 
-<h3 align="center">Data Analytics | Data Engineering | Enterprise GIS | GeoAI | AI-Driven Decision Support</h3>
+<h3 align="center">Data Analytics | Data Engineering | Enterprise GIS | GeoAI | Intelligent Decision Support</h3>
 
 <p align="center">
   Transforming data into intelligent, explainable, and operational decision-support systems through data analytics, data engineering, geospatial science, and artificial intelligence.
 </p>
 
-I design and develop intelligent data-driven systems that transform spatial and non-spatial data into actionable insights for public health, emergency management, enterprise GIS, humanitarian response, and organisational decision support.
+I design and develop intelligent data-driven systems that transform spatial and non-spatial data into actionable insights for public health, emergency management, humanitarian response, and evidence-based organisational decision-making.
 
-My work integrates **data analytics**, **data engineering**, **enterprise GIS**, **GeoAI**, **machine learning**, **cloud computing**, **secure APIs**, **explainable AI** and **responsible AI** to bridge academic research and operational implementation.
+I am passionate about building practical, secure, and explainable analytical systems that help organisations make better decisions from complex data.
+
+My work integrates **data analytics**, **data engineering**, **enterprise GIS**, **GeoAI**, **machine learning**, **cloud computing**, **secure APIs**, **explainable AI**, and **responsible AI** to bridge academic research and operational implementation.
 
 <p align="center">
   <a href="https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio"><strong>GitHub Portfolio</strong></a> |
@@ -24,7 +26,20 @@ My work integrates **data analytics**, **data engineering**, **enterprise GIS**,
 
 ---
 
-# Flagship Project
+# Professional Impact
+
+| Achievement | Impact |
+| --- | --- |
+| Years of Experience | 10+ |
+| GIS Maps and Analytical Products Produced | 6,000+ |
+| Professionals Trained | 100+ |
+| Peer-reviewed Publications | 10+ |
+| GeoAI Platform Developed | 1 |
+| Countries Supported | 2+ |
+
+---
+
+# Signature Project
 
 ## Privacy-Preserving GeoAI Health Surveillance System
 
@@ -121,19 +136,6 @@ Projects demonstrating cloud deployment, secure API development, automation, mon
 
 ---
 
-# Professional Impact
-
-| Achievement | Impact |
-| --- | --- |
-| Years of Experience | 10+ |
-| GIS Maps and Analytical Products Produced | 6,000+ |
-| Professionals Trained | 100+ |
-| Peer-reviewed Publications | 10+ |
-| GeoAI Platform Developed | 1 |
-| Countries Supported | 2+ |
-
----
-
 # Technical Capabilities
 
 ### Data Analytics and Engineering
@@ -184,12 +186,12 @@ I continuously invest in developing expertise in emerging technologies that stre
 
 - IBM Data Engineering Professional Certificate
 - Microsoft Fabric
-- Cloud-native Data Engineering
 - Lakehouse Architectures
-- Graph Neural Networks
-- Spatio-temporal AI
-- GeoFoundation Models
+- Cloud-native Data Engineering
 - Advanced GeoAI
+- Graph Neural Networks
+- GeoFoundation Models
+- Spatio-temporal AI
 - AI Agents
 - Cloud Security
 
@@ -227,7 +229,7 @@ My long-term objective is to design secure, explainable, scalable, and intellige
 
 # Availability
 
-I am open to opportunities involving:
+I am currently interested in opportunities involving:
 
 - Data Analytics
 - Data Engineering
@@ -247,7 +249,14 @@ I also welcome opportunities for research collaboration, consulting and open-sou
 - Location: Raleigh, North Carolina, USA
 - GitHub: <https://github.com/Jedidiah82>
 - LinkedIn: <https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/>
+- Resume / CV: Available on request
 - Google Scholar: <https://scholar.google.com/citations?user=pezE_XwAAAAJ&hl=en&authuser=1>
 - ORCID: <https://orcid.org/0000-0001-8204-9219>
 - ResearchGate: <https://www.researchgate.net/profile/Godwin-Akpan-5>
 - Email: <mailto:godwineakpan1@gmail.com>
+
+---
+
+*Building secure, explainable, and intelligent systems for better decisions.*
+
+© 2026 Godwin Etim Akpan

@@ -1,7 +1,9 @@
 title: Godwin Etim Akpan
-description: Data Analytics, Data Engineering, Enterprise GIS, GeoAI, and AI-Driven Decision Support
+description: Data Analytics • Data Engineering • Enterprise GIS • GeoAI • Intelligent Decision Support
 theme: jekyll-theme-cayman
+github_button_label: Explore My Portfolio
 
 markdown: kramdown
 plugins:
   - jekyll-relative-links
+  - jekyll-seo-tag
