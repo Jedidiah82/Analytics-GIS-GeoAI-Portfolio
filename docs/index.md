@@ -1,254 +1,199 @@
-<h1 align="center"> Godwin Etim Akpan</h1>
+# Godwin Etim Akpan
 
-<p align="center">
-  <strong>Applied Data Science • GIS–GeoAI • Big Data • Cloud • Cybersecurity • Public Health Intelligence</strong>
-</p>
+## Data Analytics | Data Engineering | Enterprise GIS | GeoAI | AI-Driven Decision Support
 
-<p align="center">
-  <em>Driving intelligence-led, data-driven decision-making at the intersection of geospatial analytics, public health, and secure data systems.</em>
-</p>
+Transforming data into intelligent, explainable, and operational decision-support systems through analytics, geospatial science and artificial intelligence.
 
-<p align="center">
-  📍 Raleigh, NC, USA |
-  <a href="https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio">Portfolio</a> |
-  <a href="https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/">LinkedIn</a> |
-  <a href="mailto:godwineakpan1@gmail.com">Email</a>
-</p>
+I design and develop data-driven systems that transform spatial and non-spatial data into actionable intelligence for public health, emergency management, humanitarian response and enterprise decision support.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10-blue" />
-  <img src="https://img.shields.io/badge/Apache%20Spark-Big%20Data-orange" />
-  <img src="https://img.shields.io/badge/GeoAI-Spatial%20ML-blueviolet" />
-  <img src="https://img.shields.io/badge/GIS-ArcGIS%20%7C%20GeoPandas-green" />
-  <img src="https://img.shields.io/badge/Microsoft%20Fabric-Analytics%20Engineering-lightgrey" />
-</p>
+My work integrates **data analytics**, **data engineering**, **enterprise GIS**, **GeoAI**, **machine learning**, **cloud computing**, **secure APIs**, **explainable AI** and **responsible AI** to bridge academic research and operational implementation.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure%20%7C%20GCP-orange" />
-  <img src="https://img.shields.io/badge/Cybersecurity-SOC%20%7C%20SIEM-red" />
-  <img src="https://img.shields.io/badge/Public%20Health-Epidemiology-darkgreen" />
-</p>
+**Links**
+
+- **GitHub Portfolio:** <https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio>
+- **LinkedIn:** <https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/>
+- **Email:** <mailto:godwineakpan1@gmail.com>
 
 ---
 
-## Professional Summary
+# Flagship Project
 
-Data & Geospatial Analytics professional with **10+ years of experience** delivering **GIS-driven intelligence, large-scale analytics, and decision-support systems** across Africa and the United States.
+## Privacy-Preserving GeoAI Health Surveillance System
 
-I specialize in **GeoAI, Big Data Analytics, Cloud Computing, Cybersecurity Analytics, and IT Automation**, with hands-on experience in **outbreak surveillance, hazard mapping, distributed data pipelines, and secure cloud environments**.
+An end-to-end hybrid-cloud GeoAI surveillance platform integrating spatial intelligence, machine learning, explainable AI, governance controls, secure APIs and dashboard-based decision support.
 
----
+### Technology Stack
 
-## Domains of Expertise
+`Python` `PostgreSQL/PostGIS` `GeoPandas` `PySAL` `Scikit-learn` `XGBoost` `SHAP` `FastAPI` `Docker` `AWS` `Streamlit` `JWT` `RBAC`
 
-**Data Analytics • GIS/GeoAI • Big Data Engineering • Cloud Engineering • Cybersecurity Analytics • Public Health Informatics • Automation**
+### Project Links
 
----
+- **Live Dashboard:** <https://geoai-health-surveillance-system-bygrraq7o4uwsfokny3lhg.streamlit.app/>
+- **GitHub Repository:** <https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System>
+- **Secure API Documentation:** Available for authorised academic review
 
-## Leadership & Impact
-
-- Delivered GIS-driven intelligence systems supporting surveillance and emergency response  
-- Built spatio-temporal forecasting workflows for outbreak prediction and risk modeling  
-- Developed secure data pipelines and dashboards for operational decision-making  
-- Translated multi-source datasets into actionable insights for technical and non-technical stakeholders  
-- Operated effectively in high-impact, resource-constrained environments across multiple countries  
+This project demonstrates the complete lifecycle of a modern GeoAI system, from data engineering and spatial analytics through machine learning, explainability, governance, secure API development and cloud deployment.
 
 ---
 
-## What I Bring
+# Portfolio Areas
 
-- Field-tested experience supporting outbreak response and humanitarian data systems  
-- Strong technical capability across GIS, data engineering, and advanced analytics  
-- Ability to translate complex, multi-source data into actionable insights for decision-makers  
-- Proven experience working in high-pressure, resource-constrained environments
+## Data Analytics and Data Engineering
 
----
+Projects demonstrating data engineering, ETL pipelines, distributed analytics, machine learning workflows and scalable data processing.
 
-## Portfolio Overview
-
-This portfolio showcases applied and research-driven work across:
-
-- **Big Data Engineering & Distributed Machine Learning**  
-- **GeoAI & Spatial Epidemiology**  
-- **GIS & Remote Sensing**  
-- **Cloud Computing & Security Engineering**  
-- **Cybersecurity Analytics**  
-- **IT Automation & Systems Engineering**  
-- **Public Health Informatics**  
+- [Intrusion Detection with Big Data Analytics](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection)
+- [Large-scale NLP and Document Clustering](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/1_Large_scale_NLP_and_document_clustering)
+- [Streaming Analytics with NASA HTTP Logs](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/4_Streaming_Analytics_NASA)
+- [Location Intelligence for Site Selection](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/5_Location_Intelligence_Toronto)
 
 ---
 
-### System-Wide Architecture
+## Enterprise GIS and Spatial Data Engineering
 
-<p align="center">
-  <img src="./images/system_architecture.png" alt="System-Wide Architecture" width="600"/>
-</p>
+Projects covering enterprise GIS, spatial data management, QA/QC, hazard exposure analysis, remote sensing and geospatial workflow automation.
 
-<p align="left"><em>Conceptual architecture showing how data sources flow through processing and automation into analytics and GeoAI modeling, then into visualization and reporting for stakeholder decision-making, while security, monitoring, logging, and audit controls remain embedded across the pipeline.</em></p>
-
----
-
-## Featured Projects <a name="featured-projects"></a>
-
-### Lassa Fever GeoAI Forecasting  
-[![Lassa GeoAI](assets/thumbnails/lassa-geoai.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)
-
-Spatio-temporal disease forecasting using **ARIMA, Prophet, STL, and XGBoost** to support early warning and outbreak preparedness.  
-🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)
+- [NCEM Flood Exposure Mapping](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)
+- [AFENET Liberia Program Footprint](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/AFENET_Liberia_Footprint)
+- [Airport Site Suitability Mapping](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/Airport_SiteSuitability_OAU)
+- [Land Degradation and Productivity Assessment](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/LandDegradation_RiverGee)
 
 ---
 
-### Intrusion Detection (UNSW-NB15)  
-[![Intrusion Detection](assets/thumbnails/unsw-intrusion.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection)
+## GeoAI and Public Health Intelligence
 
-Big Data cybersecurity analytics using **Hive & PySpark**.  
-🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection)
+Projects focused on disease surveillance, outbreak-risk modelling, hotspot detection, spatial epidemiology and operational decision support.
 
----
-
-### NCEM Flood Exposure Mapping  
-[![NCEM Flood](assets/thumbnails/ncem-flood.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)
-
-Hazard exposure modeling for emergency preparedness and response.  
-🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)
+- [Privacy-Preserving GeoAI Health Surveillance System](https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System)
+- [Lassa Fever GeoAI Forecasting](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)
+- [Cross-Border Ebola and Marburg Risk Mapping](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Spatial_Epi_Projects/CrossBorder_Ebola_Marburg_Risk)
+- [COVID-19 Temporal Hotspot Analysis](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Spatial_Epi_Projects/COVID19_Montserrado_Temporal_Change)
+- [AFI / SARS-CoV-2 Spatial Distribution](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Spatial_Epi_Projects/AFI_SARSCoV2_Distribution)
 
 ---
 
-### CloudSim Performance Lab  
-[![CloudSim](assets/thumbnails/cloudsim.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/cloudsim-performance-lab)
+## Cloud, APIs and Intelligent Systems
 
-Cloud performance simulation & infrastructure modeling.  
-🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/cloudsim-performance-lab)
+Projects covering cloud deployment, secure APIs, automation, monitoring, reliability engineering and governance-aware systems.
 
----
-
-### AWS EC2 CLI Lab  
-[![AWS EC2](assets/thumbnails/aws-ec2.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)
-
-AWS provisioning and management using CLI with IAM foundations.  
-🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)
+- [AWS EC2 CLI Lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)
+- [CloudSim Performance Lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/cloudsim-performance-lab)
+- [System Health Monitoring Automation](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)
+- [Secure File Upload and API Data Ingestion](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/Secure_File_Upload)
 
 ---
 
-### System Health Monitoring Automation  
-[![System Health](assets/thumbnails/system-health.png)](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)
+# Technical Expertise
 
-Python-based monitoring, alerting, and reliability automation.   
-🔗 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring)
+### Data Analytics and Engineering
 
----
+Python • SQL • PostgreSQL • PostGIS • Pandas • NumPy • ETL/ELT • Data Validation • Feature Engineering • Analytics Engineering
 
-## Selected Public Health & Humanitarian Analytics Projects
+### GeoAI and Spatial Analytics
 
-### Cross-Border Ebola & Marburg Risk Mapping  
-Geospatial risk modeling across Liberia’s borders using mobility corridors, ecological suitability, and vulnerability scoring to support outbreak preparedness and cross-border surveillance planning.  
-👉 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Spatial_Epi_Projects/CrossBorder_Ebola_Marburg_Risk)
+ArcGIS Pro • ArcGIS Online • QGIS • GeoPandas • PySAL • Moran's I • LISA • Getis-Ord Gi* • Remote Sensing
 
----
+### Machine Learning and AI
 
-### COVID-19 Temporal Hotspot Analysis (Montserrado County)  
-Spatiotemporal GIS analysis of COVID-19 case dynamics to support surveillance reporting, hotspot detection, and evidence-based public health response.  
-👉 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Spatial_Epi_Projects/COVID19_Montserrado_Temporal_Change)
+Scikit-learn • XGBoost • Random Forest • Logistic Regression • SHAP • Explainable AI • Spatial Machine Learning
 
----
+### Cloud, APIs and Big Data
 
-### AFI / SARS-CoV-2 Spatial Distribution (Greater Monrovia)  
-High-resolution epidemiological mapping of acute febrile illness (AFI) cases to support targeted testing, surveillance optimization, and outbreak intelligence.  
-👉 [View Project](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Spatial_Epi_Projects/AFI_SARSCoV2_Distribution)
+FastAPI • REST APIs • Docker • AWS • Azure • Streamlit • Git • GitHub • Spark • PySpark • Hive
+
+### Governance and Responsible AI
+
+JWT Authentication • RBAC • Audit Logging • Privacy-Preserving Analytics • API Security • Responsible AI • Data Governance
 
 ---
 
-**Impact:** Supported outbreak surveillance, hotspot detection, and cross-border risk prioritization in real-world public health operations.
+# Research and Applied Work
+
+My work spans:
+
+- Data Analytics
+- Data Engineering
+- GeoAI
+- Enterprise GIS
+- Public Health Intelligence
+- Spatial Epidemiology
+- Emergency Management
+- Responsible AI
+- Decision-Support Systems
+
+Research outputs include peer-reviewed publications covering COVID-19, malaria, measles, Lassa fever, GIS and spatial epidemiology.
 
 ---
 
-## 🧱 Portfolio Pillars (Explore by Area)
+# Current Professional Development
 
-- **[1️⃣ Big Data & Machine Learning](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML)**  
-  Spark • Hive • PySpark • ML Pipelines • Feature Engineering  
+Current areas of professional development include:
 
-- **[2️⃣ Public Health GeoAI & Spatio-Temporal Modeling](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI)**  
-  Disease Forecasting • Hotspot Modeling • Surveillance Analytics  
-
-- **[3️⃣ GIS, Spatial Data Science & Remote Sensing](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience)**  
-  ArcGIS • GeoPandas • Remote Sensing • Spatial Modeling  
-
-- **[4️⃣ Cloud Computing & Security Engineering](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security)**  
-  AWS • Azure • GCP • IAM • SIEM • Threat Detection  
-
-- **[5️⃣ Data Engineering & Analytics Engineering](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/5_Data%20%26%20Analytics%20Engineering)**  
-  ETL/ELT • Spark • Orchestration • Lakehouse Patterns • Microsoft Fabric  
-
-- **[6️⃣ Automation, Reliability & Secure Systems](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability)**  
-  Python Automation • Monitoring • Reporting • APIs  
+- IBM Data Engineering Professional Certificate
+- Microsoft Fabric
+- Cloud-native Data Engineering
+- Lakehouse Architectures
+- Graph Neural Networks
+- Spatio-temporal AI
+- GeoFoundation Models
+- Advanced GeoAI
+- AI Agents
+- Cloud Security
 
 ---
 
-## Technical Skills
+# Professional Direction
 
-- **Data & Machine Learning:**  
-  Python, Spark, PySpark, Hive, SQL, scikit-learn, XGBoost, Prophet  
+My work is centred on integrating:
 
-- **Data Engineering:**  
-  ETL/ELT pipelines, data modeling, Spark, Hive, SQL, data warehousing, distributed systems  
-
-- **GIS & GeoAI:**  
-  ArcGIS Pro/Online, GeoPandas, Remote Sensing, Spatial Modeling  
-
-- **Cloud Computing:**  
-  AWS, Azure, GCP, IAM, VPC, secure cloud architecture patterns  
-
-- **Cybersecurity Analytics:**  
-  Splunk, SIEM concepts, log analysis, detection fundamentals  
-
-- **Automation & Systems:**  
-  Python automation, Linux, APIs, monitoring and alerting  
-
-- **Analytics Engineering (Developing):**  
-  Microsoft Fabric, Power BI, lakehouse architecture, semantic modeling   
-
----
-
-## Certifications & Training
-
-**Public Health & Humanitarian**
-- Field Epidemiology Training Program (FETP)  
-- Project Management in Global Health (University of Washington)
-- R for Applied Epidemiology (Applied Epi)
-
-**Data & Technology**
-- CompTIA CySA+ | Security+ (CE)  
-- Google IT Automation with Python  
-- IBM Data Science Professional Certificate  
-- Splunk Core Certified User  
-
-**In Progress**
-- IBM Data Engineering Professional Certificate  
-- Microsoft Fabric & Power BI (DP-600, DP-700, PL-300)
-
----
-
-## Reproducibility
-
-Each project folder includes *(as applicable)*:
-
-- `README.md`  
-- Notebooks and scripts  
-- `figures/` *(maps, plots, charts)*  
-- `data_template/` *(sample or synthetic data when required)*  
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
+```text
+Data Analytics
+        │
+        ▼
+Data Engineering
+        │
+        ▼
+Enterprise GIS
+        │
+        ▼
+GeoAI
+        │
+        ▼
+Explainable AI
+        │
+        ▼
+Secure Cloud Systems
+        │
+        ▼
+Operational Decision Support
 ```
 
----
-
-## Vision
-
-To advance public health, resilient infrastructure, and secure digital systems through the integration of **GeoAI, advanced analytics, and cloud-native technologies**.
+The goal is to design secure, explainable, and intelligent systems that transform complex spatial and non-spatial data into actionable insights for decision-makers.
 
 ---
-**© 2025 Godwin Etim Akpan**  
-Data Analytics • GeoAI • Cloud • Cybersecurity • Public Health Intelligence  
+
+# Availability
+
+I am interested in opportunities involving:
+
+- Data Analytics
+- Data Engineering
+- Enterprise GIS
+- GeoAI
+- Spatial Data Engineering
+- AI-Driven Decision Support
+- Public Health Intelligence
+- Geospatial Software Development
+
+I also welcome opportunities for research collaboration, consulting and open-source contributions.
+
+---
+
+# Connect
+
+- GitHub: <https://github.com/Jedidiah82>
+- LinkedIn: <https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/>
+- Google Scholar: <https://scholar.google.com/citations?user=pezE_XwAAAAJ&hl=en&authuser=1>
+- ORCID: <https://orcid.org/0000-0001-8204-9219>
+- ResearchGate: <https://www.researchgate.net/profile/Godwin-Akpan-5>
+- Email: <mailto:godwineakpan1@gmail.com>
