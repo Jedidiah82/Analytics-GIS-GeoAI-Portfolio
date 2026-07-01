@@ -1,18 +1,20 @@
-# Godwin Etim Akpan
+<h1 align="center">Godwin Etim Akpan</h1>
 
-## Data Analytics | Data Engineering | Enterprise GIS | GeoAI | AI-Driven Decision Support
+<h3 align="center">Data Analytics | Data Engineering | Enterprise GIS | GeoAI | AI-Driven Decision Support</h3>
 
-Transforming data into intelligent, explainable, and operational decision-support systems through analytics, geospatial science and artificial intelligence.
+<p align="center">
+  Transforming data into intelligent, explainable, and operational decision-support systems through analytics, geospatial science and artificial intelligence.
+</p>
 
 I design and develop data-driven systems that transform spatial and non-spatial data into actionable intelligence for public health, emergency management, humanitarian response and enterprise decision support.
 
 My work integrates **data analytics**, **data engineering**, **enterprise GIS**, **GeoAI**, **machine learning**, **cloud computing**, **secure APIs**, **explainable AI** and **responsible AI** to bridge academic research and operational implementation.
 
-**Links**
-
-- **GitHub Portfolio:** <https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio>
-- **LinkedIn:** <https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/>
-- **Email:** <mailto:godwineakpan1@gmail.com>
+<p align="center">
+  <a href="https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio"><strong>GitHub Portfolio</strong></a> |
+  <a href="https://www.linkedin.com/in/godwin-etim-akpan-822a5a43/"><strong>LinkedIn</strong></a> |
+  <a href="mailto:godwineakpan1@gmail.com"><strong>Email</strong></a>
+</p>
 
 ---
 
