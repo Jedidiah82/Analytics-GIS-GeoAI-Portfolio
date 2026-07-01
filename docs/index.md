@@ -50,6 +50,12 @@ This project demonstrates the complete lifecycle of a modern GeoAI system, from 
 
 Projects demonstrating scalable data engineering, ETL pipelines, distributed analytics, machine learning workflows, streaming data processing, and analytics engineering for real-world decision support.
 
+<p align="center">
+  <a href="https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection">
+    <img src="assets/thumbnails/unsw-intrusion.png" alt="Intrusion Detection with Big Data Analytics" width="420">
+  </a>
+</p>
+
 - [Intrusion Detection with Big Data Analytics](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection)
 - [Large-scale NLP and Document Clustering](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/1_Large_scale_NLP_and_document_clustering)
 - [Streaming Analytics with NASA HTTP Logs](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/1_BigData_and_ML/4_Streaming_Analytics_NASA)
@@ -60,6 +66,12 @@ Projects demonstrating scalable data engineering, ETL pipelines, distributed ana
 ## Enterprise GIS and Spatial Data Engineering
 
 Projects demonstrating enterprise GIS implementation, spatial data engineering, quality assurance, geospatial automation, hazard analysis, remote sensing, and spatial decision-support workflows.
+
+<p align="center">
+  <a href="https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM">
+    <img src="assets/thumbnails/ncem-flood.png" alt="NCEM Flood Exposure Mapping" width="420">
+  </a>
+</p>
 
 - [NCEM Flood Exposure Mapping](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM)
 - [AFENET Liberia Program Footprint](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/3_GIS_Spatial_DataScience/AFENET_Liberia_Footprint)
@@ -72,6 +84,12 @@ Projects demonstrating enterprise GIS implementation, spatial data engineering, 
 
 Projects demonstrating the application of GeoAI, spatial epidemiology, predictive modelling, hotspot detection, explainable AI, and geospatial decision support for public-health intelligence.
 
+<p align="center">
+  <a href="https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026">
+    <img src="assets/thumbnails/lassa-geoai.png" alt="Lassa Fever GeoAI Forecasting" width="420">
+  </a>
+</p>
+
 - [Privacy-Preserving GeoAI Health Surveillance System](https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System)
 - [Lassa Fever GeoAI Forecasting](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026)
 - [Cross-Border Ebola and Marburg Risk Mapping](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Spatial_Epi_Projects/CrossBorder_Ebola_Marburg_Risk)
@@ -83,6 +101,18 @@ Projects demonstrating the application of GeoAI, spatial epidemiology, predictiv
 ## Cloud, APIs and Intelligent Systems
 
 Projects demonstrating cloud deployment, secure API development, automation, monitoring, reliability engineering, DevOps concepts, and governance-aware software systems.
+
+<p align="center">
+  <a href="https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab">
+    <img src="assets/thumbnails/aws-ec2.png" alt="AWS EC2 CLI Lab" width="300">
+  </a>
+  <a href="https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/cloudsim-performance-lab">
+    <img src="assets/thumbnails/cloudsim.png" alt="CloudSim Performance Lab" width="300">
+  </a>
+  <a href="https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/6_Automation_Reliability/System_Health_Monitoring">
+    <img src="assets/thumbnails/system-health.png" alt="System Health Monitoring Automation" width="300">
+  </a>
+</p>
 
 - [AWS EC2 CLI Lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/aws-ec2-cli-lab)
 - [CloudSim Performance Lab](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/4_Cloud_Computing_Security/cloudsim-performance-lab)
