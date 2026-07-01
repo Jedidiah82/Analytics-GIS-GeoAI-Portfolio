@@ -4,19 +4,19 @@ title: Godwin Etim Akpan
 description: Data Analytics, Data Engineering, Enterprise GIS, GeoAI, and Intelligent Decision Support
 ---
 
-<h1 align="center">Building Intelligent Decision-Support Systems</h1>
-
-<h3 align="center">Data Analytics | Data Engineering | Enterprise GIS | GeoAI | Intelligent Decision Support</h3>
+<h1 align="center">Professional Profile</h1>
 
 <p align="center">
-  <em>Transforming data into intelligent, explainable, and operational decision-support systems through data analytics, data engineering, geospatial science, and artificial intelligence.</em>
+  <em>Transforming complex data into trusted, explainable, and operational intelligence through data analytics, data engineering, geospatial science, and artificial intelligence.</em>
 </p>
 
-I design and develop intelligent data-driven systems that transform spatial and non-spatial data into actionable insights for public health, emergency management, humanitarian response, and evidence-based organisational decision-making.
+I specialise in designing intelligent data-driven systems that transform spatial and non-spatial data into actionable insights for public health, emergency management, humanitarian response, and evidence-based organisational decision-making.
 
-I am passionate about building practical, secure, and explainable analytical systems that help organisations make better decisions from complex data.
+My expertise combines **data analytics**, **data engineering**, **enterprise GIS**, **GeoAI**, **machine learning**, **cloud computing**, **secure APIs**, **explainable AI**, and **responsible AI** to bridge academic research with operational implementation.
 
-My work integrates **data analytics**, **data engineering**, **enterprise GIS**, **GeoAI**, **machine learning**, **cloud computing**, **secure APIs**, **explainable AI**, and **responsible AI** to bridge academic research and operational implementation.
+Over the past decade, I have applied these technologies across enterprise GIS, disease surveillance, emergency management, humanitarian programmes, and applied research, developing practical solutions that support operational decision-making and measurable real-world impact.
+
+My current research and engineering work focuses on integrating data engineering, GeoAI, explainable AI, secure API architectures, and cloud technologies into practical decision-support systems for real-world applications.
 
 <p align="center">
   <a href="https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio"><strong>GitHub Portfolio</strong></a> |
