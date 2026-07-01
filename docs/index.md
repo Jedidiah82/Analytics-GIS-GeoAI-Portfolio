@@ -9,7 +9,7 @@ description: Data Analytics, Data Engineering, Enterprise GIS, GeoAI, and Intell
 <h3 align="center">Data Analytics | Data Engineering | Enterprise GIS | GeoAI | Intelligent Decision Support</h3>
 
 <p align="center">
-  Transforming data into intelligent, explainable, and operational decision-support systems through data analytics, data engineering, geospatial science, and artificial intelligence.
+  <em>Transforming data into intelligent, explainable, and operational decision-support systems through data analytics, data engineering, geospatial science, and artificial intelligence.</em>
 </p>
 
 I design and develop intelligent data-driven systems that transform spatial and non-spatial data into actionable insights for public health, emergency management, humanitarian response, and evidence-based organisational decision-making.
