@@ -1,8 +1,10 @@
-# Godwin Etim Akpan
+<h1 align="center">Godwin Etim Akpan</h1>
 
-## Data Analytics | Data Engineering | Enterprise GIS | GeoAI | AI-Driven Decision Support
+<h3 align="center">Data Analytics | Data Engineering | Enterprise GIS | GeoAI | AI-Driven Decision Support</h3>
 
-Transforming data into intelligent, explainable, and operational decision-support systems through data analytics, data engineering, geospatial science, and artificial intelligence.
+<p align="center">
+  <em>Transforming data into intelligent, explainable, and operational decision-support systems through data analytics, data engineering, geospatial science, and artificial intelligence.</em>
+</p>
 
 <p align="center">
   Raleigh, North Carolina, USA |
