@@ -6,6 +6,15 @@
   Transforming data into intelligent, explainable, and operational decision-support systems through analytics, geospatial science and artificial intelligence.
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Data%20Analytics-Decision%20Support-blue" />
+  <img src="https://img.shields.io/badge/Data%20Engineering-ETL%20%7C%20Pipelines-darkblue" />
+  <img src="https://img.shields.io/badge/Enterprise%20GIS-ArcGIS%20%7C%20GeoPandas-green" />
+  <img src="https://img.shields.io/badge/GeoAI-Spatial%20ML-blueviolet" />
+  <img src="https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure-orange" />
+  <img src="https://img.shields.io/badge/Secure%20APIs-FastAPI%20%7C%20RBAC-teal" />
+</p>
+
 I design and develop data-driven systems that transform spatial and non-spatial data into actionable intelligence for public health, emergency management, humanitarian response and enterprise decision support.
 
 My work integrates **data analytics**, **data engineering**, **enterprise GIS**, **GeoAI**, **machine learning**, **cloud computing**, **secure APIs**, **explainable AI** and **responsible AI** to bridge academic research and operational implementation.
