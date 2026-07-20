@@ -6,8 +6,7 @@
 # 🏠 Automated Building Exposure Pipeline — NC Emergency Management (NCEM) Use-Case
 _A Python-based GeoAI workflow for extracting, validating, and modeling hazard exposure for critical infrastructure._
 
-This project outlines a planned GIS workflow for **extracting, cleaning, validating, and analyzing building footprints** for hazard exposure modeling.  
-It simulates the type of spatial data engineering used by **North Carolina Emergency Management (NCEM)**, NC Floodplain Mapping, and local/state emergency response teams.
+This project presents a completed portfolio demonstration of a reproducible GIS workflow for acquiring, cleaning, validating and analysing building footprints for flood-hazard exposure assessment in Wake County, North Carolina. It simulates spatial data-engineering methods relevant to emergency-management and infrastructure-resilience applications. It was not commissioned by NC Emergency Management and is not intended for operational use.
 
 ---
 
