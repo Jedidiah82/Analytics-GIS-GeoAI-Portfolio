@@ -132,7 +132,7 @@ This project demonstrates the complete lifecycle of a modern GeoAI system, from 
   Spark, Hive, PySpark, NLP, streaming analytics, ML pipelines and location intelligence.
 
 - [2. Public Health GeoAI and Spatial Epidemiology](2_PublicHealth_GeoAI)  
-  Disease forecasting, hotspot analysis, spatial epidemiology, public-health intelligence and publications.
+  GeoAI health-surveillance systems, disease forecasting, hotspot analysis, spatial epidemiology, explainable AI, privacy-aware public-health intelligence and applied research.
 
 - [3. GIS, Spatial Data Science and Remote Sensing](3_GIS_Spatial_DataScience)  
   Enterprise GIS, remote sensing, spatial modelling, cartography, hazard exposure analysis and GIS automation.
