@@ -16,6 +16,14 @@ Each project reflects real-world scenarios such as infrastructure health checks,
 
 ---
 
+## Related Flagship Project
+
+[Privacy-Preserving GeoAI Health Surveillance System](https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System)
+
+See the [Public Health GeoAI section](../2_PublicHealth_GeoAI) for the dissertation context, spatial epidemiology applications, and public-health decision-support focus.
+
+---
+
 ## Core Capabilities Demonstrated
 
 - **System Reliability & Monitoring**  

@@ -27,6 +27,14 @@ Each project demonstrates how **data → models → MLOps → insights → decis
 
 ---
 
+## Related Flagship Project
+
+[Privacy-Preserving GeoAI Health Surveillance System](https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System)
+
+See the [Public Health GeoAI section](../2_PublicHealth_GeoAI) for the dissertation context, spatial epidemiology applications, and public-health decision-support focus.
+
+---
+
 ## End-to-End AI System Architecture
 
 This diagram illustrates how machine learning techniques integrate into real-world systems across GeoAI, infrastructure, and public health analytics.

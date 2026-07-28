@@ -6,6 +6,14 @@ Projects include transportation safety, environmental monitoring, health systems
 
 ---
 
+## Related Flagship Project
+
+[Privacy-Preserving GeoAI Health Surveillance System](https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System)
+
+See the [Public Health GeoAI section](../2_PublicHealth_GeoAI) for the dissertation context, spatial epidemiology applications, and public-health decision-support focus.
+
+---
+
 ## 📂 Projects Overview
 
 | Project | Focus | Tools |
