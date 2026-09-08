@@ -35,7 +35,7 @@ My work combines data analytics, data engineering, enterprise GIS, spatial analy
 | --- | --- |
 | **Experience** | 10+ years across GIS, data analytics, public-health intelligence, and spatial decision support |
 | **Delivery** | 6,000+ maps, dashboards, and analytical products |
-| **Capacity building** | 100+ professionals trained in GIS, spatial analysis, and digital data collection |
+| **Capacity building** | 400+ professionals trained in GIS, spatial analysis, and digital data collection |
 | **Research** | 10+ peer-reviewed scientific publications |
 | **Public service** | National-level public-health surveillance and emergency-response support in Liberia |
 
