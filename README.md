@@ -40,7 +40,7 @@ It reflects more than 10 years of experience transforming complex spatial and no
 - 10+ years of professional GIS, data analytics and public-health intelligence experience
 - Designed and implemented a Privacy-Preserving GeoAI Health Surveillance System using a hybrid cloud architecture
 - Produced more than 6,000 GIS maps, dashboards and analytical products
-- Trained more than 100 public-health professionals in GIS, spatial analysis and digital data collection
+- Trained more than 400 public-health professionals in GIS, spatial analysis and digital data collection
 - Author and co-author of 10+ peer-reviewed scientific publications
 - Experienced in data analytics, data engineering, enterprise GIS, spatial data engineering, explainable AI, secure API development and cloud deployment
 - Currently strengthening complementary SOC and cloud-security skills through Security Analyst training
