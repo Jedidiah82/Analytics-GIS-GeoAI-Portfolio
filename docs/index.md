@@ -4,6 +4,21 @@ title: Godwin Etim Akpan
 description: GIS, Data Analytics, Data Engineering, Enterprise GIS, GeoAI, and Machine Learning
 ---
 
+# My professional portfolio has moved
+
+**[Visit godwineakpan.com →](https://godwineakpan.com/)**
+
+My current professional profile, selected projects, engineering case studies, experience and credentials are now at **godwineakpan.com**.
+
+The [Analytics-GIS-GeoAI-Portfolio repository](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio) remains active as the supporting library for code, notebooks, technical documentation, project outputs and the [portfolio PDF](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/blob/main/Portfolio_PDF/Godwin_Etim_Akpan_Professional_Portfolio.pdf).
+
+This GitHub Pages presentation is retained as an earlier portfolio overview. Its descriptions and learning statuses may differ from the current website; please use the new website for current professional information.
+
+---
+
+## Earlier portfolio overview
+
+
 <h1 align="center">Godwin Etim Akpan</h1>
 
 <p align="center">
@@ -35,7 +50,7 @@ My work combines data analytics, data engineering, enterprise GIS, spatial analy
 | --- | --- |
 | **Experience** | 10+ years across GIS, data analytics, public-health intelligence, and spatial decision support |
 | **Delivery** | 6,000+ maps, dashboards, and analytical products |
-| **Capacity building** | 100+ professionals trained in GIS, spatial analysis, and digital data collection |
+| **Capacity building** | 400+ professionals trained in GIS, spatial analysis, and digital data collection |
 | **Research** | 10+ peer-reviewed scientific publications |
 | **Public service** | National-level public-health surveillance and emergency-response support in Liberia |
 
@@ -248,3 +263,4 @@ I am open to professional opportunities and collaborations involving data analyt
 *Committed to building secure, explainable, and practical data solutions that create measurable impact.*
 
 © 2026 Godwin Etim Akpan
+
