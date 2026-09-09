@@ -1,6 +1,6 @@
 <h1 align="center">Godwin Etim Akpan</h1>
 
-<h3 align="center">Data &amp; Geospatial Engineer</h3>
+<h3 align="center">Geospatial &amp; Data Engineer</h3>
 
 <p align="center"><strong>GeoAI · Spatial Data Systems · Cloud &amp; Security</strong></p>
 
