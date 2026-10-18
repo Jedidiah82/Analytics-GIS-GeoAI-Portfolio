@@ -1,177 +1,56 @@
-# 🛡️ Intrusion Detection with Big Data Analytics (UNSW-NB15)
+# Distributed Security Analytics — UNSW-NB15
 
-![Spark](https://img.shields.io/badge/Spark-MLlib-orange)
-![Hive](https://img.shields.io/badge/Hive-SQL-green)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Intrusion%20Detection-red)
+A 2025 academic workflow using HDFS, Hive, PySpark, and Spark MLlib for traffic profiling and baseline intrusion classification in a Cloudera Hadoop VM environment.
 
-## Overview
-This project builds a **distributed cybersecurity machine learning pipeline** using:
+[Read the portfolio case study](https://godwineakpan.com/projects/distributed-security-analytics)
 
-- Apache Hive (SQL analytics)
-- Apache Spark MLlib (Logistic Regression, Random Forest)
-- Hadoop/HDFS (Big Data storage)
+## Engineering contribution
 
-Dataset: **UNSW-NB15 (2.54M network traffic records)**
+- Load CSV records into HDFS and query an external Hive table.
+- Normalize attack categories with trimming and case normalization; check the normal-traffic meaning of blank categories.
+- Profile traffic counts, protocols, byte distributions, and selected feature relationships.
+- Train binary Logistic Regression and multiclass Random Forest baselines using byte/TTL features and a reported 70/30 split.
+- Examine ROC and confusion outputs rather than relying on aggregate accuracy alone.
 
----
+## Dataset evidence
 
-## Objectives
-- Detect cyberattacks using ML classification  
-- Analyze protocol/traffic distributions using Hive  
-- Evaluate Big Data scaling behavior in Spark  
+The report's Hive count is **2,539,739** records: **2,218,456 normal** and **321,283 attack**. This is about 87.4% normal traffic, so a majority-class accuracy baseline is already high. The local raw CSV is headerless; an explicit schema and row-alignment checks are essential.
 
----
+## Results confirmed in saved notebook output
 
-## Stack
-`Hive` · `PySpark` · `HDFS` · `pandas` · `matplotlib`  
+| Result | Evidence status |
+| --- | --- |
+| Logistic Regression binary AUC = 0.987 | Saved notebook cell 9 and report section 3.3.1; rounded, not independently rerun |
+| Random Forest accuracy = 0.967 | Saved notebook cell 16 confirms report section 3.3.2; 20 trees, rounded |
+| Multiclass confusion matrix | Requires full class-index mapping and reconciliation before interpretation |
 
----
+The former README assigned 96.7% to Logistic Regression and gave Random Forest 92–94% and AUC 0.95+. The recovered notebook confirms the report’s model assignments; the earlier assignments are corrected here.
 
-## Workflow Summary
+![Reported binary ROC](figures/roc_curve.png)
 
-### 1. Hive Data Exploration
-- Ingested CSV → Hive tables  
-- Queried:
-  - attack categories  
-  - protocol distribution  
-  - byte/packet patterns  
-- Identified **heavy-tailed traffic** typical of malicious flows  
+The existing figures remain historical outputs, not new validated measurements. The reported confusion matrix should not be presented as evidence of strong minority-class detection until the label mapping and prediction columns are audited.
 
-![Attack Category Distribution](figures/attack_category_distribution.png)
+## Reproducibility status
 
-**Figure:** Attack Category Distribution by Record Count and Average Source Bytes (Logarithmic Scale)
+Recovered material now includes:
 
-This visualization highlights the heavy-tailed nature of network traffic in the UNSW-NB15 dataset. While "unknown" (normal) and "generic" attacks dominate in frequency, categories such as "exploits" and "fuzzers" show significantly higher average source bytes, suggesting more data-intensive malicious behavior.
+- [Selected original PySpark modelling cells](src/unsw_model_workflow.py).
+- [Saved printed metrics](results/unsw-saved-metrics.csv), rounded to three decimal places.
+- [Run details and qualifications](results/unsw-run-summary.txt).
 
----
+The source uses explicit names for 49 CSV columns; four features (`sbytes`, `dbytes`, `sttl`, `dttl`); 70/30 random splits with seed 42; and a 20-tree Random Forest. No dataset is bundled. Run the script from a directory containing `UNSW-NB15.csv` after configuring compatible Spark, Java and Python dependencies. Exact historical dependency versions have not been recovered, and this update did not rerun the workflow.
 
-## Big Data Intrusion Detection Pipeline 
+This is a selected-cell archive rather than the entire exploratory notebook. It preserves the original modelling choices so they can be audited. The binary rule assigns 0 to `Unknown` and 1 to every other cleaned category: explicit `Normal` strings would therefore be mislabelled. Verify agreement with the original binary label. The multiclass StringIndexer was fitted before the split; its fitted label order was not saved with this model. Later notebook mappings belong to different scratch work and cannot establish this run’s mapping.
 
-```mermaid
-flowchart LR
-    A[Raw Network Logs<br/>UNSW-NB15 Dataset] --> B[HDFS Storage]
-    B --> C[Hive SQL Analysis]
-    C --> D[Feature Engineering]
-    D --> E[Spark ML Models]
-    E --> F[Evaluation & Visualization]
-    F --> G[Security Insights]
+## Corrections and limitations
 
-    subgraph ML_Models["Spark MLlib"]
-        E1[Logistic Regression<br/>Binary Classification]
-        E2[Random Forest<br/>Multi-Class Classification]
-    end
+- The report's capture-year narrative says 2025 while its query screenshot shows 2015. Do not repeat the 2025 capture claim.
+- Some feature ranges suggest a need to audit schema-to-column alignment; weak correlation does not prove statistical independence.
+- Report per-class precision/recall/support, macro-F1, PR-AUC, and a held-out/temporal evaluation before promoting detector quality.
+- No measured multi-node speedup, real-time detection deployment, calibrated probabilities, or SIEM integration is established.
 
-    E --> E1
-    E --> E2
+## Next steps
 
-    subgraph Evaluation["Model Evaluation"]
-        F1[ROC & AUC]
-        F2[Confusion Matrix]
-        F3[Feature Importance]
-    end
+Recover fitted class mappings and dependency versions; validate schema, label agreement, and leakage; rerun both models with auditable split information; publish exact metrics and environment; then evaluate scaling or live ingestion as separate extensions.
 
-    E1 --> Evaluation
-    E2 --> Evaluation
-
-    subgraph Visualization["Visual Analytics"]
-        V1[Heatmaps]
-        V2[Distributions]
-        V3[Correlation Plots]
-    end
-
-    Evaluation --> Visualization
-    Visualization --> G
-
-    G --> S1[Threat Detection]
-    G --> S2[Risk Profiling]
-    G --> S3[Future: SIEM / SOC Integration]
-```
-**Figure:** End-to-end Big Data Intrusion Detection pipeline integrating Hive, Spark MLlib, and HDFS for large-scale cybersecurity analytics.
-
----
-
-### 2. Spark ML Models
-
-| Model | Type | Accuracy | AUC |
-|-------|------|----------|------|
-| Logistic Regression | Binary | 96.7% | **0.987** |
-| Random Forest | Multi-class | 92–94% | 0.95+ |
-
-Results demonstrate Spark MLlib handles multi-million record datasets efficiently.
-
----
-
-### 3. Visual Analytics
-- ROC curve  
-- Correlation matrix  
-- Confusion matrix  
-- Feature importance  
-
----
-
-## Visual Analytics & Model Evaluation
-
-This project includes comprehensive visual analysis to validate data behavior, feature relationships, and model performance.
-
-### Traffic Patterns by Attack Category
-![Protocol Heatmap](figures/protocol_heatmap.png)
-
-Shows protocol usage (TCP/UDP/Other) across attack types.  
-Highlights heavy TCP usage for unknown and exploit-based attacks.
-
----
-
-### Feature Correlation Analysis
-![Correlation Heatmap](figures/correlation_heatmap.png)
-
-Low correlations between key features (`sbytes`, `dbytes`, `sttl`, `dttl`) indicate good feature diversity for ML modeling.
-
----
-
-### Distribution of Source Bytes
-![sbytes Distribution](figures/sbytes_distribution.png)
-
-Reveals a **heavy-tailed distribution**, common in malicious network traffic, validating the dataset’s realism.
-
----
-
-### ROC Curve – Binary Classifier
-![ROC Curve](figures/roc_curve.png)
-
-**AUC = 0.987**, demonstrating strong separation between attack and normal traffic.
-
----
-
-### Predicted Probability Distribution
-![Probability Distribution](figures/probability_distribution.png)
-
-Shows clear confidence separation between attack and normal predictions.
-
----
-
-### Confusion Matrix (Multi-Class)
-![Confusion Matrix](figures/confusion_matrix.png)
-
-Highlights strong classification performance across most attack categories, with some overlap in rare classes.
-
----
-
-## Deliverables
-- Hive SQL scripts  
-- PySpark training notebook  
-- Evaluation plots  
-- Reproducible pipeline  
-
----
-
-## Next Steps
-- Add **Kafka + Spark Streaming** for real-time IDS  
-- Export features → SIEM (Splunk / ELK)  
-- Test Gradient Boosting or deep learning models  
-
----
-
-**Academic Disclosure:**  
-This project is based on coursework submitted as part of an MSc in Big Data Technologies.  
-All analysis, code, and visualizations were independently produced by the author.  
-No confidential or proprietary materials are included.
+Academic provenance: Big Data Analytics coursework report, May 29, 2025. Dataset: UNSW-NB15. A laboratory research project, not an operational security product.

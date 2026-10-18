@@ -1,0 +1,187 @@
+ARCHIVED SOURCE EXCERPTS — zero-based notebook cell indices; not a standalone script.
+No experiments rerun. Original code retained to make the audit inspectable.
+
+CELL 86
+# Build national monthly series from expanded
+national = (expanded.groupby("month_date")["cases"]
+                     .sum()
+                     .sort_index())
+
+national = national["2017-01-31":]  # cut to your study period
+
+# Train-test split: use up to end of 2021 for training; 2022+ for test
+train = national[national.index < "2022-01-01"]
+test = national[national.index >= "2022-01-01"]
+
+
+CELL 87
+arima_model = SARIMAX(train, order=(1, 0, 1), seasonal_order=(1, 0, 1, 12))
+arima_res = arima_model.fit(disp=False)
+
+arima_forecast = arima_res.get_forecast(steps=len(test))
+arima_pred = arima_forecast.predicted_mean
+
+
+CELL 88
+nat_df = national.reset_index().rename(columns={"month_date": "ds", "cases": "y"})
+
+m_nat = Prophet(yearly_seasonality=True, weekly_seasonality=False, daily_seasonality=False)
+m_nat.fit(nat_df[nat_df["ds"] < "2022-01-01"])
+
+future_nat = m_nat.make_future_dataframe(periods=len(test), freq="M")
+fc_nat = m_nat.predict(future_nat)
+
+prophet_pred = fc_nat.set_index("ds")["yhat"].loc[test.index]
+
+
+CELL 89
+from sklearn.metrics import mean_squared_error
+import numpy as np
+
+# --- Compute RMSE manually ---
+rmse_arima = np.sqrt(mean_squared_error(test, arima_pred))
+rmse_prophet = np.sqrt(mean_squared_error(test, prophet_pred))
+
+print("ARIMA RMSE:", rmse_arima)
+print("Prophet RMSE:", rmse_prophet)
+
+
+CELL 100
+panel = panel.sort_values(["FIRST_CCNA", "month_date"])
+
+# Time features
+panel["year"] = panel["month_date"].dt.year
+panel["month"] = panel["month_date"].dt.month
+panel["dry_season"] = panel["month"].isin([12, 1, 2, 3]).astype(int)
+
+# Lag features per county
+for k in [1, 2, 3]:
+    panel[f"lag_{k}"] = (
+        panel.groupby("FIRST_CCNA")["cases"]
+             .shift(k)
+    )
+
+# Rolling means per county (3-month and 6-month windows)
+panel["roll3"] = (
+    panel.groupby("FIRST_CCNA")["cases"]
+         .rolling(3, min_periods=1)
+         .mean()
+         .reset_index(level=0, drop=True)
+)
+
+panel["roll6"] = (
+    panel.groupby("FIRST_CCNA")["cases"]
+         .rolling(6, min_periods=1)
+         .mean()
+         .reset_index(level=0, drop=True)
+)
+
+
+CELL 104
+# Drop rows with NaNs in lag features (appear at start of each county)
+feature_cols = ["year", "month", "dry_season",
+                "lag_1", "lag_2", "lag_3",
+                "roll3", "roll6", "nat_trend"]
+
+panel_model = panel.dropna(subset=feature_cols).copy()
+
+# Train / future split by time
+train_end = pd.Timestamp("2022-12-31")
+train_mask = panel_model["month_date"] <= train_end
+future_mask = panel_model["month_date"] > train_end
+
+X_train = panel_model.loc[train_mask, feature_cols]
+y_train = panel_model.loc[train_mask, "cases"]
+
+X_future = panel_model.loc[future_mask, feature_cols]
+
+print("Train shape:", X_train.shape, "Future shape:", X_future.shape)
+
+# XGBoost model
+xgb = XGBRegressor(
+    n_estimators=400,
+    learning_rate=0.05,
+    max_depth=4,
+    subsample=0.9,
+    colsample_bytree=0.9,
+    objective="reg:squarederror",
+    random_state=42
+)
+
+xgb.fit(X_train, y_train)
+
+# Predict for entire panel (for diagnostics) + future period
+panel_model["pred_cases"] = xgb.predict(panel_model[feature_cols])
+
+# Optional: evaluate fit on training part
+train_pred = panel_model.loc[train_mask, "pred_cases"]
+rmse_train = np.sqrt(mean_squared_error(y_train, train_pred))
+print("GeoAI XGBoost (Hybrid) – Train RMSE:", rmse_train)
+
+
+CELL 135 — national split and model/evaluation section only
+# %% 2. TRAIN / TEST SPLIT (NATIONAL)
+# Use data up to 2020 for training, 2021–2022 for test (adjust if you prefer)
+train_end = "2020-12-31"
+test_end  = "2022-12-31"
+
+train = monthly.loc[:train_end, "cases"]
+test  = monthly.loc["2021-01-31":test_end, "cases"]
+
+print("\nTrain period:", train.index.min(), "→", train.index.max())
+print("Test period :", test.index.min(),  "→", test.index.max())
+
+# %% 2a. SARIMA MODEL (ARIMA WITH SEASONAL COMPONENT)
+sarima_model = SARIMAX(
+    train,
+    order=(1, 0, 1),
+    seasonal_order=(1, 0, 1, 12),
+    enforce_stationarity=False,
+    enforce_invertibility=False
+)
+
+sarima_res = sarima_model.fit(disp=False)
+
+# Forecast over test horizon
+sarima_forecast = sarima_res.get_forecast(steps=len(test))
+sarima_pred = sarima_forecast.predicted_mean
+sarima_ci   = sarima_forecast.conf_int()
+
+# Align indices with test
+sarima_pred.index = test.index
+sarima_ci.index   = test.index
+
+# %% 2b. PROPHET MODEL
+# Prepare data for Prophet (training only)
+dfp_train = (
+    train.reset_index()
+         .rename(columns={"onset_date": "ds", "cases": "y"})
+)
+
+m = Prophet(
+    yearly_seasonality=True,
+    weekly_seasonality=False,
+    daily_seasonality=False
+)
+
+m.fit(dfp_train)
+
+# Forecast: extend far enough to cover test + future (to 2026-12)
+future = m.make_future_dataframe(periods=6 * 12, freq="ME")  # 6 years out
+forecast = m.predict(future)
+
+# Set index for easy alignment
+forecast_idx = forecast.set_index("ds")
+
+# Prophet predictions on test period
+prophet_pred = forecast_idx.loc[test.index, "yhat"]
+prophet_lower = forecast_idx.loc[test.index, "yhat_lower"]
+prophet_upper = forecast_idx.loc[test.index, "yhat_upper"]
+
+# %% 2c. COMPARE ARIMA vs PROPHET ON TEST
+rmse_sarima  = np.sqrt(mean_squared_error(test, sarima_pred))
+rmse_prophet = np.sqrt(mean_squared_error(test, prophet_pred))
+
+print(f"\nSARIMA RMSE  (2021–2022): {rmse_sarima:.3f}")
+print(f"Prophet RMSE (2021–2022): {rmse_prophet:.3f}")
+

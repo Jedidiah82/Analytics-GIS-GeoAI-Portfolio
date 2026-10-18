@@ -1,0 +1,16 @@
+UNSW-NB15 archived notebook evidence
+Source: MachineLearning.ipynb, saved outputs; not rerun.
+Cells use the headerless 49-column CSV, with explicit column names.
+Features: sbytes, dbytes, sttl, dttl.
+Both randomSplit calls: 70/30, seed 42.
+Binary label: attack_cat_clean == Unknown -> 0; all other categories -> 1.
+None categories become Unknown; explicit Normal strings are mapped to Normal,
+then assigned 1 by the binary expression. Check raw label agreement before rerun.
+Logistic Regression saved printed ROC-AUC: 0.987 (three decimal places).
+Random Forest: 20 trees; saved printed multiclass accuracy: 0.967.
+StringIndexer fitted to the whole dataframe before the multiclass split.
+The fitted indexer's class-name ordering was not saved with this model.
+Later scratch cells contain different mappings and are not evidence for this run.
+No per-class metric export, model artifact, temporal holdout, repeated seeds,
+or independently reproduced result is supplied.
+The script is a selected-cell source snapshot, not the entire scratch notebook.

@@ -1,0 +1,73 @@
+LASSA FORECASTING — SOURCE AND IMPLEMENTATION REVIEW, 18 OCTOBER 2026
+
+Historical models were not rerun. No official or operational forecast is asserted.
+
+RECOVERED MATERIAL
+Untitled17.ipynb (137 cells) contains multiple exploratory variants.
+National aggregate export: 73 months, December 2016–December 2022.
+National Prophet export: 121 rows, December 2016–December 2026.
+County feature panel: 1,188 rows, nine counties, January 2016–December 2026.
+County future export: 432 rows, nine counties, January 2023–December 2026.
+No case-level records, notebook outputs containing records, or aggregate surveillance
+CSV inputs are included in the public update package. Data permissions and provenance
+still need documenting before a public reproducibility release.
+
+NATIONAL RESULT THAT CAN BE DESCRIBED
+Cell 135 prints train December 2016–December 2020, test January 2021–December 2022.
+SARIMA (1,0,1) x (1,0,1,12); stationarity/invertibility enforcement disabled.
+Prophet yearly seasonality enabled; weekly and daily disabled.
+Saved rounded RMSE: SARIMA 5.283, Prophet 3.652; units monthly counts.
+Only a single holdout; no seasonal-naive baseline, repeated origins, or coverage test.
+The figure labels both bands 95%, while the Prophet constructor in that cell does
+not explicitly set interval_width. Verify nominal levels before publishing coverage.
+The subsequent national projection in that cell uses the training-through-2020 model,
+not a documented full-history refit. Future dates through 2026 are projections.
+Missing months are filled with zero; verify reporting completeness before treating
+all zero counts as observed absence.
+
+EARLIER SCORES EXCLUDED FROM HOLDOUT CLAIMS
+Cell 79 constructs a county panel through December 2026 and zero-fills missing cases.
+Cell 86 sums this panel and takes every date from 2022 onward as test.
+Cell 89 prints SARIMA 2.975773811848476 and Prophet 4.304319897139934.
+These include future placeholder outcomes in the test path; they are not comparable
+to the later genuine 2021–2022 observation-window holdout. Retained for provenance only.
+
+COUNTY MODEL ISSUES
+Rolling means in cells 100 and 135 include the current target (target leakage).
+Cell 104 prints training RMSE 0.02269422107475245; no held-out county skill is shown.
+Future outcomes in the saved panel are all zero placeholders, not measured cases.
+430 of 432 future lag_1 values are zero; the future feature path is not a consistent
+recursive forecast update. The saved county export has 305 negative predictions,
+range -0.07649388 to 3.0678327. Count-support constraints need assessment.
+Author clarification: counties with no recorded historical outbreaks were assigned zero.
+This is historical coding, not an inference that every future outcome must be zero.
+The exported model panel covers nine counties; missing predictions on joined maps
+are filled with zero by saved plotting code. Missing model coverage must remain NA.
+The archived December 2026 map has roughly 1e-5-scale values and is treated as a
+separate saved output, not attributed to the later CSV with a different range.
+A choropleth of counts is not incidence, infection probability, or a significance test.
+
+PUBLIC REPOSITORY SCRIPT
+The script describes template data, while the notebook reads local case-level data.
+Provenance must distinguish historical analysis inputs from a synthetic public demo.
+prepare_national_ts includes December 2022 in both train and test slices.
+main passes a historical-start full_index to forecast_arima, which assigns future
+predictions to those historical dates; start_date is unused.
+engineer_geoai_features uses an unshifted current-target rolling mean.
+make_geoai_forecast starts from all feat_df history, not explicitly training-only history;
+training roll_mean includes current y while forecast roll_mean uses previous values.
+No referenced data_template, shapefile inputs, or 05_Reproducibility_Notebook.ipynb
+was found in the inspected project folder. Dependency versions are not pinned.
+These findings refer to the inspected local repository snapshot, not a claim that all
+possible historical variants share the same behaviour.
+
+REVISION PLAN
+1. Freeze aggregate input schema, provenance, observed end date, and run manifest.
+2. Test seasonal-naive, SARIMA and Prophet across rolling origins; report MAE/RMSE
+   and interval coverage; then refit the chosen model on all available observations.
+3. Shift rolling features before aggregation, keep unknown future outcomes missing,
+   build fold-local national features, and define direct or recursive forecasting.
+4. Evaluate county forecasts on held-out observed months, constrain count outputs
+   appropriately, and report performance by county with support and uncertainty.
+5. Publish only a clearly labelled synthetic aggregate demo with verified commands.
+6. Preserve missing county predictions and use shared, meaningful map scales.

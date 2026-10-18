@@ -1,199 +1,60 @@
-# 🦠 Lassa Fever GeoAI Forecasting — Liberia (2016–2026)
+# Lassa Fever Forecasting — Liberia
 
-<p align="center">
-  <strong>Godwin Etim Akpan</strong><br>
-  Public Health Informatics • GeoAI • Spatial Epidemiology
-</p>
+An exploratory project connecting monthly surveillance aggregation, national SARIMA/Prophet models, county-level XGBoost, and GIS mapping. Historical observations end in 2022; dates through 2026 are a projection horizon.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/GeoAI-Spatial%20ML-blueviolet" />
-  <img src="https://img.shields.io/badge/Public%20Health-Epidemiology-red" />
-  <img src="https://img.shields.io/badge/Python-3.10-blue" />
-  <img src="https://img.shields.io/badge/XGBoost-ML-orange" />
-  <img src="https://img.shields.io/badge/Time%20Series-ARIMA%20%7C%20Prophet-green" />
-  <img src="https://img.shields.io/badge/GIS-GeoPandas%20%7C%20ArcGIS-darkgreen" />
-</p>
+[Read the portfolio case study](https://godwineakpan.com/projects/lassa-geoai-forecasting)
 
----
+## What was implemented
 
-## Project Metadata
+- National monthly aggregation, rolling-mean inspection and STL decomposition.
+- A documented national temporal holdout: train through December 2020, test January 2021–December 2022.
+- County–month feature engineering, XGBoost experiments, and boundary joins for maps.
+- Original figures and saved outputs; these historical models were not rerun for this review.
 
-| Field | Details |
-|------|---------|
-| **Title** | Lassa Fever GeoAI Forecasting — Liberia (2016–2026) |
-| **Author** | Godwin Etim Akpan |
-| **Affiliation** | Public Health Informatics \| GeoAI \| Spatial Epidemiology |
-| **Version** | 1.0 |
-| **Last Updated** | 2025-12-09 |
-| **License** | MIT License (repository only — not for clinical use) |
+## National result with an explicit evaluation window
 
----
+| Model | Saved RMSE, January 2021–December 2022 |
+| --- | ---: |
+| SARIMA (1,0,1) × (1,0,1,12) | 5.283 |
+| Prophet | 3.652 |
 
-## Description
+These are rounded saved outputs from notebook cell 135, in monthly case-count units. The recovered national series has 73 months, December 2016–December 2022. Prophet has lower error on this single holdout. No general model superiority, calibrated interval coverage, or county forecast skill follows from this comparison.
 
-A reproducible **spatio-temporal forecasting pipeline** combining national time-series models  
-(**ARIMA, Prophet, STL decomposition**) with **GeoAI-based county-level prediction using XGBoost**.
+![Original national holdout comparison](Figures/national_forecasts/national_ARIMA_vs_Prophet.png)
 
-### The workflow supports:
+The figure labels both bands as 95%; the archived Prophet constructor does not explicitly set interval width, so its nominal level needs checking. The later projection in that notebook cell uses the model trained through 2020; it is not a documented refit on all observations through 2022.
 
-- Public health surveillance  
-- Outbreak preparedness  
-- Spatial epidemiology research  
-- GeoAI demonstration  
+## County outputs require methodological revision
 
-**Forecast horizon:** 2016–2026
+The archived workflow contains current-target rolling predictors, zero-filled future outcomes entering lag features, and a training-fit RMSE that does not measure forecast generalization. The recovered 2023–2026 county export has 432 rows across nine counties and includes 305 negative raw predictions. It should not be presented as a validated forecast product.
 
----
+The author confirms that counties with no recorded outbreaks were assigned historical zero values. This describes historical coding. Some saved maps also fill missing model predictions with zero; those missing predictions should be labelled separately rather than presented as model-derived future zeros. Choropleth colours represent modelled counts, not population-adjusted incidence or statistically significant hotspots. The archived December 2026 map and later county CSV have different numerical ranges and are treated as distinct outputs.
 
-## Datasets
+## Evidence available here
 
-### 1️⃣ Lassa Fever Line List (Mocked)
+- [Historical metrics, labelled by run and validity](Evidence/lassa-saved-metrics.csv).
+- [Implementation review and revision plan](Evidence/lassa-evidence-review.txt).
+- [Selected original modelling source excerpts](Evidence/archived-model-excerpts.txt).
+- Existing [forecasting script](Scripts/lassa_forecasting_pipeline.py) and [original figures](Figures/).
 
-- **Type:** CSV  
-- **Source:** MoH/NPHIL (synthetic template only)
+An earlier notebook experiment extends its test panel through 2026 using zero-filled future outcomes. Its lower SARIMA score is preserved in the evidence CSV only for provenance; it is excluded from the observed holdout comparison above.
 
-### 2️⃣ Liberia Administrative Boundaries
+## Reproducibility status
 
-- **Type:** Shapefiles  
-- **Source:** HDX / Humanitarian Data Exchange
+The existing script is a template-oriented implementation and differs from the historical notebook. The inspected folder does not contain its referenced `data_template/`, shapefile inputs, or `05_Reproducibility_Notebook.ipynb`. A verified one-command reproduction is not yet provided.
 
----
+Before rerunning or relying on its outputs, correct the overlapping train/test endpoint, SARIMA forecast-date assignment, unshifted rolling predictor, and future-history handling described in the review. Pin dependency versions and publish clearly labelled synthetic aggregate inputs with schema checks.
 
-## Models Used
+## Data provenance and scope
 
-- **ARIMA** – Univariate time-series forecasting  
-- **Prophet** – Trend and seasonality decomposition  
-- **STL** – Structural time-series decomposition  
-- **XGBoost** – GeoAI spatio-temporal regression  
+The historical notebook reads local case-level data; the repository script describes template inputs. These are different provenance statements. Case-level records, the full notebook with row outputs, and surveillance input CSVs are not included in this update. Data-sharing permissions, reporting completeness, and whether absent months represent verified zeros need documenting before a public data release.
 
----
+The figures are research outputs, not official forecasts or operational guidance. No clinical or surveillance deployment is established by the recovered evidence.
 
-## Dependencies
+## Next iteration
 
-- **Python:** ≥ 3.10  
-- **Core:** pandas, numpy, scikit-learn  
-- **ML:** xgboost, prophet  
-- **Spatial:** geopandas  
-- **Visualization:** matplotlib, seaborn  
-
----
-
-## Reproducibility
-
-### Requirements
-
-- Jupyter Lab or VS Code Notebooks  
-- Mock datasets in `data_template/`  
-- Shapefiles in `shapefiles/`  
-
-### Run Instructions
-
-```bash
-Open 05_Reproducibility_Notebook.ipynb and execute all cells
-```
-
----
-
-## Project Overview
-
-This folder presents a complete **spatio-temporal forecasting workflow** for Lassa fever in Liberia.
-
-It integrates **classical epidemiology** with **GeoAI** for national and subnational prediction  
-through **2026**.
-
-### Designed for:
-
-- Public health decision-making  
-- Epidemiological research  
-- GeoAI demonstration  
-
-### Key Outputs
-
-- National-level case forecasts (ARIMA, Prophet)  
-- Trend, seasonality, and anomaly decomposition (STL)  
-- County-level GeoAI projections (XGBoost)  
-- Heatmaps and hotspot spatial predictions  
-- Optional forecast animations  
-- Manuscript-ready figures  
-
----
-
-## Objectives
-
-1. Build a cleaned national and county-level dataset (2016–2022).  
-2. Model monthly national incidence using:
-   - ARIMA  
-   - Prophet  
-   - STL decomposition  
-3. Engineer spatio-temporal features (lags, rolling means, climate proxies).  
-4. Train an XGBoost model for county-level risk prediction.  
-5. Generate forecasts for 2023–2026.  
-6. Produce maps, figures, and tables for research and surveillance reporting.  
-
----
-
-## Modeling Workflow
-
-### 1️⃣ Time-Series Forecasting (National)
-
-- ARIMA for autoregressive modeling  
-- Prophet for trend + seasonal extraction  
-- STL for structural decomposition  
-- Confidence intervals and peak annotations  
-- Forecast comparisons through 2026  
-
-### 2️⃣ GeoAI (County-Level)
-
-- Lagged features (t-1, t-2, t-3)  
-- Rolling means and seasonal indicators  
-- Optional covariates (rainfall, temperature, roads, population)  
-- XGBoost regression for spatial prediction  
-
-### 3️⃣ Spatial Analysis
-
-- Choropleth hotspot maps  
-- Cluster visualization (custom Python, SaTScan-style)  
-- Multi-panel yearly incidence maps  
-- Optional animated risk evolution  
-
----
-
-## Example Outputs (Figures)
-
-All generated plots and maps are available in the **Figures** folder:
-
-👉 **[View Figures](https://github.com/Jedidiah82/Analytics-GIS-GeoAI-Portfolio/tree/main/2_PublicHealth_GeoAI/Lassa_GeoAI_Forecasting_2016_2026/Figures)**
-
-This includes:
-
-- ARIMA vs Prophet Forecast (2016–2026)  
-- Prophet Trend & Seasonality Components  
-- STL Decomposition  
-- Rolling Mean Trends  
-- GeoAI Hotspot Map (December 2026)  
-- County-Level Incidence Maps (2017–2022)  
-- Localized Cluster Maps  
-
-*(Images rendered from analysis — no raw case data included.)*
-
----
-
-## Data Disclaimer
-
-All visualizations and outputs are derived from **aggregated, non-identifiable surveillance data**.
-
-- No individual-level data is stored or shared  
-- No confidential MoH/NPHIL datasets are included  
-- Synthetic/template datasets are provided for reproducibility  
-- Results do not represent official government reports  
-
----
-
-## Citation
-
-If referencing this work:
-
-**Akpan, G.E. (2025).**  
-*Lassa Fever GeoAI Forecasting — Liberia (2016–2026).*  
-Big Data • GeoAI • Public Health Analytics Portfolio.  
-https://github.com/Jedidiah82/
+1. Compare seasonal-naive, SARIMA and Prophet across rolling forecast origins; measure MAE/RMSE and interval coverage.
+2. Shift rolling predictors and fit every transformation within the training window.
+3. Keep future outcomes unknown and implement an explicit recursive or direct county forecast strategy.
+4. Evaluate nonnegative county forecasts on observed temporal holdouts and report per-county support.
+5. Publish a tested synthetic-data demonstration and maps with coverage, uncertainty and consistent scales.

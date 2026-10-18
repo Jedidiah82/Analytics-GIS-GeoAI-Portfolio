@@ -1,0 +1,8 @@
+Saved notebook outputs (historical run; not rerun for this website update)
+News headlines: 209,527 records, 42 labels
+Train/test: 167,621 / 41,906
+20 Newsgroups: 18,846 documents, 20 labels
+Sampled silhouette: k=10: -0.0119; k=15: -0.0099; k=20: -0.0079
+Selected k=20
+Implementations: scikit-learn classification and clustering; gensim Word2Vec
+Separate PySpark source variants are present, but the above run is from the local Python notebooks.

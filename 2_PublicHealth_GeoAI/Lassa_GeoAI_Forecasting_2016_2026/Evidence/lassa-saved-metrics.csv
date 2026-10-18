@@ -1,0 +1,6 @@
+run,model,metric,value,window,status,notebook_cell
+national_holdout_2021_2022,SARIMA,RMSE,5.283,2021-01 through 2022-12,saved rounded output; not rerun,135
+national_holdout_2021_2022,Prophet,RMSE,3.652,2021-01 through 2022-12,saved rounded output; not rerun,135
+earlier_zero_extended_experiment,SARIMA,RMSE,2.975773811848476,2022 onward from panel extended through 2026,exclude from valid holdout comparison: future placeholders enter test,89
+earlier_zero_extended_experiment,Prophet,RMSE,4.304319897139934,2022 onward from panel extended through 2026,exclude from valid holdout comparison: future placeholders enter test,89
+county_training_fit,XGBoost,RMSE,0.02269422107475245,training rows through 2022,training statistic with same-target rolling features; not forecast validation,104
