@@ -1,0 +1,11 @@
+test_assignment_and_exact_dedup (__main__.ExposureContracts.test_assignment_and_exact_dedup) ... ok
+test_collection_preserves_polygon_only (__main__.ExposureContracts.test_collection_preserves_polygon_only) ... ok
+test_empty_hazard (__main__.ExposureContracts.test_empty_hazard) ... ok
+test_nonempty_output_refused (__main__.ExposureContracts.test_nonempty_output_refused) ... ok
+test_positive_sliver_retained (__main__.ExposureContracts.test_positive_sliver_retained) ... ok
+test_split_and_overlapping_hazards_count_once (__main__.ExposureContracts.test_split_and_overlapping_hazards_count_once) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.021s
+
+OK

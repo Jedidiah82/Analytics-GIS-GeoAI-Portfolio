@@ -1,0 +1,15 @@
+Inputs hashed; county boundary loaded.
+County footprint QA: {'raw_statewide_features': 4678064, 'bbox_candidates': 488269, 'invalid_candidates_before_repair': 0, 'unusable_candidates': 0, 'outside_county_representative_point': 162833, 'exact_geometry_duplicates_removed': 0, 'county_buildings': 325436, 'small_under_30m2_retained': 645, 'boundary_crossing_buildings': 60}
+Computing positive-area exposure...
+{
+  "county_geoid": "37183",
+  "county_name": "Wake County, North Carolina",
+  "analysis_crs": "EPSG:32119",
+  "county_buildings": 325436,
+  "sfha_exposed_buildings": 1837,
+  "percent_exposed": 0.5644735063115328,
+  "exposed_footprint_area_m2": 392436.0305234762,
+  "coverage_representative_points_pct": 99.99846359960176,
+  "definition": "Positive-area footprint intersection with archived FEMA SFHA_TF=T polygons; representative-point county assignment."
+}
+SUCCESS: independent reconciliation passed.

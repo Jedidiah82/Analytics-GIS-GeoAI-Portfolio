@@ -1,0 +1,437 @@
+{
+  "status": "SUCCESS",
+  "completed_utc": "2026-10-18T20:53:21.024947+00:00",
+  "duration_seconds": 127.39123249053955,
+  "inputs": {
+    "microsoft_footprints.geojson": {
+      "bytes": 1313670108,
+      "sha256": "86cf2fae79b1286590dd10fe6618997cb938d7d77654de95a160d31a5c59adce"
+    },
+    "flood_fema_nfhl.gpkg": {
+      "bytes": 70205440,
+      "sha256": "df30d7e29e5824f927dd39e1197bc2adf93b78fc66f2d2072e163fdea2f0c9ca"
+    },
+    "wake-county-tigerweb.geojson": {
+      "bytes": 114742,
+      "sha256": "cf59b20e2f7030a822c0f00e9b2afc368e04fb36647e3a5e5216c984403cc37f"
+    }
+  },
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "dependencies": {
+    "geopandas": "1.1.1",
+    "shapely": "2.1.2",
+    "pyproj": "3.7.2",
+    "pyogrio": "0.12.1",
+    "pandas": "2.2.3",
+    "numpy": "2.2.6",
+    "ijson": "3.4.0.post0"
+  },
+  "checks": {
+    "unique_ids": true,
+    "county_assignment": true,
+    "valid_geometry": true,
+    "bounded_area": true,
+    "independent_union_reconciliation": true
+  },
+  "summary": {
+    "county_geoid": "37183",
+    "county_name": "Wake County, North Carolina",
+    "analysis_crs": "EPSG:32119",
+    "county_buildings": 325436,
+    "sfha_exposed_buildings": 1837,
+    "percent_exposed": 0.5644735063115328,
+    "exposed_footprint_area_m2": 392436.0305234762,
+    "coverage_representative_points_pct": 99.99846359960176,
+    "definition": "Positive-area footprint intersection with archived FEMA SFHA_TF=T polygons; representative-point county assignment."
+  },
+  "qa": {
+    "raw_statewide_features": 4678064,
+    "bbox_candidates": 488269,
+    "invalid_candidates_before_repair": 0,
+    "unusable_candidates": 0,
+    "outside_county_representative_point": 162833,
+    "exact_geometry_duplicates_removed": 0,
+    "county_buildings": 325436,
+    "small_under_30m2_retained": 645,
+    "boundary_crossing_buildings": 60,
+    "flood_source_polygons": 9643,
+    "invalid_flood_geometries_before_repair": 45,
+    "county_flood_polygons": 9593,
+    "county_sfha_polygons": 3508,
+    "positive_intersection_pieces": 1943,
+    "invalid_output_geometries": 0,
+    "unique_building_ids": 325436,
+    "representative_points_outside_fema_coverage": 5,
+    "exposed_small_under_30m2": 2
+  },
+  "boundary_provenance": {
+    "retrieved_utc": "2026-10-18T20:46:59.941481+00:00",
+    "service_url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1",
+    "query": {
+      "where": "GEOID='37183'",
+      "outFields": "*",
+      "outSR": 4326,
+      "f": "geojson"
+    },
+    "layer_metadata": {
+      "currentVersion": 11.5,
+      "cimVersion": "3.5.0",
+      "id": 1,
+      "name": "Counties",
+      "type": "Feature Layer",
+      "description": "Counties (or statistically equivalent entities); January 1, 2026 vintage",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857,
+        "xyTolerance": 0.001,
+        "zTolerance": 0.001,
+        "mTolerance": 0.001,
+        "falseX": -20037700,
+        "falseY": -30241100,
+        "xyUnits": 10000,
+        "falseZ": -100000,
+        "zUnits": 10000,
+        "falseM": -100000,
+        "mUnits": 10000
+      },
+      "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857,
+        "xyTolerance": 0.001,
+        "zTolerance": 2,
+        "mTolerance": 0.001,
+        "falseX": -21950603.294350002,
+        "falseY": -30241100,
+        "xyUnits": 144357470.0445541,
+        "falseZ": 0,
+        "zUnits": 1,
+        "falseM": -100000,
+        "mUnits": 10000
+      },
+      "copyrightText": "Source: U.S. Census Bureau",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 42000,
+      "maxScale": 1001,
+      "drawingInfo": {
+        "renderer": {
+          "type": "simple",
+          "symbol": {
+            "type": "esriSFS",
+            "style": "esriSFSSolid",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "outline": {
+              "type": "esriSLS",
+              "style": "esriSLSSolid",
+              "color": [
+                153,
+                153,
+                153,
+                255
+              ],
+              "width": 6
+            }
+          }
+        },
+        "scaleSymbols": false,
+        "transparency": 0,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": -19951913.2278,
+        "ymin": -1643352.8198999986,
+        "xmax": 20021888.103200004,
+        "ymax": 11554348.350000001,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857,
+          "xyTolerance": 0.001,
+          "zTolerance": 2,
+          "mTolerance": 0.001,
+          "falseX": -21950603.294350002,
+          "falseY": -30241100,
+          "xyUnits": 144357470.0445541,
+          "falseZ": 0,
+          "zUnits": 1,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeNone",
+      "displayField": "NAME",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "MTFCC",
+          "type": "esriFieldTypeString",
+          "alias": "MTFCC",
+          "length": 5,
+          "domain": null
+        },
+        {
+          "name": "OID",
+          "type": "esriFieldTypeString",
+          "alias": "OID",
+          "length": 22,
+          "domain": null
+        },
+        {
+          "name": "GEOID",
+          "type": "esriFieldTypeString",
+          "alias": "GEOID",
+          "length": 5,
+          "domain": null
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE",
+          "length": 2,
+          "domain": null
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY",
+          "length": 3,
+          "domain": null
+        },
+        {
+          "name": "COUNTYNS",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTYNS",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "BASENAME",
+          "type": "esriFieldTypeString",
+          "alias": "BASENAME",
+          "length": 100,
+          "domain": null
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME",
+          "length": 100,
+          "domain": null
+        },
+        {
+          "name": "LSADC",
+          "type": "esriFieldTypeString",
+          "alias": "LSADC",
+          "length": 2,
+          "domain": null
+        },
+        {
+          "name": "FUNCSTAT",
+          "type": "esriFieldTypeString",
+          "alias": "FUNCSTAT",
+          "length": 1,
+          "domain": null
+        },
+        {
+          "name": "COUNTYCC",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTYCC",
+          "length": 2,
+          "domain": null
+        },
+        {
+          "name": "AREALAND",
+          "type": "esriFieldTypeBigInteger",
+          "alias": "AREALAND",
+          "domain": null
+        },
+        {
+          "name": "AREAWATER",
+          "type": "esriFieldTypeBigInteger",
+          "alias": "AREAWATER",
+          "domain": null
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "domain": null
+        },
+        {
+          "name": "STGEOMETRY",
+          "type": "esriFieldTypeGeometry",
+          "alias": "STGEOMETRY",
+          "domain": null
+        },
+        {
+          "name": "CENTLAT",
+          "type": "esriFieldTypeString",
+          "alias": "CENTLAT",
+          "length": 11,
+          "domain": null
+        },
+        {
+          "name": "CENTLON",
+          "type": "esriFieldTypeString",
+          "alias": "CENTLON",
+          "length": 12,
+          "domain": null
+        },
+        {
+          "name": "INTPTLAT",
+          "type": "esriFieldTypeString",
+          "alias": "INTPTLAT",
+          "length": 11,
+          "domain": null
+        },
+        {
+          "name": "INTPTLON",
+          "type": "esriFieldTypeString",
+          "alias": "INTPTLON",
+          "length": 12,
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "STGEOMETRY",
+        "type": "esriFieldTypeGeometry",
+        "alias": "STGEOMETRY"
+      },
+      "indexes": [
+        {
+          "name": "FDO_STGEOMETRY",
+          "fields": "STGEOMETRY",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        },
+        {
+          "name": "COUNTY_90_BASENAME",
+          "fields": "BASENAME",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        },
+        {
+          "name": "COUNTY_90_GEOID",
+          "fields": "GEOID",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        },
+        {
+          "name": "COUNTY_90_LSADC",
+          "fields": "LSADC",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        },
+        {
+          "name": "COUNTY_90_MTFCC",
+          "fields": "MTFCC",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        },
+        {
+          "name": "COUNTY_90_OID",
+          "fields": "OID",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        },
+        {
+          "name": "COUNTY_90_PK",
+          "fields": "STATE,COUNTY",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": false,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 100000,
+      "maxSelectionCount": 2000,
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsAdvancedQueryRelated": true,
+        "supportsQueryRelatedPagination": true,
+        "supportsPagination": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": true,
+        "supportsTimeRelation": true,
+        "supportsSqlFormat": false,
+        "supportsQueryAnalytic": false,
+        "supportsCurrentUserQueries": true
+      },
+      "supportsDatumTransformation": true,
+      "dateFieldsTimeReference": null,
+      "preferredTimeReference": null,
+      "datesInUnknownTimezone": false,
+      "hasGeometryProperties": true,
+      "geometryProperties": {
+        "shapeAreaFieldName": "STGEOMETRY_Area",
+        "shapeLengthFieldName": "STGEOMETRY_Length",
+        "units": "esriMeters",
+        "mapUnits": {
+          "uwkid": 9001
+        }
+      },
+      "hasMetadata": true,
+      "isDataArchived": false,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsCoordinatesQuantization": true,
+      "supportsDynamicLegends": true
+    },
+    "retrieval_timestamp_basis": "Snapshot file modification time"
+  }
+}

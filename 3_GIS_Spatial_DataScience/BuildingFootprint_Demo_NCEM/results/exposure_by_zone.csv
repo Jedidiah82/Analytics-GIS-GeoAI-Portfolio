@@ -1,0 +1,3 @@
+fema_zone,distinct_buildings,note
+A,0,Zone counts may overlap; do not sum to obtain county total.
+AE,1837,Zone counts may overlap; do not sum to obtain county total.

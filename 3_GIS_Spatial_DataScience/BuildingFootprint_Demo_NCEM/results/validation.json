@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "saved_buildings_checked": 325436,
+  "independent_topology_checked": 325436,
+  "independent_area_sample": 100,
+  "checks": [
+    "CRS and units",
+    "unique IDs",
+    "valid positive geometries",
+    "county membership",
+    "saved area reconciliation",
+    "summary arithmetic",
+    "dissolved-hazard exposure identity",
+    "100-building area reconciliation",
+    "sensitivity monotonicity",
+    "manifest completion"
+  ]
+}
