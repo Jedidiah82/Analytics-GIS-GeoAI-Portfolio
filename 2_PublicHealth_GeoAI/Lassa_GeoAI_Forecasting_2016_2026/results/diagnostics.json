@@ -1,0 +1,148 @@
+[
+  {
+    "evaluation": "Annual rolling origin",
+    "origin": "2019-12-31",
+    "method": "Seasonal naive",
+    "converged": true,
+    "warnings": [],
+    "interval_method": "95% training seasonal-residual empirical band; constant across leads",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "Annual rolling origin",
+    "origin": "2019-12-31",
+    "method": "SARIMA",
+    "converged": true,
+    "warnings": [
+      "Non-invertible starting seasonal moving average Using zeros as starting parameters."
+    ],
+    "optimizer": "L-BFGS",
+    "interval_method": "SARIMA nominal 95% model interval",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "Annual rolling origin",
+    "origin": "2019-12-31",
+    "method": "Prophet",
+    "converged": true,
+    "warnings": [],
+    "interval_method": "Prophet nominal 95% model interval",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "Annual rolling origin",
+    "origin": "2020-12-31",
+    "method": "Seasonal naive",
+    "converged": true,
+    "warnings": [],
+    "interval_method": "95% training seasonal-residual empirical band; constant across leads",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "Annual rolling origin",
+    "origin": "2020-12-31",
+    "method": "SARIMA",
+    "converged": true,
+    "warnings": [
+      "Non-invertible starting seasonal moving average Using zeros as starting parameters."
+    ],
+    "optimizer": "L-BFGS",
+    "interval_method": "SARIMA nominal 95% model interval",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "Annual rolling origin",
+    "origin": "2020-12-31",
+    "method": "Prophet",
+    "converged": true,
+    "warnings": [],
+    "interval_method": "Prophet nominal 95% model interval",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "Annual rolling origin",
+    "origin": "2021-12-31",
+    "method": "Seasonal naive",
+    "converged": true,
+    "warnings": [],
+    "interval_method": "95% training seasonal-residual empirical band; constant across leads",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "Annual rolling origin",
+    "origin": "2021-12-31",
+    "method": "SARIMA",
+    "converged": true,
+    "warnings": [],
+    "optimizer": "L-BFGS",
+    "interval_method": "SARIMA nominal 95% model interval",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "Annual rolling origin",
+    "origin": "2021-12-31",
+    "method": "Prophet",
+    "converged": true,
+    "warnings": [],
+    "interval_method": "Prophet nominal 95% model interval",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "Full-history projection",
+    "origin": "2022-12-31",
+    "method": "Seasonal naive",
+    "converged": true,
+    "warnings": [],
+    "interval_method": "95% training seasonal-residual empirical band; constant across leads",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "Full-history projection",
+    "origin": "2022-12-31",
+    "method": "SARIMA",
+    "converged": true,
+    "warnings": [],
+    "optimizer": "L-BFGS",
+    "interval_method": "SARIMA nominal 95% model interval",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "Full-history projection",
+    "origin": "2022-12-31",
+    "method": "Prophet",
+    "converged": true,
+    "warnings": [],
+    "interval_method": "Prophet nominal 95% model interval",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "2021\u20132022 holdout",
+    "origin": "2020-12-31",
+    "method": "Seasonal naive",
+    "converged": true,
+    "warnings": [],
+    "interval_method": "95% training seasonal-residual empirical band; constant across leads",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "2021\u20132022 holdout",
+    "origin": "2020-12-31",
+    "method": "SARIMA",
+    "converged": true,
+    "warnings": [
+      "Non-invertible starting seasonal moving average Using zeros as starting parameters."
+    ],
+    "optimizer": "L-BFGS",
+    "interval_method": "SARIMA nominal 95% model interval",
+    "negative_raw_point_predictions": 0
+  },
+  {
+    "evaluation": "2021\u20132022 holdout",
+    "origin": "2020-12-31",
+    "method": "Prophet",
+    "converged": true,
+    "warnings": [],
+    "interval_method": "Prophet nominal 95% model interval",
+    "negative_raw_point_predictions": 0
+  }
+]

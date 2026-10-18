@@ -1,0 +1,13 @@
+{
+  "data_type": "Labelled synthetic fixtures, separate from NASA performance replay",
+  "input_lines": 7,
+  "accepted_requests": 3,
+  "malformed_lines": 2,
+  "too_late_dropped": 1,
+  "synthetic_flush_controls": 1,
+  "within_watermark_event_accepted": true,
+  "old_closed_window_not_reopened": true,
+  "graceful_checkpoint_restart_passed": true,
+  "duplicate_final_window_keys": 0,
+  "state_eviction_observed": true
+}

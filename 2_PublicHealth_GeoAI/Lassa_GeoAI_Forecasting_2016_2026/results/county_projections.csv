@@ -1,0 +1,2881 @@
+date,county,prediction,model,lowest_backtest_mae
+2023-01-31,Bomi,0.0,Zero baseline,True
+2023-01-31,Bong,0.0,Zero baseline,True
+2023-01-31,Gbarpolu,0.0,Zero baseline,True
+2023-01-31,Grand Bassa,0.0,Zero baseline,True
+2023-01-31,Grand Cape Mount,0.0,Zero baseline,True
+2023-01-31,Grand Gedeh,0.0,Zero baseline,True
+2023-01-31,Grand Kru,0.0,Zero baseline,True
+2023-01-31,Lofa,0.0,Zero baseline,True
+2023-01-31,Margibi,0.0,Zero baseline,True
+2023-01-31,Maryland,0.0,Zero baseline,True
+2023-01-31,Montserrado,0.0,Zero baseline,True
+2023-01-31,Nimba,0.0,Zero baseline,True
+2023-01-31,River Gee,0.0,Zero baseline,True
+2023-01-31,Rivercess,0.0,Zero baseline,True
+2023-01-31,Sinoe,0.0,Zero baseline,True
+2023-02-28,Bomi,0.0,Zero baseline,True
+2023-02-28,Bong,0.0,Zero baseline,True
+2023-02-28,Gbarpolu,0.0,Zero baseline,True
+2023-02-28,Grand Bassa,0.0,Zero baseline,True
+2023-02-28,Grand Cape Mount,0.0,Zero baseline,True
+2023-02-28,Grand Gedeh,0.0,Zero baseline,True
+2023-02-28,Grand Kru,0.0,Zero baseline,True
+2023-02-28,Lofa,0.0,Zero baseline,True
+2023-02-28,Margibi,0.0,Zero baseline,True
+2023-02-28,Maryland,0.0,Zero baseline,True
+2023-02-28,Montserrado,0.0,Zero baseline,True
+2023-02-28,Nimba,0.0,Zero baseline,True
+2023-02-28,River Gee,0.0,Zero baseline,True
+2023-02-28,Rivercess,0.0,Zero baseline,True
+2023-02-28,Sinoe,0.0,Zero baseline,True
+2023-03-31,Bomi,0.0,Zero baseline,True
+2023-03-31,Bong,0.0,Zero baseline,True
+2023-03-31,Gbarpolu,0.0,Zero baseline,True
+2023-03-31,Grand Bassa,0.0,Zero baseline,True
+2023-03-31,Grand Cape Mount,0.0,Zero baseline,True
+2023-03-31,Grand Gedeh,0.0,Zero baseline,True
+2023-03-31,Grand Kru,0.0,Zero baseline,True
+2023-03-31,Lofa,0.0,Zero baseline,True
+2023-03-31,Margibi,0.0,Zero baseline,True
+2023-03-31,Maryland,0.0,Zero baseline,True
+2023-03-31,Montserrado,0.0,Zero baseline,True
+2023-03-31,Nimba,0.0,Zero baseline,True
+2023-03-31,River Gee,0.0,Zero baseline,True
+2023-03-31,Rivercess,0.0,Zero baseline,True
+2023-03-31,Sinoe,0.0,Zero baseline,True
+2023-04-30,Bomi,0.0,Zero baseline,True
+2023-04-30,Bong,0.0,Zero baseline,True
+2023-04-30,Gbarpolu,0.0,Zero baseline,True
+2023-04-30,Grand Bassa,0.0,Zero baseline,True
+2023-04-30,Grand Cape Mount,0.0,Zero baseline,True
+2023-04-30,Grand Gedeh,0.0,Zero baseline,True
+2023-04-30,Grand Kru,0.0,Zero baseline,True
+2023-04-30,Lofa,0.0,Zero baseline,True
+2023-04-30,Margibi,0.0,Zero baseline,True
+2023-04-30,Maryland,0.0,Zero baseline,True
+2023-04-30,Montserrado,0.0,Zero baseline,True
+2023-04-30,Nimba,0.0,Zero baseline,True
+2023-04-30,River Gee,0.0,Zero baseline,True
+2023-04-30,Rivercess,0.0,Zero baseline,True
+2023-04-30,Sinoe,0.0,Zero baseline,True
+2023-05-31,Bomi,0.0,Zero baseline,True
+2023-05-31,Bong,0.0,Zero baseline,True
+2023-05-31,Gbarpolu,0.0,Zero baseline,True
+2023-05-31,Grand Bassa,0.0,Zero baseline,True
+2023-05-31,Grand Cape Mount,0.0,Zero baseline,True
+2023-05-31,Grand Gedeh,0.0,Zero baseline,True
+2023-05-31,Grand Kru,0.0,Zero baseline,True
+2023-05-31,Lofa,0.0,Zero baseline,True
+2023-05-31,Margibi,0.0,Zero baseline,True
+2023-05-31,Maryland,0.0,Zero baseline,True
+2023-05-31,Montserrado,0.0,Zero baseline,True
+2023-05-31,Nimba,0.0,Zero baseline,True
+2023-05-31,River Gee,0.0,Zero baseline,True
+2023-05-31,Rivercess,0.0,Zero baseline,True
+2023-05-31,Sinoe,0.0,Zero baseline,True
+2023-06-30,Bomi,0.0,Zero baseline,True
+2023-06-30,Bong,0.0,Zero baseline,True
+2023-06-30,Gbarpolu,0.0,Zero baseline,True
+2023-06-30,Grand Bassa,0.0,Zero baseline,True
+2023-06-30,Grand Cape Mount,0.0,Zero baseline,True
+2023-06-30,Grand Gedeh,0.0,Zero baseline,True
+2023-06-30,Grand Kru,0.0,Zero baseline,True
+2023-06-30,Lofa,0.0,Zero baseline,True
+2023-06-30,Margibi,0.0,Zero baseline,True
+2023-06-30,Maryland,0.0,Zero baseline,True
+2023-06-30,Montserrado,0.0,Zero baseline,True
+2023-06-30,Nimba,0.0,Zero baseline,True
+2023-06-30,River Gee,0.0,Zero baseline,True
+2023-06-30,Rivercess,0.0,Zero baseline,True
+2023-06-30,Sinoe,0.0,Zero baseline,True
+2023-07-31,Bomi,0.0,Zero baseline,True
+2023-07-31,Bong,0.0,Zero baseline,True
+2023-07-31,Gbarpolu,0.0,Zero baseline,True
+2023-07-31,Grand Bassa,0.0,Zero baseline,True
+2023-07-31,Grand Cape Mount,0.0,Zero baseline,True
+2023-07-31,Grand Gedeh,0.0,Zero baseline,True
+2023-07-31,Grand Kru,0.0,Zero baseline,True
+2023-07-31,Lofa,0.0,Zero baseline,True
+2023-07-31,Margibi,0.0,Zero baseline,True
+2023-07-31,Maryland,0.0,Zero baseline,True
+2023-07-31,Montserrado,0.0,Zero baseline,True
+2023-07-31,Nimba,0.0,Zero baseline,True
+2023-07-31,River Gee,0.0,Zero baseline,True
+2023-07-31,Rivercess,0.0,Zero baseline,True
+2023-07-31,Sinoe,0.0,Zero baseline,True
+2023-08-31,Bomi,0.0,Zero baseline,True
+2023-08-31,Bong,0.0,Zero baseline,True
+2023-08-31,Gbarpolu,0.0,Zero baseline,True
+2023-08-31,Grand Bassa,0.0,Zero baseline,True
+2023-08-31,Grand Cape Mount,0.0,Zero baseline,True
+2023-08-31,Grand Gedeh,0.0,Zero baseline,True
+2023-08-31,Grand Kru,0.0,Zero baseline,True
+2023-08-31,Lofa,0.0,Zero baseline,True
+2023-08-31,Margibi,0.0,Zero baseline,True
+2023-08-31,Maryland,0.0,Zero baseline,True
+2023-08-31,Montserrado,0.0,Zero baseline,True
+2023-08-31,Nimba,0.0,Zero baseline,True
+2023-08-31,River Gee,0.0,Zero baseline,True
+2023-08-31,Rivercess,0.0,Zero baseline,True
+2023-08-31,Sinoe,0.0,Zero baseline,True
+2023-09-30,Bomi,0.0,Zero baseline,True
+2023-09-30,Bong,0.0,Zero baseline,True
+2023-09-30,Gbarpolu,0.0,Zero baseline,True
+2023-09-30,Grand Bassa,0.0,Zero baseline,True
+2023-09-30,Grand Cape Mount,0.0,Zero baseline,True
+2023-09-30,Grand Gedeh,0.0,Zero baseline,True
+2023-09-30,Grand Kru,0.0,Zero baseline,True
+2023-09-30,Lofa,0.0,Zero baseline,True
+2023-09-30,Margibi,0.0,Zero baseline,True
+2023-09-30,Maryland,0.0,Zero baseline,True
+2023-09-30,Montserrado,0.0,Zero baseline,True
+2023-09-30,Nimba,0.0,Zero baseline,True
+2023-09-30,River Gee,0.0,Zero baseline,True
+2023-09-30,Rivercess,0.0,Zero baseline,True
+2023-09-30,Sinoe,0.0,Zero baseline,True
+2023-10-31,Bomi,0.0,Zero baseline,True
+2023-10-31,Bong,0.0,Zero baseline,True
+2023-10-31,Gbarpolu,0.0,Zero baseline,True
+2023-10-31,Grand Bassa,0.0,Zero baseline,True
+2023-10-31,Grand Cape Mount,0.0,Zero baseline,True
+2023-10-31,Grand Gedeh,0.0,Zero baseline,True
+2023-10-31,Grand Kru,0.0,Zero baseline,True
+2023-10-31,Lofa,0.0,Zero baseline,True
+2023-10-31,Margibi,0.0,Zero baseline,True
+2023-10-31,Maryland,0.0,Zero baseline,True
+2023-10-31,Montserrado,0.0,Zero baseline,True
+2023-10-31,Nimba,0.0,Zero baseline,True
+2023-10-31,River Gee,0.0,Zero baseline,True
+2023-10-31,Rivercess,0.0,Zero baseline,True
+2023-10-31,Sinoe,0.0,Zero baseline,True
+2023-11-30,Bomi,0.0,Zero baseline,True
+2023-11-30,Bong,0.0,Zero baseline,True
+2023-11-30,Gbarpolu,0.0,Zero baseline,True
+2023-11-30,Grand Bassa,0.0,Zero baseline,True
+2023-11-30,Grand Cape Mount,0.0,Zero baseline,True
+2023-11-30,Grand Gedeh,0.0,Zero baseline,True
+2023-11-30,Grand Kru,0.0,Zero baseline,True
+2023-11-30,Lofa,0.0,Zero baseline,True
+2023-11-30,Margibi,0.0,Zero baseline,True
+2023-11-30,Maryland,0.0,Zero baseline,True
+2023-11-30,Montserrado,0.0,Zero baseline,True
+2023-11-30,Nimba,0.0,Zero baseline,True
+2023-11-30,River Gee,0.0,Zero baseline,True
+2023-11-30,Rivercess,0.0,Zero baseline,True
+2023-11-30,Sinoe,0.0,Zero baseline,True
+2023-12-31,Bomi,0.0,Zero baseline,True
+2023-12-31,Bong,0.0,Zero baseline,True
+2023-12-31,Gbarpolu,0.0,Zero baseline,True
+2023-12-31,Grand Bassa,0.0,Zero baseline,True
+2023-12-31,Grand Cape Mount,0.0,Zero baseline,True
+2023-12-31,Grand Gedeh,0.0,Zero baseline,True
+2023-12-31,Grand Kru,0.0,Zero baseline,True
+2023-12-31,Lofa,0.0,Zero baseline,True
+2023-12-31,Margibi,0.0,Zero baseline,True
+2023-12-31,Maryland,0.0,Zero baseline,True
+2023-12-31,Montserrado,0.0,Zero baseline,True
+2023-12-31,Nimba,0.0,Zero baseline,True
+2023-12-31,River Gee,0.0,Zero baseline,True
+2023-12-31,Rivercess,0.0,Zero baseline,True
+2023-12-31,Sinoe,0.0,Zero baseline,True
+2024-01-31,Bomi,0.0,Zero baseline,True
+2024-01-31,Bong,0.0,Zero baseline,True
+2024-01-31,Gbarpolu,0.0,Zero baseline,True
+2024-01-31,Grand Bassa,0.0,Zero baseline,True
+2024-01-31,Grand Cape Mount,0.0,Zero baseline,True
+2024-01-31,Grand Gedeh,0.0,Zero baseline,True
+2024-01-31,Grand Kru,0.0,Zero baseline,True
+2024-01-31,Lofa,0.0,Zero baseline,True
+2024-01-31,Margibi,0.0,Zero baseline,True
+2024-01-31,Maryland,0.0,Zero baseline,True
+2024-01-31,Montserrado,0.0,Zero baseline,True
+2024-01-31,Nimba,0.0,Zero baseline,True
+2024-01-31,River Gee,0.0,Zero baseline,True
+2024-01-31,Rivercess,0.0,Zero baseline,True
+2024-01-31,Sinoe,0.0,Zero baseline,True
+2024-02-29,Bomi,0.0,Zero baseline,True
+2024-02-29,Bong,0.0,Zero baseline,True
+2024-02-29,Gbarpolu,0.0,Zero baseline,True
+2024-02-29,Grand Bassa,0.0,Zero baseline,True
+2024-02-29,Grand Cape Mount,0.0,Zero baseline,True
+2024-02-29,Grand Gedeh,0.0,Zero baseline,True
+2024-02-29,Grand Kru,0.0,Zero baseline,True
+2024-02-29,Lofa,0.0,Zero baseline,True
+2024-02-29,Margibi,0.0,Zero baseline,True
+2024-02-29,Maryland,0.0,Zero baseline,True
+2024-02-29,Montserrado,0.0,Zero baseline,True
+2024-02-29,Nimba,0.0,Zero baseline,True
+2024-02-29,River Gee,0.0,Zero baseline,True
+2024-02-29,Rivercess,0.0,Zero baseline,True
+2024-02-29,Sinoe,0.0,Zero baseline,True
+2024-03-31,Bomi,0.0,Zero baseline,True
+2024-03-31,Bong,0.0,Zero baseline,True
+2024-03-31,Gbarpolu,0.0,Zero baseline,True
+2024-03-31,Grand Bassa,0.0,Zero baseline,True
+2024-03-31,Grand Cape Mount,0.0,Zero baseline,True
+2024-03-31,Grand Gedeh,0.0,Zero baseline,True
+2024-03-31,Grand Kru,0.0,Zero baseline,True
+2024-03-31,Lofa,0.0,Zero baseline,True
+2024-03-31,Margibi,0.0,Zero baseline,True
+2024-03-31,Maryland,0.0,Zero baseline,True
+2024-03-31,Montserrado,0.0,Zero baseline,True
+2024-03-31,Nimba,0.0,Zero baseline,True
+2024-03-31,River Gee,0.0,Zero baseline,True
+2024-03-31,Rivercess,0.0,Zero baseline,True
+2024-03-31,Sinoe,0.0,Zero baseline,True
+2024-04-30,Bomi,0.0,Zero baseline,True
+2024-04-30,Bong,0.0,Zero baseline,True
+2024-04-30,Gbarpolu,0.0,Zero baseline,True
+2024-04-30,Grand Bassa,0.0,Zero baseline,True
+2024-04-30,Grand Cape Mount,0.0,Zero baseline,True
+2024-04-30,Grand Gedeh,0.0,Zero baseline,True
+2024-04-30,Grand Kru,0.0,Zero baseline,True
+2024-04-30,Lofa,0.0,Zero baseline,True
+2024-04-30,Margibi,0.0,Zero baseline,True
+2024-04-30,Maryland,0.0,Zero baseline,True
+2024-04-30,Montserrado,0.0,Zero baseline,True
+2024-04-30,Nimba,0.0,Zero baseline,True
+2024-04-30,River Gee,0.0,Zero baseline,True
+2024-04-30,Rivercess,0.0,Zero baseline,True
+2024-04-30,Sinoe,0.0,Zero baseline,True
+2024-05-31,Bomi,0.0,Zero baseline,True
+2024-05-31,Bong,0.0,Zero baseline,True
+2024-05-31,Gbarpolu,0.0,Zero baseline,True
+2024-05-31,Grand Bassa,0.0,Zero baseline,True
+2024-05-31,Grand Cape Mount,0.0,Zero baseline,True
+2024-05-31,Grand Gedeh,0.0,Zero baseline,True
+2024-05-31,Grand Kru,0.0,Zero baseline,True
+2024-05-31,Lofa,0.0,Zero baseline,True
+2024-05-31,Margibi,0.0,Zero baseline,True
+2024-05-31,Maryland,0.0,Zero baseline,True
+2024-05-31,Montserrado,0.0,Zero baseline,True
+2024-05-31,Nimba,0.0,Zero baseline,True
+2024-05-31,River Gee,0.0,Zero baseline,True
+2024-05-31,Rivercess,0.0,Zero baseline,True
+2024-05-31,Sinoe,0.0,Zero baseline,True
+2024-06-30,Bomi,0.0,Zero baseline,True
+2024-06-30,Bong,0.0,Zero baseline,True
+2024-06-30,Gbarpolu,0.0,Zero baseline,True
+2024-06-30,Grand Bassa,0.0,Zero baseline,True
+2024-06-30,Grand Cape Mount,0.0,Zero baseline,True
+2024-06-30,Grand Gedeh,0.0,Zero baseline,True
+2024-06-30,Grand Kru,0.0,Zero baseline,True
+2024-06-30,Lofa,0.0,Zero baseline,True
+2024-06-30,Margibi,0.0,Zero baseline,True
+2024-06-30,Maryland,0.0,Zero baseline,True
+2024-06-30,Montserrado,0.0,Zero baseline,True
+2024-06-30,Nimba,0.0,Zero baseline,True
+2024-06-30,River Gee,0.0,Zero baseline,True
+2024-06-30,Rivercess,0.0,Zero baseline,True
+2024-06-30,Sinoe,0.0,Zero baseline,True
+2024-07-31,Bomi,0.0,Zero baseline,True
+2024-07-31,Bong,0.0,Zero baseline,True
+2024-07-31,Gbarpolu,0.0,Zero baseline,True
+2024-07-31,Grand Bassa,0.0,Zero baseline,True
+2024-07-31,Grand Cape Mount,0.0,Zero baseline,True
+2024-07-31,Grand Gedeh,0.0,Zero baseline,True
+2024-07-31,Grand Kru,0.0,Zero baseline,True
+2024-07-31,Lofa,0.0,Zero baseline,True
+2024-07-31,Margibi,0.0,Zero baseline,True
+2024-07-31,Maryland,0.0,Zero baseline,True
+2024-07-31,Montserrado,0.0,Zero baseline,True
+2024-07-31,Nimba,0.0,Zero baseline,True
+2024-07-31,River Gee,0.0,Zero baseline,True
+2024-07-31,Rivercess,0.0,Zero baseline,True
+2024-07-31,Sinoe,0.0,Zero baseline,True
+2024-08-31,Bomi,0.0,Zero baseline,True
+2024-08-31,Bong,0.0,Zero baseline,True
+2024-08-31,Gbarpolu,0.0,Zero baseline,True
+2024-08-31,Grand Bassa,0.0,Zero baseline,True
+2024-08-31,Grand Cape Mount,0.0,Zero baseline,True
+2024-08-31,Grand Gedeh,0.0,Zero baseline,True
+2024-08-31,Grand Kru,0.0,Zero baseline,True
+2024-08-31,Lofa,0.0,Zero baseline,True
+2024-08-31,Margibi,0.0,Zero baseline,True
+2024-08-31,Maryland,0.0,Zero baseline,True
+2024-08-31,Montserrado,0.0,Zero baseline,True
+2024-08-31,Nimba,0.0,Zero baseline,True
+2024-08-31,River Gee,0.0,Zero baseline,True
+2024-08-31,Rivercess,0.0,Zero baseline,True
+2024-08-31,Sinoe,0.0,Zero baseline,True
+2024-09-30,Bomi,0.0,Zero baseline,True
+2024-09-30,Bong,0.0,Zero baseline,True
+2024-09-30,Gbarpolu,0.0,Zero baseline,True
+2024-09-30,Grand Bassa,0.0,Zero baseline,True
+2024-09-30,Grand Cape Mount,0.0,Zero baseline,True
+2024-09-30,Grand Gedeh,0.0,Zero baseline,True
+2024-09-30,Grand Kru,0.0,Zero baseline,True
+2024-09-30,Lofa,0.0,Zero baseline,True
+2024-09-30,Margibi,0.0,Zero baseline,True
+2024-09-30,Maryland,0.0,Zero baseline,True
+2024-09-30,Montserrado,0.0,Zero baseline,True
+2024-09-30,Nimba,0.0,Zero baseline,True
+2024-09-30,River Gee,0.0,Zero baseline,True
+2024-09-30,Rivercess,0.0,Zero baseline,True
+2024-09-30,Sinoe,0.0,Zero baseline,True
+2024-10-31,Bomi,0.0,Zero baseline,True
+2024-10-31,Bong,0.0,Zero baseline,True
+2024-10-31,Gbarpolu,0.0,Zero baseline,True
+2024-10-31,Grand Bassa,0.0,Zero baseline,True
+2024-10-31,Grand Cape Mount,0.0,Zero baseline,True
+2024-10-31,Grand Gedeh,0.0,Zero baseline,True
+2024-10-31,Grand Kru,0.0,Zero baseline,True
+2024-10-31,Lofa,0.0,Zero baseline,True
+2024-10-31,Margibi,0.0,Zero baseline,True
+2024-10-31,Maryland,0.0,Zero baseline,True
+2024-10-31,Montserrado,0.0,Zero baseline,True
+2024-10-31,Nimba,0.0,Zero baseline,True
+2024-10-31,River Gee,0.0,Zero baseline,True
+2024-10-31,Rivercess,0.0,Zero baseline,True
+2024-10-31,Sinoe,0.0,Zero baseline,True
+2024-11-30,Bomi,0.0,Zero baseline,True
+2024-11-30,Bong,0.0,Zero baseline,True
+2024-11-30,Gbarpolu,0.0,Zero baseline,True
+2024-11-30,Grand Bassa,0.0,Zero baseline,True
+2024-11-30,Grand Cape Mount,0.0,Zero baseline,True
+2024-11-30,Grand Gedeh,0.0,Zero baseline,True
+2024-11-30,Grand Kru,0.0,Zero baseline,True
+2024-11-30,Lofa,0.0,Zero baseline,True
+2024-11-30,Margibi,0.0,Zero baseline,True
+2024-11-30,Maryland,0.0,Zero baseline,True
+2024-11-30,Montserrado,0.0,Zero baseline,True
+2024-11-30,Nimba,0.0,Zero baseline,True
+2024-11-30,River Gee,0.0,Zero baseline,True
+2024-11-30,Rivercess,0.0,Zero baseline,True
+2024-11-30,Sinoe,0.0,Zero baseline,True
+2024-12-31,Bomi,0.0,Zero baseline,True
+2024-12-31,Bong,0.0,Zero baseline,True
+2024-12-31,Gbarpolu,0.0,Zero baseline,True
+2024-12-31,Grand Bassa,0.0,Zero baseline,True
+2024-12-31,Grand Cape Mount,0.0,Zero baseline,True
+2024-12-31,Grand Gedeh,0.0,Zero baseline,True
+2024-12-31,Grand Kru,0.0,Zero baseline,True
+2024-12-31,Lofa,0.0,Zero baseline,True
+2024-12-31,Margibi,0.0,Zero baseline,True
+2024-12-31,Maryland,0.0,Zero baseline,True
+2024-12-31,Montserrado,0.0,Zero baseline,True
+2024-12-31,Nimba,0.0,Zero baseline,True
+2024-12-31,River Gee,0.0,Zero baseline,True
+2024-12-31,Rivercess,0.0,Zero baseline,True
+2024-12-31,Sinoe,0.0,Zero baseline,True
+2025-01-31,Bomi,0.0,Zero baseline,True
+2025-01-31,Bong,0.0,Zero baseline,True
+2025-01-31,Gbarpolu,0.0,Zero baseline,True
+2025-01-31,Grand Bassa,0.0,Zero baseline,True
+2025-01-31,Grand Cape Mount,0.0,Zero baseline,True
+2025-01-31,Grand Gedeh,0.0,Zero baseline,True
+2025-01-31,Grand Kru,0.0,Zero baseline,True
+2025-01-31,Lofa,0.0,Zero baseline,True
+2025-01-31,Margibi,0.0,Zero baseline,True
+2025-01-31,Maryland,0.0,Zero baseline,True
+2025-01-31,Montserrado,0.0,Zero baseline,True
+2025-01-31,Nimba,0.0,Zero baseline,True
+2025-01-31,River Gee,0.0,Zero baseline,True
+2025-01-31,Rivercess,0.0,Zero baseline,True
+2025-01-31,Sinoe,0.0,Zero baseline,True
+2025-02-28,Bomi,0.0,Zero baseline,True
+2025-02-28,Bong,0.0,Zero baseline,True
+2025-02-28,Gbarpolu,0.0,Zero baseline,True
+2025-02-28,Grand Bassa,0.0,Zero baseline,True
+2025-02-28,Grand Cape Mount,0.0,Zero baseline,True
+2025-02-28,Grand Gedeh,0.0,Zero baseline,True
+2025-02-28,Grand Kru,0.0,Zero baseline,True
+2025-02-28,Lofa,0.0,Zero baseline,True
+2025-02-28,Margibi,0.0,Zero baseline,True
+2025-02-28,Maryland,0.0,Zero baseline,True
+2025-02-28,Montserrado,0.0,Zero baseline,True
+2025-02-28,Nimba,0.0,Zero baseline,True
+2025-02-28,River Gee,0.0,Zero baseline,True
+2025-02-28,Rivercess,0.0,Zero baseline,True
+2025-02-28,Sinoe,0.0,Zero baseline,True
+2025-03-31,Bomi,0.0,Zero baseline,True
+2025-03-31,Bong,0.0,Zero baseline,True
+2025-03-31,Gbarpolu,0.0,Zero baseline,True
+2025-03-31,Grand Bassa,0.0,Zero baseline,True
+2025-03-31,Grand Cape Mount,0.0,Zero baseline,True
+2025-03-31,Grand Gedeh,0.0,Zero baseline,True
+2025-03-31,Grand Kru,0.0,Zero baseline,True
+2025-03-31,Lofa,0.0,Zero baseline,True
+2025-03-31,Margibi,0.0,Zero baseline,True
+2025-03-31,Maryland,0.0,Zero baseline,True
+2025-03-31,Montserrado,0.0,Zero baseline,True
+2025-03-31,Nimba,0.0,Zero baseline,True
+2025-03-31,River Gee,0.0,Zero baseline,True
+2025-03-31,Rivercess,0.0,Zero baseline,True
+2025-03-31,Sinoe,0.0,Zero baseline,True
+2025-04-30,Bomi,0.0,Zero baseline,True
+2025-04-30,Bong,0.0,Zero baseline,True
+2025-04-30,Gbarpolu,0.0,Zero baseline,True
+2025-04-30,Grand Bassa,0.0,Zero baseline,True
+2025-04-30,Grand Cape Mount,0.0,Zero baseline,True
+2025-04-30,Grand Gedeh,0.0,Zero baseline,True
+2025-04-30,Grand Kru,0.0,Zero baseline,True
+2025-04-30,Lofa,0.0,Zero baseline,True
+2025-04-30,Margibi,0.0,Zero baseline,True
+2025-04-30,Maryland,0.0,Zero baseline,True
+2025-04-30,Montserrado,0.0,Zero baseline,True
+2025-04-30,Nimba,0.0,Zero baseline,True
+2025-04-30,River Gee,0.0,Zero baseline,True
+2025-04-30,Rivercess,0.0,Zero baseline,True
+2025-04-30,Sinoe,0.0,Zero baseline,True
+2025-05-31,Bomi,0.0,Zero baseline,True
+2025-05-31,Bong,0.0,Zero baseline,True
+2025-05-31,Gbarpolu,0.0,Zero baseline,True
+2025-05-31,Grand Bassa,0.0,Zero baseline,True
+2025-05-31,Grand Cape Mount,0.0,Zero baseline,True
+2025-05-31,Grand Gedeh,0.0,Zero baseline,True
+2025-05-31,Grand Kru,0.0,Zero baseline,True
+2025-05-31,Lofa,0.0,Zero baseline,True
+2025-05-31,Margibi,0.0,Zero baseline,True
+2025-05-31,Maryland,0.0,Zero baseline,True
+2025-05-31,Montserrado,0.0,Zero baseline,True
+2025-05-31,Nimba,0.0,Zero baseline,True
+2025-05-31,River Gee,0.0,Zero baseline,True
+2025-05-31,Rivercess,0.0,Zero baseline,True
+2025-05-31,Sinoe,0.0,Zero baseline,True
+2025-06-30,Bomi,0.0,Zero baseline,True
+2025-06-30,Bong,0.0,Zero baseline,True
+2025-06-30,Gbarpolu,0.0,Zero baseline,True
+2025-06-30,Grand Bassa,0.0,Zero baseline,True
+2025-06-30,Grand Cape Mount,0.0,Zero baseline,True
+2025-06-30,Grand Gedeh,0.0,Zero baseline,True
+2025-06-30,Grand Kru,0.0,Zero baseline,True
+2025-06-30,Lofa,0.0,Zero baseline,True
+2025-06-30,Margibi,0.0,Zero baseline,True
+2025-06-30,Maryland,0.0,Zero baseline,True
+2025-06-30,Montserrado,0.0,Zero baseline,True
+2025-06-30,Nimba,0.0,Zero baseline,True
+2025-06-30,River Gee,0.0,Zero baseline,True
+2025-06-30,Rivercess,0.0,Zero baseline,True
+2025-06-30,Sinoe,0.0,Zero baseline,True
+2025-07-31,Bomi,0.0,Zero baseline,True
+2025-07-31,Bong,0.0,Zero baseline,True
+2025-07-31,Gbarpolu,0.0,Zero baseline,True
+2025-07-31,Grand Bassa,0.0,Zero baseline,True
+2025-07-31,Grand Cape Mount,0.0,Zero baseline,True
+2025-07-31,Grand Gedeh,0.0,Zero baseline,True
+2025-07-31,Grand Kru,0.0,Zero baseline,True
+2025-07-31,Lofa,0.0,Zero baseline,True
+2025-07-31,Margibi,0.0,Zero baseline,True
+2025-07-31,Maryland,0.0,Zero baseline,True
+2025-07-31,Montserrado,0.0,Zero baseline,True
+2025-07-31,Nimba,0.0,Zero baseline,True
+2025-07-31,River Gee,0.0,Zero baseline,True
+2025-07-31,Rivercess,0.0,Zero baseline,True
+2025-07-31,Sinoe,0.0,Zero baseline,True
+2025-08-31,Bomi,0.0,Zero baseline,True
+2025-08-31,Bong,0.0,Zero baseline,True
+2025-08-31,Gbarpolu,0.0,Zero baseline,True
+2025-08-31,Grand Bassa,0.0,Zero baseline,True
+2025-08-31,Grand Cape Mount,0.0,Zero baseline,True
+2025-08-31,Grand Gedeh,0.0,Zero baseline,True
+2025-08-31,Grand Kru,0.0,Zero baseline,True
+2025-08-31,Lofa,0.0,Zero baseline,True
+2025-08-31,Margibi,0.0,Zero baseline,True
+2025-08-31,Maryland,0.0,Zero baseline,True
+2025-08-31,Montserrado,0.0,Zero baseline,True
+2025-08-31,Nimba,0.0,Zero baseline,True
+2025-08-31,River Gee,0.0,Zero baseline,True
+2025-08-31,Rivercess,0.0,Zero baseline,True
+2025-08-31,Sinoe,0.0,Zero baseline,True
+2025-09-30,Bomi,0.0,Zero baseline,True
+2025-09-30,Bong,0.0,Zero baseline,True
+2025-09-30,Gbarpolu,0.0,Zero baseline,True
+2025-09-30,Grand Bassa,0.0,Zero baseline,True
+2025-09-30,Grand Cape Mount,0.0,Zero baseline,True
+2025-09-30,Grand Gedeh,0.0,Zero baseline,True
+2025-09-30,Grand Kru,0.0,Zero baseline,True
+2025-09-30,Lofa,0.0,Zero baseline,True
+2025-09-30,Margibi,0.0,Zero baseline,True
+2025-09-30,Maryland,0.0,Zero baseline,True
+2025-09-30,Montserrado,0.0,Zero baseline,True
+2025-09-30,Nimba,0.0,Zero baseline,True
+2025-09-30,River Gee,0.0,Zero baseline,True
+2025-09-30,Rivercess,0.0,Zero baseline,True
+2025-09-30,Sinoe,0.0,Zero baseline,True
+2025-10-31,Bomi,0.0,Zero baseline,True
+2025-10-31,Bong,0.0,Zero baseline,True
+2025-10-31,Gbarpolu,0.0,Zero baseline,True
+2025-10-31,Grand Bassa,0.0,Zero baseline,True
+2025-10-31,Grand Cape Mount,0.0,Zero baseline,True
+2025-10-31,Grand Gedeh,0.0,Zero baseline,True
+2025-10-31,Grand Kru,0.0,Zero baseline,True
+2025-10-31,Lofa,0.0,Zero baseline,True
+2025-10-31,Margibi,0.0,Zero baseline,True
+2025-10-31,Maryland,0.0,Zero baseline,True
+2025-10-31,Montserrado,0.0,Zero baseline,True
+2025-10-31,Nimba,0.0,Zero baseline,True
+2025-10-31,River Gee,0.0,Zero baseline,True
+2025-10-31,Rivercess,0.0,Zero baseline,True
+2025-10-31,Sinoe,0.0,Zero baseline,True
+2025-11-30,Bomi,0.0,Zero baseline,True
+2025-11-30,Bong,0.0,Zero baseline,True
+2025-11-30,Gbarpolu,0.0,Zero baseline,True
+2025-11-30,Grand Bassa,0.0,Zero baseline,True
+2025-11-30,Grand Cape Mount,0.0,Zero baseline,True
+2025-11-30,Grand Gedeh,0.0,Zero baseline,True
+2025-11-30,Grand Kru,0.0,Zero baseline,True
+2025-11-30,Lofa,0.0,Zero baseline,True
+2025-11-30,Margibi,0.0,Zero baseline,True
+2025-11-30,Maryland,0.0,Zero baseline,True
+2025-11-30,Montserrado,0.0,Zero baseline,True
+2025-11-30,Nimba,0.0,Zero baseline,True
+2025-11-30,River Gee,0.0,Zero baseline,True
+2025-11-30,Rivercess,0.0,Zero baseline,True
+2025-11-30,Sinoe,0.0,Zero baseline,True
+2025-12-31,Bomi,0.0,Zero baseline,True
+2025-12-31,Bong,0.0,Zero baseline,True
+2025-12-31,Gbarpolu,0.0,Zero baseline,True
+2025-12-31,Grand Bassa,0.0,Zero baseline,True
+2025-12-31,Grand Cape Mount,0.0,Zero baseline,True
+2025-12-31,Grand Gedeh,0.0,Zero baseline,True
+2025-12-31,Grand Kru,0.0,Zero baseline,True
+2025-12-31,Lofa,0.0,Zero baseline,True
+2025-12-31,Margibi,0.0,Zero baseline,True
+2025-12-31,Maryland,0.0,Zero baseline,True
+2025-12-31,Montserrado,0.0,Zero baseline,True
+2025-12-31,Nimba,0.0,Zero baseline,True
+2025-12-31,River Gee,0.0,Zero baseline,True
+2025-12-31,Rivercess,0.0,Zero baseline,True
+2025-12-31,Sinoe,0.0,Zero baseline,True
+2026-01-31,Bomi,0.0,Zero baseline,True
+2026-01-31,Bong,0.0,Zero baseline,True
+2026-01-31,Gbarpolu,0.0,Zero baseline,True
+2026-01-31,Grand Bassa,0.0,Zero baseline,True
+2026-01-31,Grand Cape Mount,0.0,Zero baseline,True
+2026-01-31,Grand Gedeh,0.0,Zero baseline,True
+2026-01-31,Grand Kru,0.0,Zero baseline,True
+2026-01-31,Lofa,0.0,Zero baseline,True
+2026-01-31,Margibi,0.0,Zero baseline,True
+2026-01-31,Maryland,0.0,Zero baseline,True
+2026-01-31,Montserrado,0.0,Zero baseline,True
+2026-01-31,Nimba,0.0,Zero baseline,True
+2026-01-31,River Gee,0.0,Zero baseline,True
+2026-01-31,Rivercess,0.0,Zero baseline,True
+2026-01-31,Sinoe,0.0,Zero baseline,True
+2026-02-28,Bomi,0.0,Zero baseline,True
+2026-02-28,Bong,0.0,Zero baseline,True
+2026-02-28,Gbarpolu,0.0,Zero baseline,True
+2026-02-28,Grand Bassa,0.0,Zero baseline,True
+2026-02-28,Grand Cape Mount,0.0,Zero baseline,True
+2026-02-28,Grand Gedeh,0.0,Zero baseline,True
+2026-02-28,Grand Kru,0.0,Zero baseline,True
+2026-02-28,Lofa,0.0,Zero baseline,True
+2026-02-28,Margibi,0.0,Zero baseline,True
+2026-02-28,Maryland,0.0,Zero baseline,True
+2026-02-28,Montserrado,0.0,Zero baseline,True
+2026-02-28,Nimba,0.0,Zero baseline,True
+2026-02-28,River Gee,0.0,Zero baseline,True
+2026-02-28,Rivercess,0.0,Zero baseline,True
+2026-02-28,Sinoe,0.0,Zero baseline,True
+2026-03-31,Bomi,0.0,Zero baseline,True
+2026-03-31,Bong,0.0,Zero baseline,True
+2026-03-31,Gbarpolu,0.0,Zero baseline,True
+2026-03-31,Grand Bassa,0.0,Zero baseline,True
+2026-03-31,Grand Cape Mount,0.0,Zero baseline,True
+2026-03-31,Grand Gedeh,0.0,Zero baseline,True
+2026-03-31,Grand Kru,0.0,Zero baseline,True
+2026-03-31,Lofa,0.0,Zero baseline,True
+2026-03-31,Margibi,0.0,Zero baseline,True
+2026-03-31,Maryland,0.0,Zero baseline,True
+2026-03-31,Montserrado,0.0,Zero baseline,True
+2026-03-31,Nimba,0.0,Zero baseline,True
+2026-03-31,River Gee,0.0,Zero baseline,True
+2026-03-31,Rivercess,0.0,Zero baseline,True
+2026-03-31,Sinoe,0.0,Zero baseline,True
+2026-04-30,Bomi,0.0,Zero baseline,True
+2026-04-30,Bong,0.0,Zero baseline,True
+2026-04-30,Gbarpolu,0.0,Zero baseline,True
+2026-04-30,Grand Bassa,0.0,Zero baseline,True
+2026-04-30,Grand Cape Mount,0.0,Zero baseline,True
+2026-04-30,Grand Gedeh,0.0,Zero baseline,True
+2026-04-30,Grand Kru,0.0,Zero baseline,True
+2026-04-30,Lofa,0.0,Zero baseline,True
+2026-04-30,Margibi,0.0,Zero baseline,True
+2026-04-30,Maryland,0.0,Zero baseline,True
+2026-04-30,Montserrado,0.0,Zero baseline,True
+2026-04-30,Nimba,0.0,Zero baseline,True
+2026-04-30,River Gee,0.0,Zero baseline,True
+2026-04-30,Rivercess,0.0,Zero baseline,True
+2026-04-30,Sinoe,0.0,Zero baseline,True
+2026-05-31,Bomi,0.0,Zero baseline,True
+2026-05-31,Bong,0.0,Zero baseline,True
+2026-05-31,Gbarpolu,0.0,Zero baseline,True
+2026-05-31,Grand Bassa,0.0,Zero baseline,True
+2026-05-31,Grand Cape Mount,0.0,Zero baseline,True
+2026-05-31,Grand Gedeh,0.0,Zero baseline,True
+2026-05-31,Grand Kru,0.0,Zero baseline,True
+2026-05-31,Lofa,0.0,Zero baseline,True
+2026-05-31,Margibi,0.0,Zero baseline,True
+2026-05-31,Maryland,0.0,Zero baseline,True
+2026-05-31,Montserrado,0.0,Zero baseline,True
+2026-05-31,Nimba,0.0,Zero baseline,True
+2026-05-31,River Gee,0.0,Zero baseline,True
+2026-05-31,Rivercess,0.0,Zero baseline,True
+2026-05-31,Sinoe,0.0,Zero baseline,True
+2026-06-30,Bomi,0.0,Zero baseline,True
+2026-06-30,Bong,0.0,Zero baseline,True
+2026-06-30,Gbarpolu,0.0,Zero baseline,True
+2026-06-30,Grand Bassa,0.0,Zero baseline,True
+2026-06-30,Grand Cape Mount,0.0,Zero baseline,True
+2026-06-30,Grand Gedeh,0.0,Zero baseline,True
+2026-06-30,Grand Kru,0.0,Zero baseline,True
+2026-06-30,Lofa,0.0,Zero baseline,True
+2026-06-30,Margibi,0.0,Zero baseline,True
+2026-06-30,Maryland,0.0,Zero baseline,True
+2026-06-30,Montserrado,0.0,Zero baseline,True
+2026-06-30,Nimba,0.0,Zero baseline,True
+2026-06-30,River Gee,0.0,Zero baseline,True
+2026-06-30,Rivercess,0.0,Zero baseline,True
+2026-06-30,Sinoe,0.0,Zero baseline,True
+2026-07-31,Bomi,0.0,Zero baseline,True
+2026-07-31,Bong,0.0,Zero baseline,True
+2026-07-31,Gbarpolu,0.0,Zero baseline,True
+2026-07-31,Grand Bassa,0.0,Zero baseline,True
+2026-07-31,Grand Cape Mount,0.0,Zero baseline,True
+2026-07-31,Grand Gedeh,0.0,Zero baseline,True
+2026-07-31,Grand Kru,0.0,Zero baseline,True
+2026-07-31,Lofa,0.0,Zero baseline,True
+2026-07-31,Margibi,0.0,Zero baseline,True
+2026-07-31,Maryland,0.0,Zero baseline,True
+2026-07-31,Montserrado,0.0,Zero baseline,True
+2026-07-31,Nimba,0.0,Zero baseline,True
+2026-07-31,River Gee,0.0,Zero baseline,True
+2026-07-31,Rivercess,0.0,Zero baseline,True
+2026-07-31,Sinoe,0.0,Zero baseline,True
+2026-08-31,Bomi,0.0,Zero baseline,True
+2026-08-31,Bong,0.0,Zero baseline,True
+2026-08-31,Gbarpolu,0.0,Zero baseline,True
+2026-08-31,Grand Bassa,0.0,Zero baseline,True
+2026-08-31,Grand Cape Mount,0.0,Zero baseline,True
+2026-08-31,Grand Gedeh,0.0,Zero baseline,True
+2026-08-31,Grand Kru,0.0,Zero baseline,True
+2026-08-31,Lofa,0.0,Zero baseline,True
+2026-08-31,Margibi,0.0,Zero baseline,True
+2026-08-31,Maryland,0.0,Zero baseline,True
+2026-08-31,Montserrado,0.0,Zero baseline,True
+2026-08-31,Nimba,0.0,Zero baseline,True
+2026-08-31,River Gee,0.0,Zero baseline,True
+2026-08-31,Rivercess,0.0,Zero baseline,True
+2026-08-31,Sinoe,0.0,Zero baseline,True
+2026-09-30,Bomi,0.0,Zero baseline,True
+2026-09-30,Bong,0.0,Zero baseline,True
+2026-09-30,Gbarpolu,0.0,Zero baseline,True
+2026-09-30,Grand Bassa,0.0,Zero baseline,True
+2026-09-30,Grand Cape Mount,0.0,Zero baseline,True
+2026-09-30,Grand Gedeh,0.0,Zero baseline,True
+2026-09-30,Grand Kru,0.0,Zero baseline,True
+2026-09-30,Lofa,0.0,Zero baseline,True
+2026-09-30,Margibi,0.0,Zero baseline,True
+2026-09-30,Maryland,0.0,Zero baseline,True
+2026-09-30,Montserrado,0.0,Zero baseline,True
+2026-09-30,Nimba,0.0,Zero baseline,True
+2026-09-30,River Gee,0.0,Zero baseline,True
+2026-09-30,Rivercess,0.0,Zero baseline,True
+2026-09-30,Sinoe,0.0,Zero baseline,True
+2026-10-31,Bomi,0.0,Zero baseline,True
+2026-10-31,Bong,0.0,Zero baseline,True
+2026-10-31,Gbarpolu,0.0,Zero baseline,True
+2026-10-31,Grand Bassa,0.0,Zero baseline,True
+2026-10-31,Grand Cape Mount,0.0,Zero baseline,True
+2026-10-31,Grand Gedeh,0.0,Zero baseline,True
+2026-10-31,Grand Kru,0.0,Zero baseline,True
+2026-10-31,Lofa,0.0,Zero baseline,True
+2026-10-31,Margibi,0.0,Zero baseline,True
+2026-10-31,Maryland,0.0,Zero baseline,True
+2026-10-31,Montserrado,0.0,Zero baseline,True
+2026-10-31,Nimba,0.0,Zero baseline,True
+2026-10-31,River Gee,0.0,Zero baseline,True
+2026-10-31,Rivercess,0.0,Zero baseline,True
+2026-10-31,Sinoe,0.0,Zero baseline,True
+2026-11-30,Bomi,0.0,Zero baseline,True
+2026-11-30,Bong,0.0,Zero baseline,True
+2026-11-30,Gbarpolu,0.0,Zero baseline,True
+2026-11-30,Grand Bassa,0.0,Zero baseline,True
+2026-11-30,Grand Cape Mount,0.0,Zero baseline,True
+2026-11-30,Grand Gedeh,0.0,Zero baseline,True
+2026-11-30,Grand Kru,0.0,Zero baseline,True
+2026-11-30,Lofa,0.0,Zero baseline,True
+2026-11-30,Margibi,0.0,Zero baseline,True
+2026-11-30,Maryland,0.0,Zero baseline,True
+2026-11-30,Montserrado,0.0,Zero baseline,True
+2026-11-30,Nimba,0.0,Zero baseline,True
+2026-11-30,River Gee,0.0,Zero baseline,True
+2026-11-30,Rivercess,0.0,Zero baseline,True
+2026-11-30,Sinoe,0.0,Zero baseline,True
+2026-12-31,Bomi,0.0,Zero baseline,True
+2026-12-31,Bong,0.0,Zero baseline,True
+2026-12-31,Gbarpolu,0.0,Zero baseline,True
+2026-12-31,Grand Bassa,0.0,Zero baseline,True
+2026-12-31,Grand Cape Mount,0.0,Zero baseline,True
+2026-12-31,Grand Gedeh,0.0,Zero baseline,True
+2026-12-31,Grand Kru,0.0,Zero baseline,True
+2026-12-31,Lofa,0.0,Zero baseline,True
+2026-12-31,Margibi,0.0,Zero baseline,True
+2026-12-31,Maryland,0.0,Zero baseline,True
+2026-12-31,Montserrado,0.0,Zero baseline,True
+2026-12-31,Nimba,0.0,Zero baseline,True
+2026-12-31,River Gee,0.0,Zero baseline,True
+2026-12-31,Rivercess,0.0,Zero baseline,True
+2026-12-31,Sinoe,0.0,Zero baseline,True
+2023-01-31,Bomi,0.0,Seasonal naive,False
+2023-01-31,Bong,2.0,Seasonal naive,False
+2023-01-31,Gbarpolu,0.0,Seasonal naive,False
+2023-01-31,Grand Bassa,4.0,Seasonal naive,False
+2023-01-31,Grand Cape Mount,0.0,Seasonal naive,False
+2023-01-31,Grand Gedeh,0.0,Seasonal naive,False
+2023-01-31,Grand Kru,0.0,Seasonal naive,False
+2023-01-31,Lofa,0.0,Seasonal naive,False
+2023-01-31,Margibi,0.0,Seasonal naive,False
+2023-01-31,Maryland,0.0,Seasonal naive,False
+2023-01-31,Montserrado,0.0,Seasonal naive,False
+2023-01-31,Nimba,7.0,Seasonal naive,False
+2023-01-31,River Gee,0.0,Seasonal naive,False
+2023-01-31,Rivercess,0.0,Seasonal naive,False
+2023-01-31,Sinoe,0.0,Seasonal naive,False
+2023-02-28,Bomi,0.0,Seasonal naive,False
+2023-02-28,Bong,1.0,Seasonal naive,False
+2023-02-28,Gbarpolu,0.0,Seasonal naive,False
+2023-02-28,Grand Bassa,1.0,Seasonal naive,False
+2023-02-28,Grand Cape Mount,0.0,Seasonal naive,False
+2023-02-28,Grand Gedeh,0.0,Seasonal naive,False
+2023-02-28,Grand Kru,0.0,Seasonal naive,False
+2023-02-28,Lofa,0.0,Seasonal naive,False
+2023-02-28,Margibi,0.0,Seasonal naive,False
+2023-02-28,Maryland,0.0,Seasonal naive,False
+2023-02-28,Montserrado,0.0,Seasonal naive,False
+2023-02-28,Nimba,0.0,Seasonal naive,False
+2023-02-28,River Gee,0.0,Seasonal naive,False
+2023-02-28,Rivercess,0.0,Seasonal naive,False
+2023-02-28,Sinoe,0.0,Seasonal naive,False
+2023-03-31,Bomi,0.0,Seasonal naive,False
+2023-03-31,Bong,1.0,Seasonal naive,False
+2023-03-31,Gbarpolu,0.0,Seasonal naive,False
+2023-03-31,Grand Bassa,0.0,Seasonal naive,False
+2023-03-31,Grand Cape Mount,0.0,Seasonal naive,False
+2023-03-31,Grand Gedeh,0.0,Seasonal naive,False
+2023-03-31,Grand Kru,0.0,Seasonal naive,False
+2023-03-31,Lofa,0.0,Seasonal naive,False
+2023-03-31,Margibi,0.0,Seasonal naive,False
+2023-03-31,Maryland,0.0,Seasonal naive,False
+2023-03-31,Montserrado,0.0,Seasonal naive,False
+2023-03-31,Nimba,0.0,Seasonal naive,False
+2023-03-31,River Gee,0.0,Seasonal naive,False
+2023-03-31,Rivercess,0.0,Seasonal naive,False
+2023-03-31,Sinoe,0.0,Seasonal naive,False
+2023-04-30,Bomi,0.0,Seasonal naive,False
+2023-04-30,Bong,1.0,Seasonal naive,False
+2023-04-30,Gbarpolu,0.0,Seasonal naive,False
+2023-04-30,Grand Bassa,1.0,Seasonal naive,False
+2023-04-30,Grand Cape Mount,0.0,Seasonal naive,False
+2023-04-30,Grand Gedeh,0.0,Seasonal naive,False
+2023-04-30,Grand Kru,0.0,Seasonal naive,False
+2023-04-30,Lofa,0.0,Seasonal naive,False
+2023-04-30,Margibi,0.0,Seasonal naive,False
+2023-04-30,Maryland,0.0,Seasonal naive,False
+2023-04-30,Montserrado,0.0,Seasonal naive,False
+2023-04-30,Nimba,0.0,Seasonal naive,False
+2023-04-30,River Gee,0.0,Seasonal naive,False
+2023-04-30,Rivercess,0.0,Seasonal naive,False
+2023-04-30,Sinoe,0.0,Seasonal naive,False
+2023-05-31,Bomi,0.0,Seasonal naive,False
+2023-05-31,Bong,2.0,Seasonal naive,False
+2023-05-31,Gbarpolu,0.0,Seasonal naive,False
+2023-05-31,Grand Bassa,2.0,Seasonal naive,False
+2023-05-31,Grand Cape Mount,0.0,Seasonal naive,False
+2023-05-31,Grand Gedeh,0.0,Seasonal naive,False
+2023-05-31,Grand Kru,0.0,Seasonal naive,False
+2023-05-31,Lofa,0.0,Seasonal naive,False
+2023-05-31,Margibi,0.0,Seasonal naive,False
+2023-05-31,Maryland,0.0,Seasonal naive,False
+2023-05-31,Montserrado,0.0,Seasonal naive,False
+2023-05-31,Nimba,0.0,Seasonal naive,False
+2023-05-31,River Gee,0.0,Seasonal naive,False
+2023-05-31,Rivercess,0.0,Seasonal naive,False
+2023-05-31,Sinoe,0.0,Seasonal naive,False
+2023-06-30,Bomi,0.0,Seasonal naive,False
+2023-06-30,Bong,0.0,Seasonal naive,False
+2023-06-30,Gbarpolu,0.0,Seasonal naive,False
+2023-06-30,Grand Bassa,3.0,Seasonal naive,False
+2023-06-30,Grand Cape Mount,0.0,Seasonal naive,False
+2023-06-30,Grand Gedeh,0.0,Seasonal naive,False
+2023-06-30,Grand Kru,0.0,Seasonal naive,False
+2023-06-30,Lofa,0.0,Seasonal naive,False
+2023-06-30,Margibi,0.0,Seasonal naive,False
+2023-06-30,Maryland,0.0,Seasonal naive,False
+2023-06-30,Montserrado,0.0,Seasonal naive,False
+2023-06-30,Nimba,0.0,Seasonal naive,False
+2023-06-30,River Gee,0.0,Seasonal naive,False
+2023-06-30,Rivercess,0.0,Seasonal naive,False
+2023-06-30,Sinoe,0.0,Seasonal naive,False
+2023-07-31,Bomi,0.0,Seasonal naive,False
+2023-07-31,Bong,5.0,Seasonal naive,False
+2023-07-31,Gbarpolu,0.0,Seasonal naive,False
+2023-07-31,Grand Bassa,0.0,Seasonal naive,False
+2023-07-31,Grand Cape Mount,0.0,Seasonal naive,False
+2023-07-31,Grand Gedeh,0.0,Seasonal naive,False
+2023-07-31,Grand Kru,0.0,Seasonal naive,False
+2023-07-31,Lofa,0.0,Seasonal naive,False
+2023-07-31,Margibi,0.0,Seasonal naive,False
+2023-07-31,Maryland,0.0,Seasonal naive,False
+2023-07-31,Montserrado,0.0,Seasonal naive,False
+2023-07-31,Nimba,0.0,Seasonal naive,False
+2023-07-31,River Gee,0.0,Seasonal naive,False
+2023-07-31,Rivercess,0.0,Seasonal naive,False
+2023-07-31,Sinoe,0.0,Seasonal naive,False
+2023-08-31,Bomi,0.0,Seasonal naive,False
+2023-08-31,Bong,0.0,Seasonal naive,False
+2023-08-31,Gbarpolu,0.0,Seasonal naive,False
+2023-08-31,Grand Bassa,0.0,Seasonal naive,False
+2023-08-31,Grand Cape Mount,0.0,Seasonal naive,False
+2023-08-31,Grand Gedeh,0.0,Seasonal naive,False
+2023-08-31,Grand Kru,0.0,Seasonal naive,False
+2023-08-31,Lofa,0.0,Seasonal naive,False
+2023-08-31,Margibi,0.0,Seasonal naive,False
+2023-08-31,Maryland,0.0,Seasonal naive,False
+2023-08-31,Montserrado,0.0,Seasonal naive,False
+2023-08-31,Nimba,4.0,Seasonal naive,False
+2023-08-31,River Gee,0.0,Seasonal naive,False
+2023-08-31,Rivercess,0.0,Seasonal naive,False
+2023-08-31,Sinoe,0.0,Seasonal naive,False
+2023-09-30,Bomi,0.0,Seasonal naive,False
+2023-09-30,Bong,4.0,Seasonal naive,False
+2023-09-30,Gbarpolu,0.0,Seasonal naive,False
+2023-09-30,Grand Bassa,8.0,Seasonal naive,False
+2023-09-30,Grand Cape Mount,0.0,Seasonal naive,False
+2023-09-30,Grand Gedeh,0.0,Seasonal naive,False
+2023-09-30,Grand Kru,0.0,Seasonal naive,False
+2023-09-30,Lofa,0.0,Seasonal naive,False
+2023-09-30,Margibi,0.0,Seasonal naive,False
+2023-09-30,Maryland,0.0,Seasonal naive,False
+2023-09-30,Montserrado,0.0,Seasonal naive,False
+2023-09-30,Nimba,0.0,Seasonal naive,False
+2023-09-30,River Gee,0.0,Seasonal naive,False
+2023-09-30,Rivercess,0.0,Seasonal naive,False
+2023-09-30,Sinoe,0.0,Seasonal naive,False
+2023-10-31,Bomi,0.0,Seasonal naive,False
+2023-10-31,Bong,1.0,Seasonal naive,False
+2023-10-31,Gbarpolu,0.0,Seasonal naive,False
+2023-10-31,Grand Bassa,7.0,Seasonal naive,False
+2023-10-31,Grand Cape Mount,0.0,Seasonal naive,False
+2023-10-31,Grand Gedeh,0.0,Seasonal naive,False
+2023-10-31,Grand Kru,0.0,Seasonal naive,False
+2023-10-31,Lofa,0.0,Seasonal naive,False
+2023-10-31,Margibi,0.0,Seasonal naive,False
+2023-10-31,Maryland,0.0,Seasonal naive,False
+2023-10-31,Montserrado,1.0,Seasonal naive,False
+2023-10-31,Nimba,2.0,Seasonal naive,False
+2023-10-31,River Gee,0.0,Seasonal naive,False
+2023-10-31,Rivercess,0.0,Seasonal naive,False
+2023-10-31,Sinoe,0.0,Seasonal naive,False
+2023-11-30,Bomi,0.0,Seasonal naive,False
+2023-11-30,Bong,3.0,Seasonal naive,False
+2023-11-30,Gbarpolu,0.0,Seasonal naive,False
+2023-11-30,Grand Bassa,2.0,Seasonal naive,False
+2023-11-30,Grand Cape Mount,0.0,Seasonal naive,False
+2023-11-30,Grand Gedeh,0.0,Seasonal naive,False
+2023-11-30,Grand Kru,0.0,Seasonal naive,False
+2023-11-30,Lofa,0.0,Seasonal naive,False
+2023-11-30,Margibi,0.0,Seasonal naive,False
+2023-11-30,Maryland,0.0,Seasonal naive,False
+2023-11-30,Montserrado,0.0,Seasonal naive,False
+2023-11-30,Nimba,3.0,Seasonal naive,False
+2023-11-30,River Gee,1.0,Seasonal naive,False
+2023-11-30,Rivercess,0.0,Seasonal naive,False
+2023-11-30,Sinoe,0.0,Seasonal naive,False
+2023-12-31,Bomi,0.0,Seasonal naive,False
+2023-12-31,Bong,3.0,Seasonal naive,False
+2023-12-31,Gbarpolu,0.0,Seasonal naive,False
+2023-12-31,Grand Bassa,2.0,Seasonal naive,False
+2023-12-31,Grand Cape Mount,0.0,Seasonal naive,False
+2023-12-31,Grand Gedeh,0.0,Seasonal naive,False
+2023-12-31,Grand Kru,0.0,Seasonal naive,False
+2023-12-31,Lofa,0.0,Seasonal naive,False
+2023-12-31,Margibi,0.0,Seasonal naive,False
+2023-12-31,Maryland,0.0,Seasonal naive,False
+2023-12-31,Montserrado,0.0,Seasonal naive,False
+2023-12-31,Nimba,0.0,Seasonal naive,False
+2023-12-31,River Gee,0.0,Seasonal naive,False
+2023-12-31,Rivercess,0.0,Seasonal naive,False
+2023-12-31,Sinoe,0.0,Seasonal naive,False
+2024-01-31,Bomi,0.0,Seasonal naive,False
+2024-01-31,Bong,2.0,Seasonal naive,False
+2024-01-31,Gbarpolu,0.0,Seasonal naive,False
+2024-01-31,Grand Bassa,4.0,Seasonal naive,False
+2024-01-31,Grand Cape Mount,0.0,Seasonal naive,False
+2024-01-31,Grand Gedeh,0.0,Seasonal naive,False
+2024-01-31,Grand Kru,0.0,Seasonal naive,False
+2024-01-31,Lofa,0.0,Seasonal naive,False
+2024-01-31,Margibi,0.0,Seasonal naive,False
+2024-01-31,Maryland,0.0,Seasonal naive,False
+2024-01-31,Montserrado,0.0,Seasonal naive,False
+2024-01-31,Nimba,7.0,Seasonal naive,False
+2024-01-31,River Gee,0.0,Seasonal naive,False
+2024-01-31,Rivercess,0.0,Seasonal naive,False
+2024-01-31,Sinoe,0.0,Seasonal naive,False
+2024-02-29,Bomi,0.0,Seasonal naive,False
+2024-02-29,Bong,1.0,Seasonal naive,False
+2024-02-29,Gbarpolu,0.0,Seasonal naive,False
+2024-02-29,Grand Bassa,1.0,Seasonal naive,False
+2024-02-29,Grand Cape Mount,0.0,Seasonal naive,False
+2024-02-29,Grand Gedeh,0.0,Seasonal naive,False
+2024-02-29,Grand Kru,0.0,Seasonal naive,False
+2024-02-29,Lofa,0.0,Seasonal naive,False
+2024-02-29,Margibi,0.0,Seasonal naive,False
+2024-02-29,Maryland,0.0,Seasonal naive,False
+2024-02-29,Montserrado,0.0,Seasonal naive,False
+2024-02-29,Nimba,0.0,Seasonal naive,False
+2024-02-29,River Gee,0.0,Seasonal naive,False
+2024-02-29,Rivercess,0.0,Seasonal naive,False
+2024-02-29,Sinoe,0.0,Seasonal naive,False
+2024-03-31,Bomi,0.0,Seasonal naive,False
+2024-03-31,Bong,1.0,Seasonal naive,False
+2024-03-31,Gbarpolu,0.0,Seasonal naive,False
+2024-03-31,Grand Bassa,0.0,Seasonal naive,False
+2024-03-31,Grand Cape Mount,0.0,Seasonal naive,False
+2024-03-31,Grand Gedeh,0.0,Seasonal naive,False
+2024-03-31,Grand Kru,0.0,Seasonal naive,False
+2024-03-31,Lofa,0.0,Seasonal naive,False
+2024-03-31,Margibi,0.0,Seasonal naive,False
+2024-03-31,Maryland,0.0,Seasonal naive,False
+2024-03-31,Montserrado,0.0,Seasonal naive,False
+2024-03-31,Nimba,0.0,Seasonal naive,False
+2024-03-31,River Gee,0.0,Seasonal naive,False
+2024-03-31,Rivercess,0.0,Seasonal naive,False
+2024-03-31,Sinoe,0.0,Seasonal naive,False
+2024-04-30,Bomi,0.0,Seasonal naive,False
+2024-04-30,Bong,1.0,Seasonal naive,False
+2024-04-30,Gbarpolu,0.0,Seasonal naive,False
+2024-04-30,Grand Bassa,1.0,Seasonal naive,False
+2024-04-30,Grand Cape Mount,0.0,Seasonal naive,False
+2024-04-30,Grand Gedeh,0.0,Seasonal naive,False
+2024-04-30,Grand Kru,0.0,Seasonal naive,False
+2024-04-30,Lofa,0.0,Seasonal naive,False
+2024-04-30,Margibi,0.0,Seasonal naive,False
+2024-04-30,Maryland,0.0,Seasonal naive,False
+2024-04-30,Montserrado,0.0,Seasonal naive,False
+2024-04-30,Nimba,0.0,Seasonal naive,False
+2024-04-30,River Gee,0.0,Seasonal naive,False
+2024-04-30,Rivercess,0.0,Seasonal naive,False
+2024-04-30,Sinoe,0.0,Seasonal naive,False
+2024-05-31,Bomi,0.0,Seasonal naive,False
+2024-05-31,Bong,2.0,Seasonal naive,False
+2024-05-31,Gbarpolu,0.0,Seasonal naive,False
+2024-05-31,Grand Bassa,2.0,Seasonal naive,False
+2024-05-31,Grand Cape Mount,0.0,Seasonal naive,False
+2024-05-31,Grand Gedeh,0.0,Seasonal naive,False
+2024-05-31,Grand Kru,0.0,Seasonal naive,False
+2024-05-31,Lofa,0.0,Seasonal naive,False
+2024-05-31,Margibi,0.0,Seasonal naive,False
+2024-05-31,Maryland,0.0,Seasonal naive,False
+2024-05-31,Montserrado,0.0,Seasonal naive,False
+2024-05-31,Nimba,0.0,Seasonal naive,False
+2024-05-31,River Gee,0.0,Seasonal naive,False
+2024-05-31,Rivercess,0.0,Seasonal naive,False
+2024-05-31,Sinoe,0.0,Seasonal naive,False
+2024-06-30,Bomi,0.0,Seasonal naive,False
+2024-06-30,Bong,0.0,Seasonal naive,False
+2024-06-30,Gbarpolu,0.0,Seasonal naive,False
+2024-06-30,Grand Bassa,3.0,Seasonal naive,False
+2024-06-30,Grand Cape Mount,0.0,Seasonal naive,False
+2024-06-30,Grand Gedeh,0.0,Seasonal naive,False
+2024-06-30,Grand Kru,0.0,Seasonal naive,False
+2024-06-30,Lofa,0.0,Seasonal naive,False
+2024-06-30,Margibi,0.0,Seasonal naive,False
+2024-06-30,Maryland,0.0,Seasonal naive,False
+2024-06-30,Montserrado,0.0,Seasonal naive,False
+2024-06-30,Nimba,0.0,Seasonal naive,False
+2024-06-30,River Gee,0.0,Seasonal naive,False
+2024-06-30,Rivercess,0.0,Seasonal naive,False
+2024-06-30,Sinoe,0.0,Seasonal naive,False
+2024-07-31,Bomi,0.0,Seasonal naive,False
+2024-07-31,Bong,5.0,Seasonal naive,False
+2024-07-31,Gbarpolu,0.0,Seasonal naive,False
+2024-07-31,Grand Bassa,0.0,Seasonal naive,False
+2024-07-31,Grand Cape Mount,0.0,Seasonal naive,False
+2024-07-31,Grand Gedeh,0.0,Seasonal naive,False
+2024-07-31,Grand Kru,0.0,Seasonal naive,False
+2024-07-31,Lofa,0.0,Seasonal naive,False
+2024-07-31,Margibi,0.0,Seasonal naive,False
+2024-07-31,Maryland,0.0,Seasonal naive,False
+2024-07-31,Montserrado,0.0,Seasonal naive,False
+2024-07-31,Nimba,0.0,Seasonal naive,False
+2024-07-31,River Gee,0.0,Seasonal naive,False
+2024-07-31,Rivercess,0.0,Seasonal naive,False
+2024-07-31,Sinoe,0.0,Seasonal naive,False
+2024-08-31,Bomi,0.0,Seasonal naive,False
+2024-08-31,Bong,0.0,Seasonal naive,False
+2024-08-31,Gbarpolu,0.0,Seasonal naive,False
+2024-08-31,Grand Bassa,0.0,Seasonal naive,False
+2024-08-31,Grand Cape Mount,0.0,Seasonal naive,False
+2024-08-31,Grand Gedeh,0.0,Seasonal naive,False
+2024-08-31,Grand Kru,0.0,Seasonal naive,False
+2024-08-31,Lofa,0.0,Seasonal naive,False
+2024-08-31,Margibi,0.0,Seasonal naive,False
+2024-08-31,Maryland,0.0,Seasonal naive,False
+2024-08-31,Montserrado,0.0,Seasonal naive,False
+2024-08-31,Nimba,4.0,Seasonal naive,False
+2024-08-31,River Gee,0.0,Seasonal naive,False
+2024-08-31,Rivercess,0.0,Seasonal naive,False
+2024-08-31,Sinoe,0.0,Seasonal naive,False
+2024-09-30,Bomi,0.0,Seasonal naive,False
+2024-09-30,Bong,4.0,Seasonal naive,False
+2024-09-30,Gbarpolu,0.0,Seasonal naive,False
+2024-09-30,Grand Bassa,8.0,Seasonal naive,False
+2024-09-30,Grand Cape Mount,0.0,Seasonal naive,False
+2024-09-30,Grand Gedeh,0.0,Seasonal naive,False
+2024-09-30,Grand Kru,0.0,Seasonal naive,False
+2024-09-30,Lofa,0.0,Seasonal naive,False
+2024-09-30,Margibi,0.0,Seasonal naive,False
+2024-09-30,Maryland,0.0,Seasonal naive,False
+2024-09-30,Montserrado,0.0,Seasonal naive,False
+2024-09-30,Nimba,0.0,Seasonal naive,False
+2024-09-30,River Gee,0.0,Seasonal naive,False
+2024-09-30,Rivercess,0.0,Seasonal naive,False
+2024-09-30,Sinoe,0.0,Seasonal naive,False
+2024-10-31,Bomi,0.0,Seasonal naive,False
+2024-10-31,Bong,1.0,Seasonal naive,False
+2024-10-31,Gbarpolu,0.0,Seasonal naive,False
+2024-10-31,Grand Bassa,7.0,Seasonal naive,False
+2024-10-31,Grand Cape Mount,0.0,Seasonal naive,False
+2024-10-31,Grand Gedeh,0.0,Seasonal naive,False
+2024-10-31,Grand Kru,0.0,Seasonal naive,False
+2024-10-31,Lofa,0.0,Seasonal naive,False
+2024-10-31,Margibi,0.0,Seasonal naive,False
+2024-10-31,Maryland,0.0,Seasonal naive,False
+2024-10-31,Montserrado,1.0,Seasonal naive,False
+2024-10-31,Nimba,2.0,Seasonal naive,False
+2024-10-31,River Gee,0.0,Seasonal naive,False
+2024-10-31,Rivercess,0.0,Seasonal naive,False
+2024-10-31,Sinoe,0.0,Seasonal naive,False
+2024-11-30,Bomi,0.0,Seasonal naive,False
+2024-11-30,Bong,3.0,Seasonal naive,False
+2024-11-30,Gbarpolu,0.0,Seasonal naive,False
+2024-11-30,Grand Bassa,2.0,Seasonal naive,False
+2024-11-30,Grand Cape Mount,0.0,Seasonal naive,False
+2024-11-30,Grand Gedeh,0.0,Seasonal naive,False
+2024-11-30,Grand Kru,0.0,Seasonal naive,False
+2024-11-30,Lofa,0.0,Seasonal naive,False
+2024-11-30,Margibi,0.0,Seasonal naive,False
+2024-11-30,Maryland,0.0,Seasonal naive,False
+2024-11-30,Montserrado,0.0,Seasonal naive,False
+2024-11-30,Nimba,3.0,Seasonal naive,False
+2024-11-30,River Gee,1.0,Seasonal naive,False
+2024-11-30,Rivercess,0.0,Seasonal naive,False
+2024-11-30,Sinoe,0.0,Seasonal naive,False
+2024-12-31,Bomi,0.0,Seasonal naive,False
+2024-12-31,Bong,3.0,Seasonal naive,False
+2024-12-31,Gbarpolu,0.0,Seasonal naive,False
+2024-12-31,Grand Bassa,2.0,Seasonal naive,False
+2024-12-31,Grand Cape Mount,0.0,Seasonal naive,False
+2024-12-31,Grand Gedeh,0.0,Seasonal naive,False
+2024-12-31,Grand Kru,0.0,Seasonal naive,False
+2024-12-31,Lofa,0.0,Seasonal naive,False
+2024-12-31,Margibi,0.0,Seasonal naive,False
+2024-12-31,Maryland,0.0,Seasonal naive,False
+2024-12-31,Montserrado,0.0,Seasonal naive,False
+2024-12-31,Nimba,0.0,Seasonal naive,False
+2024-12-31,River Gee,0.0,Seasonal naive,False
+2024-12-31,Rivercess,0.0,Seasonal naive,False
+2024-12-31,Sinoe,0.0,Seasonal naive,False
+2025-01-31,Bomi,0.0,Seasonal naive,False
+2025-01-31,Bong,2.0,Seasonal naive,False
+2025-01-31,Gbarpolu,0.0,Seasonal naive,False
+2025-01-31,Grand Bassa,4.0,Seasonal naive,False
+2025-01-31,Grand Cape Mount,0.0,Seasonal naive,False
+2025-01-31,Grand Gedeh,0.0,Seasonal naive,False
+2025-01-31,Grand Kru,0.0,Seasonal naive,False
+2025-01-31,Lofa,0.0,Seasonal naive,False
+2025-01-31,Margibi,0.0,Seasonal naive,False
+2025-01-31,Maryland,0.0,Seasonal naive,False
+2025-01-31,Montserrado,0.0,Seasonal naive,False
+2025-01-31,Nimba,7.0,Seasonal naive,False
+2025-01-31,River Gee,0.0,Seasonal naive,False
+2025-01-31,Rivercess,0.0,Seasonal naive,False
+2025-01-31,Sinoe,0.0,Seasonal naive,False
+2025-02-28,Bomi,0.0,Seasonal naive,False
+2025-02-28,Bong,1.0,Seasonal naive,False
+2025-02-28,Gbarpolu,0.0,Seasonal naive,False
+2025-02-28,Grand Bassa,1.0,Seasonal naive,False
+2025-02-28,Grand Cape Mount,0.0,Seasonal naive,False
+2025-02-28,Grand Gedeh,0.0,Seasonal naive,False
+2025-02-28,Grand Kru,0.0,Seasonal naive,False
+2025-02-28,Lofa,0.0,Seasonal naive,False
+2025-02-28,Margibi,0.0,Seasonal naive,False
+2025-02-28,Maryland,0.0,Seasonal naive,False
+2025-02-28,Montserrado,0.0,Seasonal naive,False
+2025-02-28,Nimba,0.0,Seasonal naive,False
+2025-02-28,River Gee,0.0,Seasonal naive,False
+2025-02-28,Rivercess,0.0,Seasonal naive,False
+2025-02-28,Sinoe,0.0,Seasonal naive,False
+2025-03-31,Bomi,0.0,Seasonal naive,False
+2025-03-31,Bong,1.0,Seasonal naive,False
+2025-03-31,Gbarpolu,0.0,Seasonal naive,False
+2025-03-31,Grand Bassa,0.0,Seasonal naive,False
+2025-03-31,Grand Cape Mount,0.0,Seasonal naive,False
+2025-03-31,Grand Gedeh,0.0,Seasonal naive,False
+2025-03-31,Grand Kru,0.0,Seasonal naive,False
+2025-03-31,Lofa,0.0,Seasonal naive,False
+2025-03-31,Margibi,0.0,Seasonal naive,False
+2025-03-31,Maryland,0.0,Seasonal naive,False
+2025-03-31,Montserrado,0.0,Seasonal naive,False
+2025-03-31,Nimba,0.0,Seasonal naive,False
+2025-03-31,River Gee,0.0,Seasonal naive,False
+2025-03-31,Rivercess,0.0,Seasonal naive,False
+2025-03-31,Sinoe,0.0,Seasonal naive,False
+2025-04-30,Bomi,0.0,Seasonal naive,False
+2025-04-30,Bong,1.0,Seasonal naive,False
+2025-04-30,Gbarpolu,0.0,Seasonal naive,False
+2025-04-30,Grand Bassa,1.0,Seasonal naive,False
+2025-04-30,Grand Cape Mount,0.0,Seasonal naive,False
+2025-04-30,Grand Gedeh,0.0,Seasonal naive,False
+2025-04-30,Grand Kru,0.0,Seasonal naive,False
+2025-04-30,Lofa,0.0,Seasonal naive,False
+2025-04-30,Margibi,0.0,Seasonal naive,False
+2025-04-30,Maryland,0.0,Seasonal naive,False
+2025-04-30,Montserrado,0.0,Seasonal naive,False
+2025-04-30,Nimba,0.0,Seasonal naive,False
+2025-04-30,River Gee,0.0,Seasonal naive,False
+2025-04-30,Rivercess,0.0,Seasonal naive,False
+2025-04-30,Sinoe,0.0,Seasonal naive,False
+2025-05-31,Bomi,0.0,Seasonal naive,False
+2025-05-31,Bong,2.0,Seasonal naive,False
+2025-05-31,Gbarpolu,0.0,Seasonal naive,False
+2025-05-31,Grand Bassa,2.0,Seasonal naive,False
+2025-05-31,Grand Cape Mount,0.0,Seasonal naive,False
+2025-05-31,Grand Gedeh,0.0,Seasonal naive,False
+2025-05-31,Grand Kru,0.0,Seasonal naive,False
+2025-05-31,Lofa,0.0,Seasonal naive,False
+2025-05-31,Margibi,0.0,Seasonal naive,False
+2025-05-31,Maryland,0.0,Seasonal naive,False
+2025-05-31,Montserrado,0.0,Seasonal naive,False
+2025-05-31,Nimba,0.0,Seasonal naive,False
+2025-05-31,River Gee,0.0,Seasonal naive,False
+2025-05-31,Rivercess,0.0,Seasonal naive,False
+2025-05-31,Sinoe,0.0,Seasonal naive,False
+2025-06-30,Bomi,0.0,Seasonal naive,False
+2025-06-30,Bong,0.0,Seasonal naive,False
+2025-06-30,Gbarpolu,0.0,Seasonal naive,False
+2025-06-30,Grand Bassa,3.0,Seasonal naive,False
+2025-06-30,Grand Cape Mount,0.0,Seasonal naive,False
+2025-06-30,Grand Gedeh,0.0,Seasonal naive,False
+2025-06-30,Grand Kru,0.0,Seasonal naive,False
+2025-06-30,Lofa,0.0,Seasonal naive,False
+2025-06-30,Margibi,0.0,Seasonal naive,False
+2025-06-30,Maryland,0.0,Seasonal naive,False
+2025-06-30,Montserrado,0.0,Seasonal naive,False
+2025-06-30,Nimba,0.0,Seasonal naive,False
+2025-06-30,River Gee,0.0,Seasonal naive,False
+2025-06-30,Rivercess,0.0,Seasonal naive,False
+2025-06-30,Sinoe,0.0,Seasonal naive,False
+2025-07-31,Bomi,0.0,Seasonal naive,False
+2025-07-31,Bong,5.0,Seasonal naive,False
+2025-07-31,Gbarpolu,0.0,Seasonal naive,False
+2025-07-31,Grand Bassa,0.0,Seasonal naive,False
+2025-07-31,Grand Cape Mount,0.0,Seasonal naive,False
+2025-07-31,Grand Gedeh,0.0,Seasonal naive,False
+2025-07-31,Grand Kru,0.0,Seasonal naive,False
+2025-07-31,Lofa,0.0,Seasonal naive,False
+2025-07-31,Margibi,0.0,Seasonal naive,False
+2025-07-31,Maryland,0.0,Seasonal naive,False
+2025-07-31,Montserrado,0.0,Seasonal naive,False
+2025-07-31,Nimba,0.0,Seasonal naive,False
+2025-07-31,River Gee,0.0,Seasonal naive,False
+2025-07-31,Rivercess,0.0,Seasonal naive,False
+2025-07-31,Sinoe,0.0,Seasonal naive,False
+2025-08-31,Bomi,0.0,Seasonal naive,False
+2025-08-31,Bong,0.0,Seasonal naive,False
+2025-08-31,Gbarpolu,0.0,Seasonal naive,False
+2025-08-31,Grand Bassa,0.0,Seasonal naive,False
+2025-08-31,Grand Cape Mount,0.0,Seasonal naive,False
+2025-08-31,Grand Gedeh,0.0,Seasonal naive,False
+2025-08-31,Grand Kru,0.0,Seasonal naive,False
+2025-08-31,Lofa,0.0,Seasonal naive,False
+2025-08-31,Margibi,0.0,Seasonal naive,False
+2025-08-31,Maryland,0.0,Seasonal naive,False
+2025-08-31,Montserrado,0.0,Seasonal naive,False
+2025-08-31,Nimba,4.0,Seasonal naive,False
+2025-08-31,River Gee,0.0,Seasonal naive,False
+2025-08-31,Rivercess,0.0,Seasonal naive,False
+2025-08-31,Sinoe,0.0,Seasonal naive,False
+2025-09-30,Bomi,0.0,Seasonal naive,False
+2025-09-30,Bong,4.0,Seasonal naive,False
+2025-09-30,Gbarpolu,0.0,Seasonal naive,False
+2025-09-30,Grand Bassa,8.0,Seasonal naive,False
+2025-09-30,Grand Cape Mount,0.0,Seasonal naive,False
+2025-09-30,Grand Gedeh,0.0,Seasonal naive,False
+2025-09-30,Grand Kru,0.0,Seasonal naive,False
+2025-09-30,Lofa,0.0,Seasonal naive,False
+2025-09-30,Margibi,0.0,Seasonal naive,False
+2025-09-30,Maryland,0.0,Seasonal naive,False
+2025-09-30,Montserrado,0.0,Seasonal naive,False
+2025-09-30,Nimba,0.0,Seasonal naive,False
+2025-09-30,River Gee,0.0,Seasonal naive,False
+2025-09-30,Rivercess,0.0,Seasonal naive,False
+2025-09-30,Sinoe,0.0,Seasonal naive,False
+2025-10-31,Bomi,0.0,Seasonal naive,False
+2025-10-31,Bong,1.0,Seasonal naive,False
+2025-10-31,Gbarpolu,0.0,Seasonal naive,False
+2025-10-31,Grand Bassa,7.0,Seasonal naive,False
+2025-10-31,Grand Cape Mount,0.0,Seasonal naive,False
+2025-10-31,Grand Gedeh,0.0,Seasonal naive,False
+2025-10-31,Grand Kru,0.0,Seasonal naive,False
+2025-10-31,Lofa,0.0,Seasonal naive,False
+2025-10-31,Margibi,0.0,Seasonal naive,False
+2025-10-31,Maryland,0.0,Seasonal naive,False
+2025-10-31,Montserrado,1.0,Seasonal naive,False
+2025-10-31,Nimba,2.0,Seasonal naive,False
+2025-10-31,River Gee,0.0,Seasonal naive,False
+2025-10-31,Rivercess,0.0,Seasonal naive,False
+2025-10-31,Sinoe,0.0,Seasonal naive,False
+2025-11-30,Bomi,0.0,Seasonal naive,False
+2025-11-30,Bong,3.0,Seasonal naive,False
+2025-11-30,Gbarpolu,0.0,Seasonal naive,False
+2025-11-30,Grand Bassa,2.0,Seasonal naive,False
+2025-11-30,Grand Cape Mount,0.0,Seasonal naive,False
+2025-11-30,Grand Gedeh,0.0,Seasonal naive,False
+2025-11-30,Grand Kru,0.0,Seasonal naive,False
+2025-11-30,Lofa,0.0,Seasonal naive,False
+2025-11-30,Margibi,0.0,Seasonal naive,False
+2025-11-30,Maryland,0.0,Seasonal naive,False
+2025-11-30,Montserrado,0.0,Seasonal naive,False
+2025-11-30,Nimba,3.0,Seasonal naive,False
+2025-11-30,River Gee,1.0,Seasonal naive,False
+2025-11-30,Rivercess,0.0,Seasonal naive,False
+2025-11-30,Sinoe,0.0,Seasonal naive,False
+2025-12-31,Bomi,0.0,Seasonal naive,False
+2025-12-31,Bong,3.0,Seasonal naive,False
+2025-12-31,Gbarpolu,0.0,Seasonal naive,False
+2025-12-31,Grand Bassa,2.0,Seasonal naive,False
+2025-12-31,Grand Cape Mount,0.0,Seasonal naive,False
+2025-12-31,Grand Gedeh,0.0,Seasonal naive,False
+2025-12-31,Grand Kru,0.0,Seasonal naive,False
+2025-12-31,Lofa,0.0,Seasonal naive,False
+2025-12-31,Margibi,0.0,Seasonal naive,False
+2025-12-31,Maryland,0.0,Seasonal naive,False
+2025-12-31,Montserrado,0.0,Seasonal naive,False
+2025-12-31,Nimba,0.0,Seasonal naive,False
+2025-12-31,River Gee,0.0,Seasonal naive,False
+2025-12-31,Rivercess,0.0,Seasonal naive,False
+2025-12-31,Sinoe,0.0,Seasonal naive,False
+2026-01-31,Bomi,0.0,Seasonal naive,False
+2026-01-31,Bong,2.0,Seasonal naive,False
+2026-01-31,Gbarpolu,0.0,Seasonal naive,False
+2026-01-31,Grand Bassa,4.0,Seasonal naive,False
+2026-01-31,Grand Cape Mount,0.0,Seasonal naive,False
+2026-01-31,Grand Gedeh,0.0,Seasonal naive,False
+2026-01-31,Grand Kru,0.0,Seasonal naive,False
+2026-01-31,Lofa,0.0,Seasonal naive,False
+2026-01-31,Margibi,0.0,Seasonal naive,False
+2026-01-31,Maryland,0.0,Seasonal naive,False
+2026-01-31,Montserrado,0.0,Seasonal naive,False
+2026-01-31,Nimba,7.0,Seasonal naive,False
+2026-01-31,River Gee,0.0,Seasonal naive,False
+2026-01-31,Rivercess,0.0,Seasonal naive,False
+2026-01-31,Sinoe,0.0,Seasonal naive,False
+2026-02-28,Bomi,0.0,Seasonal naive,False
+2026-02-28,Bong,1.0,Seasonal naive,False
+2026-02-28,Gbarpolu,0.0,Seasonal naive,False
+2026-02-28,Grand Bassa,1.0,Seasonal naive,False
+2026-02-28,Grand Cape Mount,0.0,Seasonal naive,False
+2026-02-28,Grand Gedeh,0.0,Seasonal naive,False
+2026-02-28,Grand Kru,0.0,Seasonal naive,False
+2026-02-28,Lofa,0.0,Seasonal naive,False
+2026-02-28,Margibi,0.0,Seasonal naive,False
+2026-02-28,Maryland,0.0,Seasonal naive,False
+2026-02-28,Montserrado,0.0,Seasonal naive,False
+2026-02-28,Nimba,0.0,Seasonal naive,False
+2026-02-28,River Gee,0.0,Seasonal naive,False
+2026-02-28,Rivercess,0.0,Seasonal naive,False
+2026-02-28,Sinoe,0.0,Seasonal naive,False
+2026-03-31,Bomi,0.0,Seasonal naive,False
+2026-03-31,Bong,1.0,Seasonal naive,False
+2026-03-31,Gbarpolu,0.0,Seasonal naive,False
+2026-03-31,Grand Bassa,0.0,Seasonal naive,False
+2026-03-31,Grand Cape Mount,0.0,Seasonal naive,False
+2026-03-31,Grand Gedeh,0.0,Seasonal naive,False
+2026-03-31,Grand Kru,0.0,Seasonal naive,False
+2026-03-31,Lofa,0.0,Seasonal naive,False
+2026-03-31,Margibi,0.0,Seasonal naive,False
+2026-03-31,Maryland,0.0,Seasonal naive,False
+2026-03-31,Montserrado,0.0,Seasonal naive,False
+2026-03-31,Nimba,0.0,Seasonal naive,False
+2026-03-31,River Gee,0.0,Seasonal naive,False
+2026-03-31,Rivercess,0.0,Seasonal naive,False
+2026-03-31,Sinoe,0.0,Seasonal naive,False
+2026-04-30,Bomi,0.0,Seasonal naive,False
+2026-04-30,Bong,1.0,Seasonal naive,False
+2026-04-30,Gbarpolu,0.0,Seasonal naive,False
+2026-04-30,Grand Bassa,1.0,Seasonal naive,False
+2026-04-30,Grand Cape Mount,0.0,Seasonal naive,False
+2026-04-30,Grand Gedeh,0.0,Seasonal naive,False
+2026-04-30,Grand Kru,0.0,Seasonal naive,False
+2026-04-30,Lofa,0.0,Seasonal naive,False
+2026-04-30,Margibi,0.0,Seasonal naive,False
+2026-04-30,Maryland,0.0,Seasonal naive,False
+2026-04-30,Montserrado,0.0,Seasonal naive,False
+2026-04-30,Nimba,0.0,Seasonal naive,False
+2026-04-30,River Gee,0.0,Seasonal naive,False
+2026-04-30,Rivercess,0.0,Seasonal naive,False
+2026-04-30,Sinoe,0.0,Seasonal naive,False
+2026-05-31,Bomi,0.0,Seasonal naive,False
+2026-05-31,Bong,2.0,Seasonal naive,False
+2026-05-31,Gbarpolu,0.0,Seasonal naive,False
+2026-05-31,Grand Bassa,2.0,Seasonal naive,False
+2026-05-31,Grand Cape Mount,0.0,Seasonal naive,False
+2026-05-31,Grand Gedeh,0.0,Seasonal naive,False
+2026-05-31,Grand Kru,0.0,Seasonal naive,False
+2026-05-31,Lofa,0.0,Seasonal naive,False
+2026-05-31,Margibi,0.0,Seasonal naive,False
+2026-05-31,Maryland,0.0,Seasonal naive,False
+2026-05-31,Montserrado,0.0,Seasonal naive,False
+2026-05-31,Nimba,0.0,Seasonal naive,False
+2026-05-31,River Gee,0.0,Seasonal naive,False
+2026-05-31,Rivercess,0.0,Seasonal naive,False
+2026-05-31,Sinoe,0.0,Seasonal naive,False
+2026-06-30,Bomi,0.0,Seasonal naive,False
+2026-06-30,Bong,0.0,Seasonal naive,False
+2026-06-30,Gbarpolu,0.0,Seasonal naive,False
+2026-06-30,Grand Bassa,3.0,Seasonal naive,False
+2026-06-30,Grand Cape Mount,0.0,Seasonal naive,False
+2026-06-30,Grand Gedeh,0.0,Seasonal naive,False
+2026-06-30,Grand Kru,0.0,Seasonal naive,False
+2026-06-30,Lofa,0.0,Seasonal naive,False
+2026-06-30,Margibi,0.0,Seasonal naive,False
+2026-06-30,Maryland,0.0,Seasonal naive,False
+2026-06-30,Montserrado,0.0,Seasonal naive,False
+2026-06-30,Nimba,0.0,Seasonal naive,False
+2026-06-30,River Gee,0.0,Seasonal naive,False
+2026-06-30,Rivercess,0.0,Seasonal naive,False
+2026-06-30,Sinoe,0.0,Seasonal naive,False
+2026-07-31,Bomi,0.0,Seasonal naive,False
+2026-07-31,Bong,5.0,Seasonal naive,False
+2026-07-31,Gbarpolu,0.0,Seasonal naive,False
+2026-07-31,Grand Bassa,0.0,Seasonal naive,False
+2026-07-31,Grand Cape Mount,0.0,Seasonal naive,False
+2026-07-31,Grand Gedeh,0.0,Seasonal naive,False
+2026-07-31,Grand Kru,0.0,Seasonal naive,False
+2026-07-31,Lofa,0.0,Seasonal naive,False
+2026-07-31,Margibi,0.0,Seasonal naive,False
+2026-07-31,Maryland,0.0,Seasonal naive,False
+2026-07-31,Montserrado,0.0,Seasonal naive,False
+2026-07-31,Nimba,0.0,Seasonal naive,False
+2026-07-31,River Gee,0.0,Seasonal naive,False
+2026-07-31,Rivercess,0.0,Seasonal naive,False
+2026-07-31,Sinoe,0.0,Seasonal naive,False
+2026-08-31,Bomi,0.0,Seasonal naive,False
+2026-08-31,Bong,0.0,Seasonal naive,False
+2026-08-31,Gbarpolu,0.0,Seasonal naive,False
+2026-08-31,Grand Bassa,0.0,Seasonal naive,False
+2026-08-31,Grand Cape Mount,0.0,Seasonal naive,False
+2026-08-31,Grand Gedeh,0.0,Seasonal naive,False
+2026-08-31,Grand Kru,0.0,Seasonal naive,False
+2026-08-31,Lofa,0.0,Seasonal naive,False
+2026-08-31,Margibi,0.0,Seasonal naive,False
+2026-08-31,Maryland,0.0,Seasonal naive,False
+2026-08-31,Montserrado,0.0,Seasonal naive,False
+2026-08-31,Nimba,4.0,Seasonal naive,False
+2026-08-31,River Gee,0.0,Seasonal naive,False
+2026-08-31,Rivercess,0.0,Seasonal naive,False
+2026-08-31,Sinoe,0.0,Seasonal naive,False
+2026-09-30,Bomi,0.0,Seasonal naive,False
+2026-09-30,Bong,4.0,Seasonal naive,False
+2026-09-30,Gbarpolu,0.0,Seasonal naive,False
+2026-09-30,Grand Bassa,8.0,Seasonal naive,False
+2026-09-30,Grand Cape Mount,0.0,Seasonal naive,False
+2026-09-30,Grand Gedeh,0.0,Seasonal naive,False
+2026-09-30,Grand Kru,0.0,Seasonal naive,False
+2026-09-30,Lofa,0.0,Seasonal naive,False
+2026-09-30,Margibi,0.0,Seasonal naive,False
+2026-09-30,Maryland,0.0,Seasonal naive,False
+2026-09-30,Montserrado,0.0,Seasonal naive,False
+2026-09-30,Nimba,0.0,Seasonal naive,False
+2026-09-30,River Gee,0.0,Seasonal naive,False
+2026-09-30,Rivercess,0.0,Seasonal naive,False
+2026-09-30,Sinoe,0.0,Seasonal naive,False
+2026-10-31,Bomi,0.0,Seasonal naive,False
+2026-10-31,Bong,1.0,Seasonal naive,False
+2026-10-31,Gbarpolu,0.0,Seasonal naive,False
+2026-10-31,Grand Bassa,7.0,Seasonal naive,False
+2026-10-31,Grand Cape Mount,0.0,Seasonal naive,False
+2026-10-31,Grand Gedeh,0.0,Seasonal naive,False
+2026-10-31,Grand Kru,0.0,Seasonal naive,False
+2026-10-31,Lofa,0.0,Seasonal naive,False
+2026-10-31,Margibi,0.0,Seasonal naive,False
+2026-10-31,Maryland,0.0,Seasonal naive,False
+2026-10-31,Montserrado,1.0,Seasonal naive,False
+2026-10-31,Nimba,2.0,Seasonal naive,False
+2026-10-31,River Gee,0.0,Seasonal naive,False
+2026-10-31,Rivercess,0.0,Seasonal naive,False
+2026-10-31,Sinoe,0.0,Seasonal naive,False
+2026-11-30,Bomi,0.0,Seasonal naive,False
+2026-11-30,Bong,3.0,Seasonal naive,False
+2026-11-30,Gbarpolu,0.0,Seasonal naive,False
+2026-11-30,Grand Bassa,2.0,Seasonal naive,False
+2026-11-30,Grand Cape Mount,0.0,Seasonal naive,False
+2026-11-30,Grand Gedeh,0.0,Seasonal naive,False
+2026-11-30,Grand Kru,0.0,Seasonal naive,False
+2026-11-30,Lofa,0.0,Seasonal naive,False
+2026-11-30,Margibi,0.0,Seasonal naive,False
+2026-11-30,Maryland,0.0,Seasonal naive,False
+2026-11-30,Montserrado,0.0,Seasonal naive,False
+2026-11-30,Nimba,3.0,Seasonal naive,False
+2026-11-30,River Gee,1.0,Seasonal naive,False
+2026-11-30,Rivercess,0.0,Seasonal naive,False
+2026-11-30,Sinoe,0.0,Seasonal naive,False
+2026-12-31,Bomi,0.0,Seasonal naive,False
+2026-12-31,Bong,3.0,Seasonal naive,False
+2026-12-31,Gbarpolu,0.0,Seasonal naive,False
+2026-12-31,Grand Bassa,2.0,Seasonal naive,False
+2026-12-31,Grand Cape Mount,0.0,Seasonal naive,False
+2026-12-31,Grand Gedeh,0.0,Seasonal naive,False
+2026-12-31,Grand Kru,0.0,Seasonal naive,False
+2026-12-31,Lofa,0.0,Seasonal naive,False
+2026-12-31,Margibi,0.0,Seasonal naive,False
+2026-12-31,Maryland,0.0,Seasonal naive,False
+2026-12-31,Montserrado,0.0,Seasonal naive,False
+2026-12-31,Nimba,0.0,Seasonal naive,False
+2026-12-31,River Gee,0.0,Seasonal naive,False
+2026-12-31,Rivercess,0.0,Seasonal naive,False
+2026-12-31,Sinoe,0.0,Seasonal naive,False
+2023-01-31,Bomi,0.0,Recent mean,False
+2023-01-31,Bong,2.3333333333333335,Recent mean,False
+2023-01-31,Gbarpolu,0.0,Recent mean,False
+2023-01-31,Grand Bassa,3.6666666666666665,Recent mean,False
+2023-01-31,Grand Cape Mount,0.0,Recent mean,False
+2023-01-31,Grand Gedeh,0.0,Recent mean,False
+2023-01-31,Grand Kru,0.0,Recent mean,False
+2023-01-31,Lofa,0.0,Recent mean,False
+2023-01-31,Margibi,0.0,Recent mean,False
+2023-01-31,Maryland,0.0,Recent mean,False
+2023-01-31,Montserrado,0.3333333333333333,Recent mean,False
+2023-01-31,Nimba,1.6666666666666667,Recent mean,False
+2023-01-31,River Gee,0.3333333333333333,Recent mean,False
+2023-01-31,Rivercess,0.0,Recent mean,False
+2023-01-31,Sinoe,0.0,Recent mean,False
+2023-02-28,Bomi,0.0,Recent mean,False
+2023-02-28,Bong,2.777777777777778,Recent mean,False
+2023-02-28,Gbarpolu,0.0,Recent mean,False
+2023-02-28,Grand Bassa,2.5555555555555554,Recent mean,False
+2023-02-28,Grand Cape Mount,0.0,Recent mean,False
+2023-02-28,Grand Gedeh,0.0,Recent mean,False
+2023-02-28,Grand Kru,0.0,Recent mean,False
+2023-02-28,Lofa,0.0,Recent mean,False
+2023-02-28,Margibi,0.0,Recent mean,False
+2023-02-28,Maryland,0.0,Recent mean,False
+2023-02-28,Montserrado,0.1111111111111111,Recent mean,False
+2023-02-28,Nimba,1.5555555555555556,Recent mean,False
+2023-02-28,River Gee,0.4444444444444444,Recent mean,False
+2023-02-28,Rivercess,0.0,Recent mean,False
+2023-02-28,Sinoe,0.0,Recent mean,False
+2023-03-31,Bomi,0.0,Recent mean,False
+2023-03-31,Bong,2.703703703703704,Recent mean,False
+2023-03-31,Gbarpolu,0.0,Recent mean,False
+2023-03-31,Grand Bassa,2.7407407407407405,Recent mean,False
+2023-03-31,Grand Cape Mount,0.0,Recent mean,False
+2023-03-31,Grand Gedeh,0.0,Recent mean,False
+2023-03-31,Grand Kru,0.0,Recent mean,False
+2023-03-31,Lofa,0.0,Recent mean,False
+2023-03-31,Margibi,0.0,Recent mean,False
+2023-03-31,Maryland,0.0,Recent mean,False
+2023-03-31,Montserrado,0.14814814814814814,Recent mean,False
+2023-03-31,Nimba,1.0740740740740742,Recent mean,False
+2023-03-31,River Gee,0.25925925925925924,Recent mean,False
+2023-03-31,Rivercess,0.0,Recent mean,False
+2023-03-31,Sinoe,0.0,Recent mean,False
+2023-04-30,Bomi,0.0,Recent mean,False
+2023-04-30,Bong,2.6049382716049387,Recent mean,False
+2023-04-30,Gbarpolu,0.0,Recent mean,False
+2023-04-30,Grand Bassa,2.987654320987654,Recent mean,False
+2023-04-30,Grand Cape Mount,0.0,Recent mean,False
+2023-04-30,Grand Gedeh,0.0,Recent mean,False
+2023-04-30,Grand Kru,0.0,Recent mean,False
+2023-04-30,Lofa,0.0,Recent mean,False
+2023-04-30,Margibi,0.0,Recent mean,False
+2023-04-30,Maryland,0.0,Recent mean,False
+2023-04-30,Montserrado,0.19753086419753085,Recent mean,False
+2023-04-30,Nimba,1.432098765432099,Recent mean,False
+2023-04-30,River Gee,0.345679012345679,Recent mean,False
+2023-04-30,Rivercess,0.0,Recent mean,False
+2023-04-30,Sinoe,0.0,Recent mean,False
+2023-05-31,Bomi,0.0,Recent mean,False
+2023-05-31,Bong,2.695473251028807,Recent mean,False
+2023-05-31,Gbarpolu,0.0,Recent mean,False
+2023-05-31,Grand Bassa,2.761316872427983,Recent mean,False
+2023-05-31,Grand Cape Mount,0.0,Recent mean,False
+2023-05-31,Grand Gedeh,0.0,Recent mean,False
+2023-05-31,Grand Kru,0.0,Recent mean,False
+2023-05-31,Lofa,0.0,Recent mean,False
+2023-05-31,Margibi,0.0,Recent mean,False
+2023-05-31,Maryland,0.0,Recent mean,False
+2023-05-31,Montserrado,0.1522633744855967,Recent mean,False
+2023-05-31,Nimba,1.3539094650205763,Recent mean,False
+2023-05-31,River Gee,0.3497942386831276,Recent mean,False
+2023-05-31,Rivercess,0.0,Recent mean,False
+2023-05-31,Sinoe,0.0,Recent mean,False
+2023-06-30,Bomi,0.0,Recent mean,False
+2023-06-30,Bong,2.6680384087791498,Recent mean,False
+2023-06-30,Gbarpolu,0.0,Recent mean,False
+2023-06-30,Grand Bassa,2.829903978052126,Recent mean,False
+2023-06-30,Grand Cape Mount,0.0,Recent mean,False
+2023-06-30,Grand Gedeh,0.0,Recent mean,False
+2023-06-30,Grand Kru,0.0,Recent mean,False
+2023-06-30,Lofa,0.0,Recent mean,False
+2023-06-30,Margibi,0.0,Recent mean,False
+2023-06-30,Maryland,0.0,Recent mean,False
+2023-06-30,Montserrado,0.16598079561042522,Recent mean,False
+2023-06-30,Nimba,1.2866941015089166,Recent mean,False
+2023-06-30,River Gee,0.31824417009602196,Recent mean,False
+2023-06-30,Rivercess,0.0,Recent mean,False
+2023-06-30,Sinoe,0.0,Recent mean,False
+2023-07-31,Bomi,0.0,Recent mean,False
+2023-07-31,Bong,2.656149977137632,Recent mean,False
+2023-07-31,Gbarpolu,0.0,Recent mean,False
+2023-07-31,Grand Bassa,2.8596250571559207,Recent mean,False
+2023-07-31,Grand Cape Mount,0.0,Recent mean,False
+2023-07-31,Grand Gedeh,0.0,Recent mean,False
+2023-07-31,Grand Kru,0.0,Recent mean,False
+2023-07-31,Lofa,0.0,Recent mean,False
+2023-07-31,Margibi,0.0,Recent mean,False
+2023-07-31,Maryland,0.0,Recent mean,False
+2023-07-31,Montserrado,0.17192501143118424,Recent mean,False
+2023-07-31,Nimba,1.3575674439871974,Recent mean,False
+2023-07-31,River Gee,0.3379058070416095,Recent mean,False
+2023-07-31,Rivercess,0.0,Recent mean,False
+2023-07-31,Sinoe,0.0,Recent mean,False
+2023-08-31,Bomi,0.0,Recent mean,False
+2023-08-31,Bong,2.6732205456485296,Recent mean,False
+2023-08-31,Gbarpolu,0.0,Recent mean,False
+2023-08-31,Grand Bassa,2.8169486358786764,Recent mean,False
+2023-08-31,Grand Cape Mount,0.0,Recent mean,False
+2023-08-31,Grand Gedeh,0.0,Recent mean,False
+2023-08-31,Grand Kru,0.0,Recent mean,False
+2023-08-31,Lofa,0.0,Recent mean,False
+2023-08-31,Margibi,0.0,Recent mean,False
+2023-08-31,Maryland,0.0,Recent mean,False
+2023-08-31,Montserrado,0.16338972717573538,Recent mean,False
+2023-08-31,Nimba,1.3327236701722303,Recent mean,False
+2023-08-31,River Gee,0.3353147386069197,Recent mean,False
+2023-08-31,Rivercess,0.0,Recent mean,False
+2023-08-31,Sinoe,0.0,Recent mean,False
+2023-09-30,Bomi,0.0,Recent mean,False
+2023-09-30,Bong,2.665802977188437,Recent mean,False
+2023-09-30,Gbarpolu,0.0,Recent mean,False
+2023-09-30,Grand Bassa,2.8354925570289073,Recent mean,False
+2023-09-30,Grand Cape Mount,0.0,Recent mean,False
+2023-09-30,Grand Gedeh,0.0,Recent mean,False
+2023-09-30,Grand Kru,0.0,Recent mean,False
+2023-09-30,Lofa,0.0,Recent mean,False
+2023-09-30,Margibi,0.0,Recent mean,False
+2023-09-30,Maryland,0.0,Recent mean,False
+2023-09-30,Montserrado,0.1670985114057816,Recent mean,False
+2023-09-30,Nimba,1.325661738556115,Recent mean,False
+2023-09-30,River Gee,0.33048823858151705,Recent mean,False
+2023-09-30,Rivercess,0.0,Recent mean,False
+2023-09-30,Sinoe,0.0,Recent mean,False
+2023-10-31,Bomi,0.0,Recent mean,False
+2023-10-31,Bong,2.6650578333248665,Recent mean,False
+2023-10-31,Gbarpolu,0.0,Recent mean,False
+2023-10-31,Grand Bassa,2.837355416687835,Recent mean,False
+2023-10-31,Grand Cape Mount,0.0,Recent mean,False
+2023-10-31,Grand Gedeh,0.0,Recent mean,False
+2023-10-31,Grand Kru,0.0,Recent mean,False
+2023-10-31,Lofa,0.0,Recent mean,False
+2023-10-31,Margibi,0.0,Recent mean,False
+2023-10-31,Maryland,0.0,Recent mean,False
+2023-10-31,Montserrado,0.16747108333756708,Recent mean,False
+2023-10-31,Nimba,1.338650950905181,Recent mean,False
+2023-10-31,River Gee,0.33456959474334874,Recent mean,False
+2023-10-31,Rivercess,0.0,Recent mean,False
+2023-10-31,Sinoe,0.0,Recent mean,False
+2023-11-30,Bomi,0.0,Recent mean,False
+2023-11-30,Bong,2.668027118720611,Recent mean,False
+2023-11-30,Gbarpolu,0.0,Recent mean,False
+2023-11-30,Grand Bassa,2.829932203198473,Recent mean,False
+2023-11-30,Grand Cape Mount,0.0,Recent mean,False
+2023-11-30,Grand Gedeh,0.0,Recent mean,False
+2023-11-30,Grand Kru,0.0,Recent mean,False
+2023-11-30,Lofa,0.0,Recent mean,False
+2023-11-30,Margibi,0.0,Recent mean,False
+2023-11-30,Maryland,0.0,Recent mean,False
+2023-11-30,Montserrado,0.1659864406396947,Recent mean,False
+2023-11-30,Nimba,1.3323454532111754,Recent mean,False
+2023-11-30,River Gee,0.33345752397726186,Recent mean,False
+2023-11-30,Rivercess,0.0,Recent mean,False
+2023-11-30,Sinoe,0.0,Recent mean,False
+2023-12-31,Bomi,0.0,Recent mean,False
+2023-12-31,Bong,2.666295976411305,Recent mean,False
+2023-12-31,Gbarpolu,0.0,Recent mean,False
+2023-12-31,Grand Bassa,2.834260058971738,Recent mean,False
+2023-12-31,Grand Cape Mount,0.0,Recent mean,False
+2023-12-31,Grand Gedeh,0.0,Recent mean,False
+2023-12-31,Grand Kru,0.0,Recent mean,False
+2023-12-31,Lofa,0.0,Recent mean,False
+2023-12-31,Margibi,0.0,Recent mean,False
+2023-12-31,Maryland,0.0,Recent mean,False
+2023-12-31,Montserrado,0.1668520117943478,Recent mean,False
+2023-12-31,Nimba,1.3322193808908238,Recent mean,False
+2023-12-31,River Gee,0.3328384524340426,Recent mean,False
+2023-12-31,Rivercess,0.0,Recent mean,False
+2023-12-31,Sinoe,0.0,Recent mean,False
+2024-01-31,Bomi,0.0,Recent mean,False
+2024-01-31,Bong,2.666460309485594,Recent mean,False
+2024-01-31,Gbarpolu,0.0,Recent mean,False
+2024-01-31,Grand Bassa,2.833849226286015,Recent mean,False
+2024-01-31,Grand Cape Mount,0.0,Recent mean,False
+2024-01-31,Grand Gedeh,0.0,Recent mean,False
+2024-01-31,Grand Kru,0.0,Recent mean,False
+2024-01-31,Lofa,0.0,Recent mean,False
+2024-01-31,Margibi,0.0,Recent mean,False
+2024-01-31,Maryland,0.0,Recent mean,False
+2024-01-31,Montserrado,0.1667698452572032,Recent mean,False
+2024-01-31,Nimba,1.33440526166906,Recent mean,False
+2024-01-31,River Gee,0.33362185705155106,Recent mean,False
+2024-01-31,Rivercess,0.0,Recent mean,False
+2024-01-31,Sinoe,0.0,Recent mean,False
+2024-02-29,Bomi,0.0,Recent mean,False
+2024-02-29,Bong,2.66692780153917,Recent mean,False
+2024-02-29,Gbarpolu,0.0,Recent mean,False
+2024-02-29,Grand Bassa,2.8326804961520753,Recent mean,False
+2024-02-29,Grand Cape Mount,0.0,Recent mean,False
+2024-02-29,Grand Gedeh,0.0,Recent mean,False
+2024-02-29,Grand Kru,0.0,Recent mean,False
+2024-02-29,Lofa,0.0,Recent mean,False
+2024-02-29,Margibi,0.0,Recent mean,False
+2024-02-29,Maryland,0.0,Recent mean,False
+2024-02-29,Montserrado,0.16653609923041524,Recent mean,False
+2024-02-29,Nimba,1.3329900319236865,Recent mean,False
+2024-02-29,River Gee,0.3333059444876185,Recent mean,False
+2024-02-29,Rivercess,0.0,Recent mean,False
+2024-02-29,Sinoe,0.0,Recent mean,False
+2024-03-31,Bomi,0.0,Recent mean,False
+2024-03-31,Bong,2.66656136247869,Recent mean,False
+2024-03-31,Gbarpolu,0.0,Recent mean,False
+2024-03-31,Grand Bassa,2.8335965938032763,Recent mean,False
+2024-03-31,Grand Cape Mount,0.0,Recent mean,False
+2024-03-31,Grand Gedeh,0.0,Recent mean,False
+2024-03-31,Grand Kru,0.0,Recent mean,False
+2024-03-31,Lofa,0.0,Recent mean,False
+2024-03-31,Margibi,0.0,Recent mean,False
+2024-03-31,Maryland,0.0,Recent mean,False
+2024-03-31,Montserrado,0.1667193187606554,Recent mean,False
+2024-03-31,Nimba,1.3332048914945236,Recent mean,False
+2024-03-31,River Gee,0.3332554179910707,Recent mean,False
+2024-03-31,Rivercess,0.0,Recent mean,False
+2024-03-31,Sinoe,0.0,Recent mean,False
+2024-04-30,Bomi,0.0,Recent mean,False
+2024-04-30,Bong,2.6666498245011514,Recent mean,False
+2024-04-30,Gbarpolu,0.0,Recent mean,False
+2024-04-30,Grand Bassa,2.8333754387471224,Recent mean,False
+2024-04-30,Grand Cape Mount,0.0,Recent mean,False
+2024-04-30,Grand Gedeh,0.0,Recent mean,False
+2024-04-30,Grand Kru,0.0,Recent mean,False
+2024-04-30,Lofa,0.0,Recent mean,False
+2024-04-30,Margibi,0.0,Recent mean,False
+2024-04-30,Maryland,0.0,Recent mean,False
+2024-04-30,Montserrado,0.1666750877494246,Recent mean,False
+2024-04-30,Nimba,1.3335333950290902,Recent mean,False
+2024-04-30,River Gee,0.33339440651008007,Recent mean,False
+2024-04-30,Rivercess,0.0,Recent mean,False
+2024-04-30,Sinoe,0.0,Recent mean,False
+2024-05-31,Bomi,0.0,Recent mean,False
+2024-05-31,Bong,2.666712996173004,Recent mean,False
+2024-05-31,Gbarpolu,0.0,Recent mean,False
+2024-05-31,Grand Bassa,2.833217509567491,Recent mean,False
+2024-05-31,Grand Cape Mount,0.0,Recent mean,False
+2024-05-31,Grand Gedeh,0.0,Recent mean,False
+2024-05-31,Grand Kru,0.0,Recent mean,False
+2024-05-31,Lofa,0.0,Recent mean,False
+2024-05-31,Margibi,0.0,Recent mean,False
+2024-05-31,Maryland,0.0,Recent mean,False
+2024-05-31,Montserrado,0.16664350191349842,Recent mean,False
+2024-05-31,Nimba,1.333242772815767,Recent mean,False
+2024-05-31,River Gee,0.3333185896629231,Recent mean,False
+2024-05-31,Rivercess,0.0,Recent mean,False
+2024-05-31,Sinoe,0.0,Recent mean,False
+2024-06-30,Bomi,0.0,Recent mean,False
+2024-06-30,Bong,2.666641394384282,Recent mean,False
+2024-06-30,Gbarpolu,0.0,Recent mean,False
+2024-06-30,Grand Bassa,2.833396514039297,Recent mean,False
+2024-06-30,Grand Cape Mount,0.0,Recent mean,False
+2024-06-30,Grand Gedeh,0.0,Recent mean,False
+2024-06-30,Grand Kru,0.0,Recent mean,False
+2024-06-30,Lofa,0.0,Recent mean,False
+2024-06-30,Margibi,0.0,Recent mean,False
+2024-06-30,Maryland,0.0,Recent mean,False
+2024-06-30,Montserrado,0.16667930280785948,Recent mean,False
+2024-06-30,Nimba,1.3333270197797935,Recent mean,False
+2024-06-30,River Gee,0.33332280472135795,Recent mean,False
+2024-06-30,Rivercess,0.0,Recent mean,False
+2024-06-30,Sinoe,0.0,Recent mean,False
+2024-07-31,Bomi,0.0,Recent mean,False
+2024-07-31,Bong,2.666668071686146,Recent mean,False
+2024-07-31,Gbarpolu,0.0,Recent mean,False
+2024-07-31,Grand Bassa,2.833329820784637,Recent mean,False
+2024-07-31,Grand Cape Mount,0.0,Recent mean,False
+2024-07-31,Grand Gedeh,0.0,Recent mean,False
+2024-07-31,Grand Kru,0.0,Recent mean,False
+2024-07-31,Lofa,0.0,Recent mean,False
+2024-07-31,Margibi,0.0,Recent mean,False
+2024-07-31,Maryland,0.0,Recent mean,False
+2024-07-31,Montserrado,0.1666659641569275,Recent mean,False
+2024-07-31,Nimba,1.3333677292082171,Recent mean,False
+2024-07-31,River Gee,0.333345266964787,Recent mean,False
+2024-07-31,Rivercess,0.0,Recent mean,False
+2024-07-31,Sinoe,0.0,Recent mean,False
+2024-08-31,Bomi,0.0,Recent mean,False
+2024-08-31,Bong,2.6666741540811443,Recent mean,False
+2024-08-31,Gbarpolu,0.0,Recent mean,False
+2024-08-31,Grand Bassa,2.833314614797142,Recent mean,False
+2024-08-31,Grand Cape Mount,0.0,Recent mean,False
+2024-08-31,Grand Gedeh,0.0,Recent mean,False
+2024-08-31,Grand Kru,0.0,Recent mean,False
+2024-08-31,Lofa,0.0,Recent mean,False
+2024-08-31,Margibi,0.0,Recent mean,False
+2024-08-31,Maryland,0.0,Recent mean,False
+2024-08-31,Montserrado,0.16666292295942844,Recent mean,False
+2024-08-31,Nimba,1.333312507267926,Recent mean,False
+2024-08-31,River Gee,0.333328887116356,Recent mean,False
+2024-08-31,Rivercess,0.0,Recent mean,False
+2024-08-31,Sinoe,0.0,Recent mean,False
+2024-09-30,Bomi,0.0,Recent mean,False
+2024-09-30,Bong,2.666661206717191,Recent mean,False
+2024-09-30,Gbarpolu,0.0,Recent mean,False
+2024-09-30,Grand Bassa,2.8333469832070257,Recent mean,False
+2024-09-30,Grand Cape Mount,0.0,Recent mean,False
+2024-09-30,Grand Gedeh,0.0,Recent mean,False
+2024-09-30,Grand Kru,0.0,Recent mean,False
+2024-09-30,Lofa,0.0,Recent mean,False
+2024-09-30,Margibi,0.0,Recent mean,False
+2024-09-30,Maryland,0.0,Recent mean,False
+2024-09-30,Montserrado,0.16666939664140512,Recent mean,False
+2024-09-30,Nimba,1.3333357520853122,Recent mean,False
+2024-09-30,River Gee,0.33333231960083365,Recent mean,False
+2024-09-30,Rivercess,0.0,Recent mean,False
+2024-09-30,Sinoe,0.0,Recent mean,False
+2024-10-31,Bomi,0.0,Recent mean,False
+2024-10-31,Bong,2.6666678108281605,Recent mean,False
+2024-10-31,Gbarpolu,0.0,Recent mean,False
+2024-10-31,Grand Bassa,2.833330472929602,Recent mean,False
+2024-10-31,Grand Cape Mount,0.0,Recent mean,False
+2024-10-31,Grand Gedeh,0.0,Recent mean,False
+2024-10-31,Grand Kru,0.0,Recent mean,False
+2024-10-31,Lofa,0.0,Recent mean,False
+2024-10-31,Margibi,0.0,Recent mean,False
+2024-10-31,Maryland,0.0,Recent mean,False
+2024-10-31,Montserrado,0.16666609458592035,Recent mean,False
+2024-10-31,Nimba,1.3333386628538184,Recent mean,False
+2024-10-31,River Gee,0.3333354912273256,Recent mean,False
+2024-10-31,Rivercess,0.0,Recent mean,False
+2024-10-31,Sinoe,0.0,Recent mean,False
+2024-11-30,Bomi,0.0,Recent mean,False
+2024-11-30,Bong,2.6666677238754986,Recent mean,False
+2024-11-30,Gbarpolu,0.0,Recent mean,False
+2024-11-30,Grand Bassa,2.8333306903112567,Recent mean,False
+2024-11-30,Grand Cape Mount,0.0,Recent mean,False
+2024-11-30,Grand Gedeh,0.0,Recent mean,False
+2024-11-30,Grand Kru,0.0,Recent mean,False
+2024-11-30,Lofa,0.0,Recent mean,False
+2024-11-30,Margibi,0.0,Recent mean,False
+2024-11-30,Maryland,0.0,Recent mean,False
+2024-11-30,Montserrado,0.1666661380622513,Recent mean,False
+2024-11-30,Nimba,1.3333289740690188,Recent mean,False
+2024-11-30,River Gee,0.33333223264817174,Recent mean,False
+2024-11-30,Rivercess,0.0,Recent mean,False
+2024-11-30,Sinoe,0.0,Recent mean,False
+2024-12-31,Bomi,0.0,Recent mean,False
+2024-12-31,Bong,2.6666655804736163,Recent mean,False
+2024-12-31,Gbarpolu,0.0,Recent mean,False
+2024-12-31,Grand Bassa,2.8333360488159616,Recent mean,False
+2024-12-31,Grand Cape Mount,0.0,Recent mean,False
+2024-12-31,Grand Gedeh,0.0,Recent mean,False
+2024-12-31,Grand Kru,0.0,Recent mean,False
+2024-12-31,Lofa,0.0,Recent mean,False
+2024-12-31,Margibi,0.0,Recent mean,False
+2024-12-31,Maryland,0.0,Recent mean,False
+2024-12-31,Montserrado,0.16666720976319227,Recent mean,False
+2024-12-31,Nimba,1.3333344630027166,Recent mean,False
+2024-12-31,River Gee,0.33333334782544366,Recent mean,False
+2024-12-31,Rivercess,0.0,Recent mean,False
+2024-12-31,Sinoe,0.0,Recent mean,False
+2025-01-31,Bomi,0.0,Recent mean,False
+2025-01-31,Bong,2.666667038392425,Recent mean,False
+2025-01-31,Gbarpolu,0.0,Recent mean,False
+2025-01-31,Grand Bassa,2.83333240401894,Recent mean,False
+2025-01-31,Grand Cape Mount,0.0,Recent mean,False
+2025-01-31,Grand Gedeh,0.0,Recent mean,False
+2025-01-31,Grand Kru,0.0,Recent mean,False
+2025-01-31,Lofa,0.0,Recent mean,False
+2025-01-31,Margibi,0.0,Recent mean,False
+2025-01-31,Maryland,0.0,Recent mean,False
+2025-01-31,Montserrado,0.166666480803788,Recent mean,False
+2025-01-31,Nimba,1.3333340333085182,Recent mean,False
+2025-01-31,River Gee,0.3333336905669803,Recent mean,False
+2025-01-31,Rivercess,0.0,Recent mean,False
+2025-01-31,Sinoe,0.0,Recent mean,False
+2025-02-28,Bomi,0.0,Recent mean,False
+2025-02-28,Bong,2.6666667809138467,Recent mean,False
+2025-02-28,Gbarpolu,0.0,Recent mean,False
+2025-02-28,Grand Bassa,2.8333330477153864,Recent mean,False
+2025-02-28,Grand Cape Mount,0.0,Recent mean,False
+2025-02-28,Grand Gedeh,0.0,Recent mean,False
+2025-02-28,Grand Kru,0.0,Recent mean,False
+2025-02-28,Lofa,0.0,Recent mean,False
+2025-02-28,Margibi,0.0,Recent mean,False
+2025-02-28,Maryland,0.0,Recent mean,False
+2025-02-28,Montserrado,0.1666666095430772,Recent mean,False
+2025-02-28,Nimba,1.3333324901267511,Recent mean,False
+2025-02-28,River Gee,0.33333309034686526,Recent mean,False
+2025-02-28,Rivercess,0.0,Recent mean,False
+2025-02-28,Sinoe,0.0,Recent mean,False
+2025-03-31,Bomi,0.0,Recent mean,False
+2025-03-31,Bong,2.666666466593296,Recent mean,False
+2025-03-31,Gbarpolu,0.0,Recent mean,False
+2025-03-31,Grand Bassa,2.833333833516763,Recent mean,False
+2025-03-31,Grand Cape Mount,0.0,Recent mean,False
+2025-03-31,Grand Gedeh,0.0,Recent mean,False
+2025-03-31,Grand Kru,0.0,Recent mean,False
+2025-03-31,Lofa,0.0,Recent mean,False
+2025-03-31,Margibi,0.0,Recent mean,False
+2025-03-31,Maryland,0.0,Recent mean,False
+2025-03-31,Montserrado,0.16666676670335248,Recent mean,False
+2025-03-31,Nimba,1.3333336621459952,Recent mean,False
+2025-03-31,River Gee,0.3333333762464297,Recent mean,False
+2025-03-31,Rivercess,0.0,Recent mean,False
+2025-03-31,Sinoe,0.0,Recent mean,False
+2025-04-30,Bomi,0.0,Recent mean,False
+2025-04-30,Bong,2.666666761966523,Recent mean,False
+2025-04-30,Gbarpolu,0.0,Recent mean,False
+2025-04-30,Grand Bassa,2.8333330950836966,Recent mean,False
+2025-04-30,Grand Cape Mount,0.0,Recent mean,False
+2025-04-30,Grand Gedeh,0.0,Recent mean,False
+2025-04-30,Grand Kru,0.0,Recent mean,False
+2025-04-30,Lofa,0.0,Recent mean,False
+2025-04-30,Margibi,0.0,Recent mean,False
+2025-04-30,Maryland,0.0,Recent mean,False
+2025-04-30,Montserrado,0.1666666190167392,Recent mean,False
+2025-04-30,Nimba,1.333333395193755,Recent mean,False
+2025-04-30,River Gee,0.33333338572009175,Recent mean,False
+2025-04-30,Rivercess,0.0,Recent mean,False
+2025-04-30,Sinoe,0.0,Recent mean,False
+2025-05-31,Bomi,0.0,Recent mean,False
+2025-05-31,Bong,2.6666666698245556,Recent mean,False
+2025-05-31,Gbarpolu,0.0,Recent mean,False
+2025-05-31,Grand Bassa,2.8333333254386157,Recent mean,False
+2025-05-31,Grand Cape Mount,0.0,Recent mean,False
+2025-05-31,Grand Gedeh,0.0,Recent mean,False
+2025-05-31,Grand Kru,0.0,Recent mean,False
+2025-05-31,Lofa,0.0,Recent mean,False
+2025-05-31,Margibi,0.0,Recent mean,False
+2025-05-31,Maryland,0.0,Recent mean,False
+2025-05-31,Montserrado,0.16666666508772296,Recent mean,False
+2025-05-31,Nimba,1.3333331824888337,Recent mean,False
+2025-05-31,River Gee,0.3333332841044622,Recent mean,False
+2025-05-31,Rivercess,0.0,Recent mean,False
+2025-05-31,Sinoe,0.0,Recent mean,False
+2025-06-30,Bomi,0.0,Recent mean,False
+2025-06-30,Bong,2.666666632794792,Recent mean,False
+2025-06-30,Gbarpolu,0.0,Recent mean,False
+2025-06-30,Grand Bassa,2.833333418013025,Recent mean,False
+2025-06-30,Grand Cape Mount,0.0,Recent mean,False
+2025-06-30,Grand Gedeh,0.0,Recent mean,False
+2025-06-30,Grand Kru,0.0,Recent mean,False
+2025-06-30,Lofa,0.0,Recent mean,False
+2025-06-30,Margibi,0.0,Recent mean,False
+2025-06-30,Maryland,0.0,Recent mean,False
+2025-06-30,Montserrado,0.16666668360260486,Recent mean,False
+2025-06-30,Nimba,1.3333334132761945,Recent mean,False
+2025-06-30,River Gee,0.3333333486903279,Recent mean,False
+2025-06-30,Rivercess,0.0,Recent mean,False
+2025-06-30,Sinoe,0.0,Recent mean,False
+2025-07-31,Bomi,0.0,Recent mean,False
+2025-07-31,Bong,2.6666666881952903,Recent mean,False
+2025-07-31,Gbarpolu,0.0,Recent mean,False
+2025-07-31,Grand Bassa,2.833333279511779,Recent mean,False
+2025-07-31,Grand Cape Mount,0.0,Recent mean,False
+2025-07-31,Grand Gedeh,0.0,Recent mean,False
+2025-07-31,Grand Kru,0.0,Recent mean,False
+2025-07-31,Lofa,0.0,Recent mean,False
+2025-07-31,Margibi,0.0,Recent mean,False
+2025-07-31,Maryland,0.0,Recent mean,False
+2025-07-31,Montserrado,0.16666665590235566,Recent mean,False
+2025-07-31,Nimba,1.3333333303195944,Recent mean,False
+2025-07-31,River Gee,0.33333333950496064,Recent mean,False
+2025-07-31,Rivercess,0.0,Recent mean,False
+2025-07-31,Sinoe,0.0,Recent mean,False
+2025-08-31,Bomi,0.0,Recent mean,False
+2025-08-31,Bong,2.6666666636048793,Recent mean,False
+2025-08-31,Gbarpolu,0.0,Recent mean,False
+2025-08-31,Grand Bassa,2.8333333409878065,Recent mean,False
+2025-08-31,Grand Cape Mount,0.0,Recent mean,False
+2025-08-31,Grand Gedeh,0.0,Recent mean,False
+2025-08-31,Grand Kru,0.0,Recent mean,False
+2025-08-31,Lofa,0.0,Recent mean,False
+2025-08-31,Margibi,0.0,Recent mean,False
+2025-08-31,Maryland,0.0,Recent mean,False
+2025-08-31,Montserrado,0.16666666819756115,Recent mean,False
+2025-08-31,Nimba,1.3333333086948742,Recent mean,False
+2025-08-31,River Gee,0.33333332409991695,Recent mean,False
+2025-08-31,Rivercess,0.0,Recent mean,False
+2025-08-31,Sinoe,0.0,Recent mean,False
+2025-09-30,Bomi,0.0,Recent mean,False
+2025-09-30,Bong,2.6666666615316537,Recent mean,False
+2025-09-30,Gbarpolu,0.0,Recent mean,False
+2025-09-30,Grand Bassa,2.83333334617087,Recent mean,False
+2025-09-30,Grand Cape Mount,0.0,Recent mean,False
+2025-09-30,Grand Gedeh,0.0,Recent mean,False
+2025-09-30,Grand Kru,0.0,Recent mean,False
+2025-09-30,Lofa,0.0,Recent mean,False
+2025-09-30,Margibi,0.0,Recent mean,False
+2025-09-30,Maryland,0.0,Recent mean,False
+2025-09-30,Montserrado,0.16666666923417392,Recent mean,False
+2025-09-30,Nimba,1.333333350763554,Recent mean,False
+2025-09-30,River Gee,0.33333333743173515,Recent mean,False
+2025-09-30,Rivercess,0.0,Recent mean,False
+2025-09-30,Sinoe,0.0,Recent mean,False
+2025-10-31,Bomi,0.0,Recent mean,False
+2025-10-31,Bong,2.6666666711106077,Recent mean,False
+2025-10-31,Gbarpolu,0.0,Recent mean,False
+2025-10-31,Grand Bassa,2.833333322223485,Recent mean,False
+2025-10-31,Grand Cape Mount,0.0,Recent mean,False
+2025-10-31,Grand Gedeh,0.0,Recent mean,False
+2025-10-31,Grand Kru,0.0,Recent mean,False
+2025-10-31,Lofa,0.0,Recent mean,False
+2025-10-31,Margibi,0.0,Recent mean,False
+2025-10-31,Maryland,0.0,Recent mean,False
+2025-10-31,Montserrado,0.1666666644446969,Recent mean,False
+2025-10-31,Nimba,1.3333333299260077,Recent mean,False
+2025-10-31,River Gee,0.3333333336788709,Recent mean,False
+2025-10-31,Rivercess,0.0,Recent mean,False
+2025-10-31,Sinoe,0.0,Recent mean,False
+2025-11-30,Bomi,0.0,Recent mean,False
+2025-11-30,Bong,2.6666666654157134,Recent mean,False
+2025-11-30,Gbarpolu,0.0,Recent mean,False
+2025-11-30,Grand Bassa,2.8333333364607203,Recent mean,False
+2025-11-30,Grand Cape Mount,0.0,Recent mean,False
+2025-11-30,Grand Gedeh,0.0,Recent mean,False
+2025-11-30,Grand Kru,0.0,Recent mean,False
+2025-11-30,Lofa,0.0,Recent mean,False
+2025-11-30,Margibi,0.0,Recent mean,False
+2025-11-30,Maryland,0.0,Recent mean,False
+2025-11-30,Montserrado,0.166666667292144,Recent mean,False
+2025-11-30,Nimba,1.3333333297948122,Recent mean,False
+2025-11-30,River Gee,0.333333331736841,Recent mean,False
+2025-11-30,Rivercess,0.0,Recent mean,False
+2025-11-30,Sinoe,0.0,Recent mean,False
+2025-12-31,Bomi,0.0,Recent mean,False
+2025-12-31,Bong,2.666666666019325,Recent mean,False
+2025-12-31,Gbarpolu,0.0,Recent mean,False
+2025-12-31,Grand Bassa,2.8333333349516914,Recent mean,False
+2025-12-31,Grand Cape Mount,0.0,Recent mean,False
+2025-12-31,Grand Gedeh,0.0,Recent mean,False
+2025-12-31,Grand Kru,0.0,Recent mean,False
+2025-12-31,Lofa,0.0,Recent mean,False
+2025-12-31,Margibi,0.0,Recent mean,False
+2025-12-31,Maryland,0.0,Recent mean,False
+2025-12-31,Montserrado,0.16666666699033827,Recent mean,False
+2025-12-31,Nimba,1.3333333368281248,Recent mean,False
+2025-12-31,River Gee,0.3333333342824824,Recent mean,False
+2025-12-31,Rivercess,0.0,Recent mean,False
+2025-12-31,Sinoe,0.0,Recent mean,False
+2026-01-31,Bomi,0.0,Recent mean,False
+2026-01-31,Bong,2.6666666675152153,Recent mean,False
+2026-01-31,Gbarpolu,0.0,Recent mean,False
+2026-01-31,Grand Bassa,2.8333333312119655,Recent mean,False
+2026-01-31,Grand Cape Mount,0.0,Recent mean,False
+2026-01-31,Grand Gedeh,0.0,Recent mean,False
+2026-01-31,Grand Kru,0.0,Recent mean,False
+2026-01-31,Lofa,0.0,Recent mean,False
+2026-01-31,Margibi,0.0,Recent mean,False
+2026-01-31,Maryland,0.0,Recent mean,False
+2026-01-31,Montserrado,0.16666666624239304,Recent mean,False
+2026-01-31,Nimba,1.3333333321829814,Recent mean,False
+2026-01-31,River Gee,0.33333333323273145,Recent mean,False
+2026-01-31,Rivercess,0.0,Recent mean,False
+2026-01-31,Sinoe,0.0,Recent mean,False
+2026-02-28,Bomi,0.0,Recent mean,False
+2026-02-28,Bong,2.666666666316751,Recent mean,False
+2026-02-28,Gbarpolu,0.0,Recent mean,False
+2026-02-28,Grand Bassa,2.8333333342081257,Recent mean,False
+2026-02-28,Grand Cape Mount,0.0,Recent mean,False
+2026-02-28,Grand Gedeh,0.0,Recent mean,False
+2026-02-28,Grand Kru,0.0,Recent mean,False
+2026-02-28,Lofa,0.0,Recent mean,False
+2026-02-28,Margibi,0.0,Recent mean,False
+2026-02-28,Maryland,0.0,Recent mean,False
+2026-02-28,Montserrado,0.1666666668416251,Recent mean,False
+2026-02-28,Nimba,1.3333333329353063,Recent mean,False
+2026-02-28,River Gee,0.3333333330840183,Recent mean,False
+2026-02-28,Rivercess,0.0,Recent mean,False
+2026-02-28,Sinoe,0.0,Recent mean,False
+2026-03-31,Bomi,0.0,Recent mean,False
+2026-03-31,Bong,2.666666666617097,Recent mean,False
+2026-03-31,Gbarpolu,0.0,Recent mean,False
+2026-03-31,Grand Bassa,2.833333333457261,Recent mean,False
+2026-03-31,Grand Cape Mount,0.0,Recent mean,False
+2026-03-31,Grand Gedeh,0.0,Recent mean,False
+2026-03-31,Grand Kru,0.0,Recent mean,False
+2026-03-31,Lofa,0.0,Recent mean,False
+2026-03-31,Margibi,0.0,Recent mean,False
+2026-03-31,Maryland,0.0,Recent mean,False
+2026-03-31,Montserrado,0.16666666669145214,Recent mean,False
+2026-03-31,Nimba,1.3333333339821376,Recent mean,False
+2026-03-31,River Gee,0.3333333335330774,Recent mean,False
+2026-03-31,Rivercess,0.0,Recent mean,False
+2026-03-31,Sinoe,0.0,Recent mean,False
+2026-04-30,Bomi,0.0,Recent mean,False
+2026-04-30,Bong,2.6666666668163543,Recent mean,False
+2026-04-30,Gbarpolu,0.0,Recent mean,False
+2026-04-30,Grand Bassa,2.8333333329591177,Recent mean,False
+2026-04-30,Grand Cape Mount,0.0,Recent mean,False
+2026-04-30,Grand Gedeh,0.0,Recent mean,False
+2026-04-30,Grand Kru,0.0,Recent mean,False
+2026-04-30,Lofa,0.0,Recent mean,False
+2026-04-30,Margibi,0.0,Recent mean,False
+2026-04-30,Maryland,0.0,Recent mean,False
+2026-04-30,Montserrado,0.16666666659182341,Recent mean,False
+2026-04-30,Nimba,1.3333333330334751,Recent mean,False
+2026-04-30,River Gee,0.33333333328327575,Recent mean,False
+2026-04-30,Rivercess,0.0,Recent mean,False
+2026-04-30,Sinoe,0.0,Recent mean,False
+2026-05-31,Bomi,0.0,Recent mean,False
+2026-05-31,Bong,2.6666666665834007,Recent mean,False
+2026-05-31,Gbarpolu,0.0,Recent mean,False
+2026-05-31,Grand Bassa,2.8333333335415016,Recent mean,False
+2026-05-31,Grand Cape Mount,0.0,Recent mean,False
+2026-05-31,Grand Gedeh,0.0,Recent mean,False
+2026-05-31,Grand Kru,0.0,Recent mean,False
+2026-05-31,Lofa,0.0,Recent mean,False
+2026-05-31,Margibi,0.0,Recent mean,False
+2026-05-31,Maryland,0.0,Recent mean,False
+2026-05-31,Montserrado,0.16666666670830022,Recent mean,False
+2026-05-31,Nimba,1.333333333316973,Recent mean,False
+2026-05-31,River Gee,0.3333333333001238,Recent mean,False
+2026-05-31,Rivercess,0.0,Recent mean,False
+2026-05-31,Sinoe,0.0,Recent mean,False
+2026-06-30,Bomi,0.0,Recent mean,False
+2026-06-30,Bong,2.6666666666722842,Recent mean,False
+2026-06-30,Gbarpolu,0.0,Recent mean,False
+2026-06-30,Grand Bassa,2.8333333333192936,Recent mean,False
+2026-06-30,Grand Cape Mount,0.0,Recent mean,False
+2026-06-30,Grand Gedeh,0.0,Recent mean,False
+2026-06-30,Grand Kru,0.0,Recent mean,False
+2026-06-30,Lofa,0.0,Recent mean,False
+2026-06-30,Margibi,0.0,Recent mean,False
+2026-06-30,Maryland,0.0,Recent mean,False
+2026-06-30,Montserrado,0.16666666666385857,Recent mean,False
+2026-06-30,Nimba,1.3333333334441952,Recent mean,False
+2026-06-30,River Gee,0.33333333337215904,Recent mean,False
+2026-06-30,Rivercess,0.0,Recent mean,False
+2026-06-30,Sinoe,0.0,Recent mean,False
+2026-07-31,Bomi,0.0,Recent mean,False
+2026-07-31,Bong,2.66666666669068,Recent mean,False
+2026-07-31,Gbarpolu,0.0,Recent mean,False
+2026-07-31,Grand Bassa,2.833333333273304,Recent mean,False
+2026-07-31,Grand Cape Mount,0.0,Recent mean,False
+2026-07-31,Grand Gedeh,0.0,Recent mean,False
+2026-07-31,Grand Kru,0.0,Recent mean,False
+2026-07-31,Lofa,0.0,Recent mean,False
+2026-07-31,Margibi,0.0,Recent mean,False
+2026-07-31,Maryland,0.0,Recent mean,False
+2026-07-31,Montserrado,0.1666666666546607,Recent mean,False
+2026-07-31,Nimba,1.3333333332648811,Recent mean,False
+2026-07-31,River Gee,0.33333333331851955,Recent mean,False
+2026-07-31,Rivercess,0.0,Recent mean,False
+2026-07-31,Sinoe,0.0,Recent mean,False
+2026-08-31,Bomi,0.0,Recent mean,False
+2026-08-31,Bong,2.6666666666487884,Recent mean,False
+2026-08-31,Gbarpolu,0.0,Recent mean,False
+2026-08-31,Grand Bassa,2.833333333378033,Recent mean,False
+2026-08-31,Grand Cape Mount,0.0,Recent mean,False
+2026-08-31,Grand Gedeh,0.0,Recent mean,False
+2026-08-31,Grand Kru,0.0,Recent mean,False
+2026-08-31,Lofa,0.0,Recent mean,False
+2026-08-31,Margibi,0.0,Recent mean,False
+2026-08-31,Maryland,0.0,Recent mean,False
+2026-08-31,Montserrado,0.16666666667560648,Recent mean,False
+2026-08-31,Nimba,1.3333333333420165,Recent mean,False
+2026-08-31,River Gee,0.3333333333302675,Recent mean,False
+2026-08-31,Rivercess,0.0,Recent mean,False
+2026-08-31,Sinoe,0.0,Recent mean,False
+2026-09-30,Bomi,0.0,Recent mean,False
+2026-09-30,Bong,2.6666666666705843,Recent mean,False
+2026-09-30,Gbarpolu,0.0,Recent mean,False
+2026-09-30,Grand Bassa,2.833333333323543,Recent mean,False
+2026-09-30,Grand Cape Mount,0.0,Recent mean,False
+2026-09-30,Grand Gedeh,0.0,Recent mean,False
+2026-09-30,Grand Kru,0.0,Recent mean,False
+2026-09-30,Lofa,0.0,Recent mean,False
+2026-09-30,Margibi,0.0,Recent mean,False
+2026-09-30,Maryland,0.0,Recent mean,False
+2026-09-30,Montserrado,0.16666666666470858,Recent mean,False
+2026-09-30,Nimba,1.3333333333503645,Recent mean,False
+2026-09-30,River Gee,0.3333333333403154,Recent mean,False
+2026-09-30,Rivercess,0.0,Recent mean,False
+2026-09-30,Sinoe,0.0,Recent mean,False
+2026-10-31,Bomi,0.0,Recent mean,False
+2026-10-31,Bong,2.6666666666700176,Recent mean,False
+2026-10-31,Gbarpolu,0.0,Recent mean,False
+2026-10-31,Grand Bassa,2.83333333332496,Recent mean,False
+2026-10-31,Grand Cape Mount,0.0,Recent mean,False
+2026-10-31,Grand Gedeh,0.0,Recent mean,False
+2026-10-31,Grand Kru,0.0,Recent mean,False
+2026-10-31,Lofa,0.0,Recent mean,False
+2026-10-31,Margibi,0.0,Recent mean,False
+2026-10-31,Maryland,0.0,Recent mean,False
+2026-10-31,Montserrado,0.1666666666649919,Recent mean,False
+2026-10-31,Nimba,1.3333333333190875,Recent mean,False
+2026-10-31,River Gee,0.33333333332970083,Recent mean,False
+2026-10-31,Rivercess,0.0,Recent mean,False
+2026-10-31,Sinoe,0.0,Recent mean,False
+2026-11-30,Bomi,0.0,Recent mean,False
+2026-11-30,Bong,2.66666666666313,Recent mean,False
+2026-11-30,Gbarpolu,0.0,Recent mean,False
+2026-11-30,Grand Bassa,2.8333333333421784,Recent mean,False
+2026-11-30,Grand Cape Mount,0.0,Recent mean,False
+2026-11-30,Grand Gedeh,0.0,Recent mean,False
+2026-11-30,Grand Kru,0.0,Recent mean,False
+2026-11-30,Lofa,0.0,Recent mean,False
+2026-11-30,Margibi,0.0,Recent mean,False
+2026-11-30,Maryland,0.0,Recent mean,False
+2026-11-30,Montserrado,0.16666666666843566,Recent mean,False
+2026-11-30,Nimba,1.333333333337156,Recent mean,False
+2026-11-30,River Gee,0.3333333333334279,Recent mean,False
+2026-11-30,Rivercess,0.0,Recent mean,False
+2026-11-30,Sinoe,0.0,Recent mean,False
+2026-12-31,Bomi,0.0,Recent mean,False
+2026-12-31,Bong,2.666666666667911,Recent mean,False
+2026-12-31,Gbarpolu,0.0,Recent mean,False
+2026-12-31,Grand Bassa,2.833333333330227,Recent mean,False
+2026-12-31,Grand Cape Mount,0.0,Recent mean,False
+2026-12-31,Grand Gedeh,0.0,Recent mean,False
+2026-12-31,Grand Kru,0.0,Recent mean,False
+2026-12-31,Lofa,0.0,Recent mean,False
+2026-12-31,Margibi,0.0,Recent mean,False
+2026-12-31,Maryland,0.0,Recent mean,False
+2026-12-31,Montserrado,0.16666666666604538,Recent mean,False
+2026-12-31,Nimba,1.333333333335536,Recent mean,False
+2026-12-31,River Gee,0.3333333333344814,Recent mean,False
+2026-12-31,Rivercess,0.0,Recent mean,False
+2026-12-31,Sinoe,0.0,Recent mean,False
+2023-01-31,Bomi,0.04341445118188858,Poisson XGBoost,False
+2023-01-31,Bong,2.779299259185791,Poisson XGBoost,False
+2023-01-31,Gbarpolu,0.04341445118188858,Poisson XGBoost,False
+2023-01-31,Grand Bassa,2.8396522998809814,Poisson XGBoost,False
+2023-01-31,Grand Cape Mount,0.04341445118188858,Poisson XGBoost,False
+2023-01-31,Grand Gedeh,0.04341445118188858,Poisson XGBoost,False
+2023-01-31,Grand Kru,0.04341445118188858,Poisson XGBoost,False
+2023-01-31,Lofa,0.04341445118188858,Poisson XGBoost,False
+2023-01-31,Margibi,0.04341445118188858,Poisson XGBoost,False
+2023-01-31,Maryland,0.04341445118188858,Poisson XGBoost,False
+2023-01-31,Montserrado,0.33675289154052734,Poisson XGBoost,False
+2023-01-31,Nimba,1.5205098390579224,Poisson XGBoost,False
+2023-01-31,River Gee,0.33675289154052734,Poisson XGBoost,False
+2023-01-31,Rivercess,0.04341445118188858,Poisson XGBoost,False
+2023-01-31,Sinoe,0.04341445118188858,Poisson XGBoost,False
+2023-02-28,Bomi,0.04341445118188858,Poisson XGBoost,False
+2023-02-28,Bong,2.689232587814331,Poisson XGBoost,False
+2023-02-28,Gbarpolu,0.04341445118188858,Poisson XGBoost,False
+2023-02-28,Grand Bassa,2.8666253089904785,Poisson XGBoost,False
+2023-02-28,Grand Cape Mount,0.04341445118188858,Poisson XGBoost,False
+2023-02-28,Grand Gedeh,0.04341445118188858,Poisson XGBoost,False
+2023-02-28,Grand Kru,0.04341445118188858,Poisson XGBoost,False
+2023-02-28,Lofa,0.04341445118188858,Poisson XGBoost,False
+2023-02-28,Margibi,0.04341445118188858,Poisson XGBoost,False
+2023-02-28,Maryland,0.04341445118188858,Poisson XGBoost,False
+2023-02-28,Montserrado,0.2036687582731247,Poisson XGBoost,False
+2023-02-28,Nimba,2.530259847640991,Poisson XGBoost,False
+2023-02-28,River Gee,0.33675289154052734,Poisson XGBoost,False
+2023-02-28,Rivercess,0.04341445118188858,Poisson XGBoost,False
+2023-02-28,Sinoe,0.04341445118188858,Poisson XGBoost,False
+2023-03-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2023-03-31,Bong,1.3801038265228271,Poisson XGBoost,False
+2023-03-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2023-03-31,Grand Bassa,1.6612401008605957,Poisson XGBoost,False
+2023-03-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2023-03-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2023-03-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2023-03-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2023-03-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2023-03-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2023-03-31,Montserrado,0.1490689069032669,Poisson XGBoost,False
+2023-03-31,Nimba,0.9286030530929565,Poisson XGBoost,False
+2023-03-31,River Gee,0.1490689069032669,Poisson XGBoost,False
+2023-03-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2023-03-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2023-04-30,Bomi,0.04012267664074898,Poisson XGBoost,False
+2023-04-30,Bong,1.1025991439819336,Poisson XGBoost,False
+2023-04-30,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2023-04-30,Grand Bassa,1.3272058963775635,Poisson XGBoost,False
+2023-04-30,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2023-04-30,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2023-04-30,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2023-04-30,Lofa,0.04012267664074898,Poisson XGBoost,False
+2023-04-30,Margibi,0.04012267664074898,Poisson XGBoost,False
+2023-04-30,Maryland,0.04012267664074898,Poisson XGBoost,False
+2023-04-30,Montserrado,0.1448158472776413,Poisson XGBoost,False
+2023-04-30,Nimba,0.7418838739395142,Poisson XGBoost,False
+2023-04-30,River Gee,0.1448158472776413,Poisson XGBoost,False
+2023-04-30,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2023-04-30,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2023-05-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2023-05-31,Bong,1.1395270824432373,Poisson XGBoost,False
+2023-05-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2023-05-31,Grand Bassa,1.3716561794281006,Poisson XGBoost,False
+2023-05-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2023-05-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2023-05-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2023-05-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2023-05-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2023-05-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2023-05-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2023-05-31,Nimba,0.7667308449745178,Poisson XGBoost,False
+2023-05-31,River Gee,0.1448158472776413,Poisson XGBoost,False
+2023-05-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2023-05-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2023-06-30,Bomi,0.04012267664074898,Poisson XGBoost,False
+2023-06-30,Bong,1.125057578086853,Poisson XGBoost,False
+2023-06-30,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2023-06-30,Grand Bassa,1.3018872737884521,Poisson XGBoost,False
+2023-06-30,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2023-06-30,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2023-06-30,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2023-06-30,Lofa,0.04012267664074898,Poisson XGBoost,False
+2023-06-30,Margibi,0.04012267664074898,Poisson XGBoost,False
+2023-06-30,Maryland,0.04012267664074898,Poisson XGBoost,False
+2023-06-30,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2023-06-30,Nimba,0.7569950819015503,Poisson XGBoost,False
+2023-06-30,River Gee,0.141069695353508,Poisson XGBoost,False
+2023-06-30,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2023-06-30,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2023-07-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2023-07-31,Bong,1.0961885452270508,Poisson XGBoost,False
+2023-07-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2023-07-31,Grand Bassa,1.3361735343933105,Poisson XGBoost,False
+2023-07-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2023-07-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2023-07-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2023-07-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2023-07-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2023-07-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2023-07-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2023-07-31,Nimba,0.7569950819015503,Poisson XGBoost,False
+2023-07-31,River Gee,0.141069695353508,Poisson XGBoost,False
+2023-07-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2023-07-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2023-08-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2023-08-31,Bong,0.8045560717582703,Poisson XGBoost,False
+2023-08-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2023-08-31,Grand Bassa,0.9555302858352661,Poisson XGBoost,False
+2023-08-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2023-08-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2023-08-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2023-08-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2023-08-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2023-08-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2023-08-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2023-08-31,Nimba,0.7375705242156982,Poisson XGBoost,False
+2023-08-31,River Gee,0.141069695353508,Poisson XGBoost,False
+2023-08-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2023-08-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2023-09-30,Bomi,0.04012267664074898,Poisson XGBoost,False
+2023-09-30,Bong,1.1331486701965332,Poisson XGBoost,False
+2023-09-30,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2023-09-30,Grand Bassa,1.546465277671814,Poisson XGBoost,False
+2023-09-30,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2023-09-30,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2023-09-30,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2023-09-30,Lofa,0.04012267664074898,Poisson XGBoost,False
+2023-09-30,Margibi,0.04012267664074898,Poisson XGBoost,False
+2023-09-30,Maryland,0.04012267664074898,Poisson XGBoost,False
+2023-09-30,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2023-09-30,Nimba,0.677115261554718,Poisson XGBoost,False
+2023-09-30,River Gee,0.04012267664074898,Poisson XGBoost,False
+2023-09-30,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2023-09-30,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2023-10-31,Bomi,0.04268140345811844,Poisson XGBoost,False
+2023-10-31,Bong,1.5884150266647339,Poisson XGBoost,False
+2023-10-31,Gbarpolu,0.04268140345811844,Poisson XGBoost,False
+2023-10-31,Grand Bassa,1.6497455835342407,Poisson XGBoost,False
+2023-10-31,Grand Cape Mount,0.04268140345811844,Poisson XGBoost,False
+2023-10-31,Grand Gedeh,0.04268140345811844,Poisson XGBoost,False
+2023-10-31,Grand Kru,0.04268140345811844,Poisson XGBoost,False
+2023-10-31,Lofa,0.04268140345811844,Poisson XGBoost,False
+2023-10-31,Margibi,0.04268140345811844,Poisson XGBoost,False
+2023-10-31,Maryland,0.04268140345811844,Poisson XGBoost,False
+2023-10-31,Montserrado,0.2651478052139282,Poisson XGBoost,False
+2023-10-31,Nimba,1.068011999130249,Poisson XGBoost,False
+2023-10-31,River Gee,0.04268140345811844,Poisson XGBoost,False
+2023-10-31,Rivercess,0.04268140345811844,Poisson XGBoost,False
+2023-10-31,Sinoe,0.04268140345811844,Poisson XGBoost,False
+2023-11-30,Bomi,0.04268140345811844,Poisson XGBoost,False
+2023-11-30,Bong,1.5476561784744263,Poisson XGBoost,False
+2023-11-30,Gbarpolu,0.04268140345811844,Poisson XGBoost,False
+2023-11-30,Grand Bassa,1.693192958831787,Poisson XGBoost,False
+2023-11-30,Grand Cape Mount,0.04268140345811844,Poisson XGBoost,False
+2023-11-30,Grand Gedeh,0.04268140345811844,Poisson XGBoost,False
+2023-11-30,Grand Kru,0.04268140345811844,Poisson XGBoost,False
+2023-11-30,Lofa,0.04268140345811844,Poisson XGBoost,False
+2023-11-30,Margibi,0.04268140345811844,Poisson XGBoost,False
+2023-11-30,Maryland,0.04268140345811844,Poisson XGBoost,False
+2023-11-30,Montserrado,0.0467427521944046,Poisson XGBoost,False
+2023-11-30,Nimba,1.0406067371368408,Poisson XGBoost,False
+2023-11-30,River Gee,0.24210993945598602,Poisson XGBoost,False
+2023-11-30,Rivercess,0.04268140345811844,Poisson XGBoost,False
+2023-11-30,Sinoe,0.04268140345811844,Poisson XGBoost,False
+2023-12-31,Bomi,0.04268140345811844,Poisson XGBoost,False
+2023-12-31,Bong,1.5476561784744263,Poisson XGBoost,False
+2023-12-31,Gbarpolu,0.04268140345811844,Poisson XGBoost,False
+2023-12-31,Grand Bassa,1.693192958831787,Poisson XGBoost,False
+2023-12-31,Grand Cape Mount,0.04268140345811844,Poisson XGBoost,False
+2023-12-31,Grand Gedeh,0.04268140345811844,Poisson XGBoost,False
+2023-12-31,Grand Kru,0.04268140345811844,Poisson XGBoost,False
+2023-12-31,Lofa,0.04268140345811844,Poisson XGBoost,False
+2023-12-31,Margibi,0.04268140345811844,Poisson XGBoost,False
+2023-12-31,Maryland,0.04268140345811844,Poisson XGBoost,False
+2023-12-31,Montserrado,0.0467427521944046,Poisson XGBoost,False
+2023-12-31,Nimba,1.068011999130249,Poisson XGBoost,False
+2023-12-31,River Gee,0.04268140345811844,Poisson XGBoost,False
+2023-12-31,Rivercess,0.04268140345811844,Poisson XGBoost,False
+2023-12-31,Sinoe,0.04268140345811844,Poisson XGBoost,False
+2024-01-31,Bomi,0.04341445118188858,Poisson XGBoost,False
+2024-01-31,Bong,1.65860116481781,Poisson XGBoost,False
+2024-01-31,Gbarpolu,0.04341445118188858,Poisson XGBoost,False
+2024-01-31,Grand Bassa,1.7680089473724365,Poisson XGBoost,False
+2024-01-31,Grand Cape Mount,0.04341445118188858,Poisson XGBoost,False
+2024-01-31,Grand Gedeh,0.04341445118188858,Poisson XGBoost,False
+2024-01-31,Grand Kru,0.04341445118188858,Poisson XGBoost,False
+2024-01-31,Lofa,0.04341445118188858,Poisson XGBoost,False
+2024-01-31,Margibi,0.04341445118188858,Poisson XGBoost,False
+2024-01-31,Maryland,0.04341445118188858,Poisson XGBoost,False
+2024-01-31,Montserrado,0.047545552253723145,Poisson XGBoost,False
+2024-01-31,Nimba,1.1152034997940063,Poisson XGBoost,False
+2024-01-31,River Gee,0.04341445118188858,Poisson XGBoost,False
+2024-01-31,Rivercess,0.04341445118188858,Poisson XGBoost,False
+2024-01-31,Sinoe,0.04341445118188858,Poisson XGBoost,False
+2024-02-29,Bomi,0.04341445118188858,Poisson XGBoost,False
+2024-02-29,Bong,1.6048519611358643,Poisson XGBoost,False
+2024-02-29,Gbarpolu,0.04341445118188858,Poisson XGBoost,False
+2024-02-29,Grand Bassa,1.7107144594192505,Poisson XGBoost,False
+2024-02-29,Grand Cape Mount,0.04341445118188858,Poisson XGBoost,False
+2024-02-29,Grand Gedeh,0.04341445118188858,Poisson XGBoost,False
+2024-02-29,Grand Kru,0.04341445118188858,Poisson XGBoost,False
+2024-02-29,Lofa,0.04341445118188858,Poisson XGBoost,False
+2024-02-29,Margibi,0.04341445118188858,Poisson XGBoost,False
+2024-02-29,Maryland,0.04341445118188858,Poisson XGBoost,False
+2024-02-29,Montserrado,0.047545552253723145,Poisson XGBoost,False
+2024-02-29,Nimba,1.0790637731552124,Poisson XGBoost,False
+2024-02-29,River Gee,0.04341445118188858,Poisson XGBoost,False
+2024-02-29,Rivercess,0.04341445118188858,Poisson XGBoost,False
+2024-02-29,Sinoe,0.04341445118188858,Poisson XGBoost,False
+2024-03-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2024-03-31,Bong,0.9869459271430969,Poisson XGBoost,False
+2024-03-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2024-03-31,Grand Bassa,1.6612401008605957,Poisson XGBoost,False
+2024-03-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2024-03-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2024-03-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2024-03-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2024-03-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2024-03-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2024-03-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2024-03-31,Nimba,0.9411581158638,Poisson XGBoost,False
+2024-03-31,River Gee,0.04012267664074898,Poisson XGBoost,False
+2024-03-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2024-03-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2024-04-30,Bomi,0.04012267664074898,Poisson XGBoost,False
+2024-04-30,Bong,0.7884954810142517,Poisson XGBoost,False
+2024-04-30,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2024-04-30,Grand Bassa,1.3272058963775635,Poisson XGBoost,False
+2024-04-30,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2024-04-30,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2024-04-30,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2024-04-30,Lofa,0.04012267664074898,Poisson XGBoost,False
+2024-04-30,Margibi,0.04012267664074898,Poisson XGBoost,False
+2024-04-30,Maryland,0.04012267664074898,Poisson XGBoost,False
+2024-04-30,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2024-04-30,Nimba,0.7519144415855408,Poisson XGBoost,False
+2024-04-30,River Gee,0.04012267664074898,Poisson XGBoost,False
+2024-04-30,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2024-04-30,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2024-05-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2024-05-31,Bong,0.8259214162826538,Poisson XGBoost,False
+2024-05-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2024-05-31,Grand Bassa,0.9809048175811768,Poisson XGBoost,False
+2024-05-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2024-05-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2024-05-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2024-05-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2024-05-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2024-05-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2024-05-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2024-05-31,Nimba,0.5553296208381653,Poisson XGBoost,False
+2024-05-31,River Gee,0.04012267664074898,Poisson XGBoost,False
+2024-05-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2024-05-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2024-06-30,Bomi,0.04012267664074898,Poisson XGBoost,False
+2024-06-30,Bong,0.8045560717582703,Poisson XGBoost,False
+2024-06-30,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2024-06-30,Grand Bassa,0.9684494733810425,Poisson XGBoost,False
+2024-06-30,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2024-06-30,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2024-06-30,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2024-06-30,Lofa,0.04012267664074898,Poisson XGBoost,False
+2024-06-30,Margibi,0.04012267664074898,Poisson XGBoost,False
+2024-06-30,Maryland,0.04012267664074898,Poisson XGBoost,False
+2024-06-30,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2024-06-30,Nimba,0.5409641265869141,Poisson XGBoost,False
+2024-06-30,River Gee,0.04012267664074898,Poisson XGBoost,False
+2024-06-30,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2024-06-30,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2024-07-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2024-07-31,Bong,0.8045560717582703,Poisson XGBoost,False
+2024-07-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2024-07-31,Grand Bassa,0.9684494733810425,Poisson XGBoost,False
+2024-07-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2024-07-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2024-07-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2024-07-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2024-07-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2024-07-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2024-07-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2024-07-31,Nimba,0.49517467617988586,Poisson XGBoost,False
+2024-07-31,River Gee,0.04012267664074898,Poisson XGBoost,False
+2024-07-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2024-07-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2024-08-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2024-08-31,Bong,0.530217170715332,Poisson XGBoost,False
+2024-08-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2024-08-31,Grand Bassa,0.9684494733810425,Poisson XGBoost,False
+2024-08-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2024-08-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2024-08-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2024-08-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2024-08-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2024-08-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2024-08-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2024-08-31,Nimba,0.49517467617988586,Poisson XGBoost,False
+2024-08-31,River Gee,0.04012267664074898,Poisson XGBoost,False
+2024-08-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2024-08-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2024-09-30,Bomi,0.04012267664074898,Poisson XGBoost,False
+2024-09-30,Bong,0.663663387298584,Poisson XGBoost,False
+2024-09-30,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2024-09-30,Grand Bassa,1.5871927738189697,Poisson XGBoost,False
+2024-09-30,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2024-09-30,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2024-09-30,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2024-09-30,Lofa,0.04012267664074898,Poisson XGBoost,False
+2024-09-30,Margibi,0.04012267664074898,Poisson XGBoost,False
+2024-09-30,Maryland,0.04012267664074898,Poisson XGBoost,False
+2024-09-30,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2024-09-30,Nimba,0.6198012828826904,Poisson XGBoost,False
+2024-09-30,River Gee,0.04012267664074898,Poisson XGBoost,False
+2024-09-30,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2024-09-30,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2024-10-31,Bomi,0.04268140345811844,Poisson XGBoost,False
+2024-10-31,Bong,0.8761753439903259,Poisson XGBoost,False
+2024-10-31,Gbarpolu,0.04268140345811844,Poisson XGBoost,False
+2024-10-31,Grand Bassa,1.693192958831787,Poisson XGBoost,False
+2024-10-31,Grand Cape Mount,0.04268140345811844,Poisson XGBoost,False
+2024-10-31,Grand Gedeh,0.04268140345811844,Poisson XGBoost,False
+2024-10-31,Grand Kru,0.04268140345811844,Poisson XGBoost,False
+2024-10-31,Lofa,0.04268140345811844,Poisson XGBoost,False
+2024-10-31,Margibi,0.04268140345811844,Poisson XGBoost,False
+2024-10-31,Maryland,0.04268140345811844,Poisson XGBoost,False
+2024-10-31,Montserrado,0.0467427521944046,Poisson XGBoost,False
+2024-10-31,Nimba,0.8857455849647522,Poisson XGBoost,False
+2024-10-31,River Gee,0.04268140345811844,Poisson XGBoost,False
+2024-10-31,Rivercess,0.04268140345811844,Poisson XGBoost,False
+2024-10-31,Sinoe,0.04268140345811844,Poisson XGBoost,False
+2024-11-30,Bomi,0.04268140345811844,Poisson XGBoost,False
+2024-11-30,Bong,1.0467945337295532,Poisson XGBoost,False
+2024-11-30,Gbarpolu,0.04268140345811844,Poisson XGBoost,False
+2024-11-30,Grand Bassa,1.693192958831787,Poisson XGBoost,False
+2024-11-30,Grand Cape Mount,0.04268140345811844,Poisson XGBoost,False
+2024-11-30,Grand Gedeh,0.04268140345811844,Poisson XGBoost,False
+2024-11-30,Grand Kru,0.04268140345811844,Poisson XGBoost,False
+2024-11-30,Lofa,0.04268140345811844,Poisson XGBoost,False
+2024-11-30,Margibi,0.04268140345811844,Poisson XGBoost,False
+2024-11-30,Maryland,0.04268140345811844,Poisson XGBoost,False
+2024-11-30,Montserrado,0.0467427521944046,Poisson XGBoost,False
+2024-11-30,Nimba,1.068011999130249,Poisson XGBoost,False
+2024-11-30,River Gee,0.04268140345811844,Poisson XGBoost,False
+2024-11-30,Rivercess,0.04268140345811844,Poisson XGBoost,False
+2024-11-30,Sinoe,0.04268140345811844,Poisson XGBoost,False
+2024-12-31,Bomi,0.04268140345811844,Poisson XGBoost,False
+2024-12-31,Bong,1.0467945337295532,Poisson XGBoost,False
+2024-12-31,Gbarpolu,0.04268140345811844,Poisson XGBoost,False
+2024-12-31,Grand Bassa,1.693192958831787,Poisson XGBoost,False
+2024-12-31,Grand Cape Mount,0.04268140345811844,Poisson XGBoost,False
+2024-12-31,Grand Gedeh,0.04268140345811844,Poisson XGBoost,False
+2024-12-31,Grand Kru,0.04268140345811844,Poisson XGBoost,False
+2024-12-31,Lofa,0.04268140345811844,Poisson XGBoost,False
+2024-12-31,Margibi,0.04268140345811844,Poisson XGBoost,False
+2024-12-31,Maryland,0.04268140345811844,Poisson XGBoost,False
+2024-12-31,Montserrado,0.0467427521944046,Poisson XGBoost,False
+2024-12-31,Nimba,1.068011999130249,Poisson XGBoost,False
+2024-12-31,River Gee,0.04268140345811844,Poisson XGBoost,False
+2024-12-31,Rivercess,0.04268140345811844,Poisson XGBoost,False
+2024-12-31,Sinoe,0.04268140345811844,Poisson XGBoost,False
+2025-01-31,Bomi,0.04341445118188858,Poisson XGBoost,False
+2025-01-31,Bong,1.0930484533309937,Poisson XGBoost,False
+2025-01-31,Gbarpolu,0.04341445118188858,Poisson XGBoost,False
+2025-01-31,Grand Bassa,1.7680089473724365,Poisson XGBoost,False
+2025-01-31,Grand Cape Mount,0.04341445118188858,Poisson XGBoost,False
+2025-01-31,Grand Gedeh,0.04341445118188858,Poisson XGBoost,False
+2025-01-31,Grand Kru,0.04341445118188858,Poisson XGBoost,False
+2025-01-31,Lofa,0.04341445118188858,Poisson XGBoost,False
+2025-01-31,Margibi,0.04341445118188858,Poisson XGBoost,False
+2025-01-31,Maryland,0.04341445118188858,Poisson XGBoost,False
+2025-01-31,Montserrado,0.047545552253723145,Poisson XGBoost,False
+2025-01-31,Nimba,1.1152034997940063,Poisson XGBoost,False
+2025-01-31,River Gee,0.04341445118188858,Poisson XGBoost,False
+2025-01-31,Rivercess,0.04341445118188858,Poisson XGBoost,False
+2025-01-31,Sinoe,0.04341445118188858,Poisson XGBoost,False
+2025-02-28,Bomi,0.04341445118188858,Poisson XGBoost,False
+2025-02-28,Bong,1.057626724243164,Poisson XGBoost,False
+2025-02-28,Gbarpolu,0.04341445118188858,Poisson XGBoost,False
+2025-02-28,Grand Bassa,1.7107144594192505,Poisson XGBoost,False
+2025-02-28,Grand Cape Mount,0.04341445118188858,Poisson XGBoost,False
+2025-02-28,Grand Gedeh,0.04341445118188858,Poisson XGBoost,False
+2025-02-28,Grand Kru,0.04341445118188858,Poisson XGBoost,False
+2025-02-28,Lofa,0.04341445118188858,Poisson XGBoost,False
+2025-02-28,Margibi,0.04341445118188858,Poisson XGBoost,False
+2025-02-28,Maryland,0.04341445118188858,Poisson XGBoost,False
+2025-02-28,Montserrado,0.047545552253723145,Poisson XGBoost,False
+2025-02-28,Nimba,1.0790637731552124,Poisson XGBoost,False
+2025-02-28,River Gee,0.04341445118188858,Poisson XGBoost,False
+2025-02-28,Rivercess,0.04341445118188858,Poisson XGBoost,False
+2025-02-28,Sinoe,0.04341445118188858,Poisson XGBoost,False
+2025-03-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2025-03-31,Bong,0.6592092514038086,Poisson XGBoost,False
+2025-03-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2025-03-31,Grand Bassa,1.6612401008605957,Poisson XGBoost,False
+2025-03-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2025-03-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2025-03-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2025-03-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2025-03-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2025-03-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2025-03-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2025-03-31,Nimba,0.6725707650184631,Poisson XGBoost,False
+2025-03-31,River Gee,0.04012267664074898,Poisson XGBoost,False
+2025-03-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2025-03-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2025-04-30,Bomi,0.04012267664074898,Poisson XGBoost,False
+2025-04-30,Bong,0.5266586542129517,Poisson XGBoost,False
+2025-04-30,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2025-04-30,Grand Bassa,1.3272058963775635,Poisson XGBoost,False
+2025-04-30,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2025-04-30,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2025-04-30,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2025-04-30,Lofa,0.04012267664074898,Poisson XGBoost,False
+2025-04-30,Margibi,0.04012267664074898,Poisson XGBoost,False
+2025-04-30,Maryland,0.04012267664074898,Poisson XGBoost,False
+2025-04-30,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2025-04-30,Nimba,0.5373334288597107,Poisson XGBoost,False
+2025-04-30,River Gee,0.04012267664074898,Poisson XGBoost,False
+2025-04-30,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2025-04-30,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2025-05-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2025-05-31,Bong,0.5442972779273987,Poisson XGBoost,False
+2025-05-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2025-05-31,Grand Bassa,0.9809048175811768,Poisson XGBoost,False
+2025-05-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2025-05-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2025-05-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2025-05-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2025-05-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2025-05-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2025-05-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2025-05-31,Nimba,0.5553296208381653,Poisson XGBoost,False
+2025-05-31,River Gee,0.04012267664074898,Poisson XGBoost,False
+2025-05-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2025-05-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2025-06-30,Bomi,0.04012267664074898,Poisson XGBoost,False
+2025-06-30,Bong,0.48982447385787964,Poisson XGBoost,False
+2025-06-30,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2025-06-30,Grand Bassa,0.9684494733810425,Poisson XGBoost,False
+2025-06-30,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2025-06-30,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2025-06-30,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2025-06-30,Lofa,0.04012267664074898,Poisson XGBoost,False
+2025-06-30,Margibi,0.04012267664074898,Poisson XGBoost,False
+2025-06-30,Maryland,0.04012267664074898,Poisson XGBoost,False
+2025-06-30,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2025-06-30,Nimba,0.49517467617988586,Poisson XGBoost,False
+2025-06-30,River Gee,0.04012267664074898,Poisson XGBoost,False
+2025-06-30,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2025-06-30,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2025-07-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2025-07-31,Bong,0.48982447385787964,Poisson XGBoost,False
+2025-07-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2025-07-31,Grand Bassa,0.9684494733810425,Poisson XGBoost,False
+2025-07-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2025-07-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2025-07-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2025-07-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2025-07-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2025-07-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2025-07-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2025-07-31,Nimba,0.49517467617988586,Poisson XGBoost,False
+2025-07-31,River Gee,0.04012267664074898,Poisson XGBoost,False
+2025-07-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2025-07-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2025-08-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2025-08-31,Bong,0.48982447385787964,Poisson XGBoost,False
+2025-08-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2025-08-31,Grand Bassa,0.9684494733810425,Poisson XGBoost,False
+2025-08-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2025-08-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2025-08-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2025-08-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2025-08-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2025-08-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2025-08-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2025-08-31,Nimba,0.49517467617988586,Poisson XGBoost,False
+2025-08-31,River Gee,0.04012267664074898,Poisson XGBoost,False
+2025-08-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2025-08-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2025-09-30,Bomi,0.04012267664074898,Poisson XGBoost,False
+2025-09-30,Bong,0.613104522228241,Poisson XGBoost,False
+2025-09-30,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2025-09-30,Grand Bassa,1.5871927738189697,Poisson XGBoost,False
+2025-09-30,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2025-09-30,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2025-09-30,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2025-09-30,Lofa,0.04012267664074898,Poisson XGBoost,False
+2025-09-30,Margibi,0.04012267664074898,Poisson XGBoost,False
+2025-09-30,Maryland,0.04012267664074898,Poisson XGBoost,False
+2025-09-30,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2025-09-30,Nimba,0.6198012828826904,Poisson XGBoost,False
+2025-09-30,River Gee,0.04012267664074898,Poisson XGBoost,False
+2025-09-30,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2025-09-30,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2025-10-31,Bomi,0.04268140345811844,Poisson XGBoost,False
+2025-10-31,Bong,0.8761753439903259,Poisson XGBoost,False
+2025-10-31,Gbarpolu,0.04268140345811844,Poisson XGBoost,False
+2025-10-31,Grand Bassa,1.693192958831787,Poisson XGBoost,False
+2025-10-31,Grand Cape Mount,0.04268140345811844,Poisson XGBoost,False
+2025-10-31,Grand Gedeh,0.04268140345811844,Poisson XGBoost,False
+2025-10-31,Grand Kru,0.04268140345811844,Poisson XGBoost,False
+2025-10-31,Lofa,0.04268140345811844,Poisson XGBoost,False
+2025-10-31,Margibi,0.04268140345811844,Poisson XGBoost,False
+2025-10-31,Maryland,0.04268140345811844,Poisson XGBoost,False
+2025-10-31,Montserrado,0.0467427521944046,Poisson XGBoost,False
+2025-10-31,Nimba,0.8857455849647522,Poisson XGBoost,False
+2025-10-31,River Gee,0.04268140345811844,Poisson XGBoost,False
+2025-10-31,Rivercess,0.04268140345811844,Poisson XGBoost,False
+2025-10-31,Sinoe,0.04268140345811844,Poisson XGBoost,False
+2025-11-30,Bomi,0.04268140345811844,Poisson XGBoost,False
+2025-11-30,Bong,0.8761753439903259,Poisson XGBoost,False
+2025-11-30,Gbarpolu,0.04268140345811844,Poisson XGBoost,False
+2025-11-30,Grand Bassa,1.693192958831787,Poisson XGBoost,False
+2025-11-30,Grand Cape Mount,0.04268140345811844,Poisson XGBoost,False
+2025-11-30,Grand Gedeh,0.04268140345811844,Poisson XGBoost,False
+2025-11-30,Grand Kru,0.04268140345811844,Poisson XGBoost,False
+2025-11-30,Lofa,0.04268140345811844,Poisson XGBoost,False
+2025-11-30,Margibi,0.04268140345811844,Poisson XGBoost,False
+2025-11-30,Maryland,0.04268140345811844,Poisson XGBoost,False
+2025-11-30,Montserrado,0.0467427521944046,Poisson XGBoost,False
+2025-11-30,Nimba,1.068011999130249,Poisson XGBoost,False
+2025-11-30,River Gee,0.04268140345811844,Poisson XGBoost,False
+2025-11-30,Rivercess,0.04268140345811844,Poisson XGBoost,False
+2025-11-30,Sinoe,0.04268140345811844,Poisson XGBoost,False
+2025-12-31,Bomi,0.04268140345811844,Poisson XGBoost,False
+2025-12-31,Bong,1.0467945337295532,Poisson XGBoost,False
+2025-12-31,Gbarpolu,0.04268140345811844,Poisson XGBoost,False
+2025-12-31,Grand Bassa,1.693192958831787,Poisson XGBoost,False
+2025-12-31,Grand Cape Mount,0.04268140345811844,Poisson XGBoost,False
+2025-12-31,Grand Gedeh,0.04268140345811844,Poisson XGBoost,False
+2025-12-31,Grand Kru,0.04268140345811844,Poisson XGBoost,False
+2025-12-31,Lofa,0.04268140345811844,Poisson XGBoost,False
+2025-12-31,Margibi,0.04268140345811844,Poisson XGBoost,False
+2025-12-31,Maryland,0.04268140345811844,Poisson XGBoost,False
+2025-12-31,Montserrado,0.0467427521944046,Poisson XGBoost,False
+2025-12-31,Nimba,1.068011999130249,Poisson XGBoost,False
+2025-12-31,River Gee,0.04268140345811844,Poisson XGBoost,False
+2025-12-31,Rivercess,0.04268140345811844,Poisson XGBoost,False
+2025-12-31,Sinoe,0.04268140345811844,Poisson XGBoost,False
+2026-01-31,Bomi,0.04341445118188858,Poisson XGBoost,False
+2026-01-31,Bong,1.0930484533309937,Poisson XGBoost,False
+2026-01-31,Gbarpolu,0.04341445118188858,Poisson XGBoost,False
+2026-01-31,Grand Bassa,1.7680089473724365,Poisson XGBoost,False
+2026-01-31,Grand Cape Mount,0.04341445118188858,Poisson XGBoost,False
+2026-01-31,Grand Gedeh,0.04341445118188858,Poisson XGBoost,False
+2026-01-31,Grand Kru,0.04341445118188858,Poisson XGBoost,False
+2026-01-31,Lofa,0.04341445118188858,Poisson XGBoost,False
+2026-01-31,Margibi,0.04341445118188858,Poisson XGBoost,False
+2026-01-31,Maryland,0.04341445118188858,Poisson XGBoost,False
+2026-01-31,Montserrado,0.047545552253723145,Poisson XGBoost,False
+2026-01-31,Nimba,1.1152034997940063,Poisson XGBoost,False
+2026-01-31,River Gee,0.04341445118188858,Poisson XGBoost,False
+2026-01-31,Rivercess,0.04341445118188858,Poisson XGBoost,False
+2026-01-31,Sinoe,0.04341445118188858,Poisson XGBoost,False
+2026-02-28,Bomi,0.04341445118188858,Poisson XGBoost,False
+2026-02-28,Bong,1.057626724243164,Poisson XGBoost,False
+2026-02-28,Gbarpolu,0.04341445118188858,Poisson XGBoost,False
+2026-02-28,Grand Bassa,1.7107144594192505,Poisson XGBoost,False
+2026-02-28,Grand Cape Mount,0.04341445118188858,Poisson XGBoost,False
+2026-02-28,Grand Gedeh,0.04341445118188858,Poisson XGBoost,False
+2026-02-28,Grand Kru,0.04341445118188858,Poisson XGBoost,False
+2026-02-28,Lofa,0.04341445118188858,Poisson XGBoost,False
+2026-02-28,Margibi,0.04341445118188858,Poisson XGBoost,False
+2026-02-28,Maryland,0.04341445118188858,Poisson XGBoost,False
+2026-02-28,Montserrado,0.047545552253723145,Poisson XGBoost,False
+2026-02-28,Nimba,1.0790637731552124,Poisson XGBoost,False
+2026-02-28,River Gee,0.04341445118188858,Poisson XGBoost,False
+2026-02-28,Rivercess,0.04341445118188858,Poisson XGBoost,False
+2026-02-28,Sinoe,0.04341445118188858,Poisson XGBoost,False
+2026-03-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2026-03-31,Bong,0.6592092514038086,Poisson XGBoost,False
+2026-03-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2026-03-31,Grand Bassa,1.6612401008605957,Poisson XGBoost,False
+2026-03-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2026-03-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2026-03-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2026-03-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2026-03-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2026-03-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2026-03-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2026-03-31,Nimba,0.6725707650184631,Poisson XGBoost,False
+2026-03-31,River Gee,0.04012267664074898,Poisson XGBoost,False
+2026-03-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2026-03-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2026-04-30,Bomi,0.04012267664074898,Poisson XGBoost,False
+2026-04-30,Bong,0.5266586542129517,Poisson XGBoost,False
+2026-04-30,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2026-04-30,Grand Bassa,1.3272058963775635,Poisson XGBoost,False
+2026-04-30,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2026-04-30,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2026-04-30,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2026-04-30,Lofa,0.04012267664074898,Poisson XGBoost,False
+2026-04-30,Margibi,0.04012267664074898,Poisson XGBoost,False
+2026-04-30,Maryland,0.04012267664074898,Poisson XGBoost,False
+2026-04-30,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2026-04-30,Nimba,0.5373334288597107,Poisson XGBoost,False
+2026-04-30,River Gee,0.04012267664074898,Poisson XGBoost,False
+2026-04-30,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2026-04-30,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2026-05-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2026-05-31,Bong,0.5442972779273987,Poisson XGBoost,False
+2026-05-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2026-05-31,Grand Bassa,0.9809048175811768,Poisson XGBoost,False
+2026-05-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2026-05-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2026-05-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2026-05-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2026-05-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2026-05-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2026-05-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2026-05-31,Nimba,0.5553296208381653,Poisson XGBoost,False
+2026-05-31,River Gee,0.04012267664074898,Poisson XGBoost,False
+2026-05-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2026-05-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2026-06-30,Bomi,0.04012267664074898,Poisson XGBoost,False
+2026-06-30,Bong,0.48982447385787964,Poisson XGBoost,False
+2026-06-30,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2026-06-30,Grand Bassa,0.9684494733810425,Poisson XGBoost,False
+2026-06-30,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2026-06-30,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2026-06-30,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2026-06-30,Lofa,0.04012267664074898,Poisson XGBoost,False
+2026-06-30,Margibi,0.04012267664074898,Poisson XGBoost,False
+2026-06-30,Maryland,0.04012267664074898,Poisson XGBoost,False
+2026-06-30,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2026-06-30,Nimba,0.49517467617988586,Poisson XGBoost,False
+2026-06-30,River Gee,0.04012267664074898,Poisson XGBoost,False
+2026-06-30,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2026-06-30,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2026-07-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2026-07-31,Bong,0.48982447385787964,Poisson XGBoost,False
+2026-07-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2026-07-31,Grand Bassa,0.9684494733810425,Poisson XGBoost,False
+2026-07-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2026-07-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2026-07-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2026-07-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2026-07-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2026-07-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2026-07-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2026-07-31,Nimba,0.49517467617988586,Poisson XGBoost,False
+2026-07-31,River Gee,0.04012267664074898,Poisson XGBoost,False
+2026-07-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2026-07-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2026-08-31,Bomi,0.04012267664074898,Poisson XGBoost,False
+2026-08-31,Bong,0.48982447385787964,Poisson XGBoost,False
+2026-08-31,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2026-08-31,Grand Bassa,0.9684494733810425,Poisson XGBoost,False
+2026-08-31,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2026-08-31,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2026-08-31,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2026-08-31,Lofa,0.04012267664074898,Poisson XGBoost,False
+2026-08-31,Margibi,0.04012267664074898,Poisson XGBoost,False
+2026-08-31,Maryland,0.04012267664074898,Poisson XGBoost,False
+2026-08-31,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2026-08-31,Nimba,0.49517467617988586,Poisson XGBoost,False
+2026-08-31,River Gee,0.04012267664074898,Poisson XGBoost,False
+2026-08-31,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2026-08-31,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2026-09-30,Bomi,0.04012267664074898,Poisson XGBoost,False
+2026-09-30,Bong,0.613104522228241,Poisson XGBoost,False
+2026-09-30,Gbarpolu,0.04012267664074898,Poisson XGBoost,False
+2026-09-30,Grand Bassa,1.5871927738189697,Poisson XGBoost,False
+2026-09-30,Grand Cape Mount,0.04012267664074898,Poisson XGBoost,False
+2026-09-30,Grand Gedeh,0.04012267664074898,Poisson XGBoost,False
+2026-09-30,Grand Kru,0.04012267664074898,Poisson XGBoost,False
+2026-09-30,Lofa,0.04012267664074898,Poisson XGBoost,False
+2026-09-30,Margibi,0.04012267664074898,Poisson XGBoost,False
+2026-09-30,Maryland,0.04012267664074898,Poisson XGBoost,False
+2026-09-30,Montserrado,0.04394054785370827,Poisson XGBoost,False
+2026-09-30,Nimba,0.6198012828826904,Poisson XGBoost,False
+2026-09-30,River Gee,0.04012267664074898,Poisson XGBoost,False
+2026-09-30,Rivercess,0.04012267664074898,Poisson XGBoost,False
+2026-09-30,Sinoe,0.04012267664074898,Poisson XGBoost,False
+2026-10-31,Bomi,0.04268140345811844,Poisson XGBoost,False
+2026-10-31,Bong,0.8761753439903259,Poisson XGBoost,False
+2026-10-31,Gbarpolu,0.04268140345811844,Poisson XGBoost,False
+2026-10-31,Grand Bassa,1.693192958831787,Poisson XGBoost,False
+2026-10-31,Grand Cape Mount,0.04268140345811844,Poisson XGBoost,False
+2026-10-31,Grand Gedeh,0.04268140345811844,Poisson XGBoost,False
+2026-10-31,Grand Kru,0.04268140345811844,Poisson XGBoost,False
+2026-10-31,Lofa,0.04268140345811844,Poisson XGBoost,False
+2026-10-31,Margibi,0.04268140345811844,Poisson XGBoost,False
+2026-10-31,Maryland,0.04268140345811844,Poisson XGBoost,False
+2026-10-31,Montserrado,0.0467427521944046,Poisson XGBoost,False
+2026-10-31,Nimba,0.8857455849647522,Poisson XGBoost,False
+2026-10-31,River Gee,0.04268140345811844,Poisson XGBoost,False
+2026-10-31,Rivercess,0.04268140345811844,Poisson XGBoost,False
+2026-10-31,Sinoe,0.04268140345811844,Poisson XGBoost,False
+2026-11-30,Bomi,0.04268140345811844,Poisson XGBoost,False
+2026-11-30,Bong,0.8761753439903259,Poisson XGBoost,False
+2026-11-30,Gbarpolu,0.04268140345811844,Poisson XGBoost,False
+2026-11-30,Grand Bassa,1.693192958831787,Poisson XGBoost,False
+2026-11-30,Grand Cape Mount,0.04268140345811844,Poisson XGBoost,False
+2026-11-30,Grand Gedeh,0.04268140345811844,Poisson XGBoost,False
+2026-11-30,Grand Kru,0.04268140345811844,Poisson XGBoost,False
+2026-11-30,Lofa,0.04268140345811844,Poisson XGBoost,False
+2026-11-30,Margibi,0.04268140345811844,Poisson XGBoost,False
+2026-11-30,Maryland,0.04268140345811844,Poisson XGBoost,False
+2026-11-30,Montserrado,0.0467427521944046,Poisson XGBoost,False
+2026-11-30,Nimba,1.068011999130249,Poisson XGBoost,False
+2026-11-30,River Gee,0.04268140345811844,Poisson XGBoost,False
+2026-11-30,Rivercess,0.04268140345811844,Poisson XGBoost,False
+2026-11-30,Sinoe,0.04268140345811844,Poisson XGBoost,False
+2026-12-31,Bomi,0.04268140345811844,Poisson XGBoost,False
+2026-12-31,Bong,1.0467945337295532,Poisson XGBoost,False
+2026-12-31,Gbarpolu,0.04268140345811844,Poisson XGBoost,False
+2026-12-31,Grand Bassa,1.693192958831787,Poisson XGBoost,False
+2026-12-31,Grand Cape Mount,0.04268140345811844,Poisson XGBoost,False
+2026-12-31,Grand Gedeh,0.04268140345811844,Poisson XGBoost,False
+2026-12-31,Grand Kru,0.04268140345811844,Poisson XGBoost,False
+2026-12-31,Lofa,0.04268140345811844,Poisson XGBoost,False
+2026-12-31,Margibi,0.04268140345811844,Poisson XGBoost,False
+2026-12-31,Maryland,0.04268140345811844,Poisson XGBoost,False
+2026-12-31,Montserrado,0.0467427521944046,Poisson XGBoost,False
+2026-12-31,Nimba,1.068011999130249,Poisson XGBoost,False
+2026-12-31,River Gee,0.04268140345811844,Poisson XGBoost,False
+2026-12-31,Rivercess,0.04268140345811844,Poisson XGBoost,False
+2026-12-31,Sinoe,0.04268140345811844,Poisson XGBoost,False

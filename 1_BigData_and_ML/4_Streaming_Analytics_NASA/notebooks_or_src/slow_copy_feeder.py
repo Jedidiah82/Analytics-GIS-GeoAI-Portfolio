@@ -1,33 +1,20 @@
-﻿import argparse, os, shutil, time, random, glob
+"""Optional manual feeder: deterministic order, atomic publish, no overwrites.
 
-def dribble(src, dst, interval, pattern="*"):
-    os.makedirs(dst, exist_ok=True)
-    files = sorted(glob.glob(os.path.join(src, pattern)))
-    if not files:
-        print(f"No files found in {src}")
-        return
-    # Randomize order a bit so windows don’t align perfectly with file boundaries
-    random.shuffle(files)
+Feed the event-time-ordered chunks created by prepare_replay.py. The measured
+experiment uses run_replay.py, which drains each file rather than sleeping.
+"""
+from pathlib import Path
+import argparse,time
+from run_replay import publish_file
 
-    print(f"Dribbling {len(files)} files from {src} -> {dst} every {interval}s")
-    for i, f in enumerate(files, 1):
-        base = os.path.basename(f)
-        tmp  = os.path.join(dst, f".{base}.tmp")      # copy to temp name first
-        final= os.path.join(dst, base)                # then rename atomically
-        try:
-            shutil.copy2(f, tmp)
-            os.replace(tmp, final)
-            print(f"[{i}/{len(files)}] -> {final}")
-        except Exception as e:
-            print(f"ERROR copying {f}: {e}")
-        time.sleep(interval)
-    print("Done.")
+def feed(source,destination,interval=2.,pattern='*.log'):
+    if interval<0:raise ValueError('Interval must be nonnegative')
+    files=sorted(Path(source).glob(pattern))
+    if not files:raise ValueError('No input files matched')
+    destination=Path(destination);destination.mkdir(parents=True,exist_ok=True)
+    for i,file in enumerate(files):
+        publish_file(file,destination);print('Published',file.name,flush=True)
+        if i+1<len(files):time.sleep(interval)
 
-if __name__ == "__main__":
-    p = argparse.ArgumentParser()
-    p.add_argument("--src", required=True, help="Backlog folder with input files")
-    p.add_argument("--dst", required=True, help="Streaming 'stream_in' folder")
-    p.add_argument("--interval", type=float, default=2.0, help="seconds between files")
-    p.add_argument("--pattern", default="*", help="glob pattern, e.g. *.log or *")
-    args = p.parse_args()
-    dribble(args.src, args.dst, args.interval, args.pattern)
+if __name__=='__main__':
+    p=argparse.ArgumentParser();p.add_argument('--src',required=True);p.add_argument('--dst',required=True);p.add_argument('--interval',type=float,default=2.);p.add_argument('--pattern',default='*.log');a=p.parse_args();feed(a.src,a.dst,a.interval,a.pattern)

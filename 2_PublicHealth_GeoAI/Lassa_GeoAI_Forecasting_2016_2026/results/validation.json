@@ -1,0 +1,12 @@
+{
+  "models_completed": true,
+  "tests_passed": 8,
+  "metric_recomputation": "Independent NumPy recomputation matches all pooled MAE and RMSE values",
+  "observed_rows": 1095,
+  "historical_total": 251,
+  "historical_zero_counties": 7,
+  "future_predictions_nonnegative": true,
+  "website_typecheck": "passed",
+  "website_production_build": "passed",
+  "browser_visual_check": "Unavailable: local browser connections timed out; figure images checked directly"
+}

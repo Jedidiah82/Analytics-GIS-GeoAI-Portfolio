@@ -1,0 +1,233 @@
+{
+  "run_date": "2026-10-18",
+  "inputs": [
+    {
+      "name": "NASA_access_log_Jul95",
+      "sha256": "96551161b5bdcaacbc3c17fa108191c478fb35dfe87895c16e34a8f6552bf29a",
+      "lines": 1891715
+    },
+    {
+      "name": "NASA_access_log_Aug95",
+      "sha256": "c656a5665fcf9c8442bc9e09762de1411f1b97e7bbee65803c6738cdde4cf302",
+      "lines": 1569898
+    }
+  ],
+  "chunk_rows": 100000,
+  "chunks": [
+    {
+      "name": "chunk_0000.log",
+      "rows": 100000,
+      "sha256": "5cd4fb80a1c5505ff719d8559402527767cfd0a2ea1ce6058e643fde17314eaa"
+    },
+    {
+      "name": "chunk_0001.log",
+      "rows": 100000,
+      "sha256": "83878855afbb5c7d7af811767b7231da4173ad13163076f0049f3b13110d8a53"
+    },
+    {
+      "name": "chunk_0002.log",
+      "rows": 100000,
+      "sha256": "fc0381303f44f7438005d102d9f4259a396f21a6408cf0edef9dad0a98a59efe"
+    },
+    {
+      "name": "chunk_0003.log",
+      "rows": 100000,
+      "sha256": "2f1945022012643a216ecb20ce0f83368eaaaa72b7328d01e5776476a0b73289"
+    },
+    {
+      "name": "chunk_0004.log",
+      "rows": 100000,
+      "sha256": "18e854b741ac2ca7d12b9f207eb75c8b10badcbab80dcdefcc6457729eda289c"
+    },
+    {
+      "name": "chunk_0005.log",
+      "rows": 100000,
+      "sha256": "18fa323ec9aa3a15cfabd36eb007c322ac71c7f59e067d281e38e4ccd2fd9d2f"
+    },
+    {
+      "name": "chunk_0006.log",
+      "rows": 100000,
+      "sha256": "8a5066727468e587e77eafda302079d9ea87d99815b940d6dcd86a61f1307205"
+    },
+    {
+      "name": "chunk_0007.log",
+      "rows": 100000,
+      "sha256": "b53259ac900c206a09c976869b36b7a6e4c4830ba546735851f8d0d13e9e816f"
+    },
+    {
+      "name": "chunk_0008.log",
+      "rows": 100000,
+      "sha256": "6dabc4ae3f1673e150cc2135843d3f468416e561d5082fe96d117bc785dd20f0"
+    },
+    {
+      "name": "chunk_0009.log",
+      "rows": 100000,
+      "sha256": "efd5d2a50db26c2ca4ebd546a428f45185f9e46634af4532ea0aae2684bbf992"
+    },
+    {
+      "name": "chunk_0010.log",
+      "rows": 100000,
+      "sha256": "5a3e4fb4e09c47ad4e90b4ea0828159f14905c074e8e0b5b8c43d989983c5ca8"
+    },
+    {
+      "name": "chunk_0011.log",
+      "rows": 100000,
+      "sha256": "88ad5f733ec0259c06d3ab975cd8d0ff6d62b21fbf929c8212fb867624ea73eb"
+    },
+    {
+      "name": "chunk_0012.log",
+      "rows": 100000,
+      "sha256": "056816dfb2d96666c670bc2afff5325419d20534a23fe1462d3b8b67d533748d"
+    },
+    {
+      "name": "chunk_0013.log",
+      "rows": 100000,
+      "sha256": "3108f5fee9fe0628f2fb4db01501a432671cb1075482796515d6441e10273af2"
+    },
+    {
+      "name": "chunk_0014.log",
+      "rows": 100000,
+      "sha256": "052621c46afcb536b89c1ef35451b705eaf625d523e06ec4ec3296fcacb5c156"
+    },
+    {
+      "name": "chunk_0015.log",
+      "rows": 100000,
+      "sha256": "11b15344858f8f8e8e073355eb32e4899e82f88607ff2a55ce1e5b3934e1128c"
+    },
+    {
+      "name": "chunk_0016.log",
+      "rows": 100000,
+      "sha256": "e54cea3220311d38467e34ade11bdf180a8244bf6889a7e65e3598068470223a"
+    },
+    {
+      "name": "chunk_0017.log",
+      "rows": 100000,
+      "sha256": "38bf711c32bd04f2464286f5d4397cee575ae6b9361d131d5962e2c06178d99a"
+    },
+    {
+      "name": "chunk_0018.log",
+      "rows": 100000,
+      "sha256": "a2b7c207a9fda320a64ba8de54e3be3da78904296dfd90245c45156d0121b60a"
+    },
+    {
+      "name": "chunk_0019.log",
+      "rows": 100000,
+      "sha256": "2fe447d1fddedc9bbdb2f1486e8f464113620e7d880b80f2dd1543fe0e1b9706"
+    },
+    {
+      "name": "chunk_0020.log",
+      "rows": 100000,
+      "sha256": "5b6e65386b353e8a4d4deed8aa1325bef61d79795bf1a9fc7155803f4364b662"
+    },
+    {
+      "name": "chunk_0021.log",
+      "rows": 100000,
+      "sha256": "3868efc84ae1f791076a0189336d3689775ab0ebb508f46f07371fb2a12761fb"
+    },
+    {
+      "name": "chunk_0022.log",
+      "rows": 100000,
+      "sha256": "278177018325f7ca1f155023e4ad4f45110d6460bbb0eb3452e675f22cc4b9ef"
+    },
+    {
+      "name": "chunk_0023.log",
+      "rows": 100000,
+      "sha256": "b85dd0a73c5a96bb937c5198572bf16c8a6c87789b9cae382a97ae5e7107bd06"
+    },
+    {
+      "name": "chunk_0024.log",
+      "rows": 100000,
+      "sha256": "a64eeeed8e8edee340491600857a4ca4c163bd3af5895fe36e2789b794d8dc32"
+    },
+    {
+      "name": "chunk_0025.log",
+      "rows": 100000,
+      "sha256": "0460f59a1709df6aca86f5025758f029d6061e605308c858f9d8a2defac5f9bd"
+    },
+    {
+      "name": "chunk_0026.log",
+      "rows": 100000,
+      "sha256": "90743277db9b9d417d473cacbe60ea241a753ab36a8f58345e71676be5154abb"
+    },
+    {
+      "name": "chunk_0027.log",
+      "rows": 100000,
+      "sha256": "62dc8046e7b5103ee41a47f2c54dc915042d31a250891a503311f3a2f996bd24"
+    },
+    {
+      "name": "chunk_0028.log",
+      "rows": 100000,
+      "sha256": "b07d2113e239a94145f68f2fe7d63e4de55d8ded400d458d96dbc6ebff88deab"
+    },
+    {
+      "name": "chunk_0029.log",
+      "rows": 100000,
+      "sha256": "f857577525084d52ee47b2e4d212f74db7d900664780c5887fc93b89453de748"
+    },
+    {
+      "name": "chunk_0030.log",
+      "rows": 100000,
+      "sha256": "8c4c11d67b12d3932a3d11f1422523b12bd01e185b7535bc469a68061b8df18a"
+    },
+    {
+      "name": "chunk_0031.log",
+      "rows": 100000,
+      "sha256": "c1e7311489128f012a113c41e80ce7329b5a26bdfa9a5cb226af4779161c8e92"
+    },
+    {
+      "name": "chunk_0032.log",
+      "rows": 100000,
+      "sha256": "9b160635cc9a0604901e8d7f8f76eca81130410dced2b02b902c0623475ac083"
+    },
+    {
+      "name": "chunk_0033.log",
+      "rows": 100000,
+      "sha256": "4ded5c0501cfd7db4d68287c10c1167949de36f87b93c6e3fb0ff4c354466412"
+    },
+    {
+      "name": "chunk_0034.log",
+      "rows": 61613,
+      "sha256": "a14406c1d923251c3ea501887760c74a472510e5c49d2a666d570f91f7281643"
+    }
+  ],
+  "parser": "Common-log structure + valid timestamp/status; request protocol optional; unknown bytes remain null",
+  "query": {
+    "window": "1 minute",
+    "watermark": "2 minutes",
+    "output_mode": "append",
+    "sink": "native Parquet file sink",
+    "max_files_per_trigger": 1,
+    "shuffle_partitions": 4
+  },
+  "execution": {
+    "master": "local[4]",
+    "single_machine": true,
+    "platform": "Windows",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "java_version": "11.0.28",
+    "max_jvm_heap_bytes": 4294967296
+  },
+  "versions": {
+    "python": "3.11.9",
+    "pyspark": "3.5.1",
+    "pandas": "2.2.3",
+    "numpy": "2.2.6"
+  },
+  "code_sha256": {
+    "6_streaming_nasa_logs.py": "633dff1032d79833f9a49c1d35952c8a6741c14f5fdbfaae1dc33c878d01cac2",
+    "nasa_streaming_counts.py": "d101ad10162e0b5f840187f1b316a7ee5ee29bb7042aa08566511562dd054b2c",
+    "plot_results.py": "38cddf7360f8fe89f3489903ee3cd9f2d70cda61bc7c8b6d55767f6000994b76",
+    "prepare_replay.py": "b36f02734ec3223e46e9f1a91d535f1f7534368097fc2376a9c8ecf2c6366325",
+    "run_replay.py": "f4bf92fc23abecaafc9397ebae9764b18ba55bc0137115e53a349b74bab48031",
+    "slow_copy_feeder.py": "161db73b272a792b2af775fe9bec6d55a65b1a250bf524a2aeea5c762c3ce449",
+    "test_stream_contract.py": "c185b61a9e12f861969e4dadc5b68f2108a682b3a15592287ae9ec4a5f35e773"
+  },
+  "scope": "Full local July and August NASA source files; event-time-sorted finite replay; graceful checkpoint restart; no crash fault injection",
+  "executed_stream_source_sha256": {
+    "nasa_streaming_counts.py": "d101ad10162e0b5f840187f1b316a7ee5ee29bb7042aa08566511562dd054b2c",
+    "run_replay.py": "f4bf92fc23abecaafc9397ebae9764b18ba55bc0137115e53a349b74bab48031",
+    "prepare_replay.py": "b36f02734ec3223e46e9f1a91d535f1f7534368097fc2376a9c8ecf2c6366325",
+    "test_stream_contract.py": "c185b61a9e12f861969e4dadc5b68f2108a682b3a15592287ae9ec4a5f35e773"
+  },
+  "code_hash_scope": "Executed query, replay, preparation and test sources match run; helper hashes describe final packaged presentation sources"
+}

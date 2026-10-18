@@ -1,0 +1,16 @@
+{
+  "parser_and_progress_tests_passed": 10,
+  "synthetic_stream_contracts": "passed",
+  "independent_reference_requests": 3461612,
+  "source_lines": 3461613,
+  "all_final_minute_status_counts_match_python_oracle": true,
+  "duplicate_final_window_keys": 0,
+  "progress_batch_ids_unique": true,
+  "checkpoint_run_ids": 2,
+  "actual_count_reconciliation": "Independent PyArrow read of the native sink matches every minute/status key and count in the Python source oracle",
+  "independent_export_checks": "Recomputed weighted throughput, trigger p95, request totals, source hashes, and actual sink records",
+  "query_source_hashes_match": true,
+  "website_typecheck": "passed",
+  "website_production_build": "passed",
+  "visual_checks": "Desktop case study/results inspected in browser; desktop and mobile figure exports inspected"
+}

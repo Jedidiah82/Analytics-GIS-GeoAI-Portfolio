@@ -1,0 +1,5 @@
+numpy==2.2.6
+pandas==2.2.3
+pyspark==3.5.1
+py4j==0.10.9.7
+matplotlib==3.10.3

@@ -1,0 +1,83 @@
+{
+  "run_date": "2026-10-18",
+  "source_sha256": "b26a328e9aaa284ecaa7a1f93579d82d9b6244207a3ecae36f413d449dbc2db6",
+  "observed_start": "2016-12-31",
+  "observed_end": "2022-12-31",
+  "observed_months": 73,
+  "counties": [
+    "Bomi",
+    "Bong",
+    "Gbarpolu",
+    "Grand Bassa",
+    "Grand Cape Mount",
+    "Grand Gedeh",
+    "Grand Kru",
+    "Lofa",
+    "Margibi",
+    "Maryland",
+    "Montserrado",
+    "Nimba",
+    "River Gee",
+    "Rivercess",
+    "Sinoe"
+  ],
+  "historical_total": 251,
+  "historical_zero_counties": [
+    "Bomi",
+    "Gbarpolu",
+    "Grand Cape Mount",
+    "Grand Gedeh",
+    "Maryland",
+    "Rivercess",
+    "Sinoe"
+  ],
+  "zero_policy": "Explicit historical zeros preserved; future targets never zero-filled",
+  "origins": [
+    "2019-12-31",
+    "2020-12-31",
+    "2021-12-31"
+  ],
+  "horizon_months": 12,
+  "selected_national": "SARIMA",
+  "selected_county": "Zero baseline",
+  "selection": "lowest pooled annual rolling-origin MAE; SARIMA requires convergence in all annual folds",
+  "projection_origin": "2022-12-31",
+  "projection_end": "2026-12-31",
+  "prediction_policy": "Point forecasts and interval endpoints bounded below at zero",
+  "hierarchy": "National and county models evaluated separately; not reconciled to identical totals",
+  "county_uncertainty": "No calibrated county forecast intervals established",
+  "unavailable_model_runs": [],
+  "versions": {
+    "python": "3.11.9",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "statsmodels": "0.14.4",
+    "prophet": "1.2.1",
+    "xgboost": "3.1.2"
+  },
+  "code_sha256": {
+    "lassa_forecasting_pipeline.py": "031a1d9e4d1b5606b23ced38b3814530425ecbca20adb33411a87f32198d9ce1",
+    "make_synthetic_example.py": "da2a83af1ec1a9c50a39b94f0dae42bc62eaa3f794a1940baee1f14b88671e73",
+    "plot_results.py": "0bc8108c4237742790e9cd8e2bce44d074b51013d67442c2268c7188496b9eea",
+    "prepare_aggregate_inputs.py": "77ca7ed0bb079c04ed0925c04eed857a3cb3f4a8b3930375f1a603ba41cb657d"
+  },
+  "code_hash_scope": "Packaged source at finalization; forecasting source matches executed run",
+  "input_preparation": {
+    "original_aggregate_sha256": "88afc6e39d9c269f4d6299bc5ac23b332381d08d18501d4788e0b9dc3b316569",
+    "blank_zero_placeholder_removed": true,
+    "counties_with_recorded_cases": 8,
+    "historical_zero_counties": [
+      "Bomi",
+      "Gbarpolu",
+      "Grand Cape Mount",
+      "Grand Gedeh",
+      "Maryland",
+      "Rivercess",
+      "Sinoe"
+    ],
+    "rows": 1095,
+    "months": 73,
+    "historical_total": 251,
+    "source": "aggregate exports only; no case-level records read"
+  }
+}
