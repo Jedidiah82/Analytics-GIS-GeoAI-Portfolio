@@ -1,56 +1,50 @@
-# Large-Scale NLP & Document Clustering
+# Large-Scale NLP
 
-An MSc coursework investigation of text representations, news classification, and unsupervised document clustering. The historical scored runs use **scikit-learn and gensim**; separate PySpark source variants are included, with no measured multi-node speedup claimed.
+An experimental workflow across Text8 embeddings, news-headline classification, and 20 Newsgroups clustering. The central result: a lexical baseline outperformed averaged embeddings, while clustering exposed substantial topic overlap.
 
 [Read the portfolio case study](https://godwineakpan.com/projects/nlp-document-clustering)
 
-## Questions and findings
+## Engineering contribution
 
-1. **Semantic exploration:** Word2Vec on Text8 produced interpretable nearest-neighbour relationships. This is qualitative evidence, not a benchmark score.
-2. **Headline classification:** Logistic Regression with TF-IDF outperformed averaged Word2Vec in the saved runs.
-3. **Document clustering:** K-means selected k=20 from the tested candidates, but all sampled silhouette scores were negative. The outcome is weak separation, not successful topic discovery.
+Implemented text preprocessing, feature comparisons, classification evaluation, and K-means/PCA exploration across three text corpora.
 
-| Headline representation | Macro-F1 (saved CSV) |
-| --- | ---: |
-| TF-IDF + Logistic Regression | 0.415432 |
-| Averaged Word2Vec + Logistic Regression | 0.235313 |
-| Fast averaged Word2Vec + Logistic Regression | 0.168697 |
+## Workflow
 
-Saved notebook output reports **209,527 headlines, 42 labels**, and an **167,621 / 41,906** stratified train/test split. These are historical outputs, not a rerun for this repository update. Different embedding settings mean this should not be called a representation-only controlled experiment or statistically significant improvement.
+1. **Prepare the corpora:** Load Text8, news headlines, and 20 Newsgroups. Lowercase and tokenize text with an alphabetic regex.
+2. **Compare representations:** Explore Word2Vec neighbours and use TF-IDF or averaged embedding vectors as inputs to Logistic Regression.
+3. **Evaluate classification:** Use a stratified 80/20 headline split. Export class reports, macro-F1 comparisons, and a collapsed confusion matrix.
+4. **Inspect clustering:** Test K-means with k ∈ {10, 15, 20}; select using sampled silhouette and compare PCA views coloured by cluster and true topic.
 
-![Original macro-F1 comparison](figures/nlp-macro-f1.png)
+## Selected results
 
-## Clustering result
+- **Headline classification — 0.4154 macro-F1.** TF-IDF plus Logistic Regression led this comparison; averaged Word2Vec achieved 0.2353 and the fast variant 0.1687.
+- **Clustering insight — Topic overlap.** Across k=10, 15, and 20, sampled silhouette remained slightly negative. The useful result was identifying weak separation and motivating a better representation.
+- **Implementation breadth — Python + Spark.** Local scikit-learn/gensim experiments provide the reported scores; separate Spark implementations explore scalable pipeline construction.
 
-The saved local notebook reports **18,846 documents and 20 labels**. Sampled silhouette: k=10: -0.0119; k=15: -0.0099; k=20: -0.0079. Sampling is capped at 5,000 documents. A 2D PCA view is an inspection aid and does not substitute for a cluster-quality metric.
+![Original macro-F1 bar chart with TF-IDF plus Logistic Regression around 0.42, averaged Word2Vec around 0.23, and fast Word2Vec around 0.17.](figures/nlp-macro-f1.png)
 
-![PCA by cluster](figures/nlp-pca-clusters.png)
-![PCA by topic](figures/nlp-pca-topics.png)
+Macro-F1 across three headline-classification configurations. TF-IDF plus Logistic Regression outperformed the two averaged-embedding variants in these experiments.
 
-## Files and run guidance
+## Engineering decisions
 
-- `notebooks_or_src/task1b_news_category_classification.py`: code cells exported from the completed classification notebook.
-- `notebooks_or_src/task1c_20ng_clustering.py`: recovered local Python clustering implementation.
-- `notebooks_or_src/3_clustering_20ng.py`: separate Spark clustering implementation; do not attribute local-run scores to it.
-- `results/`: original classification-report CSVs, macro-F1 summary, and a saved-run summary.
-- `figures/`: original PNG outputs.
+- **Start with a strong lexical baseline.** TF-IDF preserves discriminative words and phrases. Comparing it with averaged Word2Vec tests whether semantic features improve the task rather than assuming they will.
+- **Match the metric to the question.** Macro-F1 gives each headline category weight, while silhouette and topic-coloured projections examine different aspects of unsupervised structure.
+- **Inspect clusters from two perspectives.** PCA views coloured by cluster and by known topic make overlap visible and connect numerical evaluation to qualitative inspection.
 
-Source snapshots are preserved for inspection and have not been rerun or turned into a fully pinned release. The scripts expect a sibling `Data/` directory. From `notebooks_or_src`, after preparing the data and a compatible environment:
+## Scope and limitations
 
-```sh
-python task1b_news_category_classification.py
-python task1c_20ng_clustering.py
-```
+- **Comparison design.** Embedding variants use different training settings, and results come from a single split. Repeated seeds and consistent preprocessing are needed for a controlled comparison.
+- **Cluster interpretation.** Silhouette was estimated on a sample and PCA is a two-dimensional projection. The observed overlap does not establish successful topic recovery; ARI/NMI and robustness checks would strengthen evaluation.
+- **Scale evidence.** Reported scores belong to local Python runs. Separate Spark source does not establish distributed speedup or production serving performance.
 
-Required data: Text8; the Kaggle News Category Dataset v3; and a `Data/20newsgroups/20ng.csv` file with `text,label` columns. Follow each dataset's terms and cite its original author. Do not upload the raw corpora merely to make the repository larger.
+## Code and reproducibility
 
-Environment components used by the local scripts include Python, numpy, pandas, scikit-learn, gensim, and matplotlib. The Spark variant additionally requires Java and PySpark. Exact environment versions remain to be recovered; the report and README previously disagreed about the Spark version.
+Explore the [source snapshots](notebooks_or_src/) and original project figures. These are historical research results; the models and streaming jobs were not rerun for the portfolio presentation.
 
-## Limitations and next steps
+Selected outputs are in [results](results/). Source availability does not imply a pinned, one-command reproduction; environment versions, input acquisition, and a run manifest should be completed before rerunning.
 
-- Publish a run manifest connecting each score to its split seed, representation settings, corpus version, and environment.
-- Reconcile the TF-IDF feature-cap description with the code and distinguish Text8 exploration from headline-trained embedding variants.
-- Evaluate repeated seeds, contextual embeddings or truncated SVD, and external cluster metrics such as ARI/NMI.
-- Related frequency-estimation experiments exist, but their curves conflict with the report's convergence narrative. Do not promote them as validated results until reconciled.
+## Next iteration
 
-Academic provenance: Machine Learning on Big Data coursework, October 3, 2025. No production text-classification or document-search deployment is claimed.
+1. **Compare stronger representations.** Evaluate truncated SVD and contextual embeddings against TF-IDF under consistent preprocessing.
+2. **Repeat the classification study.** Record corpus versions and model settings, repeat splits, and quantify variability in macro-F1.
+3. **Evaluate clustering more fully.** Add ARI/NMI, inspect topic subsets, and measure robustness across seeds and representations.

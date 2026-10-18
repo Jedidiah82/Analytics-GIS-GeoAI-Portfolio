@@ -1,53 +1,50 @@
-# NASA HTTP Log Analytics — Streaming Replay
+# NASA HTTP Log Analytics
 
-A **file-source replay of historical 1995 NASA HTTP logs** using Spark Structured Streaming. It is not a live NASA feed. The socket wordcount exercise is a separate experiment.
+A controlled replay of 1995 NASA web-server logs through Spark Structured Streaming: parse events, aggregate HTTP status codes in event-time windows, and inspect batch timing, throughput, and query state.
 
 [Read the portfolio case study](https://godwineakpan.com/projects/nasa-log-streaming)
 
-## Implemented workflow
+## Engineering contribution
 
-1. Release archived `.log` chunks into a watched input directory.
-2. Parse log fields and convert timestamp strings, including timezone, to event time.
-3. Aggregate status-code counts in one-minute tumbling windows with a configured watermark.
-4. Maintain query checkpoints, inspect console output, and export listener progress for analysis.
+Built the file-replay workflow, log parser, event-time aggregation, checkpoint configuration, and metrics analysis for Spark Structured Streaming.
 
-The recovered scripts include multiple query variants. `6_streaming_nasa_logs.py` uses Complete mode and a two-minute watermark; `nasa_streaming_counts.py` also contains Update/Append and Parquet-sink variants. The report appendix describes a ten-minute watermark and a two-second trigger. These configurations must not be silently treated as one identical run.
+## Workflow
 
-## Verified historical observations
+1. **Replay the backlog:** Release historical .log files into an input directory at configured intervals. The replay uses 35 files of roughly 100,000 records each.
+2. **Parse the events:** Extract timestamp, request method, path, protocol, and status. Convert the timestamp with its timezone into event time.
+3. **Aggregate status codes:** Group requests by one-minute event-time windows and HTTP status, with watermarking configured in the query.
+4. **Observe each batch:** Write console output with checkpointing and inspect StreamingQueryListener metrics for input rows, processing rate, duration, watermark, and state.
 
-The recovered `nasa_metrics.csv` and raw listener JSONL each contain **two batches only**, with matching values:
+## Selected results
 
-| Batch | Input rows | Processed rows/s | Trigger duration |
-| --- | ---: | ---: | ---: |
-| 42 | 100,000 | 13,315.579 | 7,510 ms |
-| 43 | 100,000 | 32,765.400 | 3,052 ms |
+- **Batch workload — 100,000 rows.** Each of the two instrumented batches processed 100,000 input records.
+- **Processing rate — 13,316–32,765 / s.** Observed batch processing rates across the two retained measurements.
+- **Trigger duration — 7.510 → 3.052 s.** Query execution duration for those batches, measured separately from event-to-output latency.
 
-These are observed batch rates, not sustained throughput, a latency SLA, or end-to-end event latency. The very large first input-rate estimate is not evidence of a multi-million-row/s processing capacity.
+![Original NASA processing-rate plot rising from approximately 13316 to 32765 rows per second between batch IDs 42 and 43.](figures/nasa-processed-rate.png)
 
-![Original input rows](figures/nasa-input-rows.png)
-![Original processed rate](figures/nasa-processed-rate.png)
-![Original trigger duration](figures/nasa-trigger-duration.png)
+Processing rate for two 100,000-row batches. Query metrics make performance visible; longer runs are needed to characterize sustained throughput.
 
-## Source and reproduction status
+## Engineering decisions
 
-- `notebooks_or_src/6_streaming_nasa_logs.py`: recovered listener-enabled file stream, with local path settings at the top.
-- `notebooks_or_src/nasa_streaming_counts.py`: alternative console/Parquet queries; not the canonical verified run.
-- `notebooks_or_src/slow_copy_feeder.py`: recovered replay feeder.
-- `notebooks_or_src/analyze_stream_metrics.py`: analysis of saved listener progress.
-- `results/nasa_metrics.csv`: original two-batch export.
+- **Control the arrival stream.** A file feeder releases archived logs at configured intervals, making ingestion conditions easier to inspect and repeat.
+- **Model events in event time.** Timestamp parsing and one-minute windows preserve the time of the HTTP event rather than grouping solely by when Spark receives it.
+- **Observe execution alongside output.** StreamingQueryListener metrics connect query results with input volume, processing rates, trigger duration, and aggregation state.
 
-The scripts are archival source snapshots, not a newly validated release. Read the path configuration before execution. Use a compatible Python/Java/PySpark environment; exact versions and hardware have not been fully recovered. Download NASA HTTP logs from the original archive and follow its usage terms. Prepare an input folder, an isolated checkpoint per query, and writable metrics output before starting the feeder and stream. Do not reuse checkpoint state across incompatible query variants.
+## Scope and limitations
 
-## Interpretation boundaries
+- **Measurement window.** The retained trace contains only two batches. It supports batch-level observations, rather than sustained-throughput, percentile-latency, or service-level claims.
+- **Event-time and recovery tests.** Complete output mode retains aggregation state despite a configured watermark. Saved variants differ in output mode and watermark delay; late-event handling, bounded state, and restart recovery need controlled tests.
+- **Demonstration scope.** The source is a replay of historical NASA logs. Production ingestion, durable downstream delivery, and evaluated anomaly alerts remain extensions.
 
-- Complete mode preserves aggregation state; adding `withWatermark` alone does not demonstrate bounded state. [Spark output-mode semantics](https://spark.apache.org/docs/3.5.8/structured-streaming-programming-guide.html#conditions-for-watermarking-to-clean-aggregation-state).
-- The recovered trace records zero removed and dropped rows. Its watermark is later than the displayed event times, so it does not validate late-data behaviour.
-- The trace reports eight shuffle partitions while one source variant configures four. Record the exact run configuration before reproducing or extending it.
-- HTTP status aggregation supports error-trend inspection; an evaluated anomaly detector or production alert service is not established.
-- Kafka ingestion and production persistence are proposed extensions. A Parquet-sink variant exists in source, but successful execution is not established by the two console-sink progress records.
+## Code and reproducibility
+
+Explore the [source snapshots](notebooks_or_src/) and original project figures. These are historical research results; the models and streaming jobs were not rerun for the portfolio presentation.
+
+Selected outputs are in [results](results/). Source availability does not imply a pinned, one-command reproduction; environment versions, input acquisition, and a run manifest should be completed before rerunning.
 
 ## Next iteration
 
-Capture a full trace tied to a source commit and environment; inject late and malformed events; test recovery; measure backlog, p50/p95 trigger duration, and event-to-output lag under defined load.
-
-Academic provenance: Machine Learning on Big Data coursework, October 3, 2025; original logs from the NASA Kennedy Space Center HTTP archive.
+1. **Expand the performance trace.** Capture a longer run with environment and query configuration recorded, then summarize steady-state behaviour.
+2. **Exercise late data and recovery.** Inject delayed and malformed events, restart from checkpoints, and inspect state size and dropped-row metrics.
+3. **Add durable delivery.** Evaluate a persistent sink and Kafka ingestion, with measured end-to-end lag.

@@ -1,60 +1,51 @@
-# Lassa Fever Forecasting — Liberia
+# Lassa Fever Forecasting
 
-An exploratory project connecting monthly surveillance aggregation, national SARIMA/Prophet models, county-level XGBoost, and GIS mapping. Historical observations end in 2022; dates through 2026 are a projection horizon.
+A Liberia research project combining monthly surveillance analysis, seasonal forecasting, and exploratory county-level GeoAI. National model comparisons and spatial visualisation connect statistical reasoning with public-health data engineering.
 
 [Read the portfolio case study](https://godwineakpan.com/projects/lassa-geoai-forecasting)
 
-## What was implemented
+## Engineering contribution
 
-- National monthly aggregation, rolling-mean inspection and STL decomposition.
-- A documented national temporal holdout: train through December 2020, test January 2021–December 2022.
-- County–month feature engineering, XGBoost experiments, and boundary joins for maps.
-- Original figures and saved outputs; these historical models were not rerun for this review.
+Built the monthly aggregation, SARIMA/Prophet comparisons, county feature workflow, and GIS outputs, connecting temporal modelling with spatial communication.
 
-## National result with an explicit evaluation window
+## Workflow
 
-| Model | Saved RMSE, January 2021–December 2022 |
-| --- | ---: |
-| SARIMA (1,0,1) × (1,0,1,12) | 5.283 |
-| Prophet | 3.652 |
+1. **Aggregate the history:** Parse onset dates, count records by month, and construct a continuous national series and county–month panel. Keep observed coverage separate from future dates.
+2. **Compare national models:** Fit seasonal SARIMA and Prophet to training data through 2020; compare predictions with the January 2021–December 2022 holdout using RMSE.
+3. **Explore county features:** Build calendar, dry-season, lag, rolling-average, and national-model features for exploratory county-level XGBoost experiments.
+4. **Communicate spatially:** Link county outputs to administrative boundaries and communicate temporal and spatial patterns through clear figures.
 
-These are rounded saved outputs from notebook cell 135, in monthly case-count units. The recovered national series has 73 months, December 2016–December 2022. Prophet has lower error on this single holdout. No general model superiority, calibrated interval coverage, or county forecast skill follows from this comparison.
+## Selected results
 
-![Original national holdout comparison](Figures/national_forecasts/national_ARIMA_vs_Prophet.png)
+- **Prophet / national holdout — 3.652 RMSE.** Lower monthly count error on the January 2021–December 2022 holdout.
+- **SARIMA / same holdout — 5.283 RMSE.** A seasonal autoregressive baseline evaluated against the same observed months.
+- **Analytical contribution — Time + place.** Monthly aggregation, seasonal diagnostics, comparative forecasting, and county feature engineering form one coherent research workflow.
 
-The figure labels both bands as 95%; the archived Prophet constructor does not explicitly set interval width, so its nominal level needs checking. The later projection in that notebook cell uses the model trained through 2020; it is not a documented refit on all observations through 2022.
+![Original national time-series plot showing training observations through 2020 and observed versus SARIMA and Prophet values in 2021–2022, with shaded bands.](Figures/national_forecasts/national_ARIMA_vs_Prophet.png)
 
-## County outputs require methodological revision
+National monthly observations with SARIMA and Prophet predictions across the 2021–2022 temporal holdout. The comparison makes model fit and uncertainty visible alongside RMSE.
 
-The archived workflow contains current-target rolling predictors, zero-filled future outcomes entering lag features, and a training-fit RMSE that does not measure forecast generalization. The recovered 2023–2026 county export has 432 rows across nine counties and includes 305 negative raw predictions. It should not be presented as a validated forecast product.
+## Engineering decisions
 
-The author confirms that counties with no recorded outbreaks were assigned historical zero values. This describes historical coding. Some saved maps also fill missing model predictions with zero; those missing predictions should be labelled separately rather than presented as model-derived future zeros. Choropleth colours represent modelled counts, not population-adjusted incidence or statistically significant hotspots. The archived December 2026 map and later county CSV have different numerical ranges and are treated as distinct outputs.
+- **Evaluate forward in time.** A 24-month national holdout preserves temporal order: train through December 2020, then compare forecasts with observations from 2021–2022.
+- **Pair statistical and visual inspection.** SARIMA and Prophet offer complementary seasonal models; decomposition and observed-versus-predicted plots help interpret the aggregate error metric.
+- **Connect national and county scales.** National trends and county histories form complementary analytical views. The county workflow explores how temporal features can be linked to spatial outputs.
 
-## Evidence available here
+## Scope and limitations
 
-- [Historical metrics, labelled by run and validity](Evidence/lassa-saved-metrics.csv).
-- [Implementation review and revision plan](Evidence/lassa-evidence-review.txt).
-- [Selected original modelling source excerpts](Evidence/archived-model-excerpts.txt).
-- Existing [forecasting script](Scripts/lassa_forecasting_pipeline.py) and [original figures](Figures/).
+- **County forecasting remains exploratory.** The county workflow includes current-target rolling predictors and zero-filled future outcomes in feature construction. Its training-fit score is not held-out forecast validation. Shifted predictors, explicit future handling, and temporal county evaluation are required before relying on those projections.
+- **Count support and map coverage.** The county export contains negative predictions and covers nine modelled counties. Historical zeros for counties with no recorded outbreaks must be distinguished from missing model predictions and unknown future outcomes.
+- **National evaluation and uncertainty.** The national comparison is a single holdout. Rolling-origin tests and seasonal-naive baselines remain needed. The figure’s interval labels require verification against model settings; its subsequent projection continues a model trained through 2020.
+- **Reproducibility and data provenance.** The public template and historical notebook differ. Correct split/index handling, supply a tested synthetic aggregate example, and document reporting completeness and permissions. Earlier scores based on a zero-extended test panel are excluded from the reported comparison.
 
-An earlier notebook experiment extends its test panel through 2026 using zero-filled future outcomes. Its lower SARIMA score is preserved in the evidence CSV only for provenance; it is excluded from the observed holdout comparison above.
+## Code and reproducibility
 
-## Reproducibility status
+Explore the [implementation](Scripts/) and original project figures. These are historical research results; the models and streaming jobs were not rerun for the portfolio presentation.
 
-The existing script is a template-oriented implementation and differs from the historical notebook. The inspected folder does not contain its referenced `data_template/`, shapefile inputs, or `05_Reproducibility_Notebook.ipynb`. A verified one-command reproduction is not yet provided.
-
-Before rerunning or relying on its outputs, correct the overlapping train/test endpoint, SARIMA forecast-date assignment, unshifted rolling predictor, and future-history handling described in the review. Pin dependency versions and publish clearly labelled synthetic aggregate inputs with schema checks.
-
-## Data provenance and scope
-
-The historical notebook reads local case-level data; the repository script describes template inputs. These are different provenance statements. Case-level records, the full notebook with row outputs, and surveillance input CSVs are not included in this update. Data-sharing permissions, reporting completeness, and whether absent months represent verified zeros need documenting before a public data release.
-
-The figures are research outputs, not official forecasts or operational guidance. No clinical or surveillance deployment is established by the recovered evidence.
+The historical analysis uses local surveillance data; the public script describes a template workflow. Case-level records and the full exploratory notebook are not shared. Data provenance, permissions, and a tested synthetic aggregate demonstration remain part of the next iteration. The original implementation review is available in [technical notes](Evidence/lassa-evidence-review.txt).
 
 ## Next iteration
 
-1. Compare seasonal-naive, SARIMA and Prophet across rolling forecast origins; measure MAE/RMSE and interval coverage.
-2. Shift rolling predictors and fit every transformation within the training window.
-3. Keep future outcomes unknown and implement an explicit recursive or direct county forecast strategy.
-4. Evaluate nonnegative county forecasts on observed temporal holdouts and report per-county support.
-5. Publish a tested synthetic-data demonstration and maps with coverage, uncertainty and consistent scales.
+1. **Strengthen national evaluation.** Compare seasonal-naive, SARIMA, and Prophet across rolling forecast origins; measure MAE/RMSE and interval coverage before a full-history refit.
+2. **Rebuild the county forecast path.** Shift rolling features, preserve unknown future outcomes, and evaluate a defined recursive or direct strategy on observed temporal holdouts.
+3. **Make the research reproducible.** Publish a tested synthetic-data workflow with versioned dependencies, coverage-aware maps, and meaningful uncertainty displays.
