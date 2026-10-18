@@ -1,0 +1,39 @@
+{
+  "inputs": {
+    "News_Category_Dataset_v3.json": "2cfc51fa4a82a96ecbe251fa383737aa1dea2e0a517f61dece633fcc25a4a065",
+    "20news-bydate.tar.gz": "8f1b2514ca22a5ade8fbb9cfa5727df95fa587f4c87b786e15c759fa66d95610"
+  },
+  "versions": {
+    "python": "3.11.9",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "gensim": "4.4.0",
+    "scipy": "1.15.3"
+  },
+  "seeds": [
+    42,
+    137,
+    2026
+  ],
+  "source_sha256": "7eeb17debfcd6494f6bdac3fb0c2a5709933b892d83194bf405996fe4c2d9915",
+  "threads": 4,
+  "word2vec_workers": 1,
+  "classification_resumed": true,
+  "elapsed_seconds_scope": "current invocation; classifier fit/predict timings are in classification_runs.csv",
+  "code_sha256": {
+    "src/plot_results.py": "28def691e5b37cafb02fd8678301062d7e59ff93db520dec364f6eac2c1653d5",
+    "src/run_experiments.py": "7eeb17debfcd6494f6bdac3fb0c2a5709933b892d83194bf405996fe4c2d9915",
+    "src/validate_results.py": "2dea4255b2afdac37801780c1c81fcacdabc51f5813921c9dd58a4a98a0f636e",
+    "tests/test_workflow.py": "7f8666091862a408a70ab44f4503302a596a1cb94ff22199936f6b33abc70464"
+  },
+  "pythonhashseed": "42",
+  "completed_utc": "2026-10-18T19:19:55.311505+00:00",
+  "protocol": "Three repeated cleaned-news stratified splits; official by-date held-out clustering; k selected by mean training silhouette.",
+  "reproduction_entrypoint": "run.ps1",
+  "classification_execution": {
+    "executed_script_sha256": "3649a5dfb4d3f041bede163fa71856daef069ea5120b816bb975a284924d06f7",
+    "classification_block_ast_sha256": "721d315a44ca44ff31d968cd318cf9d9acea25b1eb82762115d27ca1086ee2b5",
+    "packaged_classifier_block_unchanged": true
+  }
+}

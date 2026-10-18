@@ -1,0 +1,14 @@
+{
+  "classification_runs": 9,
+  "clustering_runs": 18,
+  "classifier_metrics_from_confusion_counts": true,
+  "clustering_ari_nmi_from_contingencies": true,
+  "unit_tests_passed": 8,
+  "raw_text_published": false,
+  "all_classifier_predictions_reconciled": true,
+  "all_cluster_predictions_reconciled": true,
+  "desktop_case_study_visually_checked": true,
+  "desktop_and_mobile_figures_visually_checked": true,
+  "website_typecheck_passed": true,
+  "website_production_build_passed": true
+}

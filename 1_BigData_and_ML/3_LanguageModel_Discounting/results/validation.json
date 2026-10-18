@@ -1,0 +1,10 @@
+{
+  "unit_tests_passed": 8,
+  "estimator_runs_checked": 120,
+  "distinct_verified_samples": 20,
+  "independent_js_check": "SciPy jensenshannon squared matches three 1M-token seed-17 full-vocabulary estimates within 1e-12",
+  "repeatability": "runs.csv is byte-identical across repeats with the same protocol",
+  "expected_infinite_mle_kl_runs": 40,
+  "max_probability_sum_error": 8.881784197001252e-16,
+  "models_rerun": true
+}

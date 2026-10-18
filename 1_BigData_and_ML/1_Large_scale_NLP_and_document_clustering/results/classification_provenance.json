@@ -1,0 +1,14 @@
+{
+  "news_sha256": "2cfc51fa4a82a96ecbe251fa383737aa1dea2e0a517f61dece633fcc25a4a065",
+  "classifier_ast_sha256": "721d315a44ca44ff31d968cd318cf9d9acea25b1eb82762115d27ca1086ee2b5",
+  "seeds": [
+    42,
+    137,
+    2026
+  ],
+  "result_sha256": {
+    "classification_runs.csv": "14272c17376fa7885e7deaa6e93611dbaaed445ca362010d2cdc939333c91495",
+    "classification_per_class.csv": "9fc6487ebc376b971be8500227fb667a2dbb3ffa245e92318f9f14eb6b475758",
+    "classification_confusion.csv": "b861720b6c9b35ed69216db53ea6f1ef4581eaefa61987842f8614d0b35d4069"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "source_name": "text8",
+  "source_bytes": 100000000,
+  "source_sha256": "6e890197040d37d85beb962ae1f041ff1d9a9ca8d20c7d99c85027eebf51dca7",
+  "total_tokens": 17005188,
+  "training_pool_tokens": 13604150,
+  "heldout_tokens": 3401038,
+  "training_types": 222475,
+  "split": "first 80% train; last 20% held-out reference",
+  "tokenization": "lowercase alphabetic whitespace tokens; validated input",
+  "vocabulary": "training-pool-only frequency order; lexical tie break; index 0 is UNK",
+  "source_url": "https://mattmahoney.net/dc/textdata.html",
+  "source_md5": "3bea1919949baf155f99411df5fada7e",
+  "run_date_utc": "2026-10-18T13:52:41.996674+00:00",
+  "sizes": [
+    1000,
+    10000,
+    100000,
+    1000000
+  ],
+  "seeds": [
+    17,
+    29,
+    43,
+    71,
+    101
+  ],
+  "sampling": "nested random samples without replacement within seed; seed draws may overlap",
+  "supports": {
+    "50k + UNK": 50000,
+    "Full training vocabulary + UNK": 222475
+  },
+  "model_runs": 120,
+  "sample_draws": 20,
+  "metric_orientation": "KL(reference || estimate); L1 and JS on identical normalized finite support",
+  "zero_probability_policy": "KL is infinity for unsupported reference events; no epsilon clipping",
+  "unseen_allocation": "uniform across unseen finite-support categories, including UNK",
+  "uncertainty": "sample SD over five draws; not confidence intervals or corpus-generalization uncertainty",
+  "python": "3.11.9",
+  "numpy": "2.2.6",
+  "code_sha256": {
+    "estimators.py": "922199f81b2b4620da86b5106c2f64bcb56fb7ba2be072e2f9a5ccf51fc1b48d",
+    "fetch_corpus.py": "2e0033f38aa3239f9fac89f2f6fae2b3bf7769f7131d2a74e64130d25fdb7289",
+    "plot_results.py": "7df67f2bb4cd618e56e0829a00da7443bc7a4acee5a059831986c737db3401b9",
+    "run_experiment.py": "eca96083443eba51f084d1ab69412511ba27ada0334419dd74a50bda0b7c3df4"
+  }
+}

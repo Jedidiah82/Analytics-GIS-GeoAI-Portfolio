@@ -1,0 +1,64 @@
+{
+  "run_date": "2026-10-18",
+  "input_sha256": "493c1613d00830fce8cb699d5e614ff04b0f299bfe83d5594825bb407eed070b",
+  "rows": 2539739,
+  "exact_duplicate_extra_rows": 480624,
+  "schema": "Headerless 49-column original flow CSV",
+  "features": [
+    "log_sbytes",
+    "log_dbytes",
+    "sttl",
+    "dttl"
+  ],
+  "binary_label": "Original 0=Normal, 1=Attack; category agreement validated",
+  "class_order": [
+    "Normal",
+    "Analysis",
+    "Backdoor",
+    "DoS",
+    "Exploits",
+    "Fuzzers",
+    "Generic",
+    "Reconnaissance",
+    "Shellcode",
+    "Worms"
+  ],
+  "split_seed": 42,
+  "capture_boundary_utc": "2015-02-01T00:00:00Z",
+  "group_random": "Hash of full original record plus seed, 70/30; identical records remain together",
+  "primary_evaluation": "January capture training / February capture testing; not official benchmark partition",
+  "selection": "Fixed hyperparameters; no holdout tuning or model selection",
+  "lr": {
+    "maxIter": 100,
+    "regParam": 0.01,
+    "standardization": true,
+    "threshold": 0.5
+  },
+  "rf": {
+    "numTrees": 60,
+    "maxDepth": 12,
+    "maxBins": 64,
+    "minInstancesPerNode": 5,
+    "seed": 42
+  },
+  "execution": {
+    "master": "local[4]",
+    "single_machine": true,
+    "seconds": 122.39467069999955
+  },
+  "versions": {
+    "python": "3.11.9",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.6.1",
+    "pyspark": "3.5.1"
+  },
+  "code_sha256": {
+    "export_full_curves.py": "51ecd30eb7ff016046a458ad5ea199ca42e68b9794cc1d8506933ab9b3388110",
+    "plot_results.py": "e89f0100e743644b9a811d863dcc69cea47228ac663639b060d2457cae2cd4aa",
+    "unsw_model_workflow.py": "31d70d0b64a88fcf1c7fcbf2b392e3344140fbccd8824dfd69ee7e681ae3216b"
+  },
+  "executed_model_source_sha256": "31d70d0b64a88fcf1c7fcbf2b392e3344140fbccd8824dfd69ee7e681ae3216b",
+  "code_hash_scope": "Model runner matches executed run; export/plot helper hashes describe packaged finalization sources",
+  "curve_export": "Complete aggregate threshold points exported from executed private predictions after model fitting; PR figures use steps-post"
+}

@@ -1,0 +1,46 @@
+{
+  "news_quality": {
+    "source_rows": 209527,
+    "empty_removed": 11,
+    "conflicting_rows_removed": 525,
+    "duplicate_rows_removed": 2032,
+    "retained_rows": 206959,
+    "classes": 42
+  },
+  "classification_checks": [
+    {
+      "seed": 42,
+      "duplicate_overlap": 0
+    },
+    {
+      "seed": 137,
+      "duplicate_overlap": 0
+    },
+    {
+      "seed": 2026,
+      "duplicate_overlap": 0
+    }
+  ],
+  "clustering_quality": {
+    "original_partitions": {
+      "test": 7532,
+      "train": 11314
+    },
+    "nonempty_deduplicated_train": 10956,
+    "retained_train": 10946,
+    "retained_test": 7253,
+    "train_test_overlap": 0,
+    "train_only_feature_fit": true
+  },
+  "selected_k_by_training_silhouette": {
+    "TF-IDF": 20,
+    "LSA-100": 20
+  },
+  "svd_explained_variance": 0.10372249570243215,
+  "seeds": [
+    42,
+    137,
+    2026
+  ],
+  "elapsed_seconds": 47.6714882850647
+}

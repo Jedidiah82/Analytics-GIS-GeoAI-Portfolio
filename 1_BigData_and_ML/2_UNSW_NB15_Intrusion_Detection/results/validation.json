@@ -1,0 +1,37 @@
+{
+  "independent_checks": [
+    {
+      "split": "group_random_70_30",
+      "model": "Logistic Regression",
+      "all_metrics_match": true,
+      "predictions": 761475
+    },
+    {
+      "split": "group_random_70_30",
+      "model": "Random Forest",
+      "all_metrics_match": true,
+      "predictions": 761475
+    },
+    {
+      "split": "capture_holdout",
+      "model": "Logistic Regression",
+      "all_metrics_match": true,
+      "predictions": 1452603
+    },
+    {
+      "split": "capture_holdout",
+      "model": "Random Forest",
+      "all_metrics_match": true,
+      "predictions": 1452603
+    }
+  ],
+  "recomputation": "NumPy confusion counts, class metrics, tie-aware rank ROC-AUC and stepwise average precision; matches exported results",
+  "source_hash_matches_independent_profile": true,
+  "temporal_support_matches_capture_composition": true,
+  "exact_record_split_overlap": "Zero; run rejects any overlap before fitting",
+  "model_source_hashes_match": true,
+  "tests_passed": 8,
+  "website_typecheck": "passed",
+  "website_production_build": "passed",
+  "visual_checks": "Desktop case-study preview and exported desktop/mobile figures inspected; final phone-browser check included in upload guide"
+}

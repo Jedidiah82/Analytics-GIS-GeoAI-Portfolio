@@ -1,0 +1,9 @@
+split,feature,importance
+group_random_70_30,log_sbytes,0.3779887009848524
+group_random_70_30,log_dbytes,0.1328918030156877
+group_random_70_30,sttl,0.45025528626272926
+group_random_70_30,dttl,0.03886420973673066
+capture_holdout,log_sbytes,0.15406808198397087
+capture_holdout,log_dbytes,0.15342404601268578
+capture_holdout,sttl,0.5247302447329976
+capture_holdout,dttl,0.16777762727034568

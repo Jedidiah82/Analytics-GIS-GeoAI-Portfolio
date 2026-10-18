@@ -1,0 +1,9 @@
+split,feature,coefficient
+group_random_70_30,log_sbytes,-0.22631122254118272
+group_random_70_30,log_dbytes,-0.1616632003986809
+group_random_70_30,sttl,0.022243878322102208
+group_random_70_30,dttl,0.008639408154307351
+capture_holdout,log_sbytes,-0.07516456147950104
+capture_holdout,log_dbytes,-0.18402136515857187
+capture_holdout,sttl,0.02370682147408212
+capture_holdout,dttl,0.014791160065889054

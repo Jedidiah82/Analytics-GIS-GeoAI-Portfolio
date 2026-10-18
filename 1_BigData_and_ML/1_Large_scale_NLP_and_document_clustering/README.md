@@ -1,50 +1,79 @@
-# Large-Scale NLP
+# NLP & Document Clustering
 
-An experimental workflow across Text8 embeddings, news-headline classification, and 20 Newsgroups clustering. The central result: a lexical baseline outperformed averaged embeddings, while clustering exposed substantial topic overlap.
+A reproducible study of how text representations support classification and unsupervised topic recovery. The project pairs a strong lexical baseline with averaged Word2Vec, evaluates every headline category, and tests document clusters on an unseen partition.
 
-[Read the portfolio case study](https://godwineakpan.com/projects/nlp-document-clustering)
+[Explore the portfolio case study](https://godwineakpan.com/projects/nlp-document-clustering)
+
+![Representation comparison](figures/nlp-representation-comparison.png)
 
 ## Engineering contribution
 
-Implemented text preprocessing, feature comparisons, classification evaluation, and K-means/PCA exploration across three text corpora.
+Implemented leakage-aware text preparation, training-only feature learning, repeated classifier evaluation, sparse TF-IDF and normalized latent semantic analysis (LSA), held-out clustering evaluation, result reconciliation, and publication figures.
 
-## Workflow
+## Headline classification
 
-1. **Prepare the corpora:** Load Text8, news headlines, and 20 Newsgroups. Lowercase and tokenize text with an alphabetic regex.
-2. **Compare representations:** Explore Word2Vec neighbours and use TF-IDF or averaged embedding vectors as inputs to Logistic Regression.
-3. **Evaluate classification:** Use a stratified 80/20 headline split. Export class reports, macro-F1 comparisons, and a collapsed confusion matrix.
-4. **Inspect clustering:** Test K-means with k ∈ {10, 15, 20}; select using sampled silhouette and compare PCA views coloured by cluster and true topic.
+The News Category Dataset v3 supplies 209,527 records. Cleaning retains **206,959 headlines across 42 categories**. Empty normalized text, conflicting-label text groups, and duplicate normalized headlines are removed before splitting. Full removal counts are in `results/summary.json`.
 
-## Selected results
+Each of seeds 42, 137, and 2026 defines the same stratified 80/20 partition for all three classifiers. Text normalization lowercases and retains alphabetic tokens; only the headline predicts category. Feature fitting uses training text only.
 
-- **Headline classification — 0.4154 macro-F1.** TF-IDF plus Logistic Regression led this comparison; averaged Word2Vec achieved 0.2353 and the fast variant 0.1687.
-- **Clustering insight — Topic overlap.** Across k=10, 15, and 20, sampled silhouette remained slightly negative. The useful result was identifying weak separation and motivating a better representation.
-- **Implementation breadth — Python + Spark.** Local scikit-learn/gensim experiments provide the reported scores; separate Spark implementations explore scalable pipeline construction.
+| Model | Mean macro-F1 | Mean accuracy |
+| --- | ---: | ---: |
+| Majority | 0.0069 | 0.1700 |
+| TF-IDF + LR | 0.4099 | 0.5719 |
+| Word2Vec + LR | 0.2569 | 0.4475 |
 
-![Original macro-F1 bar chart with TF-IDF plus Logistic Regression around 0.42, averaged Word2Vec around 0.23, and fast Word2Vec around 0.17.](figures/nlp-macro-f1.png)
+Macro-F1 gives each category equal weight. Individual split scores are retained; these overlapping splits are not independent samples or confidence intervals.
 
-Macro-F1 across three headline-classification configurations. TF-IDF plus Logistic Regression outperformed the two averaged-embedding variants in these experiments.
+- **TF-IDF:** up to 100,000 unigram/bigram features, L2 normalization, default smoothed IDF.
+- **Word2Vec:** 200-dimensional CBOW; window 5, minimum count 5, 5 epochs, one worker, declared seed. Average in-vocabulary vectors; unknown-only headlines receive a zero vector. Standardize using training means/scales.
+- **Logistic Regression:** C=1, L-BFGS, maximum 1,000 iterations, tolerance 1e-4. Convergence warnings fail the run. No hold-out hyperparameter tuning.
+- **Baseline:** always predict the training majority category.
 
-## Engineering decisions
+![All categories](figures/nlp-category-performance.png)
 
-- **Start with a strong lexical baseline.** TF-IDF preserves discriminative words and phrases. Comparing it with averaged Word2Vec tests whether semantic features improve the task rather than assuming they will.
-- **Match the metric to the question.** Macro-F1 gives each headline category weight, while silhouette and topic-coloured projections examine different aspects of unsupervised structure.
-- **Inspect clusters from two perspectives.** PCA views coloured by cluster and by known topic make overlap visible and connect numerical evaluation to qualitative inspection.
+## Held-out document clustering
 
-## Scope and limitations
+Use the official 20 Newsgroups by-date archive: 11,314 earlier and 7,532 later documents before cleaning. Remove headers, footers, and quotations with scikit-learn's pinned cleaning functions; normalize text; remove empty/duplicate normalized documents and test overlap with training. Exclude documents with no retained TF-IDF features. The evaluated partitions contain **10,946 training and 7,253 held-out documents**.
 
-- **Comparison design.** Embedding variants use different training settings, and results come from a single split. Repeated seeds and consistent preprocessing are needed for a controlled comparison.
-- **Cluster interpretation.** Silhouette was estimated on a sample and PCA is a two-dimensional projection. The observed overlap does not establish successful topic recovery; ARI/NMI and robustness checks would strengthen evaluation.
-- **Scale evidence.** Reported scores belong to local Python runs. Separate Spark source does not establish distributed speedup or production serving performance.
+- Training-only TF-IDF: maximum 50,000 unigram features, min_df=2, max_df=0.5, English stop list, sublinear term frequency, L2 normalization.
+- Compare sparse TF-IDF with training-fitted truncated SVD (100 components, 7 power iterations, seed 42) followed by L2 normalization. SVD retains 10.4% of training explained variance.
+- K-means: k in {10,15,20}, n_init=10, max_iter=300, three seeds. Predict held-out cluster assignments from training centroids.
+- Select k **within each representation** by mean training silhouette on a fixed sample of 1,500 documents (sampling seed 99). Cosine distance for TF-IDF, Euclidean for normalized LSA; absolute silhouette scores across these geometries are not directly comparable.
+- Held-out topic labels are used only for ARI/NMI evaluation. All candidate results are exported, rather than choosing k using test labels.
 
-## Code and reproducibility
+| Representation | Training-selected k | Mean held-out ARI | Mean held-out NMI |
+| --- | ---: | ---: | ---: |
+| TF-IDF | 20 | 0.0920 | 0.3298 |
+| LSA-100 | 20 | 0.1854 | 0.3719 |
 
-Explore the [source snapshots](notebooks_or_src/) and original project figures. These are historical research results; the models and streaming jobs were not rerun for the portfolio presentation.
+![Held-out topic recovery](figures/nlp-topic-recovery.png)
 
-Selected outputs are in [results](results/). Source availability does not imply a pinned, one-command reproduction; environment versions, input acquisition, and a run manifest should be completed before rerunning.
+![Topic/cluster association](figures/nlp-topic-association.png)
 
-## Next iteration
+The association matrix shows each topic's distribution across cluster IDs for seed 42 and training-selected LSA k. It is a direct contingency view, without a potentially misleading two-dimensional projection.
 
-1. **Compare stronger representations.** Evaluate truncated SVD and contextual embeddings against TF-IDF under consistent preprocessing.
-2. **Repeat the classification study.** Record corpus versions and model settings, repeat splits, and quantify variability in macro-F1.
-3. **Evaluate clustering more fully.** Add ARI/NMI, inspect topic subsets, and measure robustness across seeds and representations.
+## Further investigation: rare-word probability estimation
+
+A separate, corrected Text8 study compares MLE, Simple Good–Turing, and absolute discounting across sample sizes and vocabulary definitions. Its **120 verified estimator runs** complement the representation experiments here.
+
+[Read the experiment, code, results, and limitations](../3_LanguageModel_Discounting/README.md)
+
+## Reproduce
+
+Use Python 3.11 and install `requirements.txt` in a virtual environment. Obtain `News_Category_Dataset_v3.json` from the original dataset publisher and `20news-bydate.tar.gz` from the original archive; see [references](REFERENCES.md). Check the exact source SHA-256 values in `results/manifest.json`.
+
+```powershell
+./run.ps1 -News /path/to/News_Category_Dataset_v3.json -Groups /path/to/20news-bydate.tar.gz -Python python
+```
+
+This runs eight preparation/resume tests, all 27 model configurations, and the figures. Private prediction files are saved under ignored `private-results/`. Published outputs contain aggregate metrics and figures, not raw articles, message bodies, or individual predictions. The current implementation is `src/run_experiments.py`; older source snapshots and figures may remain in repository history and are superseded by these results.
+
+## Limitations and next steps
+
+- Random headline splits do not establish future-period or cross-publisher transfer. Categories can overlap semantically and reflect historical publisher conventions. Evaluate a temporal holdout next.
+- Averaged CBOW is a bounded baseline; these results do not rank all embedding methods or contextual encoders. Common data and C do not mean equally optimized model families.
+- Topic recovery is partial. Cleaning is heuristic; exact deduplication does not remove paraphrases or all thread relationships. Topic labels are reference categories, not a perfect taxonomy of each document's content.
+- Sampled silhouette and seed ranges are descriptive. Different feature geometries prevent a direct silhouette comparison between representations.
+- Single-machine scikit-learn/gensim execution establishes no distributed speedup or serving-capacity guarantee. Fixed seeds and one Word2Vec worker improve repeatability; pinned numerical environments still matter.
+
+Full runs, per-category reports, confusion counts, topic/cluster tables, data-quality counts, code/input hashes, and verification status are in [results](results/).

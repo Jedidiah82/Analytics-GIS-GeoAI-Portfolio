@@ -1,0 +1,7 @@
+split,model,fit_predict_export_seconds
+group_random_70_30,Majority baseline,2.730143800006772
+group_random_70_30,Logistic Regression,8.025240900002245
+group_random_70_30,Random Forest,40.12483010000142
+capture_holdout,Majority baseline,2.816536199999973
+capture_holdout,Logistic Regression,6.278037600000971
+capture_holdout,Random Forest,32.13868260000163
