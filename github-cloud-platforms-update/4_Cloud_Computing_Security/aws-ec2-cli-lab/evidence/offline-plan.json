@@ -1,0 +1,30 @@
+{
+  "mode": "offline-plan",
+  "action": "create",
+  "launch_arguments": [
+    "ec2",
+    "run-instances",
+    "--image-id",
+    "ami-00000000000000000",
+    "--instance-type",
+    "t3.micro",
+    "--count",
+    "1",
+    "--subnet-id",
+    "subnet-00000000000000000",
+    "--security-group-ids",
+    "sg-00000000000000000",
+    "--key-name",
+    "portfolio-lab",
+    "--metadata-options",
+    "HttpTokens=required,HttpEndpoint=enabled",
+    "--block-device-mappings",
+    "[{\"DeviceName\": \"/dev/xvda\", \"Ebs\": {\"Encrypted\": true, \"DeleteOnTermination\": true, \"VolumeType\": \"gp3\", \"VolumeSize\": 8}}]",
+    "--tag-specifications",
+    "[{\"ResourceType\": \"instance\", \"Tags\": [{\"Key\": \"Project\", \"Value\": \"portfolio-ec2-cli\"}, {\"Key\": \"RunId\", \"Value\": \"replace-with-unique-run-id\"}]}, {\"ResourceType\": \"volume\", \"Tags\": [{\"Key\": \"Project\", \"Value\": \"portfolio-ec2-cli\"}, {\"Key\": \"RunId\", \"Value\": \"replace-with-unique-run-id\"}]}]",
+    "--client-token",
+    "portfolio-replace-with-unique-run-id"
+  ],
+  "cloud_calls": 0,
+  "requires": "Explicit execution, matching account, approved network and owned state"
+}

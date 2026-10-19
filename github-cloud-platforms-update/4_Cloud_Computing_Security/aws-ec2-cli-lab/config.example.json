@@ -1,0 +1,11 @@
+{
+  "region": "us-east-2",
+  "account": "000000000000",
+  "ami": "ami-00000000000000000",
+  "subnet": "subnet-00000000000000000",
+  "security_group": "sg-00000000000000000",
+  "key_name": "portfolio-lab",
+  "admin_cidr": "192.0.2.1/32",
+  "instance_type": "t3.micro",
+  "run_id": "replace-with-unique-run-id"
+}

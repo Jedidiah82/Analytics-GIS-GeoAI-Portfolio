@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-10-19T00:52:59.891645+00:00",
+  "scope": "local unit/artifact checks; cloud and SMTP are not executed",
+  "command": "python -m unittest -v",
+  "exit_code": 0,
+  "passed": true,
+  "tests": 14
+}

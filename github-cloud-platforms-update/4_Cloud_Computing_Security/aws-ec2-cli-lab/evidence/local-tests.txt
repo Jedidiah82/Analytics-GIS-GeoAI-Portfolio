@@ -1,0 +1,19 @@
+test_account_mismatch_blocks_launch (test_lifecycle.LifecycleTests) ... ok
+test_alarm_has_no_unverified_email_claim (test_lifecycle.LifecycleTests) ... ok
+test_cleanup_waits_then_deletes_alarm (test_lifecycle.LifecycleTests) ... ok
+test_existing_state_blocks_create (test_lifecycle.LifecycleTests) ... ok
+test_expected_network_allowed (test_lifecycle.LifecycleTests) ... ok
+test_foreign_tags_block_termination (test_lifecycle.LifecycleTests) ... ok
+test_invalid_config (test_lifecycle.LifecycleTests) ... ok
+test_metadata_and_single_instance (test_lifecycle.LifecycleTests) ... ok
+test_missing_ssh_rejected (test_lifecycle.LifecycleTests) ... ok
+test_open_ssh_rejected (test_lifecycle.LifecycleTests) ... ok
+test_state_saved_before_alarm_failure (test_lifecycle.LifecycleTests) ... ok
+test_unexpected_ipv6_rejected (test_lifecycle.LifecycleTests) ... ok
+test_volumes_encrypted_and_tagged (test_lifecycle.LifecycleTests) ... ok
+test_wide_admin_range_rejected (test_lifecycle.LifecycleTests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.020s
+
+OK

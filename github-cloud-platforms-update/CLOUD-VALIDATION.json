@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-10-19T00:52:59.891645+00:00",
+  "python": "3.10.11",
+  "scope": "local unit/artifact checks; cloud and SMTP are not executed",
+  "projects": {
+    "monitoring": {
+      "command": "python -m unittest -v",
+      "exit_code": 0,
+      "passed": true,
+      "tests": 11
+    },
+    "aws": {
+      "command": "python -m unittest -v",
+      "exit_code": 0,
+      "passed": true,
+      "tests": 14
+    },
+    "azure": {
+      "command": "python validate_static.py",
+      "exit_code": 0,
+      "passed": true,
+      "tests": 5
+    },
+    "cryptography": {
+      "command": "python -m unittest -v",
+      "exit_code": 0,
+      "passed": true,
+      "tests": 5
+    }
+  }
+}

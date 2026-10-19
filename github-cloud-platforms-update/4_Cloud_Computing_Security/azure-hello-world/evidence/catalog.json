@@ -1,0 +1,14 @@
+{
+  "new_evidence": [
+    "evidence/validation.json",
+    "evidence/local-tests.txt"
+  ],
+  "historical_files": [
+    "docs/step1-local-run.png",
+    "docs/step2-github-actions.png",
+    "docs/step3-azure-portal.png"
+  ],
+  "historical_scope": "Preserved source artifacts, not evidence that the corrected code was rerun in the cloud.",
+  "current_cloud_execution": "not performed",
+  "diagrams": "Original explanatory diagrams; no deployment status is inferred from a diagram."
+}

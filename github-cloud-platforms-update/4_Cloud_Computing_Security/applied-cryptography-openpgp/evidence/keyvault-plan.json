@@ -1,0 +1,54 @@
+{
+  "mode": "plan-only",
+  "cloud_calls": 0,
+  "prerequisites": [
+    "Existing approved vault and RSA key with encrypt/decrypt operations",
+    "Authenticated Entra identity with scoped cryptographic permissions",
+    "Record key version and prove an unauthorized identity is denied separately"
+  ],
+  "commands": [
+    [
+      "az",
+      "keyvault",
+      "key",
+      "show",
+      "--vault-name",
+      "example-vault",
+      "--name",
+      "example-key"
+    ],
+    [
+      "az",
+      "keyvault",
+      "key",
+      "encrypt",
+      "--vault-name",
+      "example-vault",
+      "--name",
+      "example-key",
+      "--algorithm",
+      "RSA-OAEP-256",
+      "--data-type",
+      "plaintext",
+      "--value",
+      "synthetic-portfolio-message"
+    ],
+    [
+      "az",
+      "keyvault",
+      "key",
+      "decrypt",
+      "--vault-name",
+      "example-vault",
+      "--name",
+      "example-key",
+      "--algorithm",
+      "RSA-OAEP-256",
+      "--data-type",
+      "plaintext",
+      "--value",
+      "REPLACE_WITH_RETURNED_CIPHERTEXT"
+    ]
+  ],
+  "verification": "Compare recovered plaintext, inspect actual key metadata and access-denial result. No vault creation, role grant or key deletion is automated."
+}
