@@ -1,316 +1,68 @@
-# 🔐 Secure Data Storage, Transmission & Digital Signatures (GnuPG)
+# Applied Cryptography
 
-![Crypto](https://img.shields.io/badge/Cryptography-OpenPGP-success)
-![GnuPG](https://img.shields.io/badge/GnuPG-Gpg4win-blue)
-![Security](https://img.shields.io/badge/Security-Encryption%20%26%20Signing-critical)
-![Standards](https://img.shields.io/badge/Standards-NIST%20CSF%20%7C%20ISO%2027001-informational)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Cloud](https://img.shields.io/badge/Cloud-Azure%20Key%20Vault-blueviolet)
+**Verify the original. Reject the altered.**
 
-## Portfolio Artifact – Applied Cryptography
+An isolated OpenPGP exercise that encrypts and recovers a synthetic message, verifies a detached signature and rejects a modified copy. Each run uses a disposable keyring separate from personal keys and publishes only a compact verification report.
 
-This project demonstrates the **real-world application of cryptographic principles**—secure data storage, secure data transmission, and digital signatures—using **GnuPG (Gpg4win)** on a modern Windows platform.
+![Applied Cryptography architecture](docs/architecture.png)
 
-Rather than manually implementing cryptographic algorithms (e.g., DES, RSA, Diffie-Hellman), the lab focuses on **industry-standard, production-aligned practices** using OpenPGP tooling that mirrors how encryption, signing, and key management are handled in **enterprise and cloud security environments**.
+## What was implemented
 
-> Scope note: This project emphasizes secure configuration, key management, and cryptographic operations rather than algorithm implementation.
+- **Isolate the keyring** — Create a new GnuPG home for each run, with short-lived signing and encryption test keys.
+- **Encrypt and recover** — Use the encryption subkey and compare the decrypted synthetic message with the original bytes.
+- **Sign and verify** — Create a detached signature and require GnuPG to emit a valid-signature status for the original message.
+- **Reject modification** — Change the message and require a failing verification result with a bad-signature status.
 
----
+## Validation and evidence
 
-## What This Demonstrates
+Four real GnuPG checks passed with GnuPG 2.4.8. Five offline orchestration tests also passed. Key Vault was not executed.
 
-- Public-key cryptography using **OpenPGP**
-- Digital signatures for **integrity** and **non-repudiation**
-- Encryption for **confidentiality**
-- Secure private-key handling with **passphrase protection**
-- Modern elliptic-curve cryptography (**Curve25519 / EdDSA**)
-- Troubleshooting cryptographic failures (e.g., bad passphrase, signing timeouts)
+- **GnuPG execution: 4 / 4 passed** — GnuPG 2.4.8 confirmed plaintext recovery, decryption status, a valid signature and rejection of a modified message.
+- **Failure contracts: 5 passed** — Offline tests check existing-directory refusal, missing executables, failed key generation, isolated command orchestration and incorrect tamper acceptance.
+- **Azure Key Vault: Plan only** — A separate helper documents operations for an existing approved key; no new Azure calls or role grants were made.
 
----
+See [evidence/validation.json](evidence/validation.json) and [the executed test log](evidence/local-tests.txt). Test counts refer to local tests, not proof of production readiness.
 
-## Core Security Principles Demonstrated
+## Run it
 
-| Security Principle | Implementation |
-|------------------|----------------|
-| Confidentiality | File encryption using OpenPGP |
-| Integrity | Digital signatures |
-| Authenticity | Identity-bound signing keys |
-| Non-repudiation | Signed data verification |
-| Key Management | Passphrase-protected private keys |
-| Cryptographic Agility | ECC (Curve25519 / EdDSA) |
+Python 3.10+ and official GnuPG/Gpg4win are required. The executed run used GnuPG 2.4.8. No third-party Python library is required.
 
----
-
-## Explicit Mapping to NIST Cybersecurity Framework (CSF)
-
-### Identify (ID)
-- Cryptographic assets (keys, certificates) are clearly identified and managed.
-- User identity is explicitly bound to cryptographic material (name and email).
-
-**Relevant controls**
-- ID.AM-1 – Physical and logical assets inventoried  
-- ID.GV-1 – Governance of cryptographic use established  
-
----
-
-### Protect (PR)
-- Strong encryption applied to data at rest.
-- Private keys protected using strong passphrases.
-- Modern cryptographic algorithms used (ECC instead of legacy RSA/DES).
-
-**Relevant controls**
-- PR.DS-1 – Data protected at rest  
-- PR.DS-2 – Data protected in transit  
-- PR.AC-1 – Identity-based access control  
-
----
-
-### Detect (DE)
-- Cryptographic failures detected (e.g., incorrect passphrase, signing timeout).
-- Verification confirms whether data has been altered or tampered with.
-
-**Relevant controls**
-- DE.CM-7 – Monitoring for unauthorized activity  
-- DE.DP-4 – Event outcomes validated  
-
----
-
-### Respond (RS)
-- Signing failures analyzed and corrected through configuration and retry.
-- Key usage errors remediated without generating insecure cryptographic material.
-
-**Relevant controls**
-- RS.AN-1 – Root cause analysis performed  
-- RS.MI-1 – Incidents contained and mitigated  
-
----
-
-### Recover (RC)
-- Encrypted data remains recoverable using the correct private key.
-- Keys remain valid across sessions and can be restored from backups.
-
-**Relevant controls**
-- RC.IM-1 – Recovery plans incorporate cryptographic dependencies  
-
----
-
-## Mapping to ISO/IEC 27001 (Annex A)
-
-| ISO 27001 Control | Alignment |
-|------------------|----------|
-| A.8.12 – Data encryption | OpenPGP encryption for stored data |
-| A.8.13 – Key management | Secure key generation, passphrases, validity |
-| A.5.17 – Authentication information | Identity-bound signing keys |
-| A.8.10 – Information deletion | Encrypted data unreadable without keys |
-| A.8.9 – Configuration management | Proper cryptographic configuration |
-
----
-
-## Cloud Security Bridge (Enterprise Equivalents)
-
-Although this lab uses **local OpenPGP**, the cryptographic model directly maps to cloud-native services.
-
-### AWS KMS (Key Management Service)
-
-| OpenPGP Concept | AWS KMS Equivalent |
-|---------------|-------------------|
-| Private key | Customer Master Key (CMK) |
-| Passphrase | IAM policy + key policy |
-| File encryption | Envelope encryption |
-| Digital signatures | KMS Sign / Verify API |
-| Key rotation | Automatic CMK rotation |
-
----
-
-### Azure Key Vault
-
-| OpenPGP Concept | Azure Key Vault Equivalent |
-|---------------|----------------------------|
-| Public/private key pair | Key Vault asymmetric key |
-| Key validity | Key expiration & rotation |
-| Digital signature | Key Vault Sign / Verify |
-| Key protection | HSM-backed keys |
-| Identity binding | Azure AD / Entra ID |
-
-> **Insight:**  
-> This lab demonstrates foundational key lifecycle management skills required before working with AWS KMS, Azure Key Vault, or HashiCorp Vault.
-
----
-
-## Tools & Technologies
-
-- Gpg4win 4.4.1
-- GnuPG (OpenPGP)
-- Kleopatra key manager
-- Windows OS
-- Elliptic Curve Cryptography (ECC)
-
----
-
-## Implementation Summary
-
-- Installed and configured Gpg4win
-- Generated OpenPGP public/private key pair
-- Secured private key using a strong passphrase
-- Encrypted plaintext files for secure storage
-- Digitally signed files to ensure authenticity
-- Verified successful encryption and signing operations
-
----
-
-## Cybersecurity Role Relevance
-
-This project aligns with responsibilities in:
-
-- Cybersecurity Analyst / SOC Analyst
-- Cloud Security Engineer
-- DevSecOps Engineer
-- Information Security / GRC Analyst
-- Digital Forensics (foundational)
-
----
-
-## Why This Project Matters
-
-Modern security professionals **do not implement cryptographic algorithms manually**.  
-They **design, configure, validate, and audit secure cryptographic systems**.
-
-This artifact demonstrates:
-- Practical cryptography
-- Secure key handling
-- Identity-based trust models
-- Troubleshooting real cryptographic failures
-- Audit-ready security operations
-
----
-
-## Cloud Key Management Extension (Azure Key Vault)
-
-To bridge local cryptographic fundamentals with enterprise cloud security,
-this lab was extended using **Azure Key Vault** to demonstrate how modern
-cloud platforms manage encryption keys without exposing private material.
-
-> Related project:  
-> **Azure Hello World – Static Web App Deployment**  
-> (Demonstrates secure-by-default cloud hosting and CI/CD governance)
-
-### What Was Implemented
-
-- Provisioned Azure Key Vault via Azure CLI
-- Generated a non-exportable RSA key (RSA-OAEP)
-- Enforced RBAC using **Key Vault Crypto Officer**
-- Performed encryption and decryption operations via CLI
-- Verified plaintext recovery without accessing private keys
-
-### Security Principles Demonstrated
-
-| Principle | Implementation |
-|--------|----------------|
-| Key Isolation | Private keys never leave Azure Key Vault |
-| Least Privilege | RBAC-enforced cryptographic permissions |
-| Confidentiality | Data encrypted using managed asymmetric keys |
-| Auditability | All operations logged by Azure |
-
-### Mapping to OpenPGP Concepts
-
-| OpenPGP | Azure Key Vault |
-|------|----------------|
-| Private key | Non-exportable Key Vault key |
-| Passphrase | Azure RBAC + Entra ID |
-| Sign / Verify | Key Vault Sign / Verify |
-| Encrypt / Decrypt | Key Vault Encrypt / Decrypt |
-
-> **Result:**  
-> This extension demonstrates how foundational cryptography skills
-> translate directly into cloud-native key management services
-> such as Azure Key Vault and AWS KMS.
-
-### Verification Evidence
-- Successful encryption and decryption operations were verified using Azure Key Vault CLI, with private key material remaining non-exportable and inaccessible.
-
-### Conceptual Architecture Diagram
-
-```text
-┌──────────────────────────────┐
-│        OpenPGP (Local)       │
-└──────────────────────────────┘
-        │
-        │ 1. Generate Key Pair
-        ▼
-┌──────────────────────────────┐
-│ Public Key  | Private Key    │
-│ (Shared)    | (Local, Encrypted
-│             |  w/ Passphrase)│
-└──────────────────────────────┘
-        │
-        │ 2. Encrypt / Sign
-        ▼
-┌──────────────────────────────┐
-│ Encrypted + Signed Data      │
-│ (.gpg file)                  │
-└──────────────────────────────┘
-        │
-        │ 3. Decrypt / Verify
-        ▼
-┌──────────────────────────────┐
-│ Plaintext (Integrity Verified)│
-└──────────────────────────────┘
+```sh
+python -m unittest -v
+python verify_openpgp.py --private-dir ../../../private-openpgp-UNIQUE-RUN --report evidence/openpgp-result.json
+python keyvault_plan.py --vault example-vault --key example-key
 ```
 
-```text
-┌────────────────────────────────────────┐
-│        Azure Key Vault (Cloud)          │
-└────────────────────────────────────────┘
-        │
-        │ 1. Create Non-Exportable Key
-        ▼
-┌────────────────────────────────────────┐
-│ Azure Key Vault                         │
-│ ─ RSA Key (HSM / Software Protected)   │
-│ ─ Private Key NEVER Exposed            │
-└────────────────────────────────────────┘
-        │
-        │ 2. Encrypt / Decrypt via API
-        ▼
-┌────────────────────────────────────────┐
-│ Ciphertext returned to application     │
-│ (Base64 encoded)                       │
-└────────────────────────────────────────┘
-        │
-        │ 3. Decrypt (Authorized Only)
-        ▼
-┌────────────────────────────────────────┐
-│ Plaintext (Access controlled by RBAC)  │
-└────────────────────────────────────────┘
-```
+Choose a NEW private directory outside the repository and upload package for each real run; replace UNIQUE-RUN with a unique value. Existing directories are refused. The runner creates one-day test keys and synthetic text. It passes a random in-memory passphrase through stdin and never touches your default keyring. The private directory retains disposable key material; do not upload it. The public JSON includes no private keys or passphrase. On Windows, run outside a restricted client if GnuPG fails with a DLL relocation error; a blocked executable is a failed run, not a successful verification. The prepared local launcher verifies a fresh report before printing SUCCESS.
 
-These diagrams highlight the architectural evolution from local cryptographic key ownership (OpenPGP) to cloud-native key isolation (Azure Key Vault).
-While OpenPGP secures data through locally managed private keys and passphrases, Azure Key Vault enforces cryptographic operations through identity-based access control and non-exportable keys—eliminating private key exposure.
-This comparison demonstrates how foundational cryptography skills translate directly into enterprise cloud security architectures.
+The Key Vault helper prints command arrays only. It does not authenticate, create a vault, grant roles or invoke Azure. If separately approved, use an existing suitable RSA key and inspect its key type, version, protection and allowed operations before using the commands. Compare recovered synthetic plaintext and separately test denial for an unauthorized identity. Record the exact key version so rotation cannot silently change the experiment. Do not infer HSM backing from the service name or infer application least privilege from assigning a broad Crypto Officer role. Large-file encryption would require an envelope design; the sample RSA operation is for a small message. Public-key encryption alone does not authenticate a sender, and signatures alone do not implement replay prevention.
 
-## Threat Considerations (High-Level, Practical)
 
-- Private key compromise mitigated via non-exportable keys (Key Vault)
-- Unauthorized encryption attempts blocked by RBAC
-- Replay and tampering mitigated via asymmetric cryptography
-- Accidental data exposure reduced through encryption at rest
+## Files and output mapping
 
----
+- verify_openpgp.py — isolated execution and sanitized result report
+- test_openpgp.py — offline failure-path tests
+- evidence/openpgp-result.json — fresh, executed cryptographic checks
+- keyvault_plan.py — plan-only extension for an existing approved Azure key
+- docs/architecture.svg, architecture-mobile.svg and architecture.png — original diagrams of this implementation.
 
-## Recommended Repository Structure
+## Scope and limitations
 
-```text
-applied-cryptography-openpgp/
-├── README.md
-├── lab-report/
-│   └── final-lab-report.pdf
-├── screenshots/
-│   ├── key-generation.png
-│   ├── encryption-success.png
-│   └── signature-verification.png
-├── samples/
-│   ├── secure-message.txt
-│   └── secure-message.txt.gpg
-└── notes/
-    └── nist-iso-mapping.md
-```
+- **A functional cryptography exercise** — This is not a cryptographic audit, identity-verification service or compliance certification.
+- **Test keys are disposable** — One-day synthetic test keys and process-memory passphrases are not a production key backup, rotation or recovery policy.
+- **Replay is a separate threat** — Encryption and signatures do not by themselves prevent replay. Nonces, timestamps and application-side replay handling would need separate design and tests.
+
+## Next technical priorities
+
+- **Verify the cloud extension separately** — In an approved vault, record the key type, version and operations; test an authorized operation and a denied unauthorized request.
+- **Add an application trust model** — Define identity binding, key distribution, rotation, revocation and recovery before applying this pattern to real data.
+
+## References
+
+- https://www.gnupg.org/documentation/manuals/gnupg/Unattended-Usage-of-GPG.html
+- https://learn.microsoft.com/en-us/cli/azure/keyvault/key?view=azure-cli-latest
+- https://learn.microsoft.com/en-us/azure/key-vault/keys/about-keys-details
+
+## Author
+
+Godwin Etim Akpan · Geospatial & Data Engineer

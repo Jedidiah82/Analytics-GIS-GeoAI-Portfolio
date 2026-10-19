@@ -1,0 +1,11 @@
+{
+  "new_evidence": [
+    "evidence/validation.json",
+    "evidence/local-tests.txt",
+    "evidence/openpgp-result.json"
+  ],
+  "historical_files": [],
+  "historical_scope": "Preserved source artifacts, not evidence that the corrected code was rerun in the cloud.",
+  "current_cloud_execution": "not performed",
+  "diagrams": "Original explanatory diagrams; no deployment status is inferred from a diagram."
+}

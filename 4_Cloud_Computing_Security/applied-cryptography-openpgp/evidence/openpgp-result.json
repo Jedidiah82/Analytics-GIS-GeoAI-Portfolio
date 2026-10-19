@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-10-19T00:43:28.234887+00:00",
+  "tool": "gpg (GnuPG) 2.4.8",
+  "data": "synthetic public message",
+  "checks": {
+    "plaintext_round_trip": true,
+    "decryption_status": true,
+    "signature_valid": true,
+    "tamper_rejected": true
+  },
+  "message_sha256": "bb70c7a136b1a1fe8a866da59331950ee84a47135de58f16d3c83ec8dc40516e",
+  "cloud_key_vault": "not executed",
+  "private_material": "Disposable generated home retained outside publication; passphrase existed only in process memory"
+}
