@@ -1,0 +1,16 @@
+test_exact_thresholds (test_health_check.HealthTests) ... ok
+test_exit_states (test_health_check.HealthTests) ... ok
+test_healthy (test_health_check.HealthTests) ... ok
+test_invalid_interval (test_health_check.HealthTests) ... ok
+test_local_resolution_mismatch (test_health_check.HealthTests) ... ok
+test_missing_sample_is_error (test_health_check.HealthTests) ... ok
+test_no_email_by_default (test_health_check.HealthTests) ... ok
+test_notification_failure_exit (test_health_check.HealthTests) ... ok
+test_probe_error_does_not_hide_other_checks (test_health_check.HealthTests) ... ok
+test_smtp_requires_configuration (test_health_check.HealthTests) ... ok
+test_smtp_starttls_before_login (test_health_check.HealthTests) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.027s
+
+OK

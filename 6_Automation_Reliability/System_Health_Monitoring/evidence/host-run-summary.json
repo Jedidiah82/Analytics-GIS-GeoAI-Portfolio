@@ -1,0 +1,12 @@
+{
+  "timestamp_utc": "2026-10-19T00:58:56.381061+00:00",
+  "status": "alert",
+  "issues": [
+    "disk_free_percent"
+  ],
+  "errors": [],
+  "notification": "disabled",
+  "type": "real local host sample",
+  "exit_code": 1,
+  "scope": "Host-specific resource values omitted; Linux cron and SMTP not executed."
+}
