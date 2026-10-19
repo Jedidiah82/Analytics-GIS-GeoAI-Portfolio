@@ -1,0 +1,21 @@
+{
+  "new_evidence": [
+    "evidence/validation.json",
+    "evidence/local-tests.txt"
+  ],
+  "historical_files": [
+    "screenshots/cloudwatch-alarm-cli.png",
+    "screenshots/cloudwatch-alarm-details-cli.png",
+    "screenshots/ec2-running.png",
+    "screenshots/iam-user-permissions.png",
+    "screenshots/ssh-access.png",
+    "Screenshots/cloudwatch-alarm-cli.png",
+    "Screenshots/cloudwatch-alarm-details-cli.png",
+    "Screenshots/ec2-running.png",
+    "Screenshots/iam-user-permissions.png",
+    "Screenshots/ssh-access.png"
+  ],
+  "historical_scope": "Preserved source artifacts, not evidence that the corrected code was rerun in the cloud.",
+  "current_cloud_execution": "not performed",
+  "diagrams": "Original explanatory diagrams; no deployment status is inferred from a diagram."
+}
