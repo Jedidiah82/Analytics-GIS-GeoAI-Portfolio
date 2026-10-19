@@ -1,0 +1,352 @@
+[
+  {
+    "path": ".github/workflows/azure-portfolio-lab.yml",
+    "bytes": 1624,
+    "sha256": "a080fa90756566cb4797efa3fc476a010eac665e11e69f53dfbeae6389a59afd"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/applied-cryptography-openpgp/.gitignore",
+    "bytes": 61,
+    "sha256": "972a835d8e7c1bfbd7563b3bbd8c0877c88c1e82781293baf0f2d2bd0fd8ab7e"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/applied-cryptography-openpgp/docs/architecture-mobile.svg",
+    "bytes": 7853,
+    "sha256": "fe88a138da5a8422007ddc97a57900cf82a90c64eda8feb1aa2885700d799a20"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/applied-cryptography-openpgp/docs/architecture.png",
+    "bytes": 77401,
+    "sha256": "0dd0714d9cc90e02df42b8c952e224351d727c0c17908ad6ba7bdf7881dd7aeb"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/applied-cryptography-openpgp/docs/architecture.svg",
+    "bytes": 7487,
+    "sha256": "315706388f9c42d9a7604d69c9b43957b8ff32faad991bc220718b943aba2aeb"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/applied-cryptography-openpgp/evidence/catalog.json",
+    "bytes": 419,
+    "sha256": "66d1f0eeee969aa73418a8e69cb56492714a2edfc632d813f51239e1aed6c243"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/applied-cryptography-openpgp/evidence/keyvault-plan.json",
+    "bytes": 1276,
+    "sha256": "7216cef27b024704429fc5a26139ef39c9aa68c984186a55019be2f6defbfbdc"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/applied-cryptography-openpgp/evidence/local-tests.txt",
+    "bytes": 444,
+    "sha256": "af931962295aedbf9fe4dbce22aed702c882108bbe792a753d6e551eb71f8772"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/applied-cryptography-openpgp/evidence/openpgp-result.json",
+    "bytes": 528,
+    "sha256": "24000733615a633f1a80b82044c8b6033ff951892c6b6e61b59f440121be605a"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/applied-cryptography-openpgp/evidence/validation.json",
+    "bytes": 226,
+    "sha256": "1bdb22dec9b0b64edf952dcb1dd1fdbead9d23b44459f70f4d4b869c3c70824f"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/applied-cryptography-openpgp/keyvault_plan.py",
+    "bytes": 1428,
+    "sha256": "c73098bdef02b026b27010a4136617486617c8b580f4702d8696e1751b5ac234"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/applied-cryptography-openpgp/README.md",
+    "bytes": 5257,
+    "sha256": "90a55b2451417c63ce7965ebb6a1ed860b09018206cbc21a01ef141c2336597c"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/applied-cryptography-openpgp/test_openpgp.py",
+    "bytes": 2856,
+    "sha256": "3cf4685bfbb51b7caac8481d00236784e95429d6ac6b503548a05fd1c96d253a"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/applied-cryptography-openpgp/verify_openpgp.py",
+    "bytes": 3801,
+    "sha256": "b19db38f6eb834d99aac6eb4e06bd39a8985eaa690bf9c9060de49309b563819"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/.gitignore",
+    "bytes": 61,
+    "sha256": "972a835d8e7c1bfbd7563b3bbd8c0877c88c1e82781293baf0f2d2bd0fd8ab7e"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/config.example.json",
+    "bytes": 311,
+    "sha256": "8e663b43cbcc2b0d4f37823387fd416a8302432fcf90fe0eeda5a3c931b4a754"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/docs/architecture-mobile.svg",
+    "bytes": 8084,
+    "sha256": "389663d3de87e89a0ef3224affe27af600d21a301f39005b9728e29dcf3352b2"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/docs/architecture.png",
+    "bytes": 80209,
+    "sha256": "b4f7283cb7852f434642a5a8a5f9b7d9fe46c391606704749460eaa7f3e8dec2"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/docs/architecture.svg",
+    "bytes": 7475,
+    "sha256": "e141eec593fdd7864db3274fd12147ad538040cec17a3b51c728f9218b3f17ef"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/evidence/catalog.json",
+    "bytes": 813,
+    "sha256": "fd3a295210918b39dce31aa3cba0c10453ce79c0c42b2d9b8bc000801d3e393d"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/evidence/local-tests.txt",
+    "bytes": 1115,
+    "sha256": "77b06f19bd2bbeae5ef7d2329f60638ec2c7892aa16f5c7ed3392330bcdfbcdc"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/evidence/offline-plan.json",
+    "bytes": 1194,
+    "sha256": "8ee95bb505f4ec8f57e59122f0ca225199868f700910be9b4b625f5bc710c28f"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/evidence/validation.json",
+    "bytes": 227,
+    "sha256": "28e54e1f58e2051b5c27bab2ee3def2cbbc8e401ebdcaf0dda03da573359f49d"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/lifecycle.py",
+    "bytes": 6426,
+    "sha256": "b97348f2fe2b39088ef446f3b8c0a72d4575463ae94fcf77c8ddc03a0528b6e3"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/README.md",
+    "bytes": 6182,
+    "sha256": "f7e1b842632776861169a22eddc94c014d0dca18e6ec86009538d76539acca6e"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/screenshots/cloudwatch-alarm-cli.png",
+    "bytes": 450433,
+    "sha256": "5f6344e9e7a40be513a64cc8472c45075597615a5b3a9bd2ba7799aa04acdf51"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/screenshots/cloudwatch-alarm-details-cli.png",
+    "bytes": 455470,
+    "sha256": "3e2190689ac5090cc56e4135f41953ca50b88933fa335bde123c860a295e07cf"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/screenshots/ec2-running.png",
+    "bytes": 392713,
+    "sha256": "6cfa985e21afedd4e5ecf8674194cc9c5ba2d27130a098bff5f218e15ded6311"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/screenshots/iam-user-permissions.png",
+    "bytes": 469668,
+    "sha256": "745a64b9d156e3f0f4b6f3f4593dc9a3cbba173134d9d11020d68ab5cd8f701b"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/screenshots/ssh-access.png",
+    "bytes": 317574,
+    "sha256": "8e89223cada43cc55becb1ecee9c76af5007180d34900cef11bce13caa05d0d4"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/aws-ec2-cli-lab/test_lifecycle.py",
+    "bytes": 4289,
+    "sha256": "09d41e6116dc5b5210d9354ca288be8c0a4c169a453096e35982797513acf4cc"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/.gitignore",
+    "bytes": 61,
+    "sha256": "972a835d8e7c1bfbd7563b3bbd8c0877c88c1e82781293baf0f2d2bd0fd8ab7e"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/docs/architecture-diagram.md",
+    "bytes": 665,
+    "sha256": "b54653aced51987343fd6ad22698c7db7ef7ab0e721af4585ebca22a8e537a2e"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/docs/architecture-diagram.png",
+    "bytes": 872525,
+    "sha256": "51865f8d45ad2f11c51a74b6d6d21b5c9b2af3107f7f3d0d780469d22fe71b3f"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/docs/architecture-diagram_simple.png",
+    "bytes": 288406,
+    "sha256": "4823403d868daaab1372c600897e0da2c1c80d49f72e307dab9d212c1498ef69"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/docs/architecture-mobile.svg",
+    "bytes": 8299,
+    "sha256": "edf7d0814c5be336ad6b5bdde4e929db41a462797fbb9ac418726d5622f270a3"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/docs/architecture.png",
+    "bytes": 84520,
+    "sha256": "0b013b48eb0df1a196d1b2feaed8da8feda6b7fb4cc8c77c049f8b3e38617bb1"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/docs/architecture.svg",
+    "bytes": 7811,
+    "sha256": "142c55e5598bfb477b2fe3cf711489975a07bec26879d6eafcb7d2cfcc8818e0"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/docs/step1-local-run.png",
+    "bytes": 477604,
+    "sha256": "a34854f8fcda0184f68eab244b4e96bb00dfc3c66c3efe9e553d6f4d1c537ee1"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/docs/step2-github-actions.png",
+    "bytes": 204921,
+    "sha256": "88c579e5706d1f96fc0d82c8f3e2a26bb7ca995ae3cc0522ef4035732a8c65c9"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/docs/step3-azure-portal.png",
+    "bytes": 195870,
+    "sha256": "ca35ac13a6a8dc318912adad4f9801b3c0bda137abcab024ca59252d9d797515"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/evidence/catalog.json",
+    "bytes": 492,
+    "sha256": "222ceb96eb57c1143516fda5c83b270f7e95ed199f2a3faabe3f15bf0eaded41"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/evidence/local-tests.txt",
+    "bytes": 345,
+    "sha256": "fb794a3e0e3eb8d17f930524a32522b5d0f054183ac691a440eca326471df324"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/evidence/validation.json",
+    "bytes": 230,
+    "sha256": "804a8c98771035b7abc192eb0c7c4cba505a323ebb002e2c8c20dceff6059c3e"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/README.md",
+    "bytes": 5158,
+    "sha256": "d375080259eef923e11ce9a22bb2d9551d5bef1a0692a2440694cefb364b4439"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/static/404.html",
+    "bytes": 304,
+    "sha256": "405205a7f1e2650966d3bdee801eb096282e300cf9546058203252ca19616216"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/static/index.html",
+    "bytes": 1215,
+    "sha256": "5c775c6c2449d4545b17e21b88e80e2a1bafa66faf3ae1884f2f5a86c019eea7"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/static/staticwebapp.config.json",
+    "bytes": 441,
+    "sha256": "eb9c67e070db4c5eef443f0e47ff3a250653a9c26c48aba2727b7baac089f239"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/static/styles.css",
+    "bytes": 743,
+    "sha256": "bd6f5259029321b94c3377293eae672bf474126530297466e3efa76b10e81749"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/validate_static.py",
+    "bytes": 1940,
+    "sha256": "218b2eb93c5b870d26eb3b3366bdc45c8c917d27cd6ce003fbc35f3fe400c5c5"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/azure-hello-world/verify_endpoint.py",
+    "bytes": 1730,
+    "sha256": "64a2b7acb4b0feaa5956128ae664e44e808a63326582ff81782e730f441d6510"
+  },
+  {
+    "path": "4_Cloud_Computing_Security/cloud-labs-overview.png",
+    "bytes": 74499,
+    "sha256": "3d9745fcc7d2f5e8ccb591d60b4b35bad3390b36df42ba6540f00853faa38692"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/.gitignore",
+    "bytes": 61,
+    "sha256": "972a835d8e7c1bfbd7563b3bbd8c0877c88c1e82781293baf0f2d2bd0fd8ab7e"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/docs/architecture-mobile.svg",
+    "bytes": 7508,
+    "sha256": "e49f700d403f6ea62bfdbf4822e7d7a2812231d5ded66a9a86a4021e2e455b8c"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/docs/architecture.png",
+    "bytes": 76479,
+    "sha256": "27ffdc7383d7b95398080eb65318a76dab38a737b26d73a794d1f5d96a7638d1"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/docs/architecture.svg",
+    "bytes": 7019,
+    "sha256": "3c271089d2f5b06837f5102fc5a24e2177db37ac66c5f156c88772349d55817d"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/evidence/catalog.json",
+    "bytes": 726,
+    "sha256": "1ce471c1177fda9ccd2d4e4fbf2a0627df13c82d4d9cb8481dfd52f34d0ba0d3"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/evidence/host-run-summary.json",
+    "bytes": 319,
+    "sha256": "0cf77dd67b502d2feefb8a20a0766c318ff545b64a001a9a6e51a2b8e60dd533"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/evidence/local-tests.txt",
+    "bytes": 843,
+    "sha256": "63f292b91c67a0ed014135c6177046ebb6ae7334593dfc87ed1ebe9eb257c45a"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/evidence/validation.json",
+    "bytes": 227,
+    "sha256": "0141e62052dfdfe7990890b77936b63b06ca564fbefa6148bdc7b19c5b82c2f0"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/health_check.py",
+    "bytes": 3742,
+    "sha256": "3f83d9dc59ed24eb4c2d26a8fa28c20684c26e0bbac52138c5d99116ef11db0d"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/README.md",
+    "bytes": 4498,
+    "sha256": "50d203e94387c4282d2dfbab4ac1e8423bdc1631aa407202318a92d68537da9d"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/requirements.txt",
+    "bytes": 14,
+    "sha256": "0a64052c9f00a844087488380cecb26234764432e208ace8efa74562719ae61a"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/Screenshots/Automated System Alert Emails Triggered by Threshold Breaches.jpg",
+    "bytes": 97361,
+    "sha256": "fd39a9b20eeee011333d0bc8f3a7f9987b30a66ce25dc807fef54d6eebdf3ea4"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/Screenshots/Cron Job Scheduling System Health Checks.png",
+    "bytes": 243509,
+    "sha256": "995b09fa35b7e1ffbe08ced88d5b72cccfac68652e1997216b1b73650cf5db96"
+  },
+  {
+    "path": "6_Automation_Reliability/System_Health_Monitoring/test_health_check.py",
+    "bytes": 3038,
+    "sha256": "b2eb8e27d6925df90bed401284dfc89b107c0609d989af84fe7feb6ef269e45a"
+  },
+  {
+    "path": "CLOUD-PROJECTS-README.md",
+    "bytes": 966,
+    "sha256": "7d2b28fe71813e26e04d734c727252807d71e21d10aa9f9b3b387026875bbaa4"
+  },
+  {
+    "path": "CLOUD-VALIDATION.json",
+    "bytes": 720,
+    "sha256": "f402e76361dc8734f6681950b5b760e988a673c706e80063e26f2d5e2b7eee56"
+  },
+  {
+    "path": "tools/render_cloud_architecture.py",
+    "bytes": 8535,
+    "sha256": "de89dfed774abe522c1244162b39b77a8aa11ca8a31c94aedd604e62be08ba86"
+  },
+  {
+    "path": "validate_cloud_projects.py",
+    "bytes": 1863,
+    "sha256": "1a884c87d85e43852d03ca9b297d5e3a131f6b2b538ed479737cc6ac03549183"
+  }
+]
