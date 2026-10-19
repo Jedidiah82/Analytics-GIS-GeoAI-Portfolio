@@ -1,0 +1,45 @@
+name: Validate and deploy Azure portfolio lab
+on:
+  push:
+    paths:
+      - '4_Cloud_Computing_Security/azure-hello-world/**'
+      - '.github/workflows/azure-portfolio-lab.yml'
+  pull_request:
+    paths:
+      - '4_Cloud_Computing_Security/azure-hello-world/**'
+      - '.github/workflows/azure-portfolio-lab.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: azure-portfolio-lab-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4; reviewed 2026-10-18
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - run: python 4_Cloud_Computing_Security/azure-hello-world/validate_static.py
+  deploy:
+    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
+    needs: validate
+    environment: azure-portfolio-lab
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Deploy static artifact
+        uses: Azure/static-web-apps-deploy@1a947af9992250f3bc2e68ad0754c0b0c11566c9 # v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PORTFOLIO_LAB }}
+          action: upload
+          app_location: '4_Cloud_Computing_Security/azure-hello-world/static'
+          api_location: ''
+          output_location: ''
+          skip_app_build: true
