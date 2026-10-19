@@ -1,3 +1,7 @@
+# Historical architecture sketch
+
+Retained from the earlier documentation. It mixes local .NET tooling with static hosting and is not the current implementation diagram. See [the corrected static architecture](architecture.svg) and the current README.
+
 ```mermaid
 flowchart LR
     Dev["Developer Laptop (VS Code + .NET SDK)"]

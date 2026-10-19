@@ -1,0 +1,10 @@
+test_404 (__main__.StaticTests) ... ok
+test_documents (__main__.StaticTests) ... ok
+test_local_assets (__main__.StaticTests) ... ok
+test_no_client_secrets (__main__.StaticTests) ... ok
+test_security_headers (__main__.StaticTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
