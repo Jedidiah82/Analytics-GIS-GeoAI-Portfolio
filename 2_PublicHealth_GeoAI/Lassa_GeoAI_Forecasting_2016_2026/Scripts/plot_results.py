@@ -95,15 +95,32 @@ def coverage_map(panel,boundary_path,output,mobile=False):
 
 def projection_plot(panel,projections,selected,output):
     theme();future=projections[projections.model==selected].copy()
-    fig,ax=plt.subplots(figsize=(12,5.8));fig.subplots_adjust(left=.08,right=.97,top=.78,bottom=.2)
+    fig,ax=plt.subplots(figsize=(14,7));fig.subplots_adjust(left=.08,right=.97,top=.78,bottom=.2)
     history=panel.sum(axis=1);ax.plot(history.index,history,color=FG,label='Observed monthly records',lw=1.8)
-    ax.plot(future.date,future.prediction,color=COLORS[selected],label=f'{selected} projection',lw=2)
-    ax.fill_between(future.date,future.lower,future.upper,color=COLORS[selected],alpha=.14,label='Nominal 95% interval')
+    required={'SARIMA','Prophet'}
+    if not required.issubset(set(projections.model)):
+        raise ValueError('Both verified SARIMA and Prophet projections are required')
+    start=pd.Timestamp(history.index.min()).replace(day=1)
+    end=pd.Timestamp(projections.date.max())+pd.offsets.MonthBegin(1)
+    for year in range(start.year-1,end.year+1):
+        left=max(start,pd.Timestamp(year,12,1))
+        right=min(end,pd.Timestamp(year+1,4,1))
+        if left<right: ax.axvspan(left,right,color='#f4c47e',alpha=.075,zorder=0)
+    for model in ['SARIMA','Prophet']:
+        group=projections[projections.model==model].sort_values('date')
+        if len(group)!=48 or group.date.duplicated().any():
+            raise ValueError('Expected 48 unique monthly projections per model')
+        ax.plot(group.date,group.prediction,color=COLORS[model],
+                label=f'{model} projection'+(' (selected)' if model==selected else ''),
+                lw=2,ls='-' if model==selected else '--')
+        ax.fill_between(group.date,group.lower,group.upper,color=COLORS[model],alpha=.10,
+                label=f'{model} nominal 95% interval')
+    ax.plot([],[],color='#f4c47e',lw=7,alpha=.35,label='Dry season (Dec-Mar)')
     ax.axvline(history.index.max(),color=MUTED,ls='--',lw=1)
     ax.set_ylim(bottom=0);ax.set_ylabel('Monthly case counts');ax.grid(axis='y',alpha=.4)
     ax.legend(frameon=False,labelcolor=FG,fontsize=9,loc='upper left')
     fig.text(.08,.94,'LASSA FEVER / HISTORICAL-ORIGIN PROJECTION',color=COLORS['SARIMA'],fontsize=10,weight='bold')
-    fig.text(.08,.86,'A projection with an explicit observation cutoff',fontsize=22,weight='bold')
+    fig.text(.08,.86,'SARIMA and Prophet through 2026',fontsize=22,weight='bold')
     fig.text(.08,.045,'Origin: December 2022 · horizon: January 2023–December 2026\nNo observed 2023–2026 outcomes supplied; bands are model-based, not calibrated guarantees.',fontsize=9,color=MUTED)
     fig.savefig(output,dpi=180);plt.close(fig)
 
