@@ -31,6 +31,14 @@ SARIMA reduced pooled national MAE by about 30% against seasonal naive, although
 
 ![County benchmark](Figures/lassa-county-benchmark.png)
 
+### SARIMA and Prophet projections through 2026
+
+![SARIMA and Prophet projections with December–March dry-season shading](Figures/lassa-origin-projection.png)
+
+SARIMA is the backtest-selected model; Prophet provides a comparison.
+Shading marks December–March dry seasons. Projections start from
+December 2022; bands show nominal 95% model intervals.
+
 ## Evaluation design
 
 Train through December 2019, 2020, and 2021; forecast the following 12 months. The additional 2021–2022 holdout overlaps the annual folds and is not independent evidence. National candidates are seasonal naive, SARIMA (1,0,1)×(1,0,1,12), and Prophet with yearly seasonality. County candidates are zero, seasonal naive, recursive three-month recent mean, and pooled Poisson XGBoost.
