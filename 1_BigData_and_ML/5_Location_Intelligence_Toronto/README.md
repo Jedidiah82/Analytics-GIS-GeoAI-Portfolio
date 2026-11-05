@@ -1,290 +1,55 @@
-# 🗺️ Location Intelligence — Chinese Restaurant Site Selection (Toronto)
+# Toronto location intelligence: historical venue analysis
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/pandas-Data%20Wrangling-yellow)](https://pandas.pydata.org/)
-[![Scikit--Learn](https://img.shields.io/badge/scikit--learn-K--Means-orange)](https://scikit-learn.org/)
-[![Folium](https://img.shields.io/badge/Folium-Interactive%20Maps-brightgreen)](https://python-visualization.github.io/folium/)
+A recovered IBM Data Science capstone exploring venue composition, geographic grouping and restaurant-location questions. The maintained version makes the historical evidence inspectable and replaces unsupported site-selection claims with a reproducible descriptive summary.
 
----
+## Verified historical evidence
 
-## Executive Summary
+The original notebook is preserved in the private `Jedidiah82/Capstone-Exercise` repository. Its saved outputs report **2,213 returned venue rows across ten legacy area labels**. This package recovers the complete displayed area totals and Chinese-restaurant category shares from those outputs.
 
-This project applies **location intelligence** and **unsupervised machine learning** to identify **underserved neighborhoods** for Chinese restaurant expansion in Toronto, Canada.
+![Historical venue composition and sample coverage](figures/historical-venue-summary.png)
 
-Originally developed as part of the **IBM Data Science Professional Certificate Capstone**, the project has been **modernized for portfolio use**, preserving methodological rigor while ensuring reproducibility despite legacy API deprecation.
+Scarborough has the highest Chinese-category share in this saved sample, approximately 5.95%. Five area labels have a displayed share of zero. These observations describe the returned sample; they do not establish population-wide restaurant density, demand, saturation, profitability or recommended sites.
 
-**Outcome:**  
-A reusable **location-intelligence decision framework** that identifies **high-opportunity, low-competition neighborhoods** through spatial clustering, venue density modeling, and interactive geospatial visualization.
+## Inspect the evidence
 
----
+- [Recovered aggregate CSV](data/historical_area_summary.csv)
+- [Saved area-total table, original cell 53](evidence/original-cell-53.html)
+- [Saved category-share table, original cell 82](evidence/original-cell-82.html)
+- [Source hashes and recovery boundaries](evidence/source-manifest.json)
+- [Latest aggregate validation](evidence/validation.json)
+- [Reproducible validation and figure script](scripts/analyze_summary.py)
 
-## Business Problem
+Cell indices are zero-based. Category shares retain the notebook's displayed six-decimal precision; raw category counts have not been inferred from rounded shares. Returned rows can include the same venue from overlapping searches and are not verified unique businesses.
 
-Toronto is one of North America’s most diverse food markets, yet restaurant density varies significantly across neighborhoods.
+## What changed
 
-**Key question:**  
-> *Which Toronto neighborhoods show strong market potential for a new Chinese restaurant based on existing venue patterns?*
+- Replaced the violin plot of one aggregate value per area with an aligned share-and-coverage comparison.
+- Corrected the analytical grain: the original collection passed `Borough` values into a field called `Neighborhood`. Its later clustering pooled rows by those labels.
+- Removed claims that synthetic data preserves real business conclusions. The later synthetic reconstruction randomly assigns coordinates and categories and uses nine categories, whereas the original saved grouped output reports 266 category columns.
+- Removed the placeholder interactive-map link. No corrected neighborhood cluster map or fresh clustering result is claimed.
 
----
+## Reproduce the maintained summary
 
-## Approach & Methodology
+Use Python 3.10 or later in an isolated environment:
 
-### Data Sources
-
-- **Neighborhoods & Boroughs:** Wikipedia (scraped using BeautifulSoup)
-- **Geographic Coordinates:** Public postal-code geospatial dataset
-- **Venue Data:**
-  - Originally collected via the Foursquare Places API
-  - For reproducibility, a **synthetic venue dataset with identical schema** was used due to API deprecation
-
-> ⚠️ Synthetic data preserves venue categories, relative density, and spatial structure to demonstrate the full analytical workflow without reliance on live APIs.
-
----
-
-## Tech Stack
-
-| Layer | Tools |
-|-----|------|
-| Data Wrangling | `pandas`, `BeautifulSoup` |
-| Geocoding | `Geopy` |
-| Feature Engineering | One-Hot Encoding |
-| Machine Learning | `scikit-learn` (K-Means) |
-| Visualization | `matplotlib`, `seaborn`, `folium` |
-| Mapping | Interactive Folium Maps |
-
----
-
-## Analytical Workflow
-
-```mermaid
-flowchart TD
-    A[Wikipedia Neighborhood Data] --> B[HTML Parsing<br/>BeautifulSoup]
-    B --> C[Cleaned Boroughs & Neighborhoods]
-    C --> D[Geocoding<br/>Latitude & Longitude]
-    D --> E["Venue Dataset<br/>(Foursquare / Synthetic)"]
-    E --> F[Venue Categories]
-    F --> G[One-Hot Encoding]
-    G --> H[K-Means Clustering<br/>k = 5]
-    H --> I[Cluster Profiles]
-    I --> J[Folium Maps & Density Analysis]
-    J --> K[Site Selection Insights]
+```powershell
+python -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+.venv\Scripts\python.exe scripts/analyze_summary.py
 ```
 
----
+The script checks the recovered input hash, unique area labels, valid shares, positive sample sizes and the 2,213-row reconciliation. It writes PNG/SVG figures and a fresh `evidence/validation.json`, including its run time and environment. It makes no network calls and requires no API credentials. This regenerates the historical summary; it does not rerun the original data collection or clustering.
 
-## Key Visual Results
+## Sources and method
 
----
+The original notebook references the Wikipedia list of Canadian M postal codes, the `cocl.us/Geospatial_data` coordinate file and the legacy Foursquare v2 venue-explore endpoint. Its collection code specifies a 500 m search radius and a 100-result limit. The API version string `20180605` is not evidence of the collection date. The current availability and coverage of those historical services have not been validated here.
 
-### 1️⃣ Density of Chinese Restaurants by Borough
+The original methods include venue-category one-hot encoding, category-share aggregation, a three-cluster comparison using Chinese-category shares and a separate five-cluster comparison using the category matrix. These are historical methods, not newly verified model results. The complete venue dataset and category matrix have not been recovered from the archive; displayed previews omit records and columns.
 
-![Density of Chinese Restaurants by Borough](figures/density_violin.png)
+## Limitations and next analytical step
 
-*Figure 1. Density of Chinese restaurants by borough (violin plot).*
+The legacy labels mix Toronto subdivisions with Mississauga and do not define a consistent municipal study boundary. Sampling coverage varies markedly, search responses may be capped, and venue identifiers are unavailable for full deduplication. Zero returned Chinese-category rows do not mean that an area had no Chinese restaurants. No calibrated uncertainty, current demand, rent, footfall or business outcomes are supplied.
 
-This visualization highlights boroughs with **low or zero Chinese restaurant density**, revealing potential market gaps.
+A defensible new site-selection study needs a permitted, dated venue dataset with identifiers, explicit geographic units and boundary, spatial deduplication, collection-coverage checks, and demand/cost evidence. Clustering should then be assessed for sensitivity to feature choices, number of clusters and random seeds. Synthetic fixtures can test software behavior separately; they cannot validate current market recommendations.
 
-**Key Insight — High Opportunity Zones:**
-- East York  
-- York  
-- West Toronto  
-- Mississauga  
-
-These boroughs show minimal saturation and represent strong expansion candidates.
-
----
-
-### 2️⃣ Venue Composition by Cluster  
-*(Top 10 venue categories per cluster)*
-
----
-
-#### 🔴 Cluster 0 — Sparse / Transitional Areas
-
-![Venue categories in cluster 0](figures/cluster0_bars.png)
-
-*Figure 2. Top venue categories in Cluster 0.*
-
-- Low venue diversity  
-- Minimal presence of Chinese restaurants  
-- Early-stage or transitional commercial areas  
-
----
-
-#### 🟣 Cluster 1 — Community & Recreation-Focused Neighborhoods
-
-![Venue categories in cluster 1](figures/cluster1_bars.png)
-
-*Figure 3. Top venue categories in Cluster 1.*
-
-- Dominated by parks, markets, convenience stores, and casual dining  
-- Limited Chinese restaurant presence  
-- Suitable for community-oriented food services  
-
----
-
-#### 🔵 Cluster 2 — Downtown & Entertainment-Oriented Districts
-
-![Venue categories in cluster 2](figures/cluster2_bars.png)
-
-*Figure 4. Top venue categories in Cluster 2.*
-
-- Cafés, restaurants, bars, bakeries, and hotels dominate  
-- High commercial activity and foot traffic  
-- Indicates **high competition** and dense mixed-use urban zones  
-
----
-
-#### 🟢 Cluster 3 — Residential–Commercial Mix
-
-![Venue categories in cluster 3](figures/cluster3_bars.png)
-
-*Figure 5. Top venue categories in Cluster 3.*
-
-- Coffee shops, pizza places, grocery stores, cafés, and fast food dominate  
-- Reflects stable residential demand  
-- Moderate competition — suitable for neighborhood-scale restaurants  
-
----
-
-#### 🟠 Cluster 4 — High Chinese Restaurant Density (Scarborough)
-
-![Venue categories in cluster 4](figures/cluster4_bars.png)
-
-*Figure 6. Top venue categories in Cluster 4.*
-
-- Chinese restaurants appear prominently  
-- Indicates market saturation driven by established cultural demand  
-- Less attractive for new low-competition entrants  
-
----
-
-### 3️⃣ Overall Venue Distribution — Food & Hangout Places
-
-![Venue distribution across food and hangout places](figures/venue_distribution.png)
-
-*Figure 7. Distribution of 78 food and hangout venue categories across Toronto neighborhoods.*
-
-Chinese restaurants rank **mid-level among 78 categories**, suggesting that while competition exists, **significant expansion potential remains** in underserved clusters.
-
----
-
-### 4️⃣ Geospatial Clustering Maps (Original & Reproducible)
-
----
-
-#### Original Clustering Map — IBM Capstone Results
-
-![Original Toronto Clustering Map](figures/toronto_cluster_map_original.png)
-
-*Figure 8. Original K-Means clustering of Toronto neighborhoods using Foursquare venue data (IBM Capstone project).*
-
-This map represents the **original analytical outcome** of the project, generated using the Foursquare Places API prior to its deprecation.
-
-- Five distinct neighborhood clusters  
-- Orange cluster highlights areas with high Chinese restaurant density  
-- Spatial patterns align with venue composition and density analyses  
-- Serves as the **primary basis for business conclusions**
-
-> *The original interactive map was generated during the IBM Capstone project when the Foursquare API was available.*
-
----
-
-#### Synthetic Clustering Map — Reproducibility Demonstration
-
-![Synthetic Toronto Clustering Map](figures/toronto_cluster_map_synthetic.png)
-
-*Figure 9. Reproduced K-Means clustering using a synthetic venue dataset with identical schema.*
-
-📍 **Interactive map (GitHub Pages):**  
-👉 https://YOUR_USERNAME.github.io/location-intelligence-toronto/toronto_cluster_map.html
-
-> *Note: GitHub does not render interactive HTML maps directly inside README previews.*
-
-To ensure **long-term reproducibility**, a synthetic venue dataset was generated with:
-- identical category structure  
-- similar spatial distribution  
-- preserved clustering behavior  
-
-This map demonstrates that:
-- clustering logic remains stable  
-- spatial insights are consistent  
-- conclusions do not depend on live API access  
-
----
-
-### Interpretation Consistency
-
-Both the original and synthetic clustering maps produce **consistent spatial patterns**, confirming that the project’s insights are **methodology-driven rather than API-dependent**.
-
----
-
-## Key Insights
-
-- **Scarborough** → high Chinese restaurant density *(saturated market)*  
-- **North York & Etobicoke** → moderate competition  
-- **East York, York, West Toronto, Mississauga** → **high-opportunity zones**  
-- Clusters reveal **amenity compatibility**, not just direct competition  
-
----
-
-## Deliverables
-
-- Density plots & cluster bar charts  
-- Interactive Folium cluster map (HTML)  
-- Cluster membership tables  
-- Full analytical notebook  
-
----
-
-## Portfolio Value
-
-This project demonstrates:
-
-- Location intelligence  
-- Spatial data analysis  
-- Unsupervised machine learning (K-Means)  
-- Feature engineering  
-- Decision-support visualization  
-- Real-world adaptation to API deprecation  
-
----
-
-## Note on Data Reproducibility
-
-Due to deprecation of the legacy Foursquare API used in the original IBM capstone, a **synthetic venue dataset with identical schema** was employed to preserve reproducibility and methodological integrity.
-
-This does **not** affect:
-- Clustering logic  
-- Spatial reasoning  
-- Business conclusions  
-
----
-
-## Future Enhancements
-
-- Integrate census demographics & income data  
-- Apply **HDBSCAN** or **Gaussian Mixture Models**  
-- Add mobility & foot-traffic data  
-- Deploy as a web-based decision-support tool  
-
----
-
-## Recommended Repository Structure
-
-```text
-location-intelligence-toronto/
-├── README.md
-├── toronto_cluster_map.html
-├── notebook.ipynb
-├── figures/
-│   ├── density_violin.png
-│   ├── cluster0_bars.png
-│   ├── cluster1_bars.png
-│   ├── cluster2_bars.png
-│   ├── cluster3_bars.png
-│   ├── cluster4_bars.png
-│   └── venue_distribution.png
-└── data/
-    └── synthetic_venues.csv
-```
+Legacy images in `figures/` are retained for historical continuity. Only the figure embedded above is regenerated and supported by this maintained summary. Original notebooks and credential-bearing outputs are excluded from this public update.

@@ -1,0 +1,18 @@
+{
+  "source_repository": "Jedidiah82/Capstone-Exercise (private)",
+  "source_commit_observed": "52d97f1ee6666229db4c25bf2c73f48e105590c1",
+  "source_member": "Capstone-Exercise-master/Capstone - The Battle of Neighborhoods.ipynb",
+  "source_notebook_sha256": "094b113515301b603b0e423876a37a4bc3fb4ca1dff447ecb41d0fa8f0cc3ae0",
+  "archive_sha256": "3417a7e8d3be407c4447ffb4c8cae004899cbe19e5ef85c20bd3358728333394",
+  "source_cells_zero_based": {
+    "returned_row_totals": 53,
+    "rounded_category_shares": 82
+  },
+  "extraction": "Saved HTML outputs only; original code not executed",
+  "collection_date": null,
+  "api_version_is_not_collection_date": "20180605",
+  "full_venue_records_recovered": false,
+  "full_category_matrix_recovered": false,
+  "original_clustering_rerun": false,
+  "summary_csv_sha256": "30fb9dd392a95ad5854f0cd33531f7f2c45be52e835c94cc692dab97583a5e94"
+}
