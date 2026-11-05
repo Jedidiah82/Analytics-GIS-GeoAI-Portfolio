@@ -1,10 +1,12 @@
-# Toronto Location Intelligence | Venue Composition & Spatial Analysis
+# Toronto Location Intelligence | Web Scraping & Spatial Analysis
 
-Explored restaurant-location questions using historical Toronto-area venue data, combining Python, geographic data preparation, venue-category analysis and interactive mapping.
+Built a location-intelligence workflow combining **web scraping, API integration and geospatial analysis** to explore restaurant-location patterns across the Toronto area.
 
-The original IBM Data Science capstone used Foursquare venue searches, one-hot encoding, K-Means and Folium. This maintained presentation brings together its original cluster map, saved venue-distribution chart and a reproducible summary of **2,213 returned venue rows across ten area groups**.
+Extracted postal-code, borough and neighborhood information from Wikipedia using BeautifulSoup, joined geographic coordinates, and collected nearby venues through the Foursquare API. Applied one-hot encoding and K-Means clustering to examine venue composition, presenting the historical results through Folium maps and analytical charts.
 
-**Skills demonstrated:** Python · pandas · Spatial data interpretation · Unsupervised learning · Data validation · Geospatial visualization
+The project includes the original cluster map, venue-distribution chart and a reproducible summary of **2,213 returned venue rows across ten area groups**.
+
+**Skills demonstrated:** Python · BeautifulSoup · pandas · Web scraping · API integration · Geographic data preparation · K-Means clustering · Folium · Data visualization
 
 ## Original spatial analysis
 
