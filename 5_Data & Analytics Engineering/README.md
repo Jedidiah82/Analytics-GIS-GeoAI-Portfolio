@@ -1,181 +1,51 @@
-# 🏗️ Data Engineering & Analytics Engineering
+# Data and Geospatial Engineering
 
-📦 Python • SQL • ETL/ELT • Spark • Airflow • Kafka • Data Warehousing • Microsoft Fabric  
+This index connects the portfolio's implemented data workflows to their source code, execution records and validation evidence. The projects cover historical log replay, network-flow preparation, spatial quality assurance and research data integration.
 
----
+The implementations live in their project folders below. This directory provides navigation across them rather than a separate deployed data platform.
 
-## Overview
+## Engineering evidence
 
-This section focuses on the design and implementation of **scalable data pipelines** that support machine learning, geospatial analytics (GeoAI), and decision-support systems.
+| Project | Implemented engineering work | Recorded execution and scope |
+| --- | --- | --- |
+| [NASA HTTP log analytics](../1_BigData_and_ML/4_Streaming_Analytics_NASA/README.md) | Parse and validate HTTP logs; prepare event-time replay; aggregate minute/status windows; checkpoint, restart and reconcile outputs. | 3,461,612 valid requests across 35 data batches; 183,308 final windows independently reconciled. This is an event-time-sorted historical replay on local Spark, not a live production feed. |
+| [UNSW-NB15 security analytics](../1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection/README.md) | Validate the 49-column flow schema and label semantics; group identical records during splitting; construct features; export named class metrics and provenance. | 2,539,739 records in the supplied extract. Corrected models ran in local PySpark on one machine; earlier HDFS/Hive work is documented separately. No multi-node speedup is claimed. |
+| [Wake County building exposure](../3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM/README.md) | Reconcile a county inventory; validate and repair geometry; retain traceable identifiers; intersect archived hazards; reconcile distinct-building counts and threshold sensitivity. | 325,436 distinct footprints; 1,837 have positive-area overlap with archived Special Flood Hazard Areas. The result describes geometric exposure, not observed damage. Independent portfolio demonstration. |
+| [GeoAI health surveillance](https://godwineakpan.com/projects/geoai-health-surveillance) | Integrate surveillance, population, environmental and boundary data; validate district-month records; build lagged features; expose research outputs through authenticated APIs and spatial reporting. | Evaluated research prototype spanning 136 districts and 4,760 modelling-ready observations. The evaluated data layer used CSV/GeoJSON; PostgreSQL/PostGIS functionality was separately validated. |
 
-It extends the work in **Big Data & Machine Learning** into production-oriented environments, enabling reliable data ingestion, transformation, orchestration, and delivery at scale.
+### Inspect the code and checks
 
----
+**NASA:** [replay preparation](../1_BigData_and_ML/4_Streaming_Analytics_NASA/notebooks_or_src/prepare_replay.py), [streaming replay runner](../1_BigData_and_ML/4_Streaming_Analytics_NASA/notebooks_or_src/run_replay.py), [streaming contract results](../1_BigData_and_ML/4_Streaming_Analytics_NASA/results/stream_contract_tests.json), and [reconciliation summary](../1_BigData_and_ML/4_Streaming_Analytics_NASA/results/summary.json).
 
-## Related Flagship Project
+**UNSW-NB15:** [preparation and modelling workflow](../1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection/src/unsw_model_workflow.py), [input and split manifest](../1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection/results/manifest.json), [validation results](../1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection/results/validation.json), and [per-class metrics](../1_BigData_and_ML/2_UNSW_NB15_Intrusion_Detection/results/per_class_metrics.csv).
 
-[Privacy-Preserving GeoAI Health Surveillance System](https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System)
+**Wake County:** [pipeline](../3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM/scripts/pipeline.py), [geometry QA](../3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM/results/qa.json), [independent output validation](../3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM/results/validation.json), and [exposure sensitivity](../3_GIS_Spatial_DataScience/BuildingFootprint_Demo_NCEM/results/exposure_sensitivity.csv).
 
-See the [Public Health GeoAI section](../2_PublicHealth_GeoAI) for the dissertation context, spatial epidemiology applications, and public-health decision-support focus.
+**GeoAI:** [project repository](https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System), [data schema](https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System/blob/main/reproducibility/DATA_SCHEMA.md), [API implementation](https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System/blob/main/app/api.py), and [analytical environment record](https://github.com/Jedidiah82/GeoAI-Health-Surveillance-System/blob/main/reproducibility/ANALYTICAL_ENVIRONMENT.txt). The case study distinguishes original evaluation, additional geographic/temporal validation, demonstrated deployment and proposed production work.
 
----
+## Additional implemented workflows
 
-## Core Capabilities
+- **[NLP and document clustering](../1_BigData_and_ML/1_Large_scale_NLP_and_document_clustering/README.md):** normalized-text deduplication, training-only feature learning, held-out evaluation, resumable experiments and aggregate result validation. The corrected experiments used single-machine scikit-learn/gensim; see the [runner](../1_BigData_and_ML/1_Large_scale_NLP_and_document_clustering/src/run_experiments.py) and [validation record](../1_BigData_and_ML/1_Large_scale_NLP_and_document_clustering/results/validation.json).
+- **[Validated catalog uploads](../6_Automation_Reliability/Secure_File_Upload/README.md):** bounded metadata/JPEG preparation, bearer authentication, verified HTTPS, timeouts and explicit acknowledgement handling. [29 passing local tests](../6_Automation_Reliability/Secure_File_Upload/evidence/validation.json) include disposable HTTPS receivers and certificate rejection. External service deployment and durable storage require separate validation.
 
-- End-to-end data pipeline development (ETL/ELT using Python & SQL)  
-- Distributed data processing (Spark, PySpark, Hadoop ecosystem)  
-- Data modeling and transformation (structured and semi-structured data)  
-- Workflow orchestration and scheduling (Airflow concepts)  
-- Streaming and event-driven processing (Kafka fundamentals)  
-- Integration of pipelines with machine learning workflows  
-- Geospatial data processing (GeoPandas, spatial joins, feature engineering)  
+## Reproduce a workflow
 
----
+1. Open the selected project's README and use its declared Python, Java and dependency versions.
+2. Obtain the permitted source data and compare input hashes with its manifest. Public aggregate outputs do not replace missing raw inputs.
+3. Run the project's tests and execution commands. Inspect fresh exit states, timestamps, counts and validation results before interpreting figures.
+4. Retain the run configuration, source/input hashes and aggregate results. Keep restricted records, individual predictions, secrets and local environments outside public commits.
 
-## Pipeline Architecture
+The environment requirements differ between projects; there is no single shared runner for this index. Linked records describe their published executions, not a new rerun triggered by reading this page.
 
-```mermaid
-flowchart LR
-    A[Data Sources] --> B[Ingestion Layer]
-    B --> C[Storage Layer]
-    C --> D[Processing & Transformation]
-    D --> E[Analytics & ML Models]
-    E --> F[Visualization & Reporting]
+## Future development
 
-    subgraph DataSources
-        A1[APIs]
-        A2[Databases]
-        A3[Files / Logs]
-        A4[Geospatial Data]
-    end
+Potential extensions include workflow orchestration with Airflow, event ingestion with Kafka, and a Microsoft Fabric/Power BI implementation with versioned transformations and a semantic model. These are proposed directions here; this directory contains no corresponding deployed platform, notebooks, pipelines or BI model.
 
-    A1 --> A
-    A2 --> A
-    A3 --> A
-    A4 --> A
-```
+A future addition should publish runnable source, a permitted sample input, expected outputs, validation checks and a clear execution scope before it is listed as implemented evidence. Production operation would also require deployment-specific monitoring, access control, recovery procedures and measured service behavior.
 
----
+## Professional development
 
-## Key Focus Areas
+Relevant background includes MSc Big Data Technologies coursework and research, the IBM Data Science Professional Certificate and Google IT Automation with Python. The MSc's 180 credits are completed and passed; final award remains pending university confirmation. [Current qualifications and credential evidence](https://godwineakpan.com/#education) are maintained on the portfolio.
 
-- Building reusable and scalable data pipelines  
-- Preparing high-quality datasets for machine learning and analytics  
-- Integrating structured, unstructured, and geospatial data  
-- Supporting batch and real-time processing workflows  
-- Enabling data-driven decision systems across domains  
+[View the portfolio](https://godwineakpan.com/) · [Return to the repository](../README.md)
 
----
-
-## Application Areas
-
-- Public health surveillance and data systems  
-- GeoAI and spatial analytics pipelines  
-- Cybersecurity log ingestion and threat analytics  
-- Infrastructure and environmental data processing  
-- Cloud-based analytics platforms  
-
----
-
-## Relationship to Other Portfolio Sections
-
-This section connects directly with:
-
-- **Big Data & Machine Learning** → distributed analytics and model development  
-- **Public Health GeoAI** → spatio-temporal data pipelines and forecasting  
-- **GIS & Spatial Data Science** → geospatial data processing and feature engineering  
-- **Cloud Computing & Security** → scalable and secure infrastructure  
-- **Automation & Reliability** → monitoring, scheduling, and operational workflows  
-
----
-
-## Example Use Cases in This Portfolio
-
-- Data preparation pipelines for intrusion detection (UNSW-NB15)  
-- Feature engineering workflows for GeoAI forecasting models  
-- Streaming log ingestion and transformation (NASA dataset)  
-- Integration of multi-source datasets for spatial analysis  
-
----
-
-## 🧱 Microsoft Fabric & Power BI (Developing Competency)
-
-This section represents ongoing work in **modern analytics engineering using the Microsoft ecosystem**, including Microsoft Fabric, Power BI, and real-time analytics.
-
-It complements existing data engineering capabilities by introducing **lakehouse architectures, semantic modeling, and enterprise BI workflows**.
-
----
-
-### Focus Areas
-
-- Fabric Lakehouse architecture (Bronze → Silver → Gold layers)  
-- Data transformation using PySpark and SQL notebooks  
-- Dataflows Gen2 for ingestion and preparation  
-- Pipeline orchestration for ETL/ELT workflows  
-- Power BI semantic modeling (star schema, DAX measures)  
-- Real-time analytics using KQL and event streams  
-
----
-
-### Capabilities (In Progress)
-
-- Lakehouse design and Delta table management  
-- Data modeling and KPI development in Power BI  
-- Pipeline scheduling and monitoring  
-- Interactive dashboard development for decision support  
-- Integration of batch and streaming analytics workflows  
-
----
-
-### Planned Project Structure
-
-```text
-Microsoft_Fabric_Analytics/
-│
-├── notebooks/ # PySpark, SQL, KQL
-├── lakehouse/ # Medallion architecture
-├── pipelines/ # Fabric pipelines
-├── dataflows/ # Dataflows Gen2
-├── powerbi_reports/ # Dashboards & models
-└── figures/ # Architecture diagrams
-```
-
----
-
-### Planned Use Cases
-
-- Public health surveillance dashboards (Power BI)  
-- Lakehouse pipelines for structured and streaming data  
-- KPI monitoring systems (trend, anomaly detection, forecasting)  
-- Integration of GeoAI outputs into analytics dashboards  
-
----
-
-### Learning & Certification Path
-
-- Microsoft Certified: Fabric Analytics Engineer (DP-600) *(In Progress)*  
-- Microsoft Certified: Fabric Data Engineer (DP-700) *(In Progress)*  
-- Microsoft Certified: Power BI Data Analyst (PL-300) *(In Progress)*  
-
----
-
-### Future Direction
-
-- End-to-end Fabric + Azure analytics pipelines  
-- Real-time dashboards using Eventstream  
-- Fabric integration with GeoAI workflows  
-- Enterprise-scale analytics engineering solutions  
-
----
-
-## Professional Development
-
-- MSc Big Data Technologies *(Data Engineering & Distributed Systems)*  
-- IBM Data Engineering Professional Certificate  
-- Google IT Automation with Python  
-
----
-
-## Key Takeaway
-
-This section demonstrates the ability to design **scalable, production-oriented data systems** that transform raw data into structured, high-quality inputs for machine learning, GeoAI, and decision-support applications.
