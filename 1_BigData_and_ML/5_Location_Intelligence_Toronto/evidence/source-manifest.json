@@ -19,5 +19,13 @@
   "original_map_marker_count": 102,
   "original_venue_distribution_cell_zero_based": 112,
   "map_changes": "Removed unused obsolete rawgit stylesheet and added historical-scope overlay; original marker geometry, labels and colors preserved",
-  "original_map_png_source": "Existing historical portfolio image; Git blob SHA1 feeec908e5158488a950354856c391ea9e1db62e matched"
+  "original_map_png_source": "Existing historical portfolio image; Git blob SHA1 feeec908e5158488a950354856c391ea9e1db62e matched",
+  "presentation_revision": {
+    "summary_figure": "figures/restaurant-mix.png",
+    "values_changed": false,
+    "units": "Share of sampled venue records; returned record counts",
+    "caveats_location": "README Methodology and limitations; website Scope and limitations",
+    "interactive_map_live_verified": "https://godwineakpan.com/projects/toronto/historical-map",
+    "public_map_presentation": "All original marker locations and cluster colors preserved; extent, legend, heading and attribution improved"
+  }
 }

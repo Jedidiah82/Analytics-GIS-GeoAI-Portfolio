@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-11-05T18:21:58.108308+00:00",
+  "run_utc": "2026-11-05T21:34:23.804816+00:00",
   "status": "passed",
   "scope": "Historical aggregate validation and figure regeneration only",
   "python": "3.10.11",

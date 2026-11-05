@@ -59,21 +59,21 @@ def main():
         panel.tick_params(axis='y', length=0, pad=9)
     ax.set_xlim(0, .074)
     ax.xaxis.set_major_formatter(PercentFormatter(1))
-    ax.set_xlabel('Chinese-category share of returned rows')
+    ax.set_xlabel('Chinese restaurants (% of sample records)')
     counts.set_xlim(0, max(totals) * 1.23)
-    counts.set_xlabel('Returned venue rows (not unique businesses)')
+    counts.set_xlabel('Venue records in the sample')
     for i, (share, count) in enumerate(zip(values, totals)):
         ax.text(share + .0013, i, f'{share:.2%}', va='center', fontsize=10)
         counts.text(count + 16, i, f'{count:,}', va='center', fontsize=10)
-    fig.text(.07, .945, 'TORONTO CAPSTONE / RECOVERED HISTORICAL OUTPUTS', color='#286c8e', fontsize=11, weight='bold')
-    fig.text(.07, .89, 'Venue composition and sample coverage', fontsize=24, weight='bold', color='#172838')
-    fig.text(.07, .845, 'Ten legacy area labels · 2,213 returned rows · collection date not established', color='#566574', fontsize=11)
+    fig.text(.07, .945, 'TORONTO LOCATION INTELLIGENCE / VENUE ANALYSIS', color='#286c8e', fontsize=11, weight='bold')
+    fig.text(.07, .89, 'Restaurant mix across the Toronto area', fontsize=24, weight='bold', color='#172838')
+    fig.text(.07, .845, 'Chinese-restaurant share and venue-record coverage · 10 area groups · 2,213 records', color='#566574', fontsize=11)
     fig.subplots_adjust(left=.17, right=.96, bottom=.23, top=.78, wspace=.32)
-    fig.text(.07, .115, 'Source: saved notebook outputs, cells 53 and 82. Shares were displayed to six decimal places.', fontsize=10, color='#566574')
-    fig.text(.07, .08, 'Zero means no Chinese-category rows in that saved sample. Coverage is unequal; areas are not a consistent municipal geography.', fontsize=9.5, color='#566574')
-    fig.text(.07, .045, 'Historical descriptive evidence only: this chart does not establish unmet demand, market saturation or current site suitability.', fontsize=9.5, color='#566574')
+    fig.text(.07, .115, 'Source: Author’s IBM Data Science capstone · Foursquare venue-search sample.', fontsize=10, color='#566574')
+    fig.text(.07, .08, 'Percentages describe the venue records sampled within each area group.', fontsize=9.5, color='#566574')
+
     for extension in ('png', 'svg'):
-        fig.savefig(figures / f'historical-venue-summary.{extension}', dpi=180, facecolor=fig.get_facecolor())
+        fig.savefig(figures / f'restaurant-mix.{extension}', dpi=180, facecolor=fig.get_facecolor())
     plt.close(fig)
     result = {
         'run_utc': datetime.now(timezone.utc).isoformat(),

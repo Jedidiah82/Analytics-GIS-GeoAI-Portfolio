@@ -4,56 +4,43 @@ Built a location-intelligence workflow combining **web scraping, API integration
 
 Extracted postal-code, borough and neighborhood information from Wikipedia using BeautifulSoup, joined geographic coordinates, and collected nearby venues through the Foursquare API. Applied one-hot encoding and K-Means clustering to examine venue composition, presenting the historical results through Folium maps and analytical charts.
 
-The project includes the original cluster map, venue-distribution chart and a reproducible summary of **2,213 returned venue rows across ten area groups**.
+The project brings together **2,213 sampled venue records, ten area groups and a 102-point cluster map**.
 
 **Skills demonstrated:** Python · BeautifulSoup · pandas · Web scraping · API integration · Geographic data preparation · K-Means clustering · Folium · Data visualization
 
-## Original spatial analysis
+## Toronto venue clusters
 
-![Original Toronto capstone cluster map](figures/toronto_cluster_map_original.png)
+![Toronto venue clusters](figures/toronto-map-preview.jpg)
 
-**[Download or open the historical interactive map](maps/toronto-historical-clusters.html)**
+**[Open interactive map](https://godwineakpan.com/projects/toronto/historical-map)** · [Read the portfolio case study](https://godwineakpan.com/projects/toronto-location-intelligence) · [Download map HTML](maps/toronto-historical-clusters.html)
 
-The map preserves 102 postal-code points and their original five-cluster assignments. The model grouped venue composition by the source's area labels; those labels were then joined back onto postal-code points. Points sharing an area therefore share an area-level result. This is an archival capstone map, not a new neighborhood-level clustering run.
+Explore five venue-composition clusters across 102 postal-code locations in the Toronto area. Select a marker in the interactive map to inspect its label.
 
-GitHub displays the HTML source rather than running the map. Download the HTML file and open it in a browser; internet access is required for the map libraries and OpenStreetMap basemap. The browser view retains the original marker popups.
+## Restaurant mix across the Toronto area
 
-## Venue composition and sample coverage
+![Restaurant mix across the Toronto area](figures/restaurant-mix.png)
 
-![Historical venue composition and sample coverage](figures/historical-venue-summary.png)
+Compare Chinese-restaurant representation and venue-record coverage across ten area groups. Scarborough has the highest Chinese-restaurant share in the capstone sample, approximately **5.95%**. Record totals range from **12 to 1,296**, providing context for the category comparison.
 
-Scarborough has the highest Chinese-category share in the saved sample, approximately 5.95%. Coverage differs substantially: the saved area totals range from 12 to 1,296 returned venue rows. The paired chart makes those differences visible alongside the category shares.
+## Food and social-venue profile
 
-Five area groups have a displayed Chinese-category share of zero. That describes the saved search sample, not the absence of restaurants or evidence of unmet demand.
+![Food and social-venue profile](figures/venue_distribution.png)
 
-## Original venue-category profile
+The capstone’s category profile shows the mix of cafés, restaurants and other food and social venues in the collected sample.
 
-![Original food and hangout category distribution](figures/venue_distribution.png)
+## From web data to spatial insight
 
-The original chart summarizes selected food and social-venue categories from the historical capstone workflow. It is preserved as an original analytical output. Its full input table has not been recovered, so its individual bars have not been independently recalculated in this maintenance update. The original text-based category-selection rule also requires review before a fresh analysis.
+1. **Scrape geographic reference data:** extract and clean postal codes, boroughs and neighborhood names with requests and BeautifulSoup.
+2. **Integrate coordinates:** join a public latitude/longitude table by postal code.
+3. **Collect venue observations:** query nearby venues through the Foursquare explore API using a 500 m search radius and a 100-result limit.
+4. **Engineer and cluster features:** one-hot encode venue categories, aggregate category shares and apply K-Means to explore similarities.
+5. **Communicate spatial patterns:** join cluster labels to postal-code points and present the results with Folium maps and Matplotlib charts.
 
-## Approach and engineering contribution
+## Code and reproducibility
 
-- Prepared postal-code and coordinate data and collected nearby venue categories using the legacy Foursquare API.
-- Explored venue-category composition with one-hot encoding, aggregate comparisons and K-Means; communicated the original results with Folium and Matplotlib.
-- Recovered complete saved area totals and Chinese-category shares, reconciled 2,213 returned rows and produced a new share-and-coverage comparison.
-- Distinguished postal-code locations from the area-level grouping used by the model, and separated historical observations from later synthetic demonstrations.
+The public [Python summary script](scripts/analyze_summary.py) validates source fingerprints, area labels, numeric ranges and the 2,213-record reconciliation, then regenerates the restaurant-mix chart.
 
-The maintained summary script validates the recovered input hash, unique labels, valid shares and row-total reconciliation. [Source code](scripts/analyze_summary.py) and [dependencies](requirements.txt) are included for reproducibility. The original collection and full clustering have not been rerun.
-
-## Data and validation evidence
-
-- [Recovered historical summary CSV](data/historical_area_summary.csv)
-- [Original area-total table](evidence/original-cell-53.html)
-- [Original category-share table](evidence/original-cell-82.html)
-- [Source hashes and artifact provenance](evidence/source-manifest.json)
-- [Aggregate validation record](evidence/validation.json)
-
-The main notebook was confirmed against the original private capstone repository. Its saved outputs supply the tables and interactive map; the original map image is retained from the historical portfolio. Table cell indices in the manifest are zero-based. Shares retain the notebook's displayed six-decimal precision; counts have not been inferred from those rounded shares.
-
-## Rerun the maintained summary
-
-Use Python 3.10 or later in an isolated environment. From this project folder:
+Use Python 3.10 or later. From this project folder:
 
 ```powershell
 python -m venv .venv
@@ -61,12 +48,24 @@ python -m venv .venv
 .venv\Scripts\python.exe scripts/analyze_summary.py
 ```
 
-Expected validation: 10 area rows, 2,213 returned rows and five zero-share groups. The command regenerates the share-and-coverage PNG/SVG and validation JSON. It does not recollect venues, rerun clustering or regenerate the archival map and category chart.
+Expected validation: **10 area rows, 2,213 venue records and five zero-share groups**. Outputs: `figures/restaurant-mix.png`, `figures/restaurant-mix.svg` and `evidence/validation.json`.
 
-## Scope and limitations
+## Methodology and limitations
 
-This is a historical learning project. Returned venue rows are not verified unique businesses, search coverage varies, and the exact collection date has not been established. The legacy area labels mix Toronto subdivisions with Mississauga and do not define a consistent municipal boundary.
+This is a historical IBM Data Science capstone. The original model pools venue observations by legacy area labels; its cluster assignments are then mapped to postal-code locations. The markers therefore display area-level results, not independently learned neighborhood clusters. The original notebook also contains a separate three-cluster analysis of Chinese-category shares; the displayed map uses the five-cluster venue-composition analysis.
 
-The complete venue-level export and full category matrix are not available in the recovered snapshot. The original notebook includes separate three-cluster Chinese-category and five-cluster venue-composition analyses; the map above preserves the latter. It should not be interpreted as a freshly validated clustering result.
+The labels mix Toronto subdivisions with Mississauga. Sampling coverage varies, search responses may be capped and overlapping queries may repeat businesses. Venue records are not verified unique businesses. A zero share means no Chinese-category records in that saved sample, not that an area had no Chinese restaurants. The exact collection date is not established.
 
-Later synthetic data demonstrates software behavior only; it does not establish actual demand, saturation, profitability or current site suitability. A new decision-support study would need dated venue records, stable identifiers, consistent boundaries, coverage and duplication checks, cluster-stability assessment, and current demand/cost evidence.
+The original map and venue-category chart are saved capstone outputs. The complete venue export and category matrix have not been recovered, so the full clustering and individual bars in the original category chart have not been independently rerun. The maintained summary uses the complete saved area-total and Chinese-share tables; shares retain their six-decimal displayed precision. Its validation covers aggregate recovery and figure generation.
+
+Synthetic examples can demonstrate software behavior but do not validate real demand or market opportunities. Current site recommendations would require a dated, deduplicated venue dataset, consistent geographic units, cluster-stability checks and current demand/cost evidence.
+
+## Source and validation records
+
+- [Historical aggregate CSV](data/historical_area_summary.csv)
+- [Saved area-total table](evidence/original-cell-53.html)
+- [Saved Chinese-category share table](evidence/original-cell-82.html)
+- [Source manifest and hashes](evidence/source-manifest.json)
+- [Aggregate validation record](evidence/validation.json)
+
+The map and original category chart come from the author's IBM Data Science capstone; the restaurant-mix chart uses its saved aggregate tables. Source references in the notebook include Wikipedia's Canadian M postal-code table, the public geospatial-coordinate CSV and the legacy Foursquare explore API.
