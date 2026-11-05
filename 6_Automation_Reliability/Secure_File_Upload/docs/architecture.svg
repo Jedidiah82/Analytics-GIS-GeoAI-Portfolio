@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">Validated catalog upload workflow</title><desc id="desc">A trusted catalog folder passes metadata or JPEG validation, then a bearer token and verified TLS are used for one POST per file. The client checks the acknowledgement and emits a minimized report. Local test servers provide evidence; external production services have not been validated.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#66ddbf"/></marker></defs>
+<rect width="1280" height="640" fill="#0b1925"/>
+<g font-family="Arial, sans-serif"><text x="50" y="55" font-size="16" fill="#66ddbf">GODWIN ETIM AKPAN / REST API INGESTION LAB</text><text x="50" y="108" font-size="35" font-weight="bold" fill="#f4f8fc">Catalog upload validation and transport controls</text>
+<g fill="#142e40" stroke="#385369"><rect x="50" y="170" width="260" height="210" rx="12"/><rect x="357" y="170" width="260" height="210" rx="12"/><rect x="664" y="170" width="260" height="210" rx="12"/><rect x="971" y="170" width="260" height="210" rx="12"/></g>
+<g stroke="#66ddbf" stroke-width="3" marker-end="url(#arrow)"><path d="M311 275H348"/><path d="M618 275H655"/><path d="M925 275H962"/></g>
+<g fill="#f4f8fc" font-size="22" font-weight="bold"><text x="70" y="210">01 Input validation</text><text x="377" y="210">02 HTTPS and token</text><text x="684" y="210">03 Acknowledgement</text><text x="991" y="210">04 Execution record</text></g>
+<g fill="#c5d4e1" font-size="17"><text x="70" y="250">JSON metadata or JPEG</text><text x="70" y="280">Bounded files and batch</text><text x="70" y="310">Validate before connecting</text><text x="70" y="340">Synthetic catalog fixtures</text>
+<text x="377" y="250">Bearer token from environment</text><text x="377" y="280">HTTPS and verified certificates</text><text x="377" y="310">Finite socket timeout</text><text x="377" y="340">No redirects or POST retries</text>
+<text x="684" y="250">Require HTTP 2xx</text><text x="684" y="280">Require JSON object</text><text x="684" y="310">Bound response size</text><text x="684" y="340">Stop on first failure</text>
+<text x="991" y="250">Planned and acknowledged</text><text x="991" y="280">Request-body SHA-256</text><text x="991" y="310">UTC execution timestamp</text><text x="991" y="340">No tokens or response bodies</text></g>
+<path d="M50 430H1230" stroke="#385369"/>
+<text x="50" y="471" font-size="20" font-weight="bold" fill="#66ddbf">LOCAL EVIDENCE</text><text x="50" y="505" fill="#c5d4e1" font-size="18">Disposable HTTP/HTTPS receivers test successful requests, rejected credentials, certificates, redirects and failures.</text>
+<text x="50" y="551" font-size="20" font-weight="bold" fill="#66ddbf">DEPLOYMENT BOUNDARY</text><text x="50" y="585" fill="#c5d4e1" font-size="18">Remote receiver, durable storage, server authorization and production operation require separate validation.</text></g></svg>

@@ -1,0 +1,4 @@
+Demonstration apples
+500 lbs
+Synthetic catalog record used only for testing.
+This second line verifies preservation of multiline descriptions.

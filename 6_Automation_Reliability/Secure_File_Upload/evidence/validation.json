@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "started_utc": "2026-11-05T16:59:49.612737+00:00",
+  "finished_utc": "2026-11-05T17:00:02.684268+00:00",
+  "duration_seconds": 13.062,
+  "success": true,
+  "tests_run": 29,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "python": "3.12.14",
+  "openssl": "OpenSSL 3.5.8 25 Aug 2026",
+  "pillow": "13.0.0",
+  "cryptography": "50.0.2",
+  "scope": "Synthetic loopback HTTP/HTTPS tests and CLI subprocesses. No external service, production token or cloud deployment.",
+  "tls_test_keys": "Fresh disposable certificates in OS temporary storage; no keys in release files.",
+  "source_sha256": {
+    "run.py": "ccdc6f77be3e38d31495bc2b6ff35ce0c376d0b7cc33e01d78af4766c5cd9bad",
+    "supplier_image_upload.py": "3d5812a88ac68ad1f0a57d3f8b393277985adda671f2b61c0019deb15a96e9d3",
+    "tests/test_upload.py": "3d9d23458174d8d687c63a9a10ef966c83b6a9fc032c791f4bf019a3aebb2b45",
+    "upload_client.py": "a61e1ed20ee3a0aa2859b16c6e09105cbad47ad99f3c15689e0ee6b9f6de8f31",
+    "validate.py": "3fac8ef85270f513df25bd077e4b5a4a1d1412f0ac7b0bd4c0e78dfdbbba8eb3"
+  },
+  "limitations": [
+    "No penetration test or security certification",
+    "No production receiver or durable-storage test",
+    "No real credentials or remote uploads",
+    "No exactly-once delivery, rollback or automatic POST retry",
+    "Timeout is per socket operation, not a total batch deadline"
+  ]
+}

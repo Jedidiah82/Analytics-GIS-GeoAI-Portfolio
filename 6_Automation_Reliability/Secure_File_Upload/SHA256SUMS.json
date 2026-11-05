@@ -1,0 +1,80 @@
+{
+  "scope": "All project release files except this manifest",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 56,
+      "sha256": "0a78f6f4c204c49f3a58ea561e37b28956eb62e93e519b5eb67a5227b73262c6"
+    },
+    {
+      "path": "docs/architecture.png",
+      "bytes": 106906,
+      "sha256": "206dc69f963cd413c9aa747858ff37725bf87dd3c1280ea32f2a3521f0265e88"
+    },
+    {
+      "path": "docs/architecture.svg",
+      "bytes": 3079,
+      "sha256": "c91cbdde7872cac7a1e9013f7f80e1992c3d8b463bcc250ab6297446b2d359e5"
+    },
+    {
+      "path": "evidence/test-results.txt",
+      "bytes": 3487,
+      "sha256": "274a7f8a3021e9c8412b8cef7b9053a13a4097fd2da0b4fd46f86209f08c87e5"
+    },
+    {
+      "path": "evidence/validation.json",
+      "bytes": 1417,
+      "sha256": "2618b94e4f55390a353ad774e25063893f2c787aff891aa5a935bd68705e99ec"
+    },
+    {
+      "path": "fixtures/descriptions/001.txt",
+      "bytes": 143,
+      "sha256": "b6e188008cdcc121ecdc2776d83c87a9a923c11f5066fcfdac527844c713f961"
+    },
+    {
+      "path": "fixtures/images/001.jpeg",
+      "bytes": 645,
+      "sha256": "0a2ac31eb20599ac0f1cb9995a2077261af9534d8b3f506732cf9be981449769"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8969,
+      "sha256": "5aa3dc094ffce5141939e8dc4f0ba8e27c648ad5c66714bd32763afbb6e62335"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 41,
+      "sha256": "3be6de11e35483949e4d55f6143e44a3c2b0d3d30da3b520e1a57b2886fca101"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 15,
+      "sha256": "ae3337e5ae362bf1fad83355272ff595b58aae13d7a7ac67617f6f3161fa0c07"
+    },
+    {
+      "path": "run.py",
+      "bytes": 141,
+      "sha256": "ccdc6f77be3e38d31495bc2b6ff35ce0c376d0b7cc33e01d78af4766c5cd9bad"
+    },
+    {
+      "path": "supplier_image_upload.py",
+      "bytes": 161,
+      "sha256": "3d5812a88ac68ad1f0a57d3f8b393277985adda671f2b61c0019deb15a96e9d3"
+    },
+    {
+      "path": "tests/test_upload.py",
+      "bytes": 15553,
+      "sha256": "3d9d23458174d8d687c63a9a10ef966c83b6a9fc032c791f4bf019a3aebb2b45"
+    },
+    {
+      "path": "upload_client.py",
+      "bytes": 9532,
+      "sha256": "a61e1ed20ee3a0aa2859b16c6e09105cbad47ad99f3c15689e0ee6b9f6de8f31"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 2132,
+      "sha256": "3fac8ef85270f513df25bd077e4b5a4a1d1412f0ac7b0bd4c0e78dfdbbba8eb3"
+    }
+  ]
+}
