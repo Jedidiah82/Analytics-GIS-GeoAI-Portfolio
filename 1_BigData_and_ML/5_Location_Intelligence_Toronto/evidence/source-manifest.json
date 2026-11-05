@@ -14,5 +14,10 @@
   "full_venue_records_recovered": false,
   "full_category_matrix_recovered": false,
   "original_clustering_rerun": false,
-  "summary_csv_sha256": "30fb9dd392a95ad5854f0cd33531f7f2c45be52e835c94cc692dab97583a5e94"
+  "summary_csv_sha256": "30fb9dd392a95ad5854f0cd33531f7f2c45be52e835c94cc692dab97583a5e94",
+  "original_map_cell_zero_based": 94,
+  "original_map_marker_count": 102,
+  "original_venue_distribution_cell_zero_based": 112,
+  "map_changes": "Removed unused obsolete rawgit stylesheet and added historical-scope overlay; original marker geometry, labels and colors preserved",
+  "original_map_png_source": "Existing historical portfolio image; Git blob SHA1 feeec908e5158488a950354856c391ea9e1db62e matched"
 }

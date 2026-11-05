@@ -1,36 +1,57 @@
-# Toronto location intelligence: historical venue analysis
+# Toronto Location Intelligence | Venue Composition & Spatial Analysis
 
-A recovered IBM Data Science capstone exploring venue composition, geographic grouping and restaurant-location questions. The maintained version makes the historical evidence inspectable and replaces unsupported site-selection claims with a reproducible descriptive summary.
+Explored restaurant-location questions using historical Toronto-area venue data, combining Python, geographic data preparation, venue-category analysis and interactive mapping.
 
-## Verified historical evidence
+The original IBM Data Science capstone used Foursquare venue searches, one-hot encoding, K-Means and Folium. This maintained presentation brings together its original cluster map, saved venue-distribution chart and a reproducible summary of **2,213 returned venue rows across ten area groups**.
 
-The original notebook is preserved in the private `Jedidiah82/Capstone-Exercise` repository. Its saved outputs report **2,213 returned venue rows across ten legacy area labels**. This package recovers the complete displayed area totals and Chinese-restaurant category shares from those outputs.
+**Skills demonstrated:** Python · pandas · Spatial data interpretation · Unsupervised learning · Data validation · Geospatial visualization
+
+## Original spatial analysis
+
+![Original Toronto capstone cluster map](figures/toronto_cluster_map_original.png)
+
+**[Download or open the historical interactive map](maps/toronto-historical-clusters.html)**
+
+The map preserves 102 postal-code points and their original five-cluster assignments. The model grouped venue composition by the source's area labels; those labels were then joined back onto postal-code points. Points sharing an area therefore share an area-level result. This is an archival capstone map, not a new neighborhood-level clustering run.
+
+GitHub displays the HTML source rather than running the map. Download the HTML file and open it in a browser; internet access is required for the map libraries and OpenStreetMap basemap. The browser view retains the original marker popups.
+
+## Venue composition and sample coverage
 
 ![Historical venue composition and sample coverage](figures/historical-venue-summary.png)
 
-Scarborough has the highest Chinese-category share in this saved sample, approximately 5.95%. Five area labels have a displayed share of zero. These observations describe the returned sample; they do not establish population-wide restaurant density, demand, saturation, profitability or recommended sites.
+Scarborough has the highest Chinese-category share in the saved sample, approximately 5.95%. Coverage differs substantially: the saved area totals range from 12 to 1,296 returned venue rows. The paired chart makes those differences visible alongside the category shares.
 
-## Inspect the evidence
+Five area groups have a displayed Chinese-category share of zero. That describes the saved search sample, not the absence of restaurants or evidence of unmet demand.
 
-- [Recovered aggregate CSV](data/historical_area_summary.csv)
-- [Saved area-total table, original cell 53](evidence/original-cell-53.html)
-- [Saved category-share table, original cell 82](evidence/original-cell-82.html)
-- [Source hashes and recovery boundaries](evidence/source-manifest.json)
-- [Latest aggregate validation](evidence/validation.json)
-- [Reproducible validation and figure script](scripts/analyze_summary.py)
+## Original venue-category profile
 
-Cell indices are zero-based. Category shares retain the notebook's displayed six-decimal precision; raw category counts have not been inferred from rounded shares. Returned rows can include the same venue from overlapping searches and are not verified unique businesses.
+![Original food and hangout category distribution](figures/venue_distribution.png)
 
-## What changed
+The original chart summarizes selected food and social-venue categories from the historical capstone workflow. It is preserved as an original analytical output. Its full input table has not been recovered, so its individual bars have not been independently recalculated in this maintenance update. The original text-based category-selection rule also requires review before a fresh analysis.
 
-- Replaced the violin plot of one aggregate value per area with an aligned share-and-coverage comparison.
-- Corrected the analytical grain: the original collection passed `Borough` values into a field called `Neighborhood`. Its later clustering pooled rows by those labels.
-- Removed claims that synthetic data preserves real business conclusions. The later synthetic reconstruction randomly assigns coordinates and categories and uses nine categories, whereas the original saved grouped output reports 266 category columns.
-- Removed the placeholder interactive-map link. No corrected neighborhood cluster map or fresh clustering result is claimed.
+## Approach and engineering contribution
 
-## Reproduce the maintained summary
+- Prepared postal-code and coordinate data and collected nearby venue categories using the legacy Foursquare API.
+- Explored venue-category composition with one-hot encoding, aggregate comparisons and K-Means; communicated the original results with Folium and Matplotlib.
+- Recovered complete saved area totals and Chinese-category shares, reconciled 2,213 returned rows and produced a new share-and-coverage comparison.
+- Distinguished postal-code locations from the area-level grouping used by the model, and separated historical observations from later synthetic demonstrations.
 
-Use Python 3.10 or later in an isolated environment:
+The maintained summary script validates the recovered input hash, unique labels, valid shares and row-total reconciliation. [Source code](scripts/analyze_summary.py) and [dependencies](requirements.txt) are included for reproducibility. The original collection and full clustering have not been rerun.
+
+## Data and validation evidence
+
+- [Recovered historical summary CSV](data/historical_area_summary.csv)
+- [Original area-total table](evidence/original-cell-53.html)
+- [Original category-share table](evidence/original-cell-82.html)
+- [Source hashes and artifact provenance](evidence/source-manifest.json)
+- [Aggregate validation record](evidence/validation.json)
+
+The main notebook was confirmed against the original private capstone repository. Its saved outputs supply the tables and interactive map; the original map image is retained from the historical portfolio. Table cell indices in the manifest are zero-based. Shares retain the notebook's displayed six-decimal precision; counts have not been inferred from those rounded shares.
+
+## Rerun the maintained summary
+
+Use Python 3.10 or later in an isolated environment. From this project folder:
 
 ```powershell
 python -m venv .venv
@@ -38,18 +59,12 @@ python -m venv .venv
 .venv\Scripts\python.exe scripts/analyze_summary.py
 ```
 
-The script checks the recovered input hash, unique area labels, valid shares, positive sample sizes and the 2,213-row reconciliation. It writes PNG/SVG figures and a fresh `evidence/validation.json`, including its run time and environment. It makes no network calls and requires no API credentials. This regenerates the historical summary; it does not rerun the original data collection or clustering.
+Expected validation: 10 area rows, 2,213 returned rows and five zero-share groups. The command regenerates the share-and-coverage PNG/SVG and validation JSON. It does not recollect venues, rerun clustering or regenerate the archival map and category chart.
 
-## Sources and method
+## Scope and limitations
 
-The original notebook references the Wikipedia list of Canadian M postal codes, the `cocl.us/Geospatial_data` coordinate file and the legacy Foursquare v2 venue-explore endpoint. Its collection code specifies a 500 m search radius and a 100-result limit. The API version string `20180605` is not evidence of the collection date. The current availability and coverage of those historical services have not been validated here.
+This is a historical learning project. Returned venue rows are not verified unique businesses, search coverage varies, and the exact collection date has not been established. The legacy area labels mix Toronto subdivisions with Mississauga and do not define a consistent municipal boundary.
 
-The original methods include venue-category one-hot encoding, category-share aggregation, a three-cluster comparison using Chinese-category shares and a separate five-cluster comparison using the category matrix. These are historical methods, not newly verified model results. The complete venue dataset and category matrix have not been recovered from the archive; displayed previews omit records and columns.
+The complete venue-level export and full category matrix are not available in the recovered snapshot. The original notebook includes separate three-cluster Chinese-category and five-cluster venue-composition analyses; the map above preserves the latter. It should not be interpreted as a freshly validated clustering result.
 
-## Limitations and next analytical step
-
-The legacy labels mix Toronto subdivisions with Mississauga and do not define a consistent municipal study boundary. Sampling coverage varies markedly, search responses may be capped, and venue identifiers are unavailable for full deduplication. Zero returned Chinese-category rows do not mean that an area had no Chinese restaurants. No calibrated uncertainty, current demand, rent, footfall or business outcomes are supplied.
-
-A defensible new site-selection study needs a permitted, dated venue dataset with identifiers, explicit geographic units and boundary, spatial deduplication, collection-coverage checks, and demand/cost evidence. Clustering should then be assessed for sensitivity to feature choices, number of clusters and random seeds. Synthetic fixtures can test software behavior separately; they cannot validate current market recommendations.
-
-Legacy images in `figures/` are retained for historical continuity. Only the figure embedded above is regenerated and supported by this maintained summary. Original notebooks and credential-bearing outputs are excluded from this public update.
+Later synthetic data demonstrates software behavior only; it does not establish actual demand, saturation, profitability or current site suitability. A new decision-support study would need dated venue records, stable identifiers, consistent boundaries, coverage and duplication checks, cluster-stability assessment, and current demand/cost evidence.
